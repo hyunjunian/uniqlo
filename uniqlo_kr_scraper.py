@@ -217,14 +217,6 @@ def availability(product: dict[str, Any], representative: dict[str, Any], sizes:
     return "unknown", "확인 필요"
 
 
-def discount_rate(base_price: int | None, sale_price: int | None) -> float | None:
-    if not isinstance(base_price, int) or not isinstance(sale_price, int):
-        return None
-    if base_price <= 0 or sale_price >= base_price:
-        return None
-    return round((base_price - sale_price) / base_price * 100, 1)
-
-
 def image_from_product(product: dict[str, Any], color_display_code: str | None) -> str | None:
     images = product.get("images") or {}
     main = images.get("main") or {}
@@ -273,7 +265,6 @@ def summarize_entity(entity_key: str, entity: dict[str, Any]) -> dict[str, Any] 
         or price_from_flags(product.get("flags"))
         or price_from_flags(representative.get("flags"))
     )
-    discount = discount_rate(base_price, price)
     rating = product.get("rating") or representative.get("rating") or {}
     flags = price_flags(product.get("flags")) or price_flags(representative.get("flags"))
 
@@ -287,7 +278,6 @@ def summarize_entity(entity_key: str, entity: dict[str, Any]) -> dict[str, Any] 
         "price_krw": price,
         "base_price_krw": base_price,
         "promo_price_krw": promo_price,
-        "discount_rate_percent": discount,
         "price_flags": flags,
         "representative_color": compact_color(color) if isinstance(color, dict) else None,
         "colors": colors,
@@ -646,7 +636,6 @@ def write_csv(path: Path, products: dict[str, dict[str, Any]]) -> None:
         "price_krw",
         "base_price_krw",
         "promo_price_krw",
-        "discount_rate_percent",
         "price_flags",
         "available_sizes_count",
         "availability_status",
@@ -679,23 +668,18 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
         detail = html.escape(str(product.get("detail_url") or "#"))
         price = product.get("price_krw")
         base_price = product.get("base_price_krw")
-        rate = product.get("discount_rate_percent")
         flags = ", ".join(flag.get("name") or flag.get("code") or "" for flag in product.get("price_flags", []))
         flags_text = html.escape(flags)
-        availability_text = html.escape(str(product.get("availability_label") or "확인 필요"))
-        availability_status = html.escape(str(product.get("availability_status") or "unknown"))
         price_text = f"{price:,}원" if isinstance(price, int) else ""
         base_text = f"{base_price:,}원" if isinstance(base_price, int) and base_price != price else ""
-        rate_text = f"{rate:g}% 할인" if isinstance(rate, (int, float)) else "할인율 확인 불가"
         cards.append(
             f"""
       <article class="card" data-name="{name.lower()}" data-gender="{gender}">
         <a href="{detail}" target="_blank" rel="noreferrer">
           <div class="media">{f'<img src="{image}" alt="{name}" loading="lazy">' if image else ''}</div>
           <div class="body">
-            <div class="meta">{gender}<span class="availability {availability_status}">{availability_text}</span></div>
+            <div class="meta">{gender}</div>
             <h2>{name}</h2>
-            <div class="discount-rate">{rate_text}</div>
             <div class="price">{price_text}{f'<span>{base_text}</span>' if base_text else ''}</div>
             <div class="flag">{flags_text}</div>
             <div class="id">{product_id}</div>
@@ -725,7 +709,7 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
     h1 {{ margin: 0 0 12px; font-size: 24px; }}
     .controls {{ display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }}
     input, select {{ height: 36px; border: 1px solid #bbb; border-radius: 4px; padding: 0 10px; background: #fff; font-size: 14px; }}
-    input {{ width: min(420px, 100%); }}
+    input {{ width: min(210px, 100%); }}
     .count {{ color: #555; font-size: 14px; }}
     main {{ padding: 24px; }}
     .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }}
@@ -735,12 +719,8 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
     .media img {{ width: 100%; height: 100%; object-fit: cover; display: block; }}
     .body {{ padding: 12px; }}
     .meta, .id, .flag {{ color: #666; font-size: 12px; line-height: 1.35; }}
-    .availability {{ float: right; color: #fff; background: #555; border-radius: 999px; padding: 2px 7px; }}
-    .availability.available {{ background: #007a3d; }}
-    .availability.not_available {{ background: #777; }}
     h2 {{ font-size: 15px; line-height: 1.35; min-height: 40px; margin: 6px 0 10px; }}
     .price {{ font-weight: 700; font-size: 16px; color: #e60012; margin-bottom: 6px; }}
-    .discount-rate {{ color: #e60012; font-size: 13px; font-weight: 700; margin-bottom: 4px; }}
     .price span {{ margin-left: 8px; color: #777; font-weight: 400; font-size: 12px; text-decoration: line-through; }}
     .hidden {{ display: none; }}
   </style>
@@ -750,7 +730,7 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
     <h1>{html.escape(title)}</h1>
     <div class="controls">
       <input id="q" type="search" placeholder="상품명 또는 제품번호 검색">
-      <select id="gender"><option value="">전체</option></select>
+      <select id="gender"><option value="">성별 전체</option></select>
       <span class="count" id="count"></span>
     </div>
   </header>
