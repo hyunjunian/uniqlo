@@ -204,6 +204,19 @@ def price_flags(flags: dict[str, Any] | None) -> list[dict[str, Any]]:
     return output
 
 
+def availability(product: dict[str, Any], representative: dict[str, Any], sizes: list[str]) -> tuple[str, str]:
+    sales = product.get("sales")
+    if sales is None:
+        sales = representative.get("sales")
+    if sales is False:
+        return "not_available", "품절 또는 판매중지"
+    if sales is True and sizes:
+        return "available", "판매중"
+    if sales is True:
+        return "unknown", "판매중 여부 확인 필요"
+    return "unknown", "확인 필요"
+
+
 def image_from_product(product: dict[str, Any], color_display_code: str | None) -> str | None:
     images = product.get("images") or {}
     main = images.get("main") or {}
@@ -243,6 +256,7 @@ def summarize_entity(entity_key: str, entity: dict[str, Any]) -> dict[str, Any] 
     if isinstance(first_size, dict):
         sizes.insert(0, first_size.get("name") or first_size.get("displayCode"))
     sizes = sorted({str(size) for size in sizes if size})
+    availability_status, availability_label = availability(product, representative, sizes)
 
     colors = [compact_color(item) for item in product.get("colors", []) or [] if isinstance(item, dict)]
     base_price, promo_price = price_values(product.get("prices"))
@@ -268,6 +282,9 @@ def summarize_entity(entity_key: str, entity: dict[str, Any]) -> dict[str, Any] 
         "representative_color": compact_color(color) if isinstance(color, dict) else None,
         "colors": colors,
         "sizes": sizes,
+        "available_sizes_count": len(sizes),
+        "availability_status": availability_status,
+        "availability_label": availability_label,
         "rating_average": rating.get("average"),
         "rating_count": rating.get("count"),
         "image_url": image_from_product(product, color_display_code),
@@ -620,6 +637,9 @@ def write_csv(path: Path, products: dict[str, dict[str, Any]]) -> None:
         "base_price_krw",
         "promo_price_krw",
         "price_flags",
+        "available_sizes_count",
+        "availability_status",
+        "availability_label",
         "rating_average",
         "rating_count",
         "image_url",
@@ -650,6 +670,8 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
         base_price = product.get("base_price_krw")
         flags = ", ".join(flag.get("name") or flag.get("code") or "" for flag in product.get("price_flags", []))
         flags_text = html.escape(flags)
+        availability_text = html.escape(str(product.get("availability_label") or "확인 필요"))
+        availability_status = html.escape(str(product.get("availability_status") or "unknown"))
         price_text = f"{price:,}원" if isinstance(price, int) else ""
         base_text = f"{base_price:,}원" if isinstance(base_price, int) and base_price != price else ""
         cards.append(
@@ -658,7 +680,7 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
         <a href="{detail}" target="_blank" rel="noreferrer">
           <div class="media">{f'<img src="{image}" alt="{name}" loading="lazy">' if image else ''}</div>
           <div class="body">
-            <div class="meta">{gender}</div>
+            <div class="meta">{gender}<span class="availability {availability_status}">{availability_text}</span></div>
             <h2>{name}</h2>
             <div class="price">{price_text}{f'<span>{base_text}</span>' if base_text else ''}</div>
             <div class="flag">{flags_text}</div>
@@ -699,6 +721,9 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
     .media img {{ width: 100%; height: 100%; object-fit: cover; display: block; }}
     .body {{ padding: 12px; }}
     .meta, .id, .flag {{ color: #666; font-size: 12px; line-height: 1.35; }}
+    .availability {{ float: right; color: #fff; background: #555; border-radius: 999px; padding: 2px 7px; }}
+    .availability.available {{ background: #007a3d; }}
+    .availability.not_available {{ background: #777; }}
     h2 {{ font-size: 15px; line-height: 1.35; min-height: 40px; margin: 6px 0 10px; }}
     .price {{ font-weight: 700; font-size: 16px; color: #e60012; margin-bottom: 6px; }}
     .price span {{ margin-left: 8px; color: #777; font-weight: 400; font-size: 12px; text-decoration: line-through; }}

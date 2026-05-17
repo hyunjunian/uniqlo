@@ -24,6 +24,9 @@
     .media img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .body { padding: 12px; }
     .meta, .id, .flag { color: #666; font-size: 12px; line-height: 1.35; }
+    .availability { float: right; color: #fff; background: #555; border-radius: 999px; padding: 2px 7px; }
+    .availability.available { background: #007a3d; }
+    .availability.not_available { background: #777; }
     h2 { font-size: 15px; line-height: 1.35; min-height: 40px; margin: 6px 0 10px; }
     .price { font-weight: 700; font-size: 16px; color: #e60012; margin-bottom: 6px; }
     .price span { margin-left: 8px; color: #777; font-weight: 400; font-size: 12px; text-decoration: line-through; }
@@ -45,6 +48,13 @@
     <div class="controls">
       <input id="q" type="search" placeholder="상품명 또는 제품번호 검색">
       <select id="gender"><option value="">전체</option></select>
+      <select id="availability">
+        <option value="">재고 전체</option>
+        <option value="available">판매중</option>
+        <option value="not_available">품절 또는 판매중지</option>
+        <option value="unknown">확인 필요</option>
+      </select>
+      <select id="category"><option value="">카테고리 전체</option></select>
       <select id="sort">
         <option value="name">상품명순</option>
         <option value="price_asc">낮은 가격순</option>
@@ -61,6 +71,8 @@
     const DATA_URL = 'data/uniqlo_kr_discount_items.json';
     const q = document.getElementById('q');
     const gender = document.getElementById('gender');
+    const availability = document.getElementById('availability');
+    const category = document.getElementById('category');
     const sort = document.getElementById('sort');
     const count = document.getElementById('count');
     const grid = document.getElementById('grid');
@@ -75,17 +87,25 @@
       return (product.price_flags || []).map(flag => flag.name || flag.code).filter(Boolean).join(', ');
     }
 
+    function categoryNames(product) {
+      return [...new Set((product.categories || []).map(item => item.class_name || item.category_name).filter(Boolean))];
+    }
+
     function card(product) {
       const article = document.createElement('article');
       article.className = 'card';
       article.dataset.name = `${product.name || ''} ${product.product_id || ''}`.toLowerCase();
       article.dataset.gender = product.gender_category || '';
+      article.dataset.availability = product.availability_status || 'unknown';
+      article.dataset.categories = categoryNames(product).join('|');
+      const categoryText = categoryNames(product).slice(0, 2).join(', ');
       article.innerHTML = `
         <a href="${product.detail_url || '#'}" target="_blank" rel="noreferrer">
           <div class="media">${product.image_url ? `<img src="${product.image_url}" alt="" loading="lazy">` : ''}</div>
           <div class="body">
-            <div class="meta">${product.gender_category || ''}</div>
+            <div class="meta">${product.gender_category || ''}<span class="availability ${product.availability_status || 'unknown'}">${product.availability_label || '확인 필요'}</span></div>
             <h2>${product.name || ''}</h2>
+            <div class="flag">${categoryText}</div>
             <div class="price">${won(product.price_krw)}${product.base_price_krw && product.base_price_krw !== product.price_krw ? `<span>${won(product.base_price_krw)}</span>` : ''}</div>
             <div class="flag">${flags(product)}</div>
             <div class="id">${product.product_id || ''}</div>
@@ -97,6 +117,8 @@
     function render() {
       const query = q.value.trim().toLowerCase();
       const selectedGender = gender.value;
+      const selectedAvailability = availability.value;
+      const selectedCategory = category.value;
       const sorted = [...products].sort((a, b) => {
         if (sort.value === 'price_asc') return (a.price_krw || 0) - (b.price_krw || 0);
         if (sort.value === 'price_desc') return (b.price_krw || 0) - (a.price_krw || 0);
@@ -108,7 +130,9 @@
       cards.forEach(item => {
         const okQuery = !query || item.dataset.name.includes(query) || item.textContent.toLowerCase().includes(query);
         const okGender = !selectedGender || item.dataset.gender === selectedGender;
-        const ok = okQuery && okGender;
+        const okAvailability = !selectedAvailability || item.dataset.availability === selectedAvailability;
+        const okCategory = !selectedCategory || item.dataset.categories.split('|').includes(selectedCategory);
+        const ok = okQuery && okGender && okAvailability && okCategory;
         item.classList.toggle('hidden', !ok);
         if (ok) visible += 1;
       });
@@ -129,6 +153,12 @@
           option.textContent = value;
           gender.appendChild(option);
         });
+        [...new Set(products.flatMap(categoryNames))].sort((a, b) => a.localeCompare(b, 'ko')).forEach(value => {
+          const option = document.createElement('option');
+          option.value = value;
+          option.textContent = value;
+          category.appendChild(option);
+        });
         render();
       })
       .catch(error => {
@@ -137,6 +167,8 @@
 
     q.addEventListener('input', render);
     gender.addEventListener('change', render);
+    availability.addEventListener('change', render);
+    category.addEventListener('change', render);
     sort.addEventListener('change', render);
   </script>
 </body>
