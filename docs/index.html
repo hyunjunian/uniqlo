@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UNIQLO KR 할인 상품</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; color: #111; background: #f5f5f5; }
+    header { position: sticky; top: 0; z-index: 2; background: #fff; border-bottom: 1px solid #ddd; padding: 16px 24px; }
+    .title-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+    h1 { margin: 0; font-size: 24px; line-height: 1.2; }
+    .links { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; }
+    .links a { color: #555; text-decoration: none; border-bottom: 1px solid #aaa; }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    input, select { height: 36px; border: 1px solid #bbb; border-radius: 4px; padding: 0 10px; background: #fff; font-size: 14px; }
+    input { width: min(420px, 100%); }
+    .count { color: #555; font-size: 14px; }
+    main { padding: 24px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+    .card { background: #fff; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; }
+    .card a { color: inherit; text-decoration: none; display: block; height: 100%; }
+    .media { aspect-ratio: 3 / 4; background: #eee; display: grid; place-items: center; }
+    .media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .body { padding: 12px; }
+    .meta, .id, .flag { color: #666; font-size: 12px; line-height: 1.35; }
+    h2 { font-size: 15px; line-height: 1.35; min-height: 40px; margin: 6px 0 10px; }
+    .price { font-weight: 700; font-size: 16px; color: #e60012; margin-bottom: 6px; }
+    .price span { margin-left: 8px; color: #777; font-weight: 400; font-size: 12px; text-decoration: line-through; }
+    .hidden { display: none; }
+    .status { padding: 40px 24px; color: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title-row">
+      <h1>UNIQLO KR 할인 상품</h1>
+      <nav class="links">
+        <a href="data/uniqlo_kr_discount_items.json">할인 JSON</a>
+        <a href="data/uniqlo_kr_discount_items.csv">할인 CSV</a>
+        <a href="data/uniqlo_kr_all_items.json">전체 JSON</a>
+        <a href="data/uniqlo_kr_categories.json">카테고리 JSON</a>
+      </nav>
+    </div>
+    <div class="controls">
+      <input id="q" type="search" placeholder="상품명 또는 제품번호 검색">
+      <select id="gender"><option value="">전체</option></select>
+      <select id="sort">
+        <option value="name">상품명순</option>
+        <option value="price_asc">낮은 가격순</option>
+        <option value="price_desc">높은 가격순</option>
+      </select>
+      <span class="count" id="count"></span>
+    </div>
+  </header>
+  <main>
+    <div class="status" id="status">데이터를 불러오는 중입니다.</div>
+    <section class="grid" id="grid"></section>
+  </main>
+  <script>
+    const DATA_URL = 'data/uniqlo_kr_discount_items.json';
+    const q = document.getElementById('q');
+    const gender = document.getElementById('gender');
+    const sort = document.getElementById('sort');
+    const count = document.getElementById('count');
+    const grid = document.getElementById('grid');
+    const status = document.getElementById('status');
+    let products = [];
+
+    function won(value) {
+      return Number.isFinite(value) ? `${value.toLocaleString()}원` : '';
+    }
+
+    function flags(product) {
+      return (product.price_flags || []).map(flag => flag.name || flag.code).filter(Boolean).join(', ');
+    }
+
+    function card(product) {
+      const article = document.createElement('article');
+      article.className = 'card';
+      article.dataset.name = `${product.name || ''} ${product.product_id || ''}`.toLowerCase();
+      article.dataset.gender = product.gender_category || '';
+      article.innerHTML = `
+        <a href="${product.detail_url || '#'}" target="_blank" rel="noreferrer">
+          <div class="media">${product.image_url ? `<img src="${product.image_url}" alt="" loading="lazy">` : ''}</div>
+          <div class="body">
+            <div class="meta">${product.gender_category || ''}</div>
+            <h2>${product.name || ''}</h2>
+            <div class="price">${won(product.price_krw)}${product.base_price_krw && product.base_price_krw !== product.price_krw ? `<span>${won(product.base_price_krw)}</span>` : ''}</div>
+            <div class="flag">${flags(product)}</div>
+            <div class="id">${product.product_id || ''}</div>
+          </div>
+        </a>`;
+      return article;
+    }
+
+    function render() {
+      const query = q.value.trim().toLowerCase();
+      const selectedGender = gender.value;
+      const sorted = [...products].sort((a, b) => {
+        if (sort.value === 'price_asc') return (a.price_krw || 0) - (b.price_krw || 0);
+        if (sort.value === 'price_desc') return (b.price_krw || 0) - (a.price_krw || 0);
+        return String(a.name || '').localeCompare(String(b.name || ''), 'ko');
+      });
+      grid.replaceChildren(...sorted.map(card));
+      const cards = [...document.querySelectorAll('.card')];
+      let visible = 0;
+      cards.forEach(item => {
+        const okQuery = !query || item.dataset.name.includes(query) || item.textContent.toLowerCase().includes(query);
+        const okGender = !selectedGender || item.dataset.gender === selectedGender;
+        const ok = okQuery && okGender;
+        item.classList.toggle('hidden', !ok);
+        if (ok) visible += 1;
+      });
+      count.textContent = `${visible.toLocaleString()} / ${products.length.toLocaleString()}개`;
+      status.hidden = products.length > 0;
+    }
+
+    fetch(DATA_URL)
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      })
+      .then(payload => {
+        products = payload.products || [];
+        [...new Set(products.map(product => product.gender_category).filter(Boolean))].sort().forEach(value => {
+          const option = document.createElement('option');
+          option.value = value;
+          option.textContent = value;
+          gender.appendChild(option);
+        });
+        render();
+      })
+      .catch(error => {
+        status.textContent = `데이터를 불러오지 못했습니다: ${error.message}`;
+      });
+
+    q.addEventListener('input', render);
+    gender.addEventListener('change', render);
+    sort.addEventListener('change', render);
+  </script>
+</body>
+</html>

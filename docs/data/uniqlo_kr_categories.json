@@ -1,0 +1,7780 @@
+{
+  "collected_at": "2026-05-17T00:27:19.465860+00:00",
+  "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
+  "category_count": 214,
+  "categories": [
+    {
+      "level": "gender",
+      "id": 57892,
+      "name": "WOMEN",
+      "key": "women",
+      "path": "57892,,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": null,
+      "class_name": null,
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [],
+      "parent_names": [],
+      "raw": {
+        "id": 57892,
+        "name": "WOMEN",
+        "genderKey": "women"
+      }
+    },
+    {
+      "level": "gender",
+      "id": 57893,
+      "name": "MEN",
+      "key": "men",
+      "path": "57893,,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": null,
+      "class_name": null,
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [],
+      "parent_names": [],
+      "raw": {
+        "id": 57893,
+        "name": "MEN",
+        "genderKey": "men"
+      }
+    },
+    {
+      "level": "gender",
+      "id": 57894,
+      "name": "KIDS",
+      "key": "kids",
+      "path": "57894,,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": null,
+      "class_name": null,
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [],
+      "parent_names": [],
+      "raw": {
+        "id": 57894,
+        "name": "KIDS",
+        "genderKey": "kids"
+      }
+    },
+    {
+      "level": "gender",
+      "id": 57925,
+      "name": "BABY",
+      "key": "baby",
+      "path": "57925,,,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": null,
+      "class_name": null,
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [],
+      "parent_names": [],
+      "raw": {
+        "id": 57925,
+        "name": "BABY",
+        "genderKey": "baby"
+      }
+    },
+    {
+      "level": "class",
+      "id": 57959,
+      "name": "티셔츠 & UT & 브라탑",
+      "key": "tops",
+      "path": "57892,57959,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & UT & 브라탑",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57959,
+        "name": "티셔츠 & UT & 브라탑",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 95354,
+      "name": "셔츠 & 블라우스 & 폴로셔츠",
+      "key": "shirts-and-blouses",
+      "path": "57892,95354,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 95354,
+        "name": "셔츠 & 블라우스 & 폴로셔츠",
+        "key": "shirts-and-blouses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 95353,
+      "name": "니트 & 가디건",
+      "key": "sweaters-and-knitwear",
+      "path": "57892,95353,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95353,
+      "class_name": "니트 & 가디건",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 95353,
+        "name": "니트 & 가디건",
+        "key": "sweaters-and-knitwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57958,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57892,57958,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57958,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57960,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57892,57960,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57960,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57961,
+      "name": "원피스 & 스커트",
+      "key": "dress-and-skirts",
+      "path": "57892,57961,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57961,
+      "class_name": "원피스 & 스커트",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57961,
+        "name": "원피스 & 스커트",
+        "key": "dress-and-skirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57963,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57892,57963,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57963,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57964,
+      "name": "파자마 & 홈웨어",
+      "key": "loungewear-and-homeware",
+      "path": "57892,57964,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57964,
+      "class_name": "파자마 & 홈웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57964,
+        "name": "파자마 & 홈웨어",
+        "key": "loungewear-and-homeware",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57965,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57892,57965,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57965,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 116863,
+      "name": "리넨",
+      "key": "linen",
+      "path": "57892,116863,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 116863,
+        "name": "리넨",
+        "key": "linen",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 81619,
+      "name": "에어리즘",
+      "key": "airism",
+      "path": "57892,81619,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 81619,
+        "name": "에어리즘",
+        "key": "airism",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57962,
+      "name": "스포츠 유틸리티 웨어",
+      "key": "sport-utility-wear",
+      "path": "57892,57962,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57962,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57962,
+        "name": "스포츠 유틸리티 웨어",
+        "key": "sport-utility-wear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 114788,
+      "name": "UV Protection",
+      "key": "uv-protection",
+      "path": "57892,114788,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 114788,
+      "class_name": "UV Protection",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 114788,
+        "name": "UV Protection",
+        "key": "uv-protection",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 107542,
+      "name": "Special Collaborations",
+      "key": "special-collaboration",
+      "path": "57892,107542,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 107542,
+        "name": "Special Collaborations",
+        "key": "special-collaboration",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 124424,
+      "name": "GU",
+      "key": "gu",
+      "path": "57892,124424,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 124424,
+        "name": "GU",
+        "key": "gu",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57967,
+      "name": "티셔츠 & 스웨트셔츠 & UT",
+      "key": "tops",
+      "path": "57893,57967,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57967,
+        "name": "티셔츠 & 스웨트셔츠 & UT",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 95356,
+      "name": "셔츠 & 폴로셔츠",
+      "key": "shirts-and-polo-shirts",
+      "path": "57893,95356,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠 & 폴로셔츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 95356,
+        "name": "셔츠 & 폴로셔츠",
+        "key": "shirts-and-polo-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 95355,
+      "name": "니트 & 가디건",
+      "key": "sweaters-and-knitwear",
+      "path": "57893,95355,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95355,
+      "class_name": "니트 & 가디건",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 95355,
+        "name": "니트 & 가디건",
+        "key": "sweaters-and-knitwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57966,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57893,57966,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57966,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57968,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57893,57968,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57968,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57970,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57893,57970,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57970,
+      "class_name": "이너웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57970,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57971,
+      "name": "라운지 팬츠 & 홈웨어",
+      "key": "loungewear-and-homeware",
+      "path": "57893,57971,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57971,
+      "class_name": "라운지 팬츠 & 홈웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57971,
+        "name": "라운지 팬츠 & 홈웨어",
+        "key": "loungewear-and-homeware",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57972,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57893,57972,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57972,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 116864,
+      "name": "리넨",
+      "key": "linen",
+      "path": "57893,116864,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 116864,
+        "name": "리넨",
+        "key": "linen",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 81620,
+      "name": "에어리즘",
+      "key": "airism",
+      "path": "57893,81620,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 81620,
+      "class_name": "에어리즘",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 81620,
+        "name": "에어리즘",
+        "key": "airism",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57969,
+      "name": "스포츠 유틸리티 웨어",
+      "key": "sport-utility-wear",
+      "path": "57893,57969,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57969,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57969,
+        "name": "스포츠 유틸리티 웨어",
+        "key": "sport-utility-wear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 114793,
+      "name": "UV Protection",
+      "key": "uv-protection",
+      "path": "57893,114793,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 114793,
+      "class_name": "UV Protection",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 114793,
+        "name": "UV Protection",
+        "key": "uv-protection",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 107543,
+      "name": "Special Collaborations",
+      "key": "special-collaboration",
+      "path": "57893,107543,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 107543,
+        "name": "Special Collaborations",
+        "key": "special-collaboration",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 124425,
+      "name": "GU",
+      "key": "gu",
+      "path": "57893,124425,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 124425,
+      "class_name": "GU",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 124425,
+        "name": "GU",
+        "key": "gu",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57974,
+      "name": "티셔츠 & 스웨트셔츠 & UT",
+      "key": "tops",
+      "path": "57894,57974,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57974,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57974,
+        "name": "티셔츠 & 스웨트셔츠 & UT",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57973,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57894,57973,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57973,
+      "class_name": "아우터",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57973,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57975,
+      "name": "청바지 & 팬츠",
+      "key": "pants-and-skirts",
+      "path": "57894,57975,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57975,
+        "name": "청바지 & 팬츠",
+        "key": "pants-and-skirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57978,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57894,57978,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57978,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57976,
+      "name": "원피스 & 스커트",
+      "key": "dresses",
+      "path": "57894,57976,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "원피스 & 스커트",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57976,
+        "name": "원피스 & 스커트",
+        "key": "dresses",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 59410,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57894,59410,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 59410,
+      "class_name": "액세서리",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 59410,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 81621,
+      "name": "에어리즘",
+      "key": "airism",
+      "path": "57894,81621,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 81621,
+      "class_name": "에어리즘",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 81621,
+        "name": "에어리즘",
+        "key": "airism",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57977,
+      "name": "스포츠 유틸리티 웨어",
+      "key": "sport-utility-wear",
+      "path": "57894,57977,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57977,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57977,
+        "name": "스포츠 유틸리티 웨어",
+        "key": "sport-utility-wear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 114797,
+      "name": "UV Protection",
+      "key": "uv-protection",
+      "path": "57894,114797,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 114797,
+      "class_name": "UV Protection",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 114797,
+        "name": "UV Protection",
+        "key": "uv-protection",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 107544,
+      "name": "Special Collaborations",
+      "key": "special-collaboration",
+      "path": "57894,107544,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 107544,
+      "class_name": "Special Collaborations",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 107544,
+        "name": "Special Collaborations",
+        "key": "special-collaboration",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57980,
+      "name": "신생아(0개월~2세)",
+      "key": "newborn",
+      "path": "57925,57980,,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57925
+      ],
+      "parent_names": [
+        "BABY"
+      ],
+      "raw": {
+        "id": 57980,
+        "name": "신생아(0개월~2세)",
+        "key": "newborn",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57981,
+      "name": "영유아(6개월~5세)",
+      "key": "toddler",
+      "path": "57925,57981,,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57925
+      ],
+      "parent_names": [
+        "BABY"
+      ],
+      "raw": {
+        "id": 57981,
+        "name": "영유아(6개월~5세)",
+        "key": "toddler",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57995,
+      "name": "티셔츠 (긴팔 & 반팔)",
+      "key": "t-shirts",
+      "path": "57892,57959,57995,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & UT & 브라탑",
+      "category_id": 57995,
+      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & UT & 브라탑"
+      ],
+      "raw": {
+        "id": 57995,
+        "name": "티셔츠 (긴팔 & 반팔)",
+        "key": "t-shirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & UT & 브라탑",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58001,
+      "name": "그래픽티셔츠",
+      "key": "graphic-tees-ut",
+      "path": "57892,57959,58001,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & UT & 브라탑",
+      "category_id": 58001,
+      "category_name": "그래픽티셔츠",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & UT & 브라탑"
+      ],
+      "raw": {
+        "id": 58001,
+        "name": "그래픽티셔츠",
+        "key": "graphic-tees-ut",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & UT & 브라탑",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58948,
+      "name": "PEACE FOR ALL",
+      "key": "peace-for-all",
+      "path": "57892,57959,58948,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & UT & 브라탑",
+      "category_id": 58948,
+      "category_name": "PEACE FOR ALL",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & UT & 브라탑"
+      ],
+      "raw": {
+        "id": 58948,
+        "name": "PEACE FOR ALL",
+        "key": "peace-for-all",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & UT & 브라탑",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57996,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,57959,57996,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & UT & 브라탑",
+      "category_id": 57996,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & UT & 브라탑"
+      ],
+      "raw": {
+        "id": 57996,
+        "name": "브라탑",
+        "key": "bra-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & UT & 브라탑",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57997,
+      "name": "스웨트셔츠 & 후드티",
+      "key": "sweatshirts-and-hoodies",
+      "path": "57892,57959,57997,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & UT & 브라탑",
+      "category_id": 57997,
+      "category_name": "스웨트셔츠 & 후드티",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & UT & 브라탑"
+      ],
+      "raw": {
+        "id": 57997,
+        "name": "스웨트셔츠 & 후드티",
+        "key": "sweatshirts-and-hoodies",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & UT & 브라탑",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95362,
+      "name": "셔츠 & 블라우스",
+      "key": "shirts-and-blouses",
+      "path": "57892,95354,95362,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "category_id": 95362,
+      "category_name": "셔츠 & 블라우스",
+      "parent_ids": [
+        57892,
+        95354
+      ],
+      "parent_names": [
+        "WOMEN",
+        "셔츠 & 블라우스 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 95362,
+        "name": "셔츠 & 블라우스",
+        "key": "shirts-and-blouses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95354,
+            "name": "셔츠 & 블라우스 & 폴로셔츠",
+            "key": "shirts-and-blouses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 142636,
+      "name": "폴로셔츠 (카라티)",
+      "key": "polo-shirts",
+      "path": "57892,95354,142636,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "category_id": 142636,
+      "category_name": "폴로셔츠 (카라티)",
+      "parent_ids": [
+        57892,
+        95354
+      ],
+      "parent_names": [
+        "WOMEN",
+        "셔츠 & 블라우스 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 142636,
+        "name": "폴로셔츠 (카라티)",
+        "key": "polo-shirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95354,
+            "name": "셔츠 & 블라우스 & 폴로셔츠",
+            "key": "shirts-and-blouses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95361,
+      "name": "니트",
+      "key": "sweaters-and-knitwear",
+      "path": "57892,95353,95361,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95353,
+      "class_name": "니트 & 가디건",
+      "category_id": 95361,
+      "category_name": "니트",
+      "parent_ids": [
+        57892,
+        95353
+      ],
+      "parent_names": [
+        "WOMEN",
+        "니트 & 가디건"
+      ],
+      "raw": {
+        "id": 95361,
+        "name": "니트",
+        "key": "sweaters-and-knitwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95353,
+            "name": "니트 & 가디건",
+            "key": "sweaters-and-knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 128380,
+      "name": "가디건",
+      "key": "cardigan",
+      "path": "57892,95353,128380,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95353,
+      "class_name": "니트 & 가디건",
+      "category_id": 128380,
+      "category_name": "가디건",
+      "parent_ids": [
+        57892,
+        95353
+      ],
+      "parent_names": [
+        "WOMEN",
+        "니트 & 가디건"
+      ],
+      "raw": {
+        "id": 128380,
+        "name": "가디건",
+        "key": "cardigan",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95353,
+            "name": "니트 & 가디건",
+            "key": "sweaters-and-knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57991,
+      "name": "파카 & 블루종",
+      "key": "parkas-and-blousons",
+      "path": "57892,57958,57991,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 57991,
+      "category_name": "파카 & 블루종",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 57991,
+        "name": "파카 & 블루종",
+        "key": "parkas-and-blousons",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57993,
+      "name": "재킷",
+      "key": "jackets",
+      "path": "57892,57958,57993,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 57993,
+      "category_name": "재킷",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 57993,
+        "name": "재킷",
+        "key": "jackets",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57994,
+      "name": "경량 패딩 (PUFFTECH)",
+      "key": "pufftech-and-ultra-light-down",
+      "path": "57892,57958,57994,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 57994,
+      "category_name": "경량 패딩 (PUFFTECH)",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 57994,
+        "name": "경량 패딩 (PUFFTECH)",
+        "key": "pufftech-and-ultra-light-down",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58004,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57892,57960,58004,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58004,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58004,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58002,
+      "name": "와이드 팬츠",
+      "key": "wide-pants",
+      "path": "57892,57960,58002,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58002,
+      "category_name": "와이드 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58002,
+        "name": "와이드 팬츠",
+        "key": "wide-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58010,
+      "name": "쇼트 팬츠(반바지)",
+      "key": "short-pants",
+      "path": "57892,57960,58010,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58010,
+      "category_name": "쇼트 팬츠(반바지)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58010,
+        "name": "쇼트 팬츠(반바지)",
+        "key": "short-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58003,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57892,57960,58003,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58003,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58003,
+        "name": "진(청바지)",
+        "key": "jeans",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58005,
+      "name": "스웨트 팬츠 & 조거 팬츠",
+      "key": "sweat-pants",
+      "path": "57892,57960,58005,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58005,
+      "category_name": "스웨트 팬츠 & 조거 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58005,
+        "name": "스웨트 팬츠 & 조거 팬츠",
+        "key": "sweat-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58008,
+      "name": "슬랙스(트라우저)",
+      "key": "trousers",
+      "path": "57892,57960,58008,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58008,
+      "category_name": "슬랙스(트라우저)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58008,
+        "name": "슬랙스(트라우저)",
+        "key": "trousers",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58009,
+      "name": "레깅스",
+      "key": "leggings-pants",
+      "path": "57892,57960,58009,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58009,
+      "category_name": "레깅스",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58009,
+        "name": "레깅스",
+        "key": "leggings-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58011,
+      "name": "원피스",
+      "key": "dresses",
+      "path": "57892,57961,58011,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57961,
+      "class_name": "원피스 & 스커트",
+      "category_id": 58011,
+      "category_name": "원피스",
+      "parent_ids": [
+        57892,
+        57961
+      ],
+      "parent_names": [
+        "WOMEN",
+        "원피스 & 스커트"
+      ],
+      "raw": {
+        "id": 58011,
+        "name": "원피스",
+        "key": "dresses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57961,
+            "name": "원피스 & 스커트",
+            "key": "dress-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58012,
+      "name": "스커트",
+      "key": "skirts",
+      "path": "57892,57961,58012,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57961,
+      "class_name": "원피스 & 스커트",
+      "category_id": 58012,
+      "category_name": "스커트",
+      "parent_ids": [
+        57892,
+        57961
+      ],
+      "parent_names": [
+        "WOMEN",
+        "원피스 & 스커트"
+      ],
+      "raw": {
+        "id": 58012,
+        "name": "스커트",
+        "key": "skirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57961,
+            "name": "원피스 & 스커트",
+            "key": "dress-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58018,
+      "name": "에어리즘",
+      "key": "airism",
+      "path": "57892,57963,58018,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58018,
+      "category_name": "에어리즘",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58018,
+        "name": "에어리즘",
+        "key": "airism",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58020,
+      "name": "와이어리스 브라",
+      "key": "bras",
+      "path": "57892,57963,58020,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58020,
+      "category_name": "와이어리스 브라",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58020,
+        "name": "와이어리스 브라",
+        "key": "bras",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58021,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,57963,58021,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58021,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58021,
+        "name": "브라탑",
+        "key": "bra-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 141497,
+      "name": "코튼 이너탑",
+      "key": "undershirts",
+      "path": "57892,57963,141497,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 141497,
+      "category_name": "코튼 이너탑",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 141497,
+        "name": "코튼 이너탑",
+        "key": "undershirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58022,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,57963,58022,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58022,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58022,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58024,
+      "name": "양말",
+      "key": "socks",
+      "path": "57892,57963,58024,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58024,
+      "category_name": "양말",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58024,
+        "name": "양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58023,
+      "name": "레깅스 & 타이즈",
+      "key": "leggings-and-tights",
+      "path": "57892,57963,58023,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58023,
+      "category_name": "레깅스 & 타이즈",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58023,
+        "name": "레깅스 & 타이즈",
+        "key": "leggings-and-tights",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58019,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57892,57963,58019,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58019,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58019,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58025,
+      "name": "파자마",
+      "key": "loungewear-and-pajamas",
+      "path": "57892,57964,58025,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57964,
+      "class_name": "파자마 & 홈웨어",
+      "category_id": 58025,
+      "category_name": "파자마",
+      "parent_ids": [
+        57892,
+        57964
+      ],
+      "parent_names": [
+        "WOMEN",
+        "파자마 & 홈웨어"
+      ],
+      "raw": {
+        "id": 58025,
+        "name": "파자마",
+        "key": "loungewear-and-pajamas",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57964,
+            "name": "파자마 & 홈웨어",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58026,
+      "name": "라운지 팬츠",
+      "key": "lounge-pants",
+      "path": "57892,57964,58026,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57964,
+      "class_name": "파자마 & 홈웨어",
+      "category_id": 58026,
+      "category_name": "라운지 팬츠",
+      "parent_ids": [
+        57892,
+        57964
+      ],
+      "parent_names": [
+        "WOMEN",
+        "파자마 & 홈웨어"
+      ],
+      "raw": {
+        "id": 58026,
+        "name": "라운지 팬츠",
+        "key": "lounge-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57964,
+            "name": "파자마 & 홈웨어",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 99902,
+      "name": "가방",
+      "key": "bags",
+      "path": "57892,57965,99902,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 99902,
+      "category_name": "가방",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 99902,
+        "name": "가방",
+        "key": "bags",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58032,
+      "name": "신발",
+      "key": "shoes",
+      "path": "57892,57965,58032,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58032,
+      "category_name": "신발",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58032,
+        "name": "신발",
+        "key": "shoes",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58033,
+      "name": "선글라스",
+      "key": "sunglasses",
+      "path": "57892,57965,58033,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58033,
+      "category_name": "선글라스",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58033,
+        "name": "선글라스",
+        "key": "sunglasses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58031,
+      "name": "벨트",
+      "key": "belts",
+      "path": "57892,57965,58031,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58031,
+      "category_name": "벨트",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58031,
+        "name": "벨트",
+        "key": "belts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58034,
+      "name": "우산 & 암커버",
+      "key": "accessories",
+      "path": "57892,57965,58034,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58034,
+      "category_name": "우산 & 암커버",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58034,
+        "name": "우산 & 암커버",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58029,
+      "name": "모자",
+      "key": "hats-and-caps",
+      "path": "57892,57965,58029,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58029,
+      "category_name": "모자",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58029,
+        "name": "모자",
+        "key": "hats-and-caps",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116866,
+      "name": "셔츠 & 티셔츠",
+      "key": "tops",
+      "path": "57892,116863,116866,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116866,
+      "category_name": "셔츠 & 티셔츠",
+      "parent_ids": [
+        57892,
+        116863
+      ],
+      "parent_names": [
+        "WOMEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116866,
+        "name": "셔츠 & 티셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116865,
+      "name": "재킷",
+      "key": "outerwear",
+      "path": "57892,116863,116865,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116865,
+      "category_name": "재킷",
+      "parent_ids": [
+        57892,
+        116863
+      ],
+      "parent_names": [
+        "WOMEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116865,
+        "name": "재킷",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116867,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57892,116863,116867,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116867,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57892,
+        116863
+      ],
+      "parent_names": [
+        "WOMEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116867,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116909,
+      "name": "원피스 & 스커트",
+      "key": "dresses-and-skirts",
+      "path": "57892,116863,116909,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116909,
+      "category_name": "원피스 & 스커트",
+      "parent_ids": [
+        57892,
+        116863
+      ],
+      "parent_names": [
+        "WOMEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116909,
+        "name": "원피스 & 스커트",
+        "key": "dresses-and-skirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 141909,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57892,116863,141909,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 141909,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57892,
+        116863
+      ],
+      "parent_names": [
+        "WOMEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 141909,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82081,
+      "name": "이너웨어 상의",
+      "key": "inner-tops",
+      "path": "57892,81619,82081,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82081,
+      "category_name": "이너웨어 상의",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82081,
+        "name": "이너웨어 상의",
+        "key": "inner-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82082,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,81619,82082,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82082,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82082,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82083,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,81619,82083,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82083,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82083,
+        "name": "브라탑",
+        "key": "bra-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82084,
+      "name": "상의",
+      "key": "tops",
+      "path": "57892,81619,82084,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82084,
+      "category_name": "상의",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82084,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82085,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57892,81619,82085,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82085,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82085,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82086,
+      "name": "원피스",
+      "key": "dresses",
+      "path": "57892,81619,82086,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82086,
+      "category_name": "원피스",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82086,
+        "name": "원피스",
+        "key": "dresses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82087,
+      "name": "파자마",
+      "key": "loungewear-and-homeware",
+      "path": "57892,81619,82087,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82087,
+      "category_name": "파자마",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82087,
+        "name": "파자마",
+        "key": "loungewear-and-homeware",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58013,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57892,57962,58013,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57962,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58013,
+      "category_name": "아우터",
+      "parent_ids": [
+        57892,
+        57962
+      ],
+      "parent_names": [
+        "WOMEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58013,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57962,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58014,
+      "name": "상의",
+      "key": "tops",
+      "path": "57892,57962,58014,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57962,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58014,
+      "category_name": "상의",
+      "parent_ids": [
+        57892,
+        57962
+      ],
+      "parent_names": [
+        "WOMEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58014,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57962,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58015,
+      "name": "팬츠",
+      "key": "pants",
+      "path": "57892,57962,58015,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57962,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58015,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57892,
+        57962
+      ],
+      "parent_names": [
+        "WOMEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58015,
+        "name": "팬츠",
+        "key": "pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57962,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58016,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57892,57962,58016,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57962,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58016,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57892,
+        57962
+      ],
+      "parent_names": [
+        "WOMEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58016,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57962,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58017,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57892,57962,58017,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57962,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58017,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57892,
+        57962
+      ],
+      "parent_names": [
+        "WOMEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58017,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57962,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 114789,
+      "name": "재킷 & 파카",
+      "key": "outerwear",
+      "path": "57892,114788,114789,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 114788,
+      "class_name": "UV Protection",
+      "category_id": 114789,
+      "category_name": "재킷 & 파카",
+      "parent_ids": [
+        57892,
+        114788
+      ],
+      "parent_names": [
+        "WOMEN",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 114789,
+        "name": "재킷 & 파카",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 114788,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 114790,
+      "name": "가디건",
+      "key": "tops",
+      "path": "57892,114788,114790,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 114788,
+      "class_name": "UV Protection",
+      "category_id": 114790,
+      "category_name": "가디건",
+      "parent_ids": [
+        57892,
+        114788
+      ],
+      "parent_names": [
+        "WOMEN",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 114790,
+        "name": "가디건",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 114788,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 114791,
+      "name": "팬츠 & 레깅스",
+      "key": "pants",
+      "path": "57892,114788,114791,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 114788,
+      "class_name": "UV Protection",
+      "category_id": 114791,
+      "category_name": "팬츠 & 레깅스",
+      "parent_ids": [
+        57892,
+        114788
+      ],
+      "parent_names": [
+        "WOMEN",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 114791,
+        "name": "팬츠 & 레깅스",
+        "key": "pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 114788,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 114792,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57892,114788,114792,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 114788,
+      "class_name": "UV Protection",
+      "category_id": 114792,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57892,
+        114788
+      ],
+      "parent_names": [
+        "WOMEN",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 114792,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 114788,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107545,
+      "name": "Uniqlo U",
+      "key": "uniqlo-u",
+      "path": "57892,107542,107545,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 107545,
+      "category_name": "Uniqlo U",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107545,
+        "name": "Uniqlo U",
+        "key": "uniqlo-u",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107546,
+      "name": "UNIQLO : C",
+      "key": "uniqlo-c",
+      "path": "57892,107542,107546,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 107546,
+      "category_name": "UNIQLO : C",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107546,
+        "name": "UNIQLO : C",
+        "key": "uniqlo-c",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 143065,
+      "name": "UNIQLO and Cecilie Bahnsen",
+      "key": "uniqlo-and-cecilie-bahnsen",
+      "path": "57892,107542,143065,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 143065,
+      "category_name": "UNIQLO and Cecilie Bahnsen",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 143065,
+        "name": "UNIQLO and Cecilie Bahnsen",
+        "key": "uniqlo-and-cecilie-bahnsen",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107549,
+      "name": "UNIQLO and JW ANDERSON",
+      "key": "uniqlo-and-jw-anderson",
+      "path": "57892,107542,107549,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 107549,
+      "category_name": "UNIQLO and JW ANDERSON",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107549,
+        "name": "UNIQLO and JW ANDERSON",
+        "key": "uniqlo-and-jw-anderson",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 113234,
+      "name": "UNIQLO and COMPTOIR DES COTONNIERS",
+      "key": "uniqlo-and-comptoir-des-cotonniers",
+      "path": "57892,107542,113234,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 113234,
+      "category_name": "UNIQLO and COMPTOIR DES COTONNIERS",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 113234,
+        "name": "UNIQLO and COMPTOIR DES COTONNIERS",
+        "key": "uniqlo-and-comptoir-des-cotonniers",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 124426,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57892,124424,124426,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 124426,
+      "category_name": "아우터",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124426,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 124427,
+      "name": "상의",
+      "key": "tops",
+      "path": "57892,124424,124427,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 124427,
+      "category_name": "상의",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124427,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 124429,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57892,124424,124429,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 124429,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124429,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 124428,
+      "name": "원피스 & 스커트",
+      "key": "dresses-and-skirts",
+      "path": "57892,124424,124428,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 124428,
+      "category_name": "원피스 & 스커트",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124428,
+        "name": "원피스 & 스커트",
+        "key": "dresses-and-skirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 133775,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57892,124424,133775,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 133775,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 133775,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 141119,
+      "name": "라운지웨어 & 홈웨어",
+      "key": "loungewear-and-homewear",
+      "path": "57892,124424,141119,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 141119,
+      "category_name": "라운지웨어 & 홈웨어",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 141119,
+        "name": "라운지웨어 & 홈웨어",
+        "key": "loungewear-and-homewear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58039,
+      "name": "티셔츠 (긴팔 & 반팔)",
+      "key": "t-shirts",
+      "path": "57893,57967,58039,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58039,
+      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "parent_ids": [
+        57893,
+        57967
+      ],
+      "parent_names": [
+        "MEN",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58039,
+        "name": "티셔츠 (긴팔 & 반팔)",
+        "key": "t-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57967,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58045,
+      "name": "그래픽티셔츠",
+      "key": "graphic-tees-ut",
+      "path": "57893,57967,58045,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58045,
+      "category_name": "그래픽티셔츠",
+      "parent_ids": [
+        57893,
+        57967
+      ],
+      "parent_names": [
+        "MEN",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58045,
+        "name": "그래픽티셔츠",
+        "key": "graphic-tees-ut",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57967,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58950,
+      "name": "PEACE FOR ALL",
+      "key": "peace-for-all",
+      "path": "57893,57967,58950,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58950,
+      "category_name": "PEACE FOR ALL",
+      "parent_ids": [
+        57893,
+        57967
+      ],
+      "parent_names": [
+        "MEN",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58950,
+        "name": "PEACE FOR ALL",
+        "key": "peace-for-all",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57967,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58040,
+      "name": "스웨트셔츠 & 후드집업",
+      "key": "sweatshirts-and-hoodies",
+      "path": "57893,57967,58040,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58040,
+      "category_name": "스웨트셔츠 & 후드집업",
+      "parent_ids": [
+        57893,
+        57967
+      ],
+      "parent_names": [
+        "MEN",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58040,
+        "name": "스웨트셔츠 & 후드집업",
+        "key": "sweatshirts-and-hoodies",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57967,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95359,
+      "name": "캐주얼셔츠",
+      "key": "casual-shirts",
+      "path": "57893,95356,95359,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠 & 폴로셔츠",
+      "category_id": 95359,
+      "category_name": "캐주얼셔츠",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 95359,
+        "name": "캐주얼셔츠",
+        "key": "casual-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠 & 폴로셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95358,
+      "name": "정장셔츠 (와이셔츠)",
+      "key": "dress-shirts",
+      "path": "57893,95356,95358,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠 & 폴로셔츠",
+      "category_id": 95358,
+      "category_name": "정장셔츠 (와이셔츠)",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 95358,
+        "name": "정장셔츠 (와이셔츠)",
+        "key": "dress-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠 & 폴로셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95360,
+      "name": "폴로셔츠 (카라티)",
+      "key": "polo-shirts",
+      "path": "57893,95356,95360,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠 & 폴로셔츠",
+      "category_id": 95360,
+      "category_name": "폴로셔츠 (카라티)",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 95360,
+        "name": "폴로셔츠 (카라티)",
+        "key": "polo-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠 & 폴로셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95357,
+      "name": "니트",
+      "key": "sweaters-and-knitwear",
+      "path": "57893,95355,95357,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95355,
+      "class_name": "니트 & 가디건",
+      "category_id": 95357,
+      "category_name": "니트",
+      "parent_ids": [
+        57893,
+        95355
+      ],
+      "parent_names": [
+        "MEN",
+        "니트 & 가디건"
+      ],
+      "raw": {
+        "id": 95357,
+        "name": "니트",
+        "key": "sweaters-and-knitwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95355,
+            "name": "니트 & 가디건",
+            "key": "sweaters-and-knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 128424,
+      "name": "가디건",
+      "key": "cardigan",
+      "path": "57893,95355,128424,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95355,
+      "class_name": "니트 & 가디건",
+      "category_id": 128424,
+      "category_name": "가디건",
+      "parent_ids": [
+        57893,
+        95355
+      ],
+      "parent_names": [
+        "MEN",
+        "니트 & 가디건"
+      ],
+      "raw": {
+        "id": 128424,
+        "name": "가디건",
+        "key": "cardigan",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95355,
+            "name": "니트 & 가디건",
+            "key": "sweaters-and-knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58035,
+      "name": "파카 & 블루종",
+      "key": "parkas-and-blousons",
+      "path": "57893,57966,58035,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58035,
+      "category_name": "파카 & 블루종",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58035,
+        "name": "파카 & 블루종",
+        "key": "parkas-and-blousons",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58036,
+      "name": "감탄 재킷",
+      "key": "gamtan-jackets",
+      "path": "57893,57966,58036,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58036,
+      "category_name": "감탄 재킷",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58036,
+        "name": "감탄 재킷",
+        "key": "gamtan-jackets",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 117358,
+      "name": "감탄 재킷 (CUSTOM ORDER)",
+      "key": "uniqlo-custom-order",
+      "path": "57893,57966,117358,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 117358,
+      "category_name": "감탄 재킷 (CUSTOM ORDER)",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 117358,
+        "name": "감탄 재킷 (CUSTOM ORDER)",
+        "key": "uniqlo-custom-order",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58037,
+      "name": "재킷 & 블레이저",
+      "key": "jackets",
+      "path": "57893,57966,58037,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58037,
+      "category_name": "재킷 & 블레이저",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58037,
+        "name": "재킷 & 블레이저",
+        "key": "jackets",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58038,
+      "name": "경량 패딩 (PUFFTECH)",
+      "key": "pufftech-and-ultra-light-down",
+      "path": "57893,57966,58038,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58038,
+      "category_name": "경량 패딩 (PUFFTECH)",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58038,
+        "name": "경량 패딩 (PUFFTECH)",
+        "key": "pufftech-and-ultra-light-down",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58049,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57893,57968,58049,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58049,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58049,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58052,
+      "name": "감탄 팬츠",
+      "key": "gamtan-pants",
+      "path": "57893,57968,58052,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58052,
+      "category_name": "감탄 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58052,
+        "name": "감탄 팬츠",
+        "key": "gamtan-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58046,
+      "name": "와이드 팬츠",
+      "key": "wide-pants",
+      "path": "57893,57968,58046,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58046,
+      "category_name": "와이드 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58046,
+        "name": "와이드 팬츠",
+        "key": "wide-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58054,
+      "name": "쇼트 팬츠(반바지)",
+      "key": "short-pants",
+      "path": "57893,57968,58054,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58054,
+      "category_name": "쇼트 팬츠(반바지)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58054,
+        "name": "쇼트 팬츠(반바지)",
+        "key": "short-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58048,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57893,57968,58048,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58048,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58048,
+        "name": "진(청바지)",
+        "key": "jeans",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58050,
+      "name": "스웨트 팬츠 & 조거 팬츠",
+      "key": "sweat-pants",
+      "path": "57893,57968,58050,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58050,
+      "category_name": "스웨트 팬츠 & 조거 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58050,
+        "name": "스웨트 팬츠 & 조거 팬츠",
+        "key": "sweat-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58047,
+      "name": "치노 팬츠",
+      "key": "chinos",
+      "path": "57893,57968,58047,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58047,
+      "category_name": "치노 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58047,
+        "name": "치노 팬츠",
+        "key": "chinos",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58053,
+      "name": "슬랙스(트라우저)",
+      "key": "trousers",
+      "path": "57893,57968,58053,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58053,
+      "category_name": "슬랙스(트라우저)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58053,
+        "name": "슬랙스(트라우저)",
+        "key": "trousers",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58061,
+      "name": "에어리즘",
+      "key": "airism",
+      "path": "57893,57970,58061,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57970,
+      "class_name": "이너웨어",
+      "category_id": 58061,
+      "category_name": "에어리즘",
+      "parent_ids": [
+        57893,
+        57970
+      ],
+      "parent_names": [
+        "MEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58061,
+        "name": "에어리즘",
+        "key": "airism",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57970,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58063,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57893,57970,58063,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57970,
+      "class_name": "이너웨어",
+      "category_id": 58063,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57893,
+        57970
+      ],
+      "parent_names": [
+        "MEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58063,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57970,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58065,
+      "name": "양말",
+      "key": "socks",
+      "path": "57893,57970,58065,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57970,
+      "class_name": "이너웨어",
+      "category_id": 58065,
+      "category_name": "양말",
+      "parent_ids": [
+        57893,
+        57970
+      ],
+      "parent_names": [
+        "MEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58065,
+        "name": "양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57970,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58062,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57893,57970,58062,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57970,
+      "class_name": "이너웨어",
+      "category_id": 58062,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57893,
+        57970
+      ],
+      "parent_names": [
+        "MEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58062,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57970,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58067,
+      "name": "라운지 팬츠ㆍ파자마",
+      "key": "lounge-pants",
+      "path": "57893,57971,58067,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57971,
+      "class_name": "라운지 팬츠 & 홈웨어",
+      "category_id": 58067,
+      "category_name": "라운지 팬츠ㆍ파자마",
+      "parent_ids": [
+        57893,
+        57971
+      ],
+      "parent_names": [
+        "MEN",
+        "라운지 팬츠 & 홈웨어"
+      ],
+      "raw": {
+        "id": 58067,
+        "name": "라운지 팬츠ㆍ파자마",
+        "key": "lounge-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57971,
+            "name": "라운지 팬츠 & 홈웨어",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58070,
+      "name": "가방",
+      "key": "bags",
+      "path": "57893,57972,58070,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58070,
+      "category_name": "가방",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58070,
+        "name": "가방",
+        "key": "bags",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58073,
+      "name": "선글라스",
+      "key": "sunglasses",
+      "path": "57893,57972,58073,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58073,
+      "category_name": "선글라스",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58073,
+        "name": "선글라스",
+        "key": "sunglasses",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58072,
+      "name": "벨트",
+      "key": "belts",
+      "path": "57893,57972,58072,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58072,
+      "category_name": "벨트",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58072,
+        "name": "벨트",
+        "key": "belts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58071,
+      "name": "모자",
+      "key": "hats-and-caps",
+      "path": "57893,57972,58071,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58071,
+      "category_name": "모자",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58071,
+        "name": "모자",
+        "key": "hats-and-caps",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 62413,
+      "name": "신발",
+      "key": "shoes",
+      "path": "57893,57972,62413,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 62413,
+      "category_name": "신발",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 62413,
+        "name": "신발",
+        "key": "shoes",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58074,
+      "name": "우산 & 암커버",
+      "key": "accessories",
+      "path": "57893,57972,58074,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58074,
+      "category_name": "우산 & 암커버",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58074,
+        "name": "우산 & 암커버",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116873,
+      "name": "셔츠",
+      "key": "tops",
+      "path": "57893,116864,116873,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": 116873,
+      "category_name": "셔츠",
+      "parent_ids": [
+        57893,
+        116864
+      ],
+      "parent_names": [
+        "MEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116873,
+        "name": "셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 116864,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116874,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57893,116864,116874,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": 116874,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57893,
+        116864
+      ],
+      "parent_names": [
+        "MEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116874,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 116864,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116872,
+      "name": "재킷",
+      "key": "outerwear",
+      "path": "57893,116864,116872,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": 116872,
+      "category_name": "재킷",
+      "parent_ids": [
+        57893,
+        116864
+      ],
+      "parent_names": [
+        "MEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116872,
+        "name": "재킷",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 116864,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82089,
+      "name": "이너웨어 상의",
+      "key": "inner-tops",
+      "path": "57893,81620,82089,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 81620,
+      "class_name": "에어리즘",
+      "category_id": 82089,
+      "category_name": "이너웨어 상의",
+      "parent_ids": [
+        57893,
+        81620
+      ],
+      "parent_names": [
+        "MEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82089,
+        "name": "이너웨어 상의",
+        "key": "inner-tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 81620,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82090,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57893,81620,82090,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 81620,
+      "class_name": "에어리즘",
+      "category_id": 82090,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57893,
+        81620
+      ],
+      "parent_names": [
+        "MEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82090,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 81620,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82091,
+      "name": "상의",
+      "key": "tops",
+      "path": "57893,81620,82091,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 81620,
+      "class_name": "에어리즘",
+      "category_id": 82091,
+      "category_name": "상의",
+      "parent_ids": [
+        57893,
+        81620
+      ],
+      "parent_names": [
+        "MEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82091,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 81620,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82092,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57893,81620,82092,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 81620,
+      "class_name": "에어리즘",
+      "category_id": 82092,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57893,
+        81620
+      ],
+      "parent_names": [
+        "MEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82092,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 81620,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58056,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57893,57969,58056,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57969,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58056,
+      "category_name": "아우터",
+      "parent_ids": [
+        57893,
+        57969
+      ],
+      "parent_names": [
+        "MEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58056,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57969,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58057,
+      "name": "상의",
+      "key": "tops",
+      "path": "57893,57969,58057,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57969,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58057,
+      "category_name": "상의",
+      "parent_ids": [
+        57893,
+        57969
+      ],
+      "parent_names": [
+        "MEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58057,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57969,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58058,
+      "name": "팬츠",
+      "key": "pants",
+      "path": "57893,57969,58058,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57969,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58058,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57893,
+        57969
+      ],
+      "parent_names": [
+        "MEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58058,
+        "name": "팬츠",
+        "key": "pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57969,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58059,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57893,57969,58059,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57969,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58059,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57893,
+        57969
+      ],
+      "parent_names": [
+        "MEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58059,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57969,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58060,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57893,57969,58060,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57969,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58060,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57893,
+        57969
+      ],
+      "parent_names": [
+        "MEN",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58060,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57969,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 114794,
+      "name": "파카",
+      "key": "outerwear",
+      "path": "57893,114793,114794,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 114793,
+      "class_name": "UV Protection",
+      "category_id": 114794,
+      "category_name": "파카",
+      "parent_ids": [
+        57893,
+        114793
+      ],
+      "parent_names": [
+        "MEN",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 114794,
+        "name": "파카",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 114793,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 114796,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57893,114793,114796,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 114793,
+      "class_name": "UV Protection",
+      "category_id": 114796,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57893,
+        114793
+      ],
+      "parent_names": [
+        "MEN",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 114796,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 114793,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107550,
+      "name": "Uniqlo U",
+      "key": "uniqlo-u",
+      "path": "57893,107543,107550,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 107550,
+      "category_name": "Uniqlo U",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107550,
+        "name": "Uniqlo U",
+        "key": "uniqlo-u",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107551,
+      "name": "UNIQLO : C",
+      "key": "uniqlo-c",
+      "path": "57893,107543,107551,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 107551,
+      "category_name": "UNIQLO : C",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107551,
+        "name": "UNIQLO : C",
+        "key": "uniqlo-c",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107552,
+      "name": "UNIQLO and JW ANDERSON",
+      "key": "uniqlo-and-jw-anderson",
+      "path": "57893,107543,107552,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 107552,
+      "category_name": "UNIQLO and JW ANDERSON",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107552,
+        "name": "UNIQLO and JW ANDERSON",
+        "key": "uniqlo-and-jw-anderson",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 140769,
+      "name": "The Roger Federer Collection",
+      "key": "the-roger-federer-collection",
+      "path": "57893,107543,140769,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 140769,
+      "category_name": "The Roger Federer Collection",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 140769,
+        "name": "The Roger Federer Collection",
+        "key": "the-roger-federer-collection",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 124431,
+      "name": "상의",
+      "key": "tops",
+      "path": "57893,124425,124431,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 124425,
+      "class_name": "GU",
+      "category_id": 124431,
+      "category_name": "상의",
+      "parent_ids": [
+        57893,
+        124425
+      ],
+      "parent_names": [
+        "MEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124431,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 124425,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 124432,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57893,124425,124432,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 124425,
+      "class_name": "GU",
+      "category_id": 124432,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57893,
+        124425
+      ],
+      "parent_names": [
+        "MEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124432,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 124425,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 139039,
+      "name": "라운지웨어 & 홈웨어",
+      "key": "loungewear-and-homewear",
+      "path": "57893,124425,139039,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 124425,
+      "class_name": "GU",
+      "category_id": 139039,
+      "category_name": "라운지웨어 & 홈웨어",
+      "parent_ids": [
+        57893,
+        124425
+      ],
+      "parent_names": [
+        "MEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 139039,
+        "name": "라운지웨어 & 홈웨어",
+        "key": "loungewear-and-homewear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 124425,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58078,
+      "name": "티셔츠 (긴팔 & 반팔)",
+      "key": "t-shirts",
+      "path": "57894,57974,58078,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57974,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58078,
+      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "parent_ids": [
+        57894,
+        57974
+      ],
+      "parent_names": [
+        "KIDS",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58078,
+        "name": "티셔츠 (긴팔 & 반팔)",
+        "key": "t-shirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57974,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58081,
+      "name": "그래픽티셔츠",
+      "key": "ut-graphic-tees",
+      "path": "57894,57974,58081,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57974,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58081,
+      "category_name": "그래픽티셔츠",
+      "parent_ids": [
+        57894,
+        57974
+      ],
+      "parent_names": [
+        "KIDS",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58081,
+        "name": "그래픽티셔츠",
+        "key": "ut-graphic-tees",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57974,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58077,
+      "name": "스웨트셔츠 & 후드티",
+      "key": "sweatshirts-and-hoodies",
+      "path": "57894,57974,58077,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57974,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58077,
+      "category_name": "스웨트셔츠 & 후드티",
+      "parent_ids": [
+        57894,
+        57974
+      ],
+      "parent_names": [
+        "KIDS",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58077,
+        "name": "스웨트셔츠 & 후드티",
+        "key": "sweatshirts-and-hoodies",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57974,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58075,
+      "name": "재킷 & 파카",
+      "key": "parkas-and-blousons",
+      "path": "57894,57973,58075,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57973,
+      "class_name": "아우터",
+      "category_id": 58075,
+      "category_name": "재킷 & 파카",
+      "parent_ids": [
+        57894,
+        57973
+      ],
+      "parent_names": [
+        "KIDS",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58075,
+        "name": "재킷 & 파카",
+        "key": "parkas-and-blousons",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57973,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58082,
+      "name": "청바지 & 팬츠",
+      "key": "pants",
+      "path": "57894,57975,58082,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": 58082,
+      "category_name": "청바지 & 팬츠",
+      "parent_ids": [
+        57894,
+        57975
+      ],
+      "parent_names": [
+        "KIDS",
+        "청바지 & 팬츠"
+      ],
+      "raw": {
+        "id": 58082,
+        "name": "청바지 & 팬츠",
+        "key": "pants",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57975,
+            "name": "청바지 & 팬츠",
+            "key": "pants-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58084,
+      "name": "반바지",
+      "key": "short-pants",
+      "path": "57894,57975,58084,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": 58084,
+      "category_name": "반바지",
+      "parent_ids": [
+        57894,
+        57975
+      ],
+      "parent_names": [
+        "KIDS",
+        "청바지 & 팬츠"
+      ],
+      "raw": {
+        "id": 58084,
+        "name": "반바지",
+        "key": "short-pants",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57975,
+            "name": "청바지 & 팬츠",
+            "key": "pants-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58091,
+      "name": "에어리즘",
+      "key": "airism",
+      "path": "57894,57978,58091,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 58091,
+      "category_name": "에어리즘",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58091,
+        "name": "에어리즘",
+        "key": "airism",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58093,
+      "name": "주니어브라 & 브라탑",
+      "key": "bras-and-bra-tops",
+      "path": "57894,57978,58093,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 58093,
+      "category_name": "주니어브라 & 브라탑",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58093,
+        "name": "주니어브라 & 브라탑",
+        "key": "bras-and-bra-tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 136619,
+      "name": "코튼 이너",
+      "key": "cotton-innerwear",
+      "path": "57894,57978,136619,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 136619,
+      "category_name": "코튼 이너",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 136619,
+        "name": "코튼 이너",
+        "key": "cotton-innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58095,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57894,57978,58095,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 58095,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58095,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58096,
+      "name": "양말",
+      "key": "socks",
+      "path": "57894,57978,58096,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 58096,
+      "category_name": "양말",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58096,
+        "name": "양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58092,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57894,57978,58092,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 58092,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58092,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58094,
+      "name": "레깅스 & 타이즈",
+      "key": "leggings-and-tights",
+      "path": "57894,57978,58094,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 58094,
+      "category_name": "레깅스 & 타이즈",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58094,
+        "name": "레깅스 & 타이즈",
+        "key": "leggings-and-tights",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 105469,
+      "name": "스커트",
+      "key": "skirt",
+      "path": "57894,57976,105469,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "원피스 & 스커트",
+      "category_id": 105469,
+      "category_name": "스커트",
+      "parent_ids": [
+        57894,
+        57976
+      ],
+      "parent_names": [
+        "KIDS",
+        "원피스 & 스커트"
+      ],
+      "raw": {
+        "id": 105469,
+        "name": "스커트",
+        "key": "skirt",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57976,
+            "name": "원피스 & 스커트",
+            "key": "dresses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58085,
+      "name": "원피스",
+      "key": "dresses",
+      "path": "57894,57976,58085,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "원피스 & 스커트",
+      "category_id": 58085,
+      "category_name": "원피스",
+      "parent_ids": [
+        57894,
+        57976
+      ],
+      "parent_names": [
+        "KIDS",
+        "원피스 & 스커트"
+      ],
+      "raw": {
+        "id": 58085,
+        "name": "원피스",
+        "key": "dresses",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57976,
+            "name": "원피스 & 스커트",
+            "key": "dresses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 59411,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57894,59410,59411,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 59410,
+      "class_name": "액세서리",
+      "category_id": 59411,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57894,
+        59410
+      ],
+      "parent_names": [
+        "KIDS",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 59411,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 59410,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82094,
+      "name": "이너웨어 상의",
+      "key": "innerwear-tops",
+      "path": "57894,81621,82094,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 81621,
+      "class_name": "에어리즘",
+      "category_id": 82094,
+      "category_name": "이너웨어 상의",
+      "parent_ids": [
+        57894,
+        81621
+      ],
+      "parent_names": [
+        "KIDS",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82094,
+        "name": "이너웨어 상의",
+        "key": "innerwear-tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 81621,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82095,
+      "name": "주니어브라 & 브라탑",
+      "key": "bras-and-bra-tops",
+      "path": "57894,81621,82095,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 81621,
+      "class_name": "에어리즘",
+      "category_id": 82095,
+      "category_name": "주니어브라 & 브라탑",
+      "parent_ids": [
+        57894,
+        81621
+      ],
+      "parent_names": [
+        "KIDS",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82095,
+        "name": "주니어브라 & 브라탑",
+        "key": "bras-and-bra-tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 81621,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82096,
+      "name": "티셔츠",
+      "key": "tops",
+      "path": "57894,81621,82096,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 81621,
+      "class_name": "에어리즘",
+      "category_id": 82096,
+      "category_name": "티셔츠",
+      "parent_ids": [
+        57894,
+        81621
+      ],
+      "parent_names": [
+        "KIDS",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82096,
+        "name": "티셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 81621,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82097,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57894,81621,82097,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 81621,
+      "class_name": "에어리즘",
+      "category_id": 82097,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57894,
+        81621
+      ],
+      "parent_names": [
+        "KIDS",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82097,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 81621,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 86272,
+      "name": "언더웨어",
+      "key": "innerwear",
+      "path": "57894,81621,86272,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 81621,
+      "class_name": "에어리즘",
+      "category_id": 86272,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57894,
+        81621
+      ],
+      "parent_names": [
+        "KIDS",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 86272,
+        "name": "언더웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 81621,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 59610,
+      "name": "Accessories 액세서리",
+      "key": "accessories",
+      "path": "57894,57977,59610,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57977,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 59610,
+      "category_name": "Accessories 액세서리",
+      "parent_ids": [
+        57894,
+        57977
+      ],
+      "parent_names": [
+        "KIDS",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 59610,
+        "name": "Accessories 액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57977,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58087,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57894,57977,58087,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57977,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58087,
+      "category_name": "아우터",
+      "parent_ids": [
+        57894,
+        57977
+      ],
+      "parent_names": [
+        "KIDS",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58087,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57977,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58088,
+      "name": "상의",
+      "key": "tops",
+      "path": "57894,57977,58088,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57977,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58088,
+      "category_name": "상의",
+      "parent_ids": [
+        57894,
+        57977
+      ],
+      "parent_names": [
+        "KIDS",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58088,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57977,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58089,
+      "name": "하의",
+      "key": "bottoms",
+      "path": "57894,57977,58089,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57977,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58089,
+      "category_name": "하의",
+      "parent_ids": [
+        57894,
+        57977
+      ],
+      "parent_names": [
+        "KIDS",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58089,
+        "name": "하의",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57977,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58090,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57894,57977,58090,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57977,
+      "class_name": "스포츠 유틸리티 웨어",
+      "category_id": 58090,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57894,
+        57977
+      ],
+      "parent_names": [
+        "KIDS",
+        "스포츠 유틸리티 웨어"
+      ],
+      "raw": {
+        "id": 58090,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57977,
+            "name": "스포츠 유틸리티 웨어",
+            "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 114798,
+      "name": "파카",
+      "key": "outerwear",
+      "path": "57894,114797,114798,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 114797,
+      "class_name": "UV Protection",
+      "category_id": 114798,
+      "category_name": "파카",
+      "parent_ids": [
+        57894,
+        114797
+      ],
+      "parent_names": [
+        "KIDS",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 114798,
+        "name": "파카",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 114797,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 139702,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57894,114797,139702,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 114797,
+      "class_name": "UV Protection",
+      "category_id": 139702,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57894,
+        114797
+      ],
+      "parent_names": [
+        "KIDS",
+        "UV Protection"
+      ],
+      "raw": {
+        "id": 139702,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 114797,
+            "name": "UV Protection",
+            "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 143066,
+      "name": "UNIQLO and Cecilie Bahnsen",
+      "key": "uniqlo-and-cecilie-bahnsen",
+      "path": "57894,107544,143066,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 107544,
+      "class_name": "Special Collaborations",
+      "category_id": 143066,
+      "category_name": "UNIQLO and Cecilie Bahnsen",
+      "parent_ids": [
+        57894,
+        107544
+      ],
+      "parent_names": [
+        "KIDS",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 143066,
+        "name": "UNIQLO and Cecilie Bahnsen",
+        "key": "uniqlo-and-cecilie-bahnsen",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 107544,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58102,
+      "name": "바디수트",
+      "key": "bodysuits",
+      "path": "57925,57980,58102,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58102,
+      "category_name": "바디수트",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58102,
+        "name": "바디수트",
+        "key": "bodysuits",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58101,
+      "name": "커버올",
+      "key": "one-pieces",
+      "path": "57925,57980,58101,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58101,
+      "category_name": "커버올",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58101,
+        "name": "커버올",
+        "key": "one-pieces",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58103,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57925,57980,58103,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58103,
+      "category_name": "아우터",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58103,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58104,
+      "name": "티셔츠 & 스웨트셔츠",
+      "key": "tops",
+      "path": "57925,57980,58104,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58104,
+      "category_name": "티셔츠 & 스웨트셔츠",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58104,
+        "name": "티셔츠 & 스웨트셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58105,
+      "name": "레깅스 & 팬츠",
+      "key": "pants-and-leggings",
+      "path": "57925,57980,58105,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58105,
+      "category_name": "레깅스 & 팬츠",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58105,
+        "name": "레깅스 & 팬츠",
+        "key": "pants-and-leggings",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58106,
+      "name": "그래픽티셔츠",
+      "key": "ut-graphic-tees",
+      "path": "57925,57980,58106,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58106,
+      "category_name": "그래픽티셔츠",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58106,
+        "name": "그래픽티셔츠",
+        "key": "ut-graphic-tees",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 112672,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57980,112672,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 112672,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 112672,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58108,
+      "name": "양말",
+      "key": "socks",
+      "path": "57925,57980,58108,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58108,
+      "category_name": "양말",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58108,
+        "name": "양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58109,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57925,57980,58109,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58109,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58109,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58115,
+      "name": "홈웨어 & 파자마",
+      "key": "homewear",
+      "path": "57925,57981,58115,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58115,
+      "category_name": "홈웨어 & 파자마",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58115,
+        "name": "홈웨어 & 파자마",
+        "key": "homewear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58111,
+      "name": "티셔츠 & 스웨트셔츠",
+      "key": "tops",
+      "path": "57925,57981,58111,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58111,
+      "category_name": "티셔츠 & 스웨트셔츠",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58111,
+        "name": "티셔츠 & 스웨트셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58113,
+      "name": "레깅스 & 팬츠",
+      "key": "pants-and-leggings",
+      "path": "57925,57981,58113,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58113,
+      "category_name": "레깅스 & 팬츠",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58113,
+        "name": "레깅스 & 팬츠",
+        "key": "pants-and-leggings",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58110,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57925,57981,58110,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58110,
+      "category_name": "아우터",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58110,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58116,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57981,58116,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58116,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58116,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58112,
+      "name": "그래픽티셔츠",
+      "key": "ut-graphic-tees",
+      "path": "57925,57981,58112,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58112,
+      "category_name": "그래픽티셔츠",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58112,
+        "name": "그래픽티셔츠",
+        "key": "ut-graphic-tees",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58117,
+      "name": "양말",
+      "key": "socks",
+      "path": "57925,57981,58117,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58117,
+      "category_name": "양말",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58117,
+        "name": "양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58118,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57925,57981,58118,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58118,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58118,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    }
+  ]
+}
