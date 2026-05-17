@@ -1,0 +1,70 @@
+name: Update UNIQLO KR data
+
+on:
+  schedule:
+    # Runs every day at 03:15 KST.
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-uniqlo-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect all products
+        run: |
+          python3 uniqlo_kr_scraper.py \
+            --out data/uniqlo_kr_all_items.json \
+            --csv data/uniqlo_kr_all_items.csv \
+            --delay 0.3 \
+            --retries 3
+
+      - name: Collect categories
+        run: |
+          python3 uniqlo_kr_scraper.py \
+            --mode categories \
+            --out data/uniqlo_kr_categories.json \
+            --csv data/uniqlo_kr_categories.csv \
+            --delay 0.3 \
+            --retries 3
+
+      - name: Collect discounted products
+        run: |
+          python3 uniqlo_kr_scraper.py \
+            --mode discounts \
+            --delay 0.3 \
+            --retries 3
+
+      - name: Publish static data files
+        run: |
+          mkdir -p docs/data
+          cp data/uniqlo_kr_all_items.json docs/data/uniqlo_kr_all_items.json
+          cp data/uniqlo_kr_categories.json docs/data/uniqlo_kr_categories.json
+          cp data/uniqlo_kr_discount_items.json docs/data/uniqlo_kr_discount_items.json
+          cp data/uniqlo_kr_discount_items.csv docs/data/uniqlo_kr_discount_items.csv
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- data docs/data; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs/data
+          git commit -m "Update UNIQLO KR data"
+          git push

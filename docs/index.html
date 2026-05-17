@@ -12,6 +12,7 @@
     h1 { margin: 0; font-size: 24px; line-height: 1.2; }
     .links { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; }
     .links a { color: #555; text-decoration: none; border-bottom: 1px solid #aaa; }
+    .updated-at { color: #555; font-size: 13px; margin-bottom: 10px; }
     .controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     input, select { height: 36px; border: 1px solid #bbb; border-radius: 4px; padding: 0 10px; background: #fff; font-size: 14px; }
     input { width: min(210px, 100%); }
@@ -42,6 +43,7 @@
         <a href="data/uniqlo_kr_categories.json">카테고리 JSON</a>
       </nav>
     </div>
+    <div class="updated-at" id="updatedAt">마지막 정보 갱신: 확인 중</div>
     <div class="controls">
       <input id="q" type="search" placeholder="상품명 또는 제품번호 검색">
       <select id="gender"><option value="">성별 전체</option></select>
@@ -74,6 +76,7 @@
     const count = document.getElementById('count');
     const grid = document.getElementById('grid');
     const status = document.getElementById('status');
+    const updatedAt = document.getElementById('updatedAt');
     let products = [];
 
     function won(value) {
@@ -86,6 +89,22 @@
 
     function categoryNames(product) {
       return [...new Set((product.categories || []).map(item => item.class_name || item.category_name).filter(Boolean))];
+    }
+
+    function formatUpdatedAt(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return '마지막 정보 갱신: 확인 불가';
+      const formatted = new Intl.DateTimeFormat('ko-KR', {
+        timeZone: 'Asia/Seoul',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false,
+      }).format(date);
+      return `마지막 정보 갱신: ${formatted} KST`;
     }
 
     function card(product) {
@@ -144,6 +163,7 @@
       })
       .then(payload => {
         products = payload.products || [];
+        updatedAt.textContent = formatUpdatedAt(payload.collected_at);
         [...new Set(products.map(product => product.gender_category).filter(Boolean))].sort().forEach(value => {
           const option = document.createElement('option');
           option.value = value;
