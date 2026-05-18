@@ -156,7 +156,7 @@
       status.hidden = products.length > 0;
     }
 
-    fetch(DATA_URL)
+    fetch(`${DATA_URL}?ts=${Date.now()}`, { cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
