@@ -2,7 +2,6 @@ name: Update UNIQLO KR data
 
 on:
   schedule:
-    # 04:35 KST. GitHub cron is evaluated in UTC.
     - cron: "35 19 * * *"
   workflow_dispatch:
 
@@ -23,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
