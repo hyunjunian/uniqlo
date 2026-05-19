@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-17T00:27:19.465860+00:00",
+  "collected_at": "2026-05-19T21:02:47.714461+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 214,
   "categories": [
@@ -4168,44 +4168,6 @@
     },
     {
       "level": "category",
-      "id": 95358,
-      "name": "정장셔츠 (와이셔츠)",
-      "key": "dress-shirts",
-      "path": "57893,95356,95358,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95356,
-      "class_name": "셔츠 & 폴로셔츠",
-      "category_id": 95358,
-      "category_name": "정장셔츠 (와이셔츠)",
-      "parent_ids": [
-        57893,
-        95356
-      ],
-      "parent_names": [
-        "MEN",
-        "셔츠 & 폴로셔츠"
-      ],
-      "raw": {
-        "id": 95358,
-        "name": "정장셔츠 (와이셔츠)",
-        "key": "dress-shirts",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 95356,
-            "name": "셔츠 & 폴로셔츠",
-            "key": "shirts-and-polo-shirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 95360,
       "name": "폴로셔츠 (카라티)",
       "key": "polo-shirts",
@@ -4228,6 +4190,44 @@
         "id": 95360,
         "name": "폴로셔츠 (카라티)",
         "key": "polo-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠 & 폴로셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95358,
+      "name": "정장셔츠 (와이셔츠)",
+      "key": "dress-shirts",
+      "path": "57893,95356,95358,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠 & 폴로셔츠",
+      "category_id": 95358,
+      "category_name": "정장셔츠 (와이셔츠)",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 95358,
+        "name": "정장셔츠 (와이셔츠)",
+        "key": "dress-shirts",
         "parents": [
           {
             "id": 57893,
