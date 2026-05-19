@@ -63,13 +63,15 @@ For GitHub Pages, set the Pages source to `docs/`.
 ## Scheduled Updates
 
 The GitHub Actions workflow at `.github/workflows/update-uniqlo-data.yml`
-updates the data once a day at 03:15 in the `Asia/Seoul` timezone and can also
-be run manually from the Actions tab with `workflow_dispatch`.
+updates the data once a day at 04:35 KST (`19:35 UTC`) and can also be run
+manually from the Actions tab with `workflow_dispatch`.
 
 The workflow refreshes all products, categories, and discounted products, copies
 the static-site data into `docs/data/`, and commits only when the tracked
 `docs/data/` files change. During GitHub Actions runs, generated files are
-written to the runner temp directory before being copied into `docs/data/`.
+written to `/tmp/uniqlo-data` before being copied into `docs/data/`. The root
+`data/` directory is for local scraper output and is intentionally ignored by
+git.
 GitHub Pages will then serve the updated `docs/` files after the commit.
 
 Use `--insecure` only when the local Python certificate store cannot verify the
