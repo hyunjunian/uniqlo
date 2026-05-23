@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-05-22T20:55:54.355862+00:00",
+  "collected_at": "2026-05-23T20:27:53.812477+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/",
   "pages_seen": 0,
   "product_pages_seen": 0,
   "api_requests_seen": 42,
   "category_paths_seen": 41,
-  "product_count": 186,
+  "product_count": 177,
   "products": [
     {
       "product_id": "E451648-000",
@@ -199,6 +199,12 @@
           "filter_code": "WHITE"
         },
         {
+          "code": "COL09",
+          "display_code": "09",
+          "name": "BLACK",
+          "filter_code": "BLACK"
+        },
+        {
           "code": "COL31",
           "display_code": "31",
           "name": "BEIGE",
@@ -214,12 +220,10 @@
       "sizes": [
         "4XL",
         "L",
-        "M",
         "S",
-        "XL",
-        "XXL"
+        "XL"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
@@ -424,118 +428,6 @@
       ]
     },
     {
-      "product_id": "E461588-000",
-      "l1_id": "461588",
-      "name": "히트텍스마트팬츠(다리길이76cm)",
-      "gender_category": "MEN",
-      "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/03/31부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL08",
-        "display_code": "08",
-        "name": "DARK GRAY",
-        "filter_code": "GRAY"
-      },
-      "colors": [
-        {
-          "code": "COL08",
-          "display_code": "08",
-          "name": "DARK GRAY",
-          "filter_code": "GRAY"
-        }
-      ],
-      "sizes": [
-        "70"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.3,
-      "rating_count": 51,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461588/item/goods_08_461588_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E461588-000/00?colorDisplayCode=08",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57893,57968,,",
-          "gender_id": 57893,
-          "gender_name": "MEN",
-          "class_id": 57968,
-          "class_name": "팬츠",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
-      "product_id": "E462641-000",
-      "l1_id": "462641",
-      "name": "히트텍스마트팬츠(다리길이76cm)하운드투스",
-      "gender_category": "MEN",
-      "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/03/31부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL07",
-        "display_code": "07",
-        "name": "GRAY",
-        "filter_code": "GRAY"
-      },
-      "colors": [
-        {
-          "code": "COL07",
-          "display_code": "07",
-          "name": "GRAY",
-          "filter_code": "GRAY"
-        }
-      ],
-      "sizes": [
-        "70"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.7,
-      "rating_count": 18,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462641/item/goods_07_462641_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E462641-000/00?colorDisplayCode=07",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57893,57968,,",
-          "gender_id": 57893,
-          "gender_name": "MEN",
-          "class_id": 57968,
-          "class_name": "팬츠",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
       "product_id": "E465193-000",
       "l1_id": "465193",
       "name": "AIRism코튼크루넥T(긴팔)",
@@ -580,7 +472,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 615,
+      "rating_count": 614,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465193/item/krgoods_08_465193_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465193-000/01?colorDisplayCode=08",
       "sales": true,
@@ -666,12 +558,6 @@
           "display_code": "08",
           "name": "DARK GRAY",
           "filter_code": "GRAY"
-        },
-        {
-          "code": "COL31",
-          "display_code": "31",
-          "name": "BEIGE",
-          "filter_code": "BEIGE"
         }
       ],
       "sizes": [
@@ -681,7 +567,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 245,
+      "rating_count": 244,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465206/item/krgoods_68_465206_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465206-000/01?colorDisplayCode=68",
       "sales": true,
@@ -743,7 +629,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 561,
+      "rating_count": 563,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465751/item/krgoods_70_465751_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465751-000/02?colorDisplayCode=40",
       "sales": true,
@@ -917,7 +803,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 255,
+      "rating_count": 256,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/469862/item/krgoods_00_469862_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E469862-000/00?colorDisplayCode=56",
       "sales": true,
@@ -1372,10 +1258,9 @@
       ],
       "sizes": [
         "130(8-9세)",
-        "140(10-11세)",
-        "150(12-13세)"
+        "140(10-11세)"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
@@ -1782,12 +1667,6 @@
       },
       "colors": [
         {
-          "code": "COL09",
-          "display_code": "09",
-          "name": "BLACK",
-          "filter_code": "BLACK"
-        },
-        {
           "code": "COL57",
           "display_code": "57",
           "name": "OLIVE",
@@ -1801,8 +1680,8 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 493,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478321/item/goods_09_478321_3x4.jpg",
+      "rating_count": 494,
+      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478321/item/goods_57_478321_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E478321-000/00?colorDisplayCode=09",
       "sales": true,
       "store_stock_only": false,
@@ -2087,62 +1966,6 @@
           "gender_name": "BABY",
           "class_id": 57981,
           "class_name": "영유아(6개월~5세)",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
-      "product_id": "E478557-000",
-      "l1_id": "478557",
-      "name": "더블브레스트재킷(셋업가능)",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "00",
-      "price_krw": 59900,
-      "base_price_krw": 59900,
-      "promo_price_krw": 59900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/19부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL09",
-        "display_code": "09",
-        "name": "BLACK",
-        "filter_code": "BLACK"
-      },
-      "colors": [
-        {
-          "code": "COL05",
-          "display_code": "05",
-          "name": "GRAY",
-          "filter_code": "GRAY"
-        }
-      ],
-      "sizes": [
-        "S"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.7,
-      "rating_count": 15,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/478557/item/krgoods_05_478557_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E478557-000/00?colorDisplayCode=09",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,57958,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57958,
-          "class_name": "아우터",
           "category_id": null,
           "category_name": null
         }
@@ -2476,7 +2299,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 354,
+      "rating_count": 355,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479616/item/goods_01_479616_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E479616-000/00?colorDisplayCode=01",
       "sales": true,
@@ -2773,77 +2596,6 @@
       ]
     },
     {
-      "product_id": "E480343-000",
-      "l1_id": "480343",
-      "name": "GIRLS드라이스웨트커브팬츠",
-      "gender_category": "KIDS",
-      "size_gender": "KIDS",
-      "price_group": "01",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/12부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        },
-        {
-          "code": "colorSizeLimitedPrice",
-          "name": "옵션할인",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL01",
-        "display_code": "01",
-        "name": "OFF WHITE",
-        "filter_code": "WHITE"
-      },
-      "colors": [
-        {
-          "code": "COL10",
-          "display_code": "10",
-          "name": "PINK",
-          "filter_code": "PINK"
-        }
-      ],
-      "sizes": [
-        "160(13세-)"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.9,
-      "rating_count": 100,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/480343/item/krgoods_10_480343_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E480343-000/01?colorDisplayCode=01",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57894,57974,,",
-          "gender_id": 57894,
-          "gender_name": "KIDS",
-          "class_id": 57974,
-          "class_name": "티셔츠 & 스웨트셔츠 & UT",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57894,57975,,",
-          "gender_id": 57894,
-          "gender_name": "KIDS",
-          "class_id": 57975,
-          "class_name": "청바지 & 팬츠",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
       "product_id": "E481616-000",
       "l1_id": "481616",
       "name": "로프샌들",
@@ -2887,8 +2639,8 @@
       "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.2,
-      "rating_count": 10,
+      "rating_average": 3.9,
+      "rating_count": 11,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481616/item/goods_01_481616_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E481616-000/00?colorDisplayCode=01",
       "sales": true,
@@ -2900,80 +2652,6 @@
           "gender_name": "WOMEN",
           "class_id": 57965,
           "class_name": "액세서리",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57892,107542,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 107542,
-          "class_name": "Special Collaborations",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
-      "product_id": "E481733-000",
-      "l1_id": "481733",
-      "name": "워셔블밀라노립스커트",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/04/07부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL39",
-        "display_code": "39",
-        "name": "DARK BROWN",
-        "filter_code": "BROWN"
-      },
-      "colors": [
-        {
-          "code": "COL39",
-          "display_code": "39",
-          "name": "DARK BROWN",
-          "filter_code": "BROWN"
-        }
-      ],
-      "sizes": [
-        "S"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.4,
-      "rating_count": 13,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/481733/item/krgoods_39_481733_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E481733-000/00?colorDisplayCode=39",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,95353,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 95353,
-          "class_name": "니트 & 가디건",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57892,57961,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57961,
-          "class_name": "원피스 & 스커트",
           "category_id": null,
           "category_name": null
         },
@@ -3287,7 +2965,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 37,
+      "rating_count": 38,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482256/item/krgoods_69_482256_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482256-000/01?colorDisplayCode=69",
       "sales": true,
@@ -3428,14 +3106,14 @@
       "sizes": [
         "25",
         "26",
-        "27",
-        "29"
+        "29",
+        "30"
       ],
       "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
-      "rating_count": 38,
+      "rating_count": 39,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482282/item/krgoods_68_482282_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482282-000/00?colorDisplayCode=68",
       "sales": true,
@@ -3987,10 +3665,9 @@
       "sizes": [
         "L",
         "M",
-        "S",
-        "XL"
+        "S"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -4245,10 +3922,9 @@
         }
       ],
       "sizes": [
-        "M",
         "S"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
@@ -4304,13 +3980,12 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
         "M",
         "S",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -4326,77 +4001,6 @@
           "gender_name": "MEN",
           "class_id": 57967,
           "class_name": "티셔츠 & 스웨트셔츠 & UT",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
-      "product_id": "E482815-000",
-      "l1_id": "482815",
-      "name": "스퀘어플랫슈즈",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "01",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/04/21부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        },
-        {
-          "code": "colorSizeLimitedPrice",
-          "name": "옵션할인",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL38",
-        "display_code": "38",
-        "name": "DARK BROWN",
-        "filter_code": "BROWN"
-      },
-      "colors": [
-        {
-          "code": "COL38",
-          "display_code": "38",
-          "name": "DARK BROWN",
-          "filter_code": "BROWN"
-        }
-      ],
-      "sizes": [
-        "25"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.4,
-      "rating_count": 103,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/482815/item/goods_38_482815_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E482815-000/01?colorDisplayCode=38",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,57965,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57965,
-          "class_name": "액세서리",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57892,107542,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 107542,
-          "class_name": "Special Collaborations",
           "category_id": null,
           "category_name": null
         }
@@ -4450,7 +4054,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 41,
+      "rating_count": 43,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482873/item/krgoods_32_482873_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482873-000/00?colorDisplayCode=32",
       "sales": true,
@@ -4668,12 +4272,6 @@
           "display_code": "61",
           "name": "BLUE",
           "filter_code": "BLUE"
-        },
-        {
-          "code": "COL01",
-          "display_code": "01",
-          "name": "OFF WHITE",
-          "filter_code": "WHITE"
         },
         {
           "code": "COL09",
@@ -4981,7 +4579,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.5,
-      "rating_count": 60,
+      "rating_count": 61,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483042/item/krgoods_34_483042_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483042-000/00?colorDisplayCode=34",
       "sales": true,
@@ -5571,10 +5169,11 @@
         }
       ],
       "sizes": [
+        "140(10-11세)",
         "150(12-13세)",
         "160(13세-)"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -5693,9 +5292,10 @@
         }
       ],
       "sizes": [
-        "110(4-5세)"
+        "110(4-5세)",
+        "130(8-9세)"
       ],
-      "available_sizes_count": 1,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -5800,71 +5400,6 @@
       ]
     },
     {
-      "product_id": "E483764-000",
-      "l1_id": "483764",
-      "name": "로라이즈와이드진",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/12부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL65",
-        "display_code": "65",
-        "name": "BLUE",
-        "filter_code": "BLUE"
-      },
-      "colors": [
-        {
-          "code": "COL00",
-          "display_code": "00",
-          "name": "WHITE",
-          "filter_code": "WHITE"
-        }
-      ],
-      "sizes": [
-        "27"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.5,
-      "rating_count": 14,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483764/item/krgoods_00_483764_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E483764-000/00?colorDisplayCode=65",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,57960,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57960,
-          "class_name": "팬츠",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57892,107542,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 107542,
-          "class_name": "Special Collaborations",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
       "product_id": "E483785-000",
       "l1_id": "483785",
       "name": "리넨블렌드턱롱스커트(치마길이68~72cm·짧은기장)",
@@ -5918,10 +5453,9 @@
         "L",
         "M",
         "S",
-        "XS",
-        "XXL"
+        "XS"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -6541,12 +6075,11 @@
       "sizes": [
         "L",
         "M",
-        "S",
         "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
@@ -6635,7 +6168,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
-      "rating_count": 118,
+      "rating_count": 119,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483999/item/krgoods_30_483999_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483999-000/00?colorDisplayCode=30",
       "sales": true,
@@ -6861,12 +6394,6 @@
       },
       "colors": [
         {
-          "code": "COL69",
-          "display_code": "69",
-          "name": "NAVY",
-          "filter_code": "BLUE"
-        },
-        {
           "code": "COL19",
           "display_code": "19",
           "name": "WINE",
@@ -6882,7 +6409,7 @@
       "availability_label": "판매중",
       "rating_average": 4.7,
       "rating_count": 31,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484022/item/krgoods_69_484022_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484022/item/krgoods_19_484022_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484022-000/00?colorDisplayCode=69",
       "sales": true,
       "store_stock_only": false,
@@ -7031,12 +6558,6 @@
       },
       "colors": [
         {
-          "code": "COL72",
-          "display_code": "72",
-          "name": "PURPLE",
-          "filter_code": "PURPLE"
-        },
-        {
           "code": "COL30",
           "display_code": "30",
           "name": "NATURAL",
@@ -7045,15 +6566,14 @@
       ],
       "sizes": [
         "3XL",
-        "XS",
         "XXL"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
       "rating_count": 34,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484032/item/krgoods_72_484032_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484032/item/krgoods_30_484032_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484032-000/01?colorDisplayCode=72",
       "sales": true,
       "store_stock_only": false,
@@ -7113,10 +6633,9 @@
       "sizes": [
         "61",
         "64",
-        "67",
-        "70"
+        "67"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
@@ -7192,8 +6711,8 @@
       "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.4,
-      "rating_count": 19,
+      "rating_average": 4.5,
+      "rating_count": 21,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484034/item/krgoods_03_484034_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484034-000/00?colorDisplayCode=03",
       "sales": true,
@@ -7374,80 +6893,6 @@
       ]
     },
     {
-      "product_id": "E484053-000",
-      "l1_id": "484053",
-      "name": "프리미엄리넨팬츠(셋업가능)",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "00",
-      "price_krw": 59900,
-      "base_price_krw": 59900,
-      "promo_price_krw": 59900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/12부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL37",
-        "display_code": "37",
-        "name": "BROWN",
-        "filter_code": "BROWN"
-      },
-      "colors": [
-        {
-          "code": "COL68",
-          "display_code": "68",
-          "name": "BLUE",
-          "filter_code": "BLUE"
-        }
-      ],
-      "sizes": [
-        "61"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.5,
-      "rating_count": 6,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/484053/item/goods_68_484053_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484053-000/00?colorDisplayCode=37",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,57960,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57960,
-          "class_name": "팬츠",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57892,116863,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 116863,
-          "class_name": "리넨",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57892,107542,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 107542,
-          "class_name": "Special Collaborations",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
       "product_id": "E484063-000",
       "l1_id": "484063",
       "name": "GIRLS드라이스웨트미니스코츠",
@@ -7472,12 +6917,6 @@
         "filter_code": "WHITE"
       },
       "colors": [
-        {
-          "code": "COL01",
-          "display_code": "01",
-          "name": "OFF WHITE",
-          "filter_code": "WHITE"
-        },
         {
           "code": "COL03",
           "display_code": "03",
@@ -7508,7 +6947,7 @@
       "availability_label": "판매중",
       "rating_average": 4.5,
       "rating_count": 11,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484063/item/krgoods_01_484063_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484063/item/krgoods_10_484063_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484063-000/00?colorDisplayCode=01",
       "sales": true,
       "store_stock_only": false,
@@ -7569,12 +7008,6 @@
           "display_code": "09",
           "name": "BLACK",
           "filter_code": "BLACK"
-        },
-        {
-          "code": "COL79",
-          "display_code": "79",
-          "name": "DARK PURPLE",
-          "filter_code": "PURPLE"
         }
       ],
       "sizes": [
@@ -8229,20 +7662,18 @@
         }
       ],
       "sizes": [
-        "70",
         "73",
         "76",
         "79",
         "82",
         "85",
-        "88",
-        "91"
+        "88"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 6,
+      "rating_count": 7,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484093/item/krgoods_37_484093_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484093-000/00?colorDisplayCode=37",
       "sales": true,
@@ -8403,7 +7834,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 44,
+      "rating_count": 46,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484136/item/krgoods_36_484136_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484136-000/00?colorDisplayCode=36",
       "sales": true,
@@ -8424,6 +7855,190 @@
           "gender_name": "MEN",
           "class_id": 95356,
           "class_name": "셔츠",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57893,107543,,",
+          "gender_id": 57893,
+          "gender_name": "MEN",
+          "class_id": 107543,
+          "class_name": "Special Collaborations",
+          "category_id": null,
+          "category_name": null
+        }
+      ]
+    },
+    {
+      "product_id": "E484147-000",
+      "l1_id": "484147",
+      "name": "스키퍼폴로스웨터(반팔)",
+      "gender_category": "UNISEX",
+      "size_gender": "MEN",
+      "price_group": "00",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/12부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
+      "representative_color": {
+        "code": "COL32",
+        "display_code": "32",
+        "name": "BEIGE",
+        "filter_code": "BEIGE"
+      },
+      "colors": [
+        {
+          "code": "COL32",
+          "display_code": "32",
+          "name": "BEIGE",
+          "filter_code": "BEIGE"
+        }
+      ],
+      "sizes": [
+        "M"
+      ],
+      "available_sizes_count": 1,
+      "availability_status": "available",
+      "availability_label": "판매중",
+      "rating_average": 4,
+      "rating_count": 2,
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484147/item/krgoods_32_484147_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484147-000/00?colorDisplayCode=32",
+      "sales": true,
+      "store_stock_only": false,
+      "categories": [
+        {
+          "path": "57892,95354,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 95354,
+          "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57892,95353,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 95353,
+          "class_name": "니트 & 가디건",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57892,107542,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 107542,
+          "class_name": "Special Collaborations",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57893,95356,,",
+          "gender_id": 57893,
+          "gender_name": "MEN",
+          "class_id": 95356,
+          "class_name": "셔츠",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57893,95355,,",
+          "gender_id": 57893,
+          "gender_name": "MEN",
+          "class_id": 95355,
+          "class_name": "니트 & 가디건",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57893,107543,,",
+          "gender_id": 57893,
+          "gender_name": "MEN",
+          "class_id": 107543,
+          "class_name": "Special Collaborations",
+          "category_id": null,
+          "category_name": null
+        }
+      ]
+    },
+    {
+      "product_id": "E484166-000",
+      "l1_id": "484166",
+      "name": "덱슈즈",
+      "gender_category": "UNISEX",
+      "size_gender": "MEN",
+      "price_group": "00",
+      "price_krw": 49900,
+      "base_price_krw": 49900,
+      "promo_price_krw": 49900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/19부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
+      "representative_color": {
+        "code": "COL37",
+        "display_code": "37",
+        "name": "BROWN",
+        "filter_code": "BROWN"
+      },
+      "colors": [
+        {
+          "code": "COL37",
+          "display_code": "37",
+          "name": "BROWN",
+          "filter_code": "BROWN"
+        }
+      ],
+      "sizes": [
+        "25"
+      ],
+      "available_sizes_count": 1,
+      "availability_status": "available",
+      "availability_label": "판매중",
+      "rating_average": 3.1,
+      "rating_count": 13,
+      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/484166/item/goods_37_484166_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484166-000/00?colorDisplayCode=37",
+      "sales": true,
+      "store_stock_only": false,
+      "categories": [
+        {
+          "path": "57892,57965,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 57965,
+          "class_name": "액세서리",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57892,107542,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 107542,
+          "class_name": "Special Collaborations",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57893,57972,,",
+          "gender_id": 57893,
+          "gender_name": "MEN",
+          "class_id": 57972,
+          "class_name": "액세서리",
           "category_id": null,
           "category_name": null
         },
@@ -8691,35 +8306,22 @@
       },
       "colors": [
         {
-          "code": "COL16",
-          "display_code": "16",
-          "name": "RED",
-          "filter_code": "RED"
-        },
-        {
           "code": "COL19",
           "display_code": "19",
           "name": "WINE",
           "filter_code": "RED"
-        },
-        {
-          "code": "COL69",
-          "display_code": "69",
-          "name": "NAVY",
-          "filter_code": "BLUE"
         }
       ],
       "sizes": [
-        "L",
         "M",
         "S"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
       "rating_count": 0,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484193/item/krgoods_16_484193_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484193/item/krgoods_19_484193_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484193-000/00?colorDisplayCode=16",
       "sales": true,
       "store_stock_only": false,
@@ -9011,10 +8613,9 @@
         }
       ],
       "sizes": [
-        "M",
         "S"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -9254,68 +8855,6 @@
       ]
     },
     {
-      "product_id": "E484411-000",
-      "l1_id": "484411",
-      "name": "삭스3P(립라인)A",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "01",
-      "price_krw": 7900,
-      "base_price_krw": 7900,
-      "promo_price_krw": 7900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/12부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        },
-        {
-          "code": "colorSizeLimitedPrice",
-          "name": "옵션할인",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL58",
-        "display_code": "58",
-        "name": "DARK GREEN",
-        "filter_code": "GREEN"
-      },
-      "colors": [
-        {
-          "code": "COL58",
-          "display_code": "58",
-          "name": "DARK GREEN",
-          "filter_code": "GREEN"
-        }
-      ],
-      "sizes": [
-        "24cm"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 5,
-      "rating_count": 4,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/484411/item/goods_58_484411_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484411-000/01?colorDisplayCode=58",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,57963,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57963,
-          "class_name": "이너웨어",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
       "product_id": "E484430-000",
       "l1_id": "484430",
       "name": "울트라스트레치스키니진",
@@ -9419,10 +8958,9 @@
         }
       ],
       "sizes": [
-        "3XL",
         "XS"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -9663,72 +9201,15 @@
       ],
       "sizes": [
         "S",
-        "XL",
         "XS"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
       "rating_count": 0,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484484/item/krgoods_01_484484_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484484-000/00?colorDisplayCode=01",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,57959,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57959,
-          "class_name": "티셔츠 & UT & 브라탑",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
-      "product_id": "E484485-000",
-      "l1_id": "484485",
-      "name": "POP MART UT(그래픽T)1D",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/12부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL00",
-        "display_code": "00",
-        "name": "WHITE",
-        "filter_code": "WHITE"
-      },
-      "colors": [
-        {
-          "code": "COL00",
-          "display_code": "00",
-          "name": "WHITE",
-          "filter_code": "WHITE"
-        }
-      ],
-      "sizes": [
-        "L"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 5,
-      "rating_count": 1,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484485/item/krgoods_00_484485_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484485-000/00?colorDisplayCode=00",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -9786,7 +9267,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.3,
-      "rating_count": 16,
+      "rating_count": 17,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484490/item/krgoods_07_484490_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484490-000/00?colorDisplayCode=07",
       "sales": true,
@@ -9840,10 +9321,9 @@
         "M",
         "S",
         "XL",
-        "XS",
-        "XXL"
+        "XS"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -9907,7 +9387,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 7,
+      "rating_count": 8,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484492/item/krgoods_60_484492_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484492-000/00?colorDisplayCode=60",
       "sales": true,
@@ -9967,7 +9447,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 8,
+      "rating_count": 9,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484493/item/krgoods_02_484493_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484493-000/00?colorDisplayCode=02",
       "sales": true,
@@ -10273,19 +9753,12 @@
           "display_code": "52",
           "name": "GREEN",
           "filter_code": "GREEN"
-        },
-        {
-          "code": "COL38",
-          "display_code": "38",
-          "name": "DARK BROWN",
-          "filter_code": "BROWN"
         }
       ],
       "sizes": [
-        "M",
         "S"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -10339,10 +9812,9 @@
         }
       ],
       "sizes": [
-        "3XL",
         "XXL"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
@@ -10817,13 +10289,20 @@
           "display_code": "34",
           "name": "BROWN",
           "filter_code": "BROWN"
+        },
+        {
+          "code": "COL52",
+          "display_code": "52",
+          "name": "GREEN",
+          "filter_code": "GREEN"
         }
       ],
       "sizes": [
         "M",
-        "S"
+        "S",
+        "XL"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
@@ -10953,21 +10432,21 @@
       },
       "colors": [
         {
-          "code": "COL69",
-          "display_code": "69",
-          "name": "NAVY",
-          "filter_code": "BLUE"
+          "code": "COL10",
+          "display_code": "10",
+          "name": "PINK",
+          "filter_code": "PINK"
         }
       ],
       "sizes": [
-        "XXL"
+        "XL"
       ],
       "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
       "rating_count": 0,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484959/item/krgoods_69_484959_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484959/item/krgoods_10_484959_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484959-000/00?colorDisplayCode=01",
       "sales": true,
       "store_stock_only": false,
@@ -11465,7 +10944,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 2,
+      "rating_count": 3,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485467/item/krgoods_09_485467_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485467-000/00?colorDisplayCode=09",
       "sales": true,
@@ -11602,10 +11081,9 @@
         "3XL",
         "M",
         "S",
-        "XS",
         "XXL"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
@@ -11995,7 +11473,6 @@
         }
       ],
       "sizes": [
-        "3XL",
         "L",
         "M",
         "S",
@@ -12003,7 +11480,7 @@
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -12183,10 +11660,9 @@
         }
       ],
       "sizes": [
-        "S",
         "XS"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -12240,11 +11716,10 @@
         }
       ],
       "sizes": [
-        "L",
         "XL",
         "XS"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -12501,10 +11976,9 @@
         }
       ],
       "sizes": [
-        "S",
         "XS"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.3,
@@ -12559,13 +12033,12 @@
       ],
       "sizes": [
         "L",
-        "M",
         "S",
         "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -12762,62 +12235,6 @@
       ]
     },
     {
-      "product_id": "E487673-001",
-      "l1_id": "487673",
-      "name": "BN Picture Book바디수트(긴팔)미피 60cm",
-      "gender_category": "BABY",
-      "size_gender": "BABY",
-      "price_group": "00",
-      "price_krw": 5000,
-      "base_price_krw": 5000,
-      "promo_price_krw": 5000,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/04/28부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL60",
-        "display_code": "60",
-        "name": "LIGHT BLUE",
-        "filter_code": "BLUE"
-      },
-      "colors": [
-        {
-          "code": "COL60",
-          "display_code": "60",
-          "name": "LIGHT BLUE",
-          "filter_code": "BLUE"
-        }
-      ],
-      "sizes": [
-        "60(3-6개월)"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 5,
-      "rating_count": 3,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487673001/item/krgoods_60_487673001_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E487673-001/00?colorDisplayCode=60",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57925,57980,,",
-          "gender_id": 57925,
-          "gender_name": "BABY",
-          "class_id": 57980,
-          "class_name": "신생아(0개월~2세)",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
       "product_id": "E487741-000",
       "l1_id": "487741",
       "name": "코튼이지쇼트팬츠(체크)",
@@ -12871,7 +12288,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 1,
+      "rating_count": 2,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487741/item/krgoods_10_487741_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E487741-000/00?colorDisplayCode=10",
       "sales": true,
@@ -13006,10 +12423,9 @@
         }
       ],
       "sizes": [
-        "L",
         "S"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 2,
