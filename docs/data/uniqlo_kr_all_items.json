@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-24T20:32:17.847174+00:00",
+  "collected_at": "2026-05-25T20:50:50.996716+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/",
   "pages_seen": 0,
   "product_pages_seen": 0,
@@ -106,7 +106,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 1257,
+      "rating_count": 1258,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/422992/item/krgoods_00_422992_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E422992-000/00?colorDisplayCode=00",
       "sales": true,
@@ -242,7 +242,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 1233,
+      "rating_count": 1234,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/424873/item/krgoods_10_424873_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E424873-000/00?colorDisplayCode=10",
       "sales": true,
@@ -863,7 +863,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 485,
+      "rating_count": 486,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/447780/item/krgoods_08_447780_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E447780-000/00?colorDisplayCode=08",
       "sales": true,
@@ -930,7 +930,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 278,
+      "rating_count": 276,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/448034/item/krgoods_09_448034_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E448034-000/00?colorDisplayCode=09",
       "sales": true,
@@ -1525,7 +1525,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 1005,
+      "rating_count": 1004,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/450195/item/goods_69_450195_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E450195-000/00?colorDisplayCode=30",
       "sales": true,
@@ -1753,7 +1753,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 109,
+      "rating_count": 108,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/450260/item/krgoods_69_450260_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E450260-000/00?colorDisplayCode=69",
       "sales": true,
@@ -1928,24 +1928,31 @@
       "name": "옥스포드셔츠(스트라이프)",
       "gender_category": "UNISEX",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
-        "code": "COL65",
-        "display_code": "65",
-        "name": "BLUE",
-        "filter_code": "BLUE"
+        "code": "COL41",
+        "display_code": "41",
+        "name": "YELLOW",
+        "filter_code": "YELLOW"
       },
       "colors": [
-        {
-          "code": "COL65",
-          "display_code": "65",
-          "name": "BLUE",
-          "filter_code": "BLUE"
-        },
         {
           "code": "COL41",
           "display_code": "41",
@@ -1955,20 +1962,15 @@
       ],
       "sizes": [
         "3XL",
-        "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
-        "XXL"
+        "4XL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
       "rating_count": 180,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/452298/item/krgoods_65_452298_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E452298-000/00?colorDisplayCode=65",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/452298/item/krgoods_41_452298_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E452298-000/01?colorDisplayCode=41",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -2028,12 +2030,6 @@
           "display_code": "10",
           "name": "PINK",
           "filter_code": "PINK"
-        },
-        {
-          "code": "COL01",
-          "display_code": "01",
-          "name": "OFF WHITE",
-          "filter_code": "WHITE"
         },
         {
           "code": "COL09",
@@ -2517,7 +2513,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 217,
+      "rating_count": 218,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/454327/item/goods_09_454327_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E454327-000/00?colorDisplayCode=09",
       "sales": true,
@@ -2587,7 +2583,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 84,
+      "rating_count": 85,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/454328/item/goods_09_454328_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E454328-000/00?colorDisplayCode=09",
       "sales": true,
@@ -2620,13 +2616,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "01",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -3060,7 +3056,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 276,
+      "rating_count": 277,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/455957/item/krgoods_00_455957_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E455957-000/00?colorDisplayCode=00",
       "sales": true,
@@ -3221,7 +3217,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
-      "rating_count": 359,
+      "rating_count": 358,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456710/item/goods_58_456710_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E456710-000/00?colorDisplayCode=58",
       "sales": true,
@@ -4379,11 +4375,24 @@
       "name": "스트레치이지쇼트팬츠(시어서커)",
       "gender_category": "UNISEX",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL69",
         "display_code": "69",
@@ -4398,12 +4407,6 @@
           "filter_code": "BLUE"
         },
         {
-          "code": "COL08",
-          "display_code": "08",
-          "name": "DARK GRAY",
-          "filter_code": "GRAY"
-        },
-        {
           "code": "COL64",
           "display_code": "64",
           "name": "BLUE",
@@ -4412,20 +4415,16 @@
       ],
       "sizes": [
         "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
       "rating_count": 58,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/458325/item/krgoods_69_458325_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E458325-000/00?colorDisplayCode=69",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E458325-000/01?colorDisplayCode=69",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -5683,7 +5682,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 229,
+      "rating_count": 230,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/461420/item/krgoods_62_461420_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E461420-000/00?colorDisplayCode=62",
       "sales": true,
@@ -5823,7 +5822,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 5,
+      "rating_count": 6,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462216/item/goods_03_462216_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E462216-000/00?colorDisplayCode=03",
       "sales": true,
@@ -6039,7 +6038,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 68,
+      "rating_count": 69,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463729/item/goods_09_463729_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E463729-000/00?colorDisplayCode=09",
       "sales": true,
@@ -6172,7 +6171,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 295,
+      "rating_count": 294,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/463820/item/krgoods_32_463820_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E463820-000/00?colorDisplayCode=32",
       "sales": true,
@@ -6432,7 +6431,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 705,
+      "rating_count": 706,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/464334/item/krgoods_03_464334_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E464334-000/00?colorDisplayCode=03",
       "sales": true,
@@ -6867,10 +6866,9 @@
         "4XL",
         "L",
         "M",
-        "S",
         "XL"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
@@ -6939,11 +6937,9 @@
       ],
       "sizes": [
         "110(4-5세)",
-        "120(6-7세)",
-        "130(8-9세)",
-        "140(10-11세)"
+        "120(6-7세)"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
@@ -7290,7 +7286,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 503,
+      "rating_count": 504,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465187/item/krgoods_64_465187_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465187-000/00?colorDisplayCode=64",
       "sales": true,
@@ -7465,7 +7461,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 615,
+      "rating_count": 616,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465193/item/krgoods_08_465193_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465193-000/01?colorDisplayCode=08",
       "sales": true,
@@ -7654,7 +7650,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 192,
+      "rating_count": 193,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465203/item/krgoods_66_465203_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465203-000/00?colorDisplayCode=66",
       "sales": true,
@@ -7846,7 +7842,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 410,
+      "rating_count": 411,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465484/item/krgoods_09_465484_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465484-000/00?colorDisplayCode=09",
       "sales": true,
@@ -7935,7 +7931,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 174,
+      "rating_count": 177,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465491/item/krgoods_57_465491_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465491-000/00?colorDisplayCode=57",
       "sales": true,
@@ -8113,7 +8109,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 563,
+      "rating_count": 564,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465751/item/krgoods_70_465751_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465751-000/02?colorDisplayCode=40",
       "sales": true,
@@ -8337,7 +8333,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 498,
+      "rating_count": 500,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465760/item/krgoods_66_465760_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E465760-000/00?colorDisplayCode=66",
       "sales": true,
@@ -8566,11 +8562,10 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
         "M",
         "XXL"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -8805,7 +8800,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 392,
+      "rating_count": 393,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/466489/item/krgoods_00_466489_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E466489-000/00?colorDisplayCode=00",
       "sales": true,
@@ -8949,7 +8944,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.1,
-      "rating_count": 23,
+      "rating_count": 24,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467322/item/goods_00_467322_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E467322-000/00?colorDisplayCode=30",
       "sales": true,
@@ -9022,13 +9017,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 7900,
-      "base_price_krw": 7900,
-      "promo_price_krw": 7900,
+      "price_krw": 5000,
+      "base_price_krw": 5000,
+      "promo_price_krw": 5000,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -9377,7 +9372,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 498,
+      "rating_count": 501,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/469292/item/krgoods_65_469292_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E469292-000/00?colorDisplayCode=65",
       "sales": true,
@@ -9901,62 +9896,6 @@
           "gender_name": "WOMEN",
           "class_id": 57963,
           "class_name": "이너웨어",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
-      "product_id": "E469862-000",
-      "l1_id": "469862",
-      "name": "PUFFTECH컴팩트재킷",
-      "gender_category": "WOMEN",
-      "size_gender": "WOMEN",
-      "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/19부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL56",
-        "display_code": "56",
-        "name": "OLIVE",
-        "filter_code": "GREEN"
-      },
-      "colors": [
-        {
-          "code": "COL00",
-          "display_code": "00",
-          "name": "WHITE",
-          "filter_code": "WHITE"
-        }
-      ],
-      "sizes": [
-        "3XL"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.7,
-      "rating_count": 256,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/469862/item/krgoods_00_469862_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E469862-000/00?colorDisplayCode=56",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57892,57958,,",
-          "gender_id": 57892,
-          "gender_name": "WOMEN",
-          "class_id": 57958,
-          "class_name": "아우터",
           "category_id": null,
           "category_name": null
         }
@@ -11147,10 +11086,17 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL61",
         "display_code": "61",
@@ -12709,13 +12655,12 @@
         }
       ],
       "sizes": [
-        "100(24-36개월)",
         "110(35개월-5세)",
         "120(35개월-6세)",
         "80(12-18개월)",
         "90(18-24개월)"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
@@ -13011,12 +12956,6 @@
           "display_code": "62",
           "name": "BLUE",
           "filter_code": "BLUE"
-        },
-        {
-          "code": "COL11",
-          "display_code": "11",
-          "name": "PINK",
-          "filter_code": "PINK"
         }
       ],
       "sizes": [
@@ -13050,60 +12989,31 @@
       "name": "리넨블렌드이지팬츠",
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
-      "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
-        "code": "COL69",
-        "display_code": "69",
-        "name": "NAVY",
+        "code": "COL65",
+        "display_code": "65",
+        "name": "BLUE",
         "filter_code": "BLUE"
       },
       "colors": [
-        {
-          "code": "COL69",
-          "display_code": "69",
-          "name": "NAVY",
-          "filter_code": "BLUE"
-        },
-        {
-          "code": "COL09",
-          "display_code": "09",
-          "name": "BLACK",
-          "filter_code": "BLACK"
-        },
-        {
-          "code": "COL11",
-          "display_code": "11",
-          "name": "PINK",
-          "filter_code": "PINK"
-        },
-        {
-          "code": "COL30",
-          "display_code": "30",
-          "name": "NATURAL",
-          "filter_code": "BEIGE"
-        },
-        {
-          "code": "COL32",
-          "display_code": "32",
-          "name": "BEIGE",
-          "filter_code": "BEIGE"
-        },
-        {
-          "code": "COL36",
-          "display_code": "36",
-          "name": "BROWN",
-          "filter_code": "BROWN"
-        },
-        {
-          "code": "COL50",
-          "display_code": "50",
-          "name": "LIGHT GREEN",
-          "filter_code": "GREEN"
-        },
         {
           "code": "COL65",
           "display_code": "65",
@@ -13112,21 +13022,18 @@
         }
       ],
       "sizes": [
-        "3XL",
         "L",
         "M",
         "S",
-        "XL",
-        "XS",
-        "XXL"
+        "XL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
       "rating_count": 260,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/473791/item/krgoods_69_473791_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E473791-000/00?colorDisplayCode=69",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/473791/item/krgoods_65_473791_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E473791-000/01?colorDisplayCode=65",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -13301,7 +13208,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
-      "rating_count": 268,
+      "rating_count": 269,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/473944/item/goods_11_473944_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E473944-000/00?colorDisplayCode=11",
       "sales": true,
@@ -13413,7 +13320,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.5,
-      "rating_count": 346,
+      "rating_count": 347,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/473945/item/goods_11_473945_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E473945-000/00?colorDisplayCode=11",
       "sales": true,
@@ -13916,7 +13823,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 517,
+      "rating_count": 520,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/474175/item/krgoods_02_474175_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E474175-000/00?colorDisplayCode=02",
       "sales": true,
@@ -13989,10 +13896,9 @@
         }
       ],
       "sizes": [
-        "L",
         "M"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4,
@@ -14576,7 +14482,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 144,
+      "rating_count": 146,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/474592/item/krgoods_11_474592_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E474592-000/00?colorDisplayCode=11",
       "sales": true,
@@ -15080,7 +14986,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 3262,
+      "rating_count": 3263,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475344/item/krgoods_32_475344_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E475344-000/00?colorDisplayCode=32",
       "sales": true,
@@ -15214,7 +15120,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 165,
+      "rating_count": 168,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475367/item/krgoods_42_475367_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E475367-000/00?colorDisplayCode=42",
       "sales": true,
@@ -15377,7 +15283,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.5,
-      "rating_count": 21,
+      "rating_count": 22,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475376/item/krgoods_57_475376_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E475376-000/00?colorDisplayCode=57",
       "sales": true,
@@ -15662,7 +15568,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 128,
+      "rating_count": 129,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475386/item/krgoods_34_475386_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E475386-000/00?colorDisplayCode=34",
       "sales": true,
@@ -16364,7 +16270,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 72,
+      "rating_count": 73,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475827/item/krgoods_01_475827_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E475827-000/00?colorDisplayCode=01",
       "sales": true,
@@ -16582,11 +16488,24 @@
       "name": "스트레치이지쇼트팬츠",
       "gender_category": "MEN",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL08",
         "display_code": "08",
@@ -16615,17 +16534,16 @@
       ],
       "sizes": [
         "4XL",
-        "S",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
       "rating_count": 60,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/476081/item/krgoods_08_476081_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E476081-000/00?colorDisplayCode=08",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E476081-000/01?colorDisplayCode=08",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -16817,8 +16735,8 @@
       "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.8,
-      "rating_count": 298,
+      "rating_average": 4.9,
+      "rating_count": 297,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/476225/item/goods_03_476225_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E476225-000/00?colorDisplayCode=03",
       "sales": true,
@@ -17499,7 +17417,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 136,
+      "rating_count": 138,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/476997/item/krgoods_30_476997_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E476997-000/00?colorDisplayCode=30",
       "sales": true,
@@ -17589,7 +17507,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 56,
+      "rating_count": 57,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/477074/item/goods_30_477074_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E477074-000/01?colorDisplayCode=30",
       "sales": true,
@@ -17885,7 +17803,6 @@
         }
       ],
       "sizes": [
-        "3XL",
         "L",
         "M",
         "S",
@@ -17893,7 +17810,7 @@
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
@@ -18179,20 +18096,14 @@
       "name": "윈드블럭파카",
       "gender_category": "UNISEX",
       "size_gender": "MEN",
-      "price_group": "01",
+      "price_group": "00",
       "price_krw": 39900,
       "base_price_krw": 39900,
       "promo_price_krw": 39900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/19부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        },
-        {
-          "code": "colorSizeLimitedPrice",
-          "name": "옵션할인",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -18233,7 +18144,7 @@
       "rating_average": 4.8,
       "rating_count": 150,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/478231/item/krgoods_34_478231_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E478231-000/01?colorDisplayCode=34",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E478231-000/00?colorDisplayCode=34",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -18454,7 +18365,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 494,
+      "rating_count": 495,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478321/item/goods_57_478321_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E478321-000/00?colorDisplayCode=09",
       "sales": true,
@@ -18513,10 +18424,9 @@
         }
       ],
       "sizes": [
-        "80(12-18개월)",
         "90(18-24개월)"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
@@ -19423,7 +19333,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 11,
+      "rating_count": 12,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478656/item/goods_65_478656_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E478656-000/00?colorDisplayCode=65",
       "sales": true,
@@ -19491,8 +19401,8 @@
       "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.9,
-      "rating_count": 10,
+      "rating_average": 4.8,
+      "rating_count": 11,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478657/item/goods_61_478657_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E478657-000/00?colorDisplayCode=61",
       "sales": true,
@@ -19865,7 +19775,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 1497,
+      "rating_count": 1499,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/479000/item/krgoods_00_479000_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E479000-000/01?colorDisplayCode=00",
       "sales": true,
@@ -20576,13 +20486,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": 49900,
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -20721,13 +20631,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -20834,13 +20744,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -21594,8 +21504,8 @@
       "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.5,
-      "rating_count": 5,
+      "rating_average": 4.6,
+      "rating_count": 6,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479547/item/goods_02_479547_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E479547-000/00?colorDisplayCode=02",
       "sales": true,
@@ -21817,13 +21727,13 @@
       "gender_category": "BABY",
       "size_gender": "BABY",
       "price_group": "00",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
+      "price_krw": 7900,
+      "base_price_krw": 7900,
+      "promo_price_krw": 7900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -21884,13 +21794,13 @@
       "gender_category": "BABY",
       "size_gender": "BABY",
       "price_group": "00",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
+      "price_krw": 7900,
+      "base_price_krw": 7900,
+      "promo_price_krw": 7900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -21970,9 +21880,10 @@
       ],
       "sizes": [
         "S",
-        "XS"
+        "XS",
+        "XXL"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
@@ -23862,8 +23773,8 @@
       "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4,
-      "rating_count": 3,
+      "rating_average": 4.2,
+      "rating_count": 4,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481091/item/goods_00_481091_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E481091-000/00?colorDisplayCode=00",
       "sales": true,
@@ -24491,7 +24402,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 122,
+      "rating_count": 124,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481610/item/goods_01_481610_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E481610-000/00?colorDisplayCode=01",
       "sales": true,
@@ -25208,7 +25119,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 1,
+      "rating_count": 2,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481646/item/goods_80_481646_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E481646-000/00?colorDisplayCode=80",
       "sales": true,
@@ -26361,7 +26272,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 15,
+      "rating_count": 16,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481772/item/goods_43_481772_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E481772-000/00?colorDisplayCode=43",
       "sales": true,
@@ -26647,11 +26558,10 @@
       "sizes": [
         "100(24-36개월)",
         "110(35개월-5세)",
-        "120(35개월-6세)",
         "80(12-18개월)",
         "90(18-24개월)"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -27867,13 +27777,13 @@
       "gender_category": "BABY",
       "size_gender": "BABY",
       "price_group": "00",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
+      "price_krw": 7900,
+      "base_price_krw": 7900,
+      "promo_price_krw": 7900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -28864,11 +28774,10 @@
       ],
       "sizes": [
         "100(24-36개월)",
-        "110(35개월-5세)",
         "80(12-18개월)",
         "90(18-24개월)"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
@@ -29259,7 +29168,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 18,
+      "rating_count": 19,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482181/item/krgoods_63_482181_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482181-000/00?colorDisplayCode=63",
       "sales": true,
@@ -29472,7 +29381,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 62,
+      "rating_count": 65,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482194/item/krgoods_09_482194_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482194-000/00?colorDisplayCode=09",
       "sales": true,
@@ -29763,13 +29672,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": 49900,
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -29987,13 +29896,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -30339,13 +30248,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -30473,7 +30382,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 107,
+      "rating_count": 108,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482279/item/krgoods_62_482279_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482279-000/00?colorDisplayCode=62",
       "sales": true,
@@ -30627,13 +30536,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -30691,13 +30600,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -30833,10 +30742,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL35",
         "display_code": "35",
@@ -31065,7 +30981,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.4,
-      "rating_count": 32,
+      "rating_count": 33,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482299/item/krgoods_08_482299_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482299-000/00?colorDisplayCode=08",
       "sales": true,
@@ -31098,10 +31014,17 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL00",
         "display_code": "00",
@@ -31165,8 +31088,8 @@
       "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.6,
-      "rating_count": 6,
+      "rating_average": 4.7,
+      "rating_count": 7,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482301/item/krgoods_00_482301_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482301-000/00?colorDisplayCode=00",
       "sales": true,
@@ -31481,7 +31404,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 5,
+      "rating_count": 6,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482305/item/krgoods_68_482305_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482305-000/00?colorDisplayCode=68",
       "sales": true,
@@ -31550,10 +31473,11 @@
         "L",
         "M",
         "S",
+        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -31903,7 +31827,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 10,
+      "rating_count": 11,
       "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/482415/item/goods_00_482415_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482415-000/00?colorDisplayCode=00",
       "sales": true,
@@ -32079,8 +32003,8 @@
       "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.6,
-      "rating_count": 3,
+      "rating_average": 4.7,
+      "rating_count": 4,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482434/item/krgoods_01_482434_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482434-000/00?colorDisplayCode=01",
       "sales": true,
@@ -32153,13 +32077,12 @@
         }
       ],
       "sizes": [
-        "4XL",
         "L",
         "M",
         "S",
         "XL"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
@@ -32284,13 +32207,13 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -32381,13 +32304,13 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -32478,13 +32401,13 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -33479,8 +33402,8 @@
       "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.9,
-      "rating_count": 30,
+      "rating_average": 4.8,
+      "rating_count": 31,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482522/item/krgoods_00_482522_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482522-000/00?colorDisplayCode=00",
       "sales": true,
@@ -35011,13 +34934,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -35500,10 +35423,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL09",
         "display_code": "09",
@@ -36820,11 +36750,24 @@
       "name": "MoMA UT(그래픽T)A",
       "gender_category": "MEN",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL09",
         "display_code": "09",
@@ -36842,20 +36785,16 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
       "rating_count": 0,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482748/item/krgoods_09_482748_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E482748-000/00?colorDisplayCode=09",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E482748-000/01?colorDisplayCode=09",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -37142,7 +37081,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 11,
+      "rating_count": 12,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482756/item/krgoods_00_482756_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482756-000/00?colorDisplayCode=00",
       "sales": true,
@@ -37198,10 +37137,9 @@
         "M",
         "S",
         "XL",
-        "XS",
-        "XXL"
+        "XS"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -37300,7 +37238,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
-      "rating_count": 40,
+      "rating_count": 42,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482758/item/krgoods_03_482758_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482758-000/00?colorDisplayCode=03",
       "sales": true,
@@ -37398,7 +37336,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 259,
+      "rating_count": 260,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482766/item/krgoods_65_482766_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482766-000/01?colorDisplayCode=65",
       "sales": true,
@@ -37509,8 +37447,8 @@
       "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 0,
-      "rating_count": 0,
+      "rating_average": 4,
+      "rating_count": 1,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482771/item/krgoods_00_482771_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482771-000/00?colorDisplayCode=00",
       "sales": true,
@@ -37663,10 +37601,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL00",
         "display_code": "00",
@@ -38260,58 +38205,9 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
-      "rating_count": 19,
+      "rating_count": 20,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482856/item/krgoods_62_482856_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482856-000/00?colorDisplayCode=62",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57893,57968,,",
-          "gender_id": 57893,
-          "gender_name": "MEN",
-          "class_id": 57968,
-          "class_name": "팬츠",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
-      "product_id": "E482858-000",
-      "l1_id": "482858",
-      "name": "슬림스트레이트진(셀비지)",
-      "gender_category": "MEN",
-      "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 59900,
-      "base_price_krw": 59900,
-      "promo_price_krw": null,
-      "price_flags": [],
-      "representative_color": {
-        "code": "COL69",
-        "display_code": "69",
-        "name": "NAVY",
-        "filter_code": "BLUE"
-      },
-      "colors": [
-        {
-          "code": "COL69",
-          "display_code": "69",
-          "name": "NAVY",
-          "filter_code": "BLUE"
-        }
-      ],
-      "sizes": [
-        "29"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.3,
-      "rating_count": 3,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482858/item/krgoods_69_482858_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E482858-000/00?colorDisplayCode=69",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -38443,12 +38339,11 @@
         }
       ],
       "sizes": [
-        "31",
         "32",
         "33",
         "34"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
@@ -38485,13 +38380,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -38536,7 +38431,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 67,
+      "rating_count": 68,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482874/item/krgoods_09_482874_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482874-000/00?colorDisplayCode=09",
       "sales": true,
@@ -38619,7 +38514,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 75,
+      "rating_count": 76,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482883/item/krgoods_35_482883_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482883-000/00?colorDisplayCode=35",
       "sales": true,
@@ -38893,10 +38788,17 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 79900,
-      "base_price_krw": 79900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 59900,
+      "base_price_krw": 59900,
+      "promo_price_krw": 59900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL04",
         "display_code": "04",
@@ -39037,7 +38939,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 3,
+      "rating_count": 4,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482937/item/krgoods_77_482937_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482937-000/00?colorDisplayCode=77",
       "sales": true,
@@ -39297,8 +39199,8 @@
       "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 3.6,
-      "rating_count": 3,
+      "rating_average": 4,
+      "rating_count": 4,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482944/item/krgoods_32_482944_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482944-000/00?colorDisplayCode=32",
       "sales": true,
@@ -39461,16 +39363,15 @@
         }
       ],
       "sizes": [
-        "L",
         "M",
         "S",
         "XS"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 22,
+      "rating_count": 23,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482978/item/krgoods_38_482978_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E482978-000/00?colorDisplayCode=38",
       "sales": true,
@@ -39678,13 +39579,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/19부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -39745,13 +39646,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/19부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -39995,7 +39896,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 46,
+      "rating_count": 47,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483001/item/krgoods_58_483001_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483001-000/00?colorDisplayCode=58",
       "sales": true,
@@ -40309,13 +40210,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -41103,10 +41004,9 @@
       ],
       "sizes": [
         "3XL",
-        "XS",
         "XXL"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
@@ -41241,13 +41141,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -41303,13 +41203,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -41401,8 +41301,8 @@
       "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 3,
-      "rating_count": 2,
+      "rating_average": 3.4,
+      "rating_count": 5,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483268/item/krgoods_00_483268_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483268-000/00?colorDisplayCode=00",
       "sales": true,
@@ -41435,13 +41335,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/14부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -41463,10 +41363,9 @@
       "sizes": [
         "L",
         "M",
-        "S",
-        "XL"
+        "S"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -41494,13 +41393,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/14부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -41936,10 +41835,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL55",
         "display_code": "55",
@@ -42993,9 +42899,10 @@
         "120(6-7세)",
         "130(8-9세)",
         "140(10-11세)",
-        "150(12-13세)"
+        "150(12-13세)",
+        "160(13세-)"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4,
@@ -43032,13 +42939,13 @@
       "gender_category": "KIDS",
       "size_gender": "KIDS",
       "price_group": "00",
-      "price_krw": 12900,
-      "base_price_krw": 12900,
-      "promo_price_krw": 12900,
+      "price_krw": 9900,
+      "base_price_krw": 9900,
+      "promo_price_krw": 9900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -44530,24 +44437,18 @@
           "display_code": "01",
           "name": "OFF WHITE",
           "filter_code": "WHITE"
-        },
-        {
-          "code": "COL15",
-          "display_code": "15",
-          "name": "RED",
-          "filter_code": "RED"
         }
       ],
       "sizes": [
         "110(4-5세)",
-        "150(12-13세)"
+        "120(6-7세)"
       ],
       "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
       "rating_count": 1,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483434/item/krgoods_15_483434_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483434/item/krgoods_01_483434_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483434-000/00?colorDisplayCode=55",
       "sales": true,
       "store_stock_only": false,
@@ -44579,13 +44480,13 @@
       "gender_category": "KIDS",
       "size_gender": "KIDS",
       "price_group": "00",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
+      "price_krw": 7900,
+      "base_price_krw": 7900,
+      "promo_price_krw": 7900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -44722,13 +44623,13 @@
       "gender_category": "KIDS",
       "size_gender": "KIDS",
       "price_group": "00",
-      "price_krw": 9900,
-      "base_price_krw": 9900,
-      "promo_price_krw": 9900,
+      "price_krw": 7900,
+      "base_price_krw": 7900,
+      "promo_price_krw": 7900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -45118,10 +45019,9 @@
         }
       ],
       "sizes": [
-        "150(12-13세)",
         "160(13세-)"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -45276,7 +45176,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 25,
+      "rating_count": 27,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483535/item/krgoods_01_483535_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483535-000/00?colorDisplayCode=01",
       "sales": true,
@@ -45329,14 +45229,13 @@
         "M",
         "S",
         "XL",
-        "XS",
-        "XXL"
+        "XS"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 81,
+      "rating_count": 82,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483536/item/krgoods_69_483536_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483536-000/00?colorDisplayCode=69",
       "sales": true,
@@ -45546,6 +45445,12 @@
           "display_code": "00",
           "name": "WHITE",
           "filter_code": "WHITE"
+        },
+        {
+          "code": "COL09",
+          "display_code": "09",
+          "name": "BLACK",
+          "filter_code": "BLACK"
         },
         {
           "code": "COL69",
@@ -45843,10 +45748,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL59",
         "display_code": "59",
@@ -45880,10 +45792,9 @@
         }
       ],
       "sizes": [
-        "M",
         "S"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
@@ -45986,11 +45897,10 @@
       "sizes": [
         "110(4-5세)",
         "120(6-7세)",
-        "130(8-9세)",
         "140(10-11세)",
         "160(13세-)"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -46091,13 +46001,11 @@
         }
       ],
       "sizes": [
-        "120(6-7세)",
         "130(8-9세)",
-        "140(10-11세)",
         "150(12-13세)",
         "160(13세-)"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -46370,8 +46278,8 @@
       "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.2,
-      "rating_count": 4,
+      "rating_average": 4.4,
+      "rating_count": 5,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483670/item/krgoods_30_483670_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483670-000/00?colorDisplayCode=30",
       "sales": true,
@@ -46425,7 +46333,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 3,
+      "rating_count": 4,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483671/item/krgoods_00_483671_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483671-000/00?colorDisplayCode=00",
       "sales": true,
@@ -47805,8 +47713,8 @@
       "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.6,
-      "rating_count": 9,
+      "rating_average": 4.7,
+      "rating_count": 10,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483754/item/krgoods_01_483754_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483754-000/00?colorDisplayCode=01",
       "sales": true,
@@ -47899,13 +47807,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -47952,7 +47860,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 3,
+      "rating_count": 4,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483785/item/krgoods_01_483785_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483785-000/00?colorDisplayCode=01",
       "sales": true,
@@ -48052,13 +47960,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/21부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -48132,13 +48040,13 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": 49900,
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -48155,6 +48063,12 @@
           "display_code": "01",
           "name": "OFF WHITE",
           "filter_code": "WHITE"
+        },
+        {
+          "code": "COL35",
+          "display_code": "35",
+          "name": "BROWN",
+          "filter_code": "BROWN"
         }
       ],
       "sizes": [
@@ -48200,13 +48114,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -48260,102 +48174,19 @@
       ]
     },
     {
-      "product_id": "E483829-000",
-      "l1_id": "483829",
-      "name": "프리미엄리넨셔츠재킷",
-      "gender_category": "MEN",
-      "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 69900,
-      "base_price_krw": 69900,
-      "promo_price_krw": 69900,
-      "price_flags": [
-        {
-          "code": "discount",
-          "name": "2026/05/19부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        }
-      ],
-      "representative_color": {
-        "code": "COL09",
-        "display_code": "09",
-        "name": "BLACK",
-        "filter_code": "BLACK"
-      },
-      "colors": [
-        {
-          "code": "COL09",
-          "display_code": "09",
-          "name": "BLACK",
-          "filter_code": "BLACK"
-        }
-      ],
-      "sizes": [
-        "S"
-      ],
-      "available_sizes_count": 1,
-      "availability_status": "available",
-      "availability_label": "판매중",
-      "rating_average": 4.9,
-      "rating_count": 13,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/483829/item/goods_09_483829_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E483829-000/00?colorDisplayCode=09",
-      "sales": true,
-      "store_stock_only": false,
-      "categories": [
-        {
-          "path": "57893,95356,,",
-          "gender_id": 57893,
-          "gender_name": "MEN",
-          "class_id": 95356,
-          "class_name": "셔츠",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57893,57966,,",
-          "gender_id": 57893,
-          "gender_name": "MEN",
-          "class_id": 57966,
-          "class_name": "아우터",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57893,116864,,",
-          "gender_id": 57893,
-          "gender_name": "MEN",
-          "class_id": 116864,
-          "class_name": "리넨",
-          "category_id": null,
-          "category_name": null
-        },
-        {
-          "path": "57893,107543,,",
-          "gender_id": 57893,
-          "gender_name": "MEN",
-          "class_id": 107543,
-          "class_name": "Special Collaborations",
-          "category_id": null,
-          "category_name": null
-        }
-      ]
-    },
-    {
       "product_id": "E483834-000",
       "l1_id": "483834",
       "name": "유틸리티파카",
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": 49900,
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -48390,7 +48221,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 12,
+      "rating_count": 13,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483834/item/krgoods_31_483834_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483834-000/00?colorDisplayCode=31",
       "sales": true,
@@ -48423,13 +48254,13 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": 49900,
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -48471,7 +48302,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 43,
+      "rating_count": 45,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483835/item/krgoods_30_483835_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483835-000/00?colorDisplayCode=30",
       "sales": true,
@@ -48522,13 +48353,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": 49900,
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -48562,7 +48393,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 7,
+      "rating_count": 8,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483836/item/krgoods_34_483836_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483836-000/00?colorDisplayCode=34",
       "sales": true,
@@ -48937,7 +48768,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 23,
+      "rating_count": 24,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483877/item/krgoods_65_483877_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483877-000/00?colorDisplayCode=65",
       "sales": true,
@@ -49252,8 +49083,8 @@
       "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 5,
-      "rating_count": 2,
+      "rating_average": 4.6,
+      "rating_count": 3,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483892/item/krgoods_09_483892_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483892-000/00?colorDisplayCode=09",
       "sales": true,
@@ -50273,13 +50104,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -50315,7 +50146,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 23,
+      "rating_count": 24,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483986/item/krgoods_16_483986_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E483986-000/01?colorDisplayCode=16",
       "sales": true,
@@ -50416,13 +50247,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -50590,10 +50421,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL09",
         "display_code": "09",
@@ -50661,13 +50499,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/21부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -50768,12 +50606,6 @@
           "display_code": "61",
           "name": "BLUE",
           "filter_code": "BLUE"
-        },
-        {
-          "code": "COL15",
-          "display_code": "15",
-          "name": "RED",
-          "filter_code": "RED"
         }
       ],
       "sizes": [
@@ -51134,13 +50966,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -51183,8 +51015,8 @@
       "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.7,
-      "rating_count": 34,
+      "rating_average": 4.8,
+      "rating_count": 35,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484029/item/krgoods_35_484029_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484029-000/00?colorDisplayCode=35",
       "sales": true,
@@ -51225,7 +51057,7 @@
       "name": "코튼블렌드쇼트블루종",
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
-      "price_group": "01",
+      "price_group": "00",
       "price_krw": 39900,
       "base_price_krw": 39900,
       "promo_price_krw": 39900,
@@ -51233,12 +51065,6 @@
         {
           "code": "discount",
           "name": "2026/05/12부터 가격인하",
-          "type": "price_flag",
-          "flag_color": "discount"
-        },
-        {
-          "code": "colorSizeLimitedPrice",
-          "name": "옵션할인",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -51251,6 +51077,12 @@
       },
       "colors": [
         {
+          "code": "COL72",
+          "display_code": "72",
+          "name": "PURPLE",
+          "filter_code": "PURPLE"
+        },
+        {
           "code": "COL30",
           "display_code": "30",
           "name": "NATURAL",
@@ -51259,15 +51091,17 @@
       ],
       "sizes": [
         "3XL",
+        "M",
+        "S",
         "XXL"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
       "rating_count": 35,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484032/item/krgoods_30_484032_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484032-000/01?colorDisplayCode=72",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484032/item/krgoods_72_484032_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484032-000/00?colorDisplayCode=72",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -51298,13 +51132,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -51365,13 +51199,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -51438,13 +51272,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -51559,7 +51393,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 12,
+      "rating_count": 13,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484038/item/krgoods_64_484038_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484038-000/00?colorDisplayCode=71",
       "sales": true,
@@ -52154,13 +51988,13 @@
       "gender_category": "UNISEX",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -52255,13 +52089,13 @@
       "gender_category": "UNISEX",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -52350,13 +52184,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 12900,
-      "base_price_krw": 12900,
-      "promo_price_krw": 12900,
+      "price_krw": 9900,
+      "base_price_krw": 9900,
+      "promo_price_krw": 9900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/19부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -52440,13 +52274,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/14부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -52505,13 +52339,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -52854,13 +52688,13 @@
       "gender_category": "UNISEX",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -53529,7 +53363,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 17,
+      "rating_count": 18,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484209/item/krgoods_08_484209_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484209-000/00?colorDisplayCode=08",
       "sales": true,
@@ -54629,11 +54463,24 @@
       "name": "옥스포드오버사이즈셔츠",
       "gender_category": "UNISEX",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 49900,
-      "base_price_krw": 49900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 39900,
+      "base_price_krw": 39900,
+      "promo_price_krw": 39900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL41",
         "display_code": "41",
@@ -54648,22 +54495,10 @@
           "filter_code": "YELLOW"
         },
         {
-          "code": "COL00",
-          "display_code": "00",
-          "name": "WHITE",
-          "filter_code": "WHITE"
-        },
-        {
           "code": "COL51",
           "display_code": "51",
           "name": "GREEN",
           "filter_code": "GREEN"
-        },
-        {
-          "code": "COL63",
-          "display_code": "63",
-          "name": "BLUE",
-          "filter_code": "BLUE"
         }
       ],
       "sizes": [
@@ -54681,7 +54516,7 @@
       "rating_average": 4.7,
       "rating_count": 28,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484244/item/krgoods_41_484244_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484244-000/00?colorDisplayCode=41",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E484244-000/01?colorDisplayCode=41",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -54891,13 +54726,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -54923,7 +54758,7 @@
         }
       ],
       "sizes": [
-        "L",
+        "M",
         "XL"
       ],
       "available_sizes_count": 2,
@@ -54963,13 +54798,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -55126,10 +54961,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL31",
         "display_code": "31",
@@ -55187,10 +55029,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL60",
         "display_code": "60",
@@ -55483,10 +55332,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL32",
         "display_code": "32",
@@ -55574,7 +55430,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 19,
+      "rating_count": 20,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484353/item/krgoods_01_484353_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484353-000/00?colorDisplayCode=01",
       "sales": true,
@@ -55895,13 +55751,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 7900,
-      "base_price_krw": 7900,
-      "promo_price_krw": 7900,
+      "price_krw": 5000,
+      "base_price_krw": 5000,
+      "promo_price_krw": 5000,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -56300,14 +56156,17 @@
       ],
       "sizes": [
         "3XL",
+        "L",
+        "M",
+        "S",
         "XL",
         "XXL"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 3,
+      "rating_count": 6,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484418/item/krgoods_00_484418_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484418-000/00?colorDisplayCode=00",
       "sales": true,
@@ -56361,12 +56220,13 @@
       "sizes": [
         "3XL",
         "L",
+        "M",
         "S",
         "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -56451,8 +56311,8 @@
       "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 5,
-      "rating_count": 2,
+      "rating_average": 4.6,
+      "rating_count": 3,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484421/item/krgoods_00_484421_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484421-000/00?colorDisplayCode=00",
       "sales": true,
@@ -56660,7 +56520,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 21,
+      "rating_count": 22,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484457/item/krgoods_09_484457_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484457-000/00?colorDisplayCode=09",
       "sales": true,
@@ -57729,13 +57589,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -57755,11 +57615,9 @@
         }
       ],
       "sizes": [
-        "L",
-        "M",
-        "XL"
+        "L"
       ],
-      "available_sizes_count": 3,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -57787,13 +57645,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -58217,7 +58075,6 @@
         }
       ],
       "sizes": [
-        "3XL",
         "L",
         "M",
         "S",
@@ -58225,7 +58082,7 @@
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -59065,13 +58922,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -59121,13 +58978,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -59374,7 +59231,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 58,
+      "rating_count": 60,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484709/item/krgoods_01_484709_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484709-000/00?colorDisplayCode=01",
       "sales": true,
@@ -59618,13 +59475,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/21부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -59817,9 +59674,10 @@
         }
       ],
       "sizes": [
+        "M",
         "S"
       ],
-      "available_sizes_count": 1,
+      "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -59932,10 +59790,9 @@
       "sizes": [
         "L",
         "M",
-        "S",
-        "XS"
+        "S"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -60302,7 +60159,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
-      "rating_count": 20,
+      "rating_count": 21,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484787/item/krgoods_01_484787_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484787-000/00?colorDisplayCode=01",
       "sales": true,
@@ -60464,13 +60321,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/03/31부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -60526,13 +60383,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/03/31부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -60825,8 +60682,8 @@
       "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.6,
-      "rating_count": 26,
+      "rating_average": 4.7,
+      "rating_count": 27,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484830/item/krgoods_00_484830_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484830-000/00?colorDisplayCode=00",
       "sales": true,
@@ -61155,10 +61012,9 @@
         "M",
         "S",
         "XL",
-        "XS",
-        "XXL"
+        "XS"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -61729,7 +61585,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 16,
+      "rating_count": 17,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484877/item/krgoods_64_484877_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E484877-000/00?colorDisplayCode=64",
       "sales": true,
@@ -61753,10 +61609,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL39",
         "display_code": "39",
@@ -61778,12 +61641,11 @@
         }
       ],
       "sizes": [
-        "L",
         "M",
         "S",
         "XS"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -61984,10 +61846,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 59900,
-      "base_price_krw": 59900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 49900,
+      "base_price_krw": 49900,
+      "promo_price_krw": 49900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL16",
         "display_code": "16",
@@ -62983,11 +62852,10 @@
       "sizes": [
         "100(24-36개월)",
         "110(35개월-5세)",
-        "120(35개월-6세)",
         "80(12-18개월)",
         "90(18-24개월)"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -63737,10 +63605,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL69",
         "display_code": "69",
@@ -64277,8 +64152,8 @@
       "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 0,
-      "rating_count": 0,
+      "rating_average": 4,
+      "rating_count": 1,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485067/item/krgoods_68_485067_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485067-000/00?colorDisplayCode=68",
       "sales": true,
@@ -64326,10 +64201,9 @@
         "M",
         "S",
         "XL",
-        "XS",
-        "XXL"
+        "XS"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -65386,14 +65260,13 @@
         }
       ],
       "sizes": [
-        "3XL",
         "L",
         "M",
         "S",
         "XL",
         "XS"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.9,
@@ -65518,13 +65391,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/03/03부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -65575,13 +65448,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/03/03부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -65826,10 +65699,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL60",
         "display_code": "60",
@@ -65869,6 +65749,7 @@
         }
       ],
       "sizes": [
+        "3XL",
         "L",
         "M",
         "S",
@@ -65876,7 +65757,7 @@
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 6,
+      "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -66264,7 +66145,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 1,
+      "rating_count": 2,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485331/item/krgoods_68_485331_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485331-000/00?colorDisplayCode=68",
       "sales": true,
@@ -66504,13 +66385,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": 29900,
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -66790,10 +66671,9 @@
         "L",
         "M",
         "S",
-        "XL",
         "XS"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -66908,10 +66788,9 @@
       "sizes": [
         "M",
         "S",
-        "XL",
         "XS"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -67095,11 +66974,24 @@
       "name": "MoMA UT(그래픽T)B",
       "gender_category": "MEN",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL09",
         "display_code": "09",
@@ -67117,20 +67009,16 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
       "rating_count": 1,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485485/item/krgoods_09_485485_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485485-000/00?colorDisplayCode=09",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485485-000/01?colorDisplayCode=09",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -67151,11 +67039,24 @@
       "name": "MoMA UT(그래픽T)C",
       "gender_category": "MEN",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL00",
         "display_code": "00",
@@ -67173,20 +67074,16 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
       "rating_count": 2,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485486/item/krgoods_00_485486_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485486-000/00?colorDisplayCode=00",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485486-000/01?colorDisplayCode=00",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -67207,11 +67104,24 @@
       "name": "MoMA UT(그래픽T)D",
       "gender_category": "MEN",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL00",
         "display_code": "00",
@@ -67229,20 +67139,16 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
       "rating_count": 1,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485487/item/krgoods_00_485487_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485487-000/00?colorDisplayCode=00",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485487-000/01?colorDisplayCode=00",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -67263,11 +67169,24 @@
       "name": "MoMA UT(그래픽T)2A",
       "gender_category": "MEN",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL00",
         "display_code": "00",
@@ -67285,20 +67204,16 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
       "rating_count": 0,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485488/item/krgoods_00_485488_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485488-000/00?colorDisplayCode=00",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485488-000/01?colorDisplayCode=00",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -67319,11 +67234,24 @@
       "name": "MoMA UT(그래픽T)2B",
       "gender_category": "MEN",
       "size_gender": "MEN",
-      "price_group": "00",
-      "price_krw": 29900,
-      "base_price_krw": 29900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_group": "01",
+      "price_krw": 19900,
+      "base_price_krw": 19900,
+      "promo_price_krw": 19900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        },
+        {
+          "code": "colorSizeLimitedPrice",
+          "name": "옵션할인",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL30",
         "display_code": "30",
@@ -67341,20 +67269,16 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
-        "M",
-        "S",
-        "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
       "rating_count": 0,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485489/item/krgoods_30_485489_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485489-000/00?colorDisplayCode=30",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485489-000/01?colorDisplayCode=30",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -67545,12 +67469,6 @@
       },
       "colors": [
         {
-          "code": "COL69",
-          "display_code": "69",
-          "name": "NAVY",
-          "filter_code": "BLUE"
-        },
-        {
           "code": "COL01",
           "display_code": "01",
           "name": "OFF WHITE",
@@ -67566,7 +67484,7 @@
       "availability_label": "판매중",
       "rating_average": 4,
       "rating_count": 6,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/485524/item/goods_69_485524_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/485524/item/goods_01_485524_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485524-000/00?colorDisplayCode=69",
       "sales": true,
       "store_stock_only": false,
@@ -69168,8 +69086,8 @@
       "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 0,
-      "rating_count": 0,
+      "rating_average": 5,
+      "rating_count": 1,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485679/item/krgoods_64_485679_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485679-000/00?colorDisplayCode=64",
       "sales": true,
@@ -69282,14 +69200,13 @@
       ],
       "sizes": [
         "3XL",
-        "4XL",
         "L",
         "M",
         "S",
         "XL",
         "XXL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -69654,8 +69571,8 @@
       "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 5,
-      "rating_count": 11,
+      "rating_average": 4.9,
+      "rating_count": 12,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485724/item/krgoods_38_485724_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485724-000/00?colorDisplayCode=38",
       "sales": true,
@@ -69762,14 +69679,14 @@
       "name": "스웨트오버사이즈풀집파카",
       "gender_category": "UNISEX",
       "size_gender": "MEN",
-      "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_group": "02",
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -69805,7 +69722,7 @@
       "rating_average": 4.9,
       "rating_count": 67,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485735/item/krgoods_30_485735_3x4.jpg",
-      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485735-000/01?colorDisplayCode=30",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E485735-000/02?colorDisplayCode=30",
       "sales": true,
       "store_stock_only": false,
       "categories": [
@@ -69897,7 +69814,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 166,
+      "rating_count": 167,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485737/item/krgoods_69_485737_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485737-000/00?colorDisplayCode=69",
       "sales": true,
@@ -70073,7 +69990,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 7,
+      "rating_count": 8,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485744/item/krgoods_31_485744_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E485744-000/00?colorDisplayCode=31",
       "sales": true,
@@ -70532,7 +70449,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 56,
+      "rating_count": 58,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486042/item/krgoods_31_486042_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E486042-000/00?colorDisplayCode=31",
       "sales": true,
@@ -70565,13 +70482,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -70934,13 +70851,13 @@
       "gender_category": "MEN",
       "size_gender": "MEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/21부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -71090,10 +71007,9 @@
         "M",
         "S",
         "XL",
-        "XS",
-        "XXL"
+        "XS"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -71150,13 +71066,12 @@
         "3XL",
         "4XL",
         "L",
-        "M",
         "S",
         "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -71272,8 +71187,8 @@
       "available_sizes_count": 2,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 0,
-      "rating_count": 0,
+      "rating_average": 5,
+      "rating_count": 1,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486156/item/krgoods_09_486156_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E486156-000/00?colorDisplayCode=09",
       "sales": true,
@@ -71379,10 +71294,9 @@
       "sizes": [
         "L",
         "M",
-        "S",
-        "XL"
+        "S"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -72135,7 +72049,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.6,
-      "rating_count": 32,
+      "rating_count": 34,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486682/item/krgoods_62_486682_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E486682-000/00?colorDisplayCode=62",
       "sales": true,
@@ -72347,19 +72261,12 @@
           "display_code": "08",
           "name": "DARK GRAY",
           "filter_code": "GRAY"
-        },
-        {
-          "code": "COL62",
-          "display_code": "62",
-          "name": "BLUE",
-          "filter_code": "BLUE"
         }
       ],
       "sizes": [
-        "M",
         "S"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
@@ -73711,12 +73618,6 @@
           "filter_code": "GRAY"
         },
         {
-          "code": "COL00",
-          "display_code": "00",
-          "name": "WHITE",
-          "filter_code": "WHITE"
-        },
-        {
           "code": "COL63",
           "display_code": "63",
           "name": "BLUE",
@@ -73736,10 +73637,9 @@
         "31",
         "32",
         "33",
-        "34",
-        "36"
+        "34"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -74141,12 +74041,6 @@
           "display_code": "43",
           "name": "YELLOW",
           "filter_code": "YELLOW"
-        },
-        {
-          "code": "COL01",
-          "display_code": "01",
-          "name": "OFF WHITE",
-          "filter_code": "WHITE"
         },
         {
           "code": "COL09",
@@ -74808,12 +74702,6 @@
           "filter_code": "GREEN"
         },
         {
-          "code": "COL63",
-          "display_code": "63",
-          "name": "BLUE",
-          "filter_code": "BLUE"
-        },
-        {
           "code": "COL72",
           "display_code": "72",
           "name": "PURPLE",
@@ -74867,13 +74755,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -74929,13 +74817,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -74989,13 +74877,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/04/28부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -75547,14 +75435,13 @@
         }
       ],
       "sizes": [
-        "3XL",
-        "XS"
+        "3XL"
       ],
-      "available_sizes_count": 2,
+      "available_sizes_count": 1,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.7,
-      "rating_count": 45,
+      "rating_count": 46,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487393/item/krgoods_37_487393_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E487393-000/00?colorDisplayCode=09",
       "sales": true,
@@ -76395,10 +76282,17 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": null,
-      "price_flags": [],
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
+      "price_flags": [
+        {
+          "code": "discount",
+          "name": "2026/05/26부터 가격인하",
+          "type": "price_flag",
+          "flag_color": "discount"
+        }
+      ],
       "representative_color": {
         "code": "COL01",
         "display_code": "01",
@@ -76467,13 +76361,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "00",
-      "price_krw": 19900,
-      "base_price_krw": 19900,
-      "promo_price_krw": 19900,
+      "price_krw": 12900,
+      "base_price_krw": 12900,
+      "promo_price_krw": 12900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         }
@@ -76601,7 +76495,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 150,
+      "rating_count": 153,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487742/item/krgoods_30_487742_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E487742-000/00?colorDisplayCode=30",
       "sales": true,
@@ -76694,13 +76588,13 @@
       "gender_category": "WOMEN",
       "size_gender": "WOMEN",
       "price_group": "01",
-      "price_krw": 39900,
-      "base_price_krw": 39900,
-      "promo_price_krw": 39900,
+      "price_krw": 29900,
+      "base_price_krw": 29900,
+      "promo_price_krw": 29900,
       "price_flags": [
         {
           "code": "discount",
-          "name": "2026/05/12부터 가격인하",
+          "name": "2026/05/26부터 가격인하",
           "type": "price_flag",
           "flag_color": "discount"
         },
@@ -77267,14 +77161,11 @@
       "sizes": [
         "3XL",
         "4XL",
-        "L",
-        "M",
-        "S",
         "XL",
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -77325,6 +77216,12 @@
           "display_code": "01",
           "name": "OFF WHITE",
           "filter_code": "WHITE"
+        },
+        {
+          "code": "COL03",
+          "display_code": "03",
+          "name": "GRAY",
+          "filter_code": "GRAY"
         }
       ],
       "sizes": [
@@ -77419,8 +77316,8 @@
       "available_sizes_count": 8,
       "availability_status": "available",
       "availability_label": "판매중",
-      "rating_average": 4.6,
-      "rating_count": 23,
+      "rating_average": 4.4,
+      "rating_count": 25,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487962/item/krgoods_56_487962_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E487962-000/00?colorDisplayCode=56",
       "sales": true,
@@ -78065,11 +77962,12 @@
       "sizes": [
         "3XL",
         "L",
+        "M",
         "S",
         "XL",
         "XXL"
       ],
-      "available_sizes_count": 5,
+      "available_sizes_count": 6,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
@@ -78127,7 +78025,7 @@
       "sizes": [
         "3XL",
         "L",
-        "M",
+        "S",
         "XL",
         "XXL"
       ],
@@ -78135,7 +78033,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 2,
+      "rating_count": 3,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488088001/item/krgoods_01_488088001_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E488088-001/00?colorDisplayCode=01",
       "sales": true,
@@ -78147,6 +78045,72 @@
           "gender_name": "WOMEN",
           "class_id": 57959,
           "class_name": "티셔츠 & UT & 브라탑",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57892,107542,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 107542,
+          "class_name": "Special Collaborations",
+          "category_id": null,
+          "category_name": null
+        }
+      ]
+    },
+    {
+      "product_id": "E488089-000",
+      "l1_id": "488089",
+      "name": "셔링스커트",
+      "gender_category": "WOMEN",
+      "size_gender": "WOMEN",
+      "price_group": "00",
+      "price_krw": 59900,
+      "base_price_krw": 59900,
+      "promo_price_krw": null,
+      "price_flags": [],
+      "representative_color": {
+        "code": "COL15",
+        "display_code": "15",
+        "name": "RED",
+        "filter_code": "RED"
+      },
+      "colors": [
+        {
+          "code": "COL15",
+          "display_code": "15",
+          "name": "RED",
+          "filter_code": "RED"
+        },
+        {
+          "code": "COL09",
+          "display_code": "09",
+          "name": "BLACK",
+          "filter_code": "BLACK"
+        }
+      ],
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_sizes_count": 3,
+      "availability_status": "available",
+      "availability_label": "판매중",
+      "rating_average": 5,
+      "rating_count": 11,
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488089/item/krgoods_15_488089_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E488089-000/00?colorDisplayCode=15",
+      "sales": true,
+      "store_stock_only": false,
+      "categories": [
+        {
+          "path": "57892,57961,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 57961,
+          "class_name": "원피스 & 스커트",
           "category_id": null,
           "category_name": null
         },
@@ -78194,7 +78158,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 4.8,
-      "rating_count": 5,
+      "rating_count": 6,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488153/item/krgoods_02_488153_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E488153-000/00?colorDisplayCode=02",
       "sales": true,
@@ -78342,6 +78306,124 @@
       ]
     },
     {
+      "product_id": "E488216-000",
+      "l1_id": "488216",
+      "name": "셔링원피스(슬리브리스)",
+      "gender_category": "WOMEN",
+      "size_gender": "WOMEN",
+      "price_group": "00",
+      "price_krw": 69900,
+      "base_price_krw": 69900,
+      "promo_price_krw": null,
+      "price_flags": [],
+      "representative_color": {
+        "code": "COL09",
+        "display_code": "09",
+        "name": "BLACK",
+        "filter_code": "BLACK"
+      },
+      "colors": [
+        {
+          "code": "COL09",
+          "display_code": "09",
+          "name": "BLACK",
+          "filter_code": "BLACK"
+        }
+      ],
+      "sizes": [
+        "L",
+        "M"
+      ],
+      "available_sizes_count": 2,
+      "availability_status": "available",
+      "availability_label": "판매중",
+      "rating_average": 5,
+      "rating_count": 1,
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488216/item/krgoods_09_488216_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E488216-000/00?colorDisplayCode=09",
+      "sales": true,
+      "store_stock_only": false,
+      "categories": [
+        {
+          "path": "57892,57961,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 57961,
+          "class_name": "원피스 & 스커트",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57892,107542,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 107542,
+          "class_name": "Special Collaborations",
+          "category_id": null,
+          "category_name": null
+        }
+      ]
+    },
+    {
+      "product_id": "E488216-001",
+      "l1_id": "488216",
+      "name": "셔링원피스(슬리브리스)",
+      "gender_category": "WOMEN",
+      "size_gender": "WOMEN",
+      "price_group": "00",
+      "price_krw": 69900,
+      "base_price_krw": 69900,
+      "promo_price_krw": null,
+      "price_flags": [],
+      "representative_color": {
+        "code": "COL01",
+        "display_code": "01",
+        "name": "OFF WHITE",
+        "filter_code": "WHITE"
+      },
+      "colors": [
+        {
+          "code": "COL01",
+          "display_code": "01",
+          "name": "OFF WHITE",
+          "filter_code": "WHITE"
+        }
+      ],
+      "sizes": [
+        "L",
+        "M"
+      ],
+      "available_sizes_count": 2,
+      "availability_status": "available",
+      "availability_label": "판매중",
+      "rating_average": 5,
+      "rating_count": 1,
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488216001/item/krgoods_01_488216001_3x4.jpg",
+      "detail_url": "https://www.uniqlo.com/kr/ko/products/E488216-001/00?colorDisplayCode=01",
+      "sales": true,
+      "store_stock_only": false,
+      "categories": [
+        {
+          "path": "57892,57961,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 57961,
+          "class_name": "원피스 & 스커트",
+          "category_id": null,
+          "category_name": null
+        },
+        {
+          "path": "57892,107542,,",
+          "gender_id": 57892,
+          "gender_name": "WOMEN",
+          "class_id": 107542,
+          "class_name": "Special Collaborations",
+          "category_id": null,
+          "category_name": null
+        }
+      ]
+    },
+    {
       "product_id": "E488218-000",
       "l1_id": "488218",
       "name": "프릴T원피스(반팔)",
@@ -78360,21 +78442,35 @@
       },
       "colors": [
         {
+          "code": "COL03",
+          "display_code": "03",
+          "name": "GRAY",
+          "filter_code": "GRAY"
+        },
+        {
           "code": "COL00",
           "display_code": "00",
           "name": "WHITE",
           "filter_code": "WHITE"
+        },
+        {
+          "code": "COL09",
+          "display_code": "09",
+          "name": "BLACK",
+          "filter_code": "BLACK"
         }
       ],
       "sizes": [
-        "L"
+        "L",
+        "M",
+        "S"
       ],
-      "available_sizes_count": 1,
+      "available_sizes_count": 3,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
       "rating_count": 1,
-      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488218/item/krgoods_00_488218_3x4.jpg",
+      "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488218/item/krgoods_03_488218_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E488218-000/00?colorDisplayCode=03",
       "sales": true,
       "store_stock_only": false,
@@ -78448,7 +78544,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 1,
+      "rating_count": 2,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488239/item/krgoods_10_488239_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E488239-000/00?colorDisplayCode=10",
       "sales": true,
@@ -78733,7 +78829,6 @@
       ],
       "sizes": [
         "3XL",
-        "4XL",
         "L",
         "M",
         "S",
@@ -78741,7 +78836,7 @@
         "XS",
         "XXL"
       ],
-      "available_sizes_count": 8,
+      "available_sizes_count": 7,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -79082,7 +79177,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 11,
+      "rating_count": 12,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488370/item/krgoods_09_488370_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E488370-000/00?colorDisplayCode=09",
       "sales": true,
@@ -79320,15 +79415,12 @@
         }
       ],
       "sizes": [
-        "3XL",
         "L",
         "M",
         "S",
-        "XL",
-        "XS",
-        "XXL"
+        "XL"
       ],
-      "available_sizes_count": 7,
+      "available_sizes_count": 4,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 0,
@@ -79817,7 +79909,7 @@
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
-      "rating_count": 2,
+      "rating_count": 3,
       "image_url": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488694/item/krgoods_65_488694_3x4.jpg",
       "detail_url": "https://www.uniqlo.com/kr/ko/products/E488694-000/00?colorDisplayCode=65",
       "sales": true,
@@ -81155,9 +81247,10 @@
         "110(4-5세)",
         "120(6-7세)",
         "130(8-9세)",
-        "140(10-11세)"
+        "140(10-11세)",
+        "160(13세-)"
       ],
-      "available_sizes_count": 4,
+      "available_sizes_count": 5,
       "availability_status": "available",
       "availability_label": "판매중",
       "rating_average": 5,
