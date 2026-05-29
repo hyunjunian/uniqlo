@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-28T21:33:18.924636+00:00",
+  "collected_at": "2026-05-29T21:24:05.114037+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 213,
   "categories": [
@@ -1015,37 +1015,6 @@
     },
     {
       "level": "class",
-      "id": 57973,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57894,57973,,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57973,
-      "class_name": "아우터",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57894
-      ],
-      "parent_names": [
-        "KIDS"
-      ],
-      "raw": {
-        "id": 57973,
-        "name": "아우터",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
       "id": 57975,
       "name": "청바지 & 팬츠",
       "key": "pants-and-skirts",
@@ -1066,6 +1035,37 @@
         "id": 57975,
         "name": "청바지 & 팬츠",
         "key": "pants-and-skirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57973,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57894,57973,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57973,
+      "class_name": "아우터",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57973,
+        "name": "아우터",
+        "key": "outerwear",
         "parents": [
           {
             "id": 57894,
@@ -6182,28 +6182,28 @@
     },
     {
       "level": "category",
-      "id": 58075,
-      "name": "재킷 & 파카",
-      "key": "parkas-and-blousons",
-      "path": "57894,57973,58075,",
+      "id": 58084,
+      "name": "반바지",
+      "key": "short-pants",
+      "path": "57894,57975,58084,",
       "gender_id": 57894,
       "gender_name": "KIDS",
-      "class_id": 57973,
-      "class_name": "아우터",
-      "category_id": 58075,
-      "category_name": "재킷 & 파카",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": 58084,
+      "category_name": "반바지",
       "parent_ids": [
         57894,
-        57973
+        57975
       ],
       "parent_names": [
         "KIDS",
-        "아우터"
+        "청바지 & 팬츠"
       ],
       "raw": {
-        "id": 58075,
-        "name": "재킷 & 파카",
-        "key": "parkas-and-blousons",
+        "id": 58084,
+        "name": "반바지",
+        "key": "short-pants",
         "parents": [
           {
             "id": 57894,
@@ -6211,9 +6211,9 @@
             "key": "kids"
           },
           {
-            "id": 57973,
-            "name": "아우터",
-            "key": "outerwear"
+            "id": 57975,
+            "name": "청바지 & 팬츠",
+            "key": "pants-and-skirts"
           }
         ]
       }
@@ -6258,28 +6258,28 @@
     },
     {
       "level": "category",
-      "id": 58084,
-      "name": "반바지",
-      "key": "short-pants",
-      "path": "57894,57975,58084,",
+      "id": 58075,
+      "name": "재킷 & 파카",
+      "key": "parkas-and-blousons",
+      "path": "57894,57973,58075,",
       "gender_id": 57894,
       "gender_name": "KIDS",
-      "class_id": 57975,
-      "class_name": "청바지 & 팬츠",
-      "category_id": 58084,
-      "category_name": "반바지",
+      "class_id": 57973,
+      "class_name": "아우터",
+      "category_id": 58075,
+      "category_name": "재킷 & 파카",
       "parent_ids": [
         57894,
-        57975
+        57973
       ],
       "parent_names": [
         "KIDS",
-        "청바지 & 팬츠"
+        "아우터"
       ],
       "raw": {
-        "id": 58084,
-        "name": "반바지",
-        "key": "short-pants",
+        "id": 58075,
+        "name": "재킷 & 파카",
+        "key": "parkas-and-blousons",
         "parents": [
           {
             "id": 57894,
@@ -6287,9 +6287,9 @@
             "key": "kids"
           },
           {
-            "id": 57975,
-            "name": "청바지 & 팬츠",
-            "key": "pants-and-skirts"
+            "id": 57973,
+            "name": "아우터",
+            "key": "outerwear"
           }
         ]
       }
