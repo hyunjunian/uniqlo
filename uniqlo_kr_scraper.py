@@ -45,6 +45,7 @@ DEFAULT_SEEDS = [
     urljoin(BASE_URL, "feature/new/kids"),
     urljoin(BASE_URL, "feature/new/baby"),
 ]
+DEFAULT_DISCOUNT_FLAG_CODES = ["discount", "limitedOffer"]
 
 PRODUCT_RE = re.compile(r"/kr/ko/products/(?P<product>E\d{6}-\d{3})/(?P<price_group>\d{2})")
 STATE_RE = re.compile(
@@ -460,7 +461,7 @@ def crawl_api(args: argparse.Namespace) -> CrawlResult:
             label = category_path.get("category_name") or category_path.get("class_name") or path
             print(f"[api category {index:04d}/{len(category_paths):04d}] {label} ({path})", file=sys.stderr)
         while total is None or offset < total:
-            flag_codes = ["discount"] if args.discount_only else args.flag_code
+            flag_codes = DEFAULT_DISCOUNT_FLAG_CODES if args.discount_only else args.flag_code
             url = products_api_url(path, args.api_limit, offset, args.sort, flag_codes)
             try:
                 response = fetch_json(url, args.timeout, args.retries, args.delay, args.insecure)
@@ -819,7 +820,11 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--max-api-pages", type=int, default=0, help="Limit API requests; 0 means no limit.")
     parser.add_argument("--sort", type=int, default=0, help="UNIQLO API sort value.")
     parser.add_argument("--flag-code", action="append", help="Filter products by API flag code. Can be passed multiple times.")
-    parser.add_argument("--discount-only", action="store_true", help="Shortcut for --flag-code discount.")
+    parser.add_argument(
+        "--discount-only",
+        action="store_true",
+        help="Shortcut for the default discount-related flag codes.",
+    )
     parser.add_argument("--html", default="", help="Optional product browser HTML output path.")
     parser.add_argument(
         "--taxonomy-depth",
