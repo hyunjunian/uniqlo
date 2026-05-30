@@ -55,6 +55,7 @@
         <option value="unknown">확인 필요</option>
       </select>
       <select id="sort">
+        <option value="discount_start_desc" selected>최신순</option>
         <option value="name">상품명순</option>
         <option value="price_asc">낮은 가격순</option>
         <option value="price_desc">높은 가격순</option>
@@ -85,6 +86,15 @@
 
     function flags(product) {
       return (product.price_flags || []).map(flag => flag.name || flag.code).filter(Boolean).join(', ');
+    }
+
+    function discountStartTime(product) {
+      const times = (product.price_flags || [])
+        .map(flag => String(flag.name || '').match(/(\d{4})\/(\d{2})\/(\d{2})부터/))
+        .filter(Boolean)
+        .map(match => new Date(`${match[1]}-${match[2]}-${match[3]}T00:00:00+09:00`).getTime())
+        .filter(Number.isFinite);
+      return times.length ? Math.max(...times) : 0;
     }
 
     function categoryNames(product) {
@@ -136,6 +146,9 @@
       const selectedAvailability = availability.value;
       const selectedCategory = category.value;
       const sorted = [...products].sort((a, b) => {
+        if (sort.value === 'discount_start_desc') {
+          return discountStartTime(b) - discountStartTime(a) || String(a.name || '').localeCompare(String(b.name || ''), 'ko');
+        }
         if (sort.value === 'price_asc') return (a.price_krw || 0) - (b.price_krw || 0);
         if (sort.value === 'price_desc') return (b.price_krw || 0) - (a.price_krw || 0);
         return String(a.name || '').localeCompare(String(b.name || ''), 'ko');
