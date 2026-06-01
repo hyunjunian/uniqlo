@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-05-31T20:38:33.549522+00:00",
+  "collected_at": "2026-06-01T22:22:18.543330+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 213,
+  "category_count": 212,
   "categories": [
     {
       "level": "gender",
@@ -3788,44 +3788,6 @@
     },
     {
       "level": "category",
-      "id": 124426,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57892,124424,124426,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 124424,
-      "class_name": "GU",
-      "category_id": 124426,
-      "category_name": "아우터",
-      "parent_ids": [
-        57892,
-        124424
-      ],
-      "parent_names": [
-        "WOMEN",
-        "GU"
-      ],
-      "raw": {
-        "id": 124426,
-        "name": "아우터",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 124424,
-            "name": "GU",
-            "key": "gu"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 124427,
       "name": "상의",
       "key": "tops",
@@ -4054,6 +4016,44 @@
     },
     {
       "level": "category",
+      "id": 58040,
+      "name": "스웨트셔츠 & 후드집업",
+      "key": "sweatshirts-and-hoodies",
+      "path": "57893,57967,58040,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "category_id": 58040,
+      "category_name": "스웨트셔츠 & 후드집업",
+      "parent_ids": [
+        57893,
+        57967
+      ],
+      "parent_names": [
+        "MEN",
+        "티셔츠 & 스웨트셔츠 & UT"
+      ],
+      "raw": {
+        "id": 58040,
+        "name": "스웨트셔츠 & 후드집업",
+        "key": "sweatshirts-and-hoodies",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57967,
+            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58045,
       "name": "그래픽티셔츠",
       "key": "graphic-tees-ut",
@@ -4114,44 +4114,6 @@
         "id": 58950,
         "name": "PEACE FOR ALL",
         "key": "peace-for-all",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57967,
-            "name": "티셔츠 & 스웨트셔츠 & UT",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58040,
-      "name": "스웨트셔츠 & 후드집업",
-      "key": "sweatshirts-and-hoodies",
-      "path": "57893,57967,58040,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57967,
-      "class_name": "티셔츠 & 스웨트셔츠 & UT",
-      "category_id": 58040,
-      "category_name": "스웨트셔츠 & 후드집업",
-      "parent_ids": [
-        57893,
-        57967
-      ],
-      "parent_names": [
-        "MEN",
-        "티셔츠 & 스웨트셔츠 & UT"
-      ],
-      "raw": {
-        "id": 58040,
-        "name": "스웨트셔츠 & 후드집업",
-        "key": "sweatshirts-and-hoodies",
         "parents": [
           {
             "id": 57893,
