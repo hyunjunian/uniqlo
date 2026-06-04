@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-06-03T22:12:58.891458+00:00",
+  "collected_at": "2026-06-04T21:13:28.535976+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 212,
+  "category_count": 214,
   "categories": [
     {
       "level": "gender",
@@ -1394,44 +1394,6 @@
     },
     {
       "level": "category",
-      "id": 57996,
-      "name": "브라탑",
-      "key": "bra-tops",
-      "path": "57892,57959,57996,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57959,
-      "class_name": "티셔츠 & UT & 브라탑",
-      "category_id": 57996,
-      "category_name": "브라탑",
-      "parent_ids": [
-        57892,
-        57959
-      ],
-      "parent_names": [
-        "WOMEN",
-        "티셔츠 & UT & 브라탑"
-      ],
-      "raw": {
-        "id": 57996,
-        "name": "브라탑",
-        "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57959,
-            "name": "티셔츠 & UT & 브라탑",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58001,
       "name": "그래픽티셔츠",
       "key": "graphic-tees-ut",
@@ -1454,6 +1416,44 @@
         "id": 58001,
         "name": "그래픽티셔츠",
         "key": "graphic-tees-ut",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & UT & 브라탑",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57996,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,57959,57996,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & UT & 브라탑",
+      "category_id": 57996,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & UT & 브라탑"
+      ],
+      "raw": {
+        "id": 57996,
+        "name": "브라탑",
+        "key": "bra-tops",
         "parents": [
           {
             "id": 57892,
@@ -3598,6 +3598,44 @@
     },
     {
       "level": "category",
+      "id": 145182,
+      "name": "UNIQLO F.RISSO",
+      "key": "uniqlo-f-risso",
+      "path": "57892,107542,145182,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 145182,
+      "category_name": "UNIQLO F.RISSO",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 145182,
+        "name": "UNIQLO F.RISSO",
+        "key": "uniqlo-f-risso",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 143065,
       "name": "UNIQLO and Cecilie Bahnsen",
       "key": "uniqlo-and-cecilie-bahnsen",
@@ -4510,44 +4548,6 @@
     },
     {
       "level": "category",
-      "id": 58052,
-      "name": "감탄 팬츠",
-      "key": "gamtan-pants",
-      "path": "57893,57968,58052,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58052,
-      "category_name": "감탄 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58052,
-        "name": "감탄 팬츠",
-        "key": "gamtan-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58054,
       "name": "쇼트 팬츠(반바지)",
       "key": "short-pants",
@@ -4608,6 +4608,44 @@
         "id": 58049,
         "name": "캐주얼 팬츠",
         "key": "casual-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58052,
+      "name": "감탄 팬츠",
+      "key": "gamtan-pants",
+      "path": "57893,57968,58052,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58052,
+      "category_name": "감탄 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58052,
+        "name": "감탄 팬츠",
+        "key": "gamtan-pants",
         "parents": [
           {
             "id": 57893,
@@ -5758,6 +5796,44 @@
             "id": 114793,
             "name": "UV Protection",
             "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 145183,
+      "name": "UNIQLO F.RISSO",
+      "key": "uniqlo-f-risso",
+      "path": "57893,107543,145183,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 145183,
+      "category_name": "UNIQLO F.RISSO",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 145183,
+        "name": "UNIQLO F.RISSO",
+        "key": "uniqlo-f-risso",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
           }
         ]
       }
