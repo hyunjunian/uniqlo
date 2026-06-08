@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-07T20:48:00.383371+00:00",
+  "collected_at": "2026-06-08T21:23:17.918169+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 214,
   "categories": [
@@ -985,13 +985,13 @@
     {
       "level": "class",
       "id": 57974,
-      "name": "티셔츠 & 스웨트셔츠 & UT",
+      "name": "티셔츠 & UT",
       "key": "tops",
       "path": "57894,57974,,",
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57974,
-      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "class_name": "티셔츠 & UT",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -1002,7 +1002,7 @@
       ],
       "raw": {
         "id": 57974,
-        "name": "티셔츠 & 스웨트셔츠 & UT",
+        "name": "티셔츠 & UT",
         "key": "tops",
         "parents": [
           {
@@ -1035,6 +1035,37 @@
         "id": 57975,
         "name": "청바지 & 팬츠",
         "key": "pants-and-skirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57976,
+      "name": "원피스 & 스커트",
+      "key": "dresses",
+      "path": "57894,57976,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "원피스 & 스커트",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57976,
+        "name": "원피스 & 스커트",
+        "key": "dresses",
         "parents": [
           {
             "id": 57894,
@@ -1097,37 +1128,6 @@
         "id": 57978,
         "name": "이너웨어",
         "key": "innerwear",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 57976,
-      "name": "원피스 & 스커트",
-      "key": "dresses",
-      "path": "57894,57976,,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57976,
-      "class_name": "원피스 & 스커트",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57894
-      ],
-      "parent_names": [
-        "KIDS"
-      ],
-      "raw": {
-        "id": 57976,
-        "name": "원피스 & 스커트",
-        "key": "dresses",
         "parents": [
           {
             "id": 57894,
@@ -6113,7 +6113,7 @@
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57974,
-      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "class_name": "티셔츠 & UT",
       "category_id": 58078,
       "category_name": "티셔츠 (긴팔 & 반팔)",
       "parent_ids": [
@@ -6122,7 +6122,7 @@
       ],
       "parent_names": [
         "KIDS",
-        "티셔츠 & 스웨트셔츠 & UT"
+        "티셔츠 & UT"
       ],
       "raw": {
         "id": 58078,
@@ -6136,7 +6136,7 @@
           },
           {
             "id": 57974,
-            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "name": "티셔츠 & UT",
             "key": "tops"
           }
         ]
@@ -6151,7 +6151,7 @@
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57974,
-      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "class_name": "티셔츠 & UT",
       "category_id": 58081,
       "category_name": "그래픽티셔츠",
       "parent_ids": [
@@ -6160,7 +6160,7 @@
       ],
       "parent_names": [
         "KIDS",
-        "티셔츠 & 스웨트셔츠 & UT"
+        "티셔츠 & UT"
       ],
       "raw": {
         "id": 58081,
@@ -6174,7 +6174,7 @@
           },
           {
             "id": 57974,
-            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "name": "티셔츠 & UT",
             "key": "tops"
           }
         ]
@@ -6189,7 +6189,7 @@
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57974,
-      "class_name": "티셔츠 & 스웨트셔츠 & UT",
+      "class_name": "티셔츠 & UT",
       "category_id": 58077,
       "category_name": "스웨트셔츠 & 후드티",
       "parent_ids": [
@@ -6198,7 +6198,7 @@
       ],
       "parent_names": [
         "KIDS",
-        "티셔츠 & 스웨트셔츠 & UT"
+        "티셔츠 & UT"
       ],
       "raw": {
         "id": 58077,
@@ -6212,7 +6212,7 @@
           },
           {
             "id": 57974,
-            "name": "티셔츠 & 스웨트셔츠 & UT",
+            "name": "티셔츠 & UT",
             "key": "tops"
           }
         ]
@@ -6290,6 +6290,82 @@
             "id": 57975,
             "name": "청바지 & 팬츠",
             "key": "pants-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 105469,
+      "name": "스커트",
+      "key": "skirt",
+      "path": "57894,57976,105469,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "원피스 & 스커트",
+      "category_id": 105469,
+      "category_name": "스커트",
+      "parent_ids": [
+        57894,
+        57976
+      ],
+      "parent_names": [
+        "KIDS",
+        "원피스 & 스커트"
+      ],
+      "raw": {
+        "id": 105469,
+        "name": "스커트",
+        "key": "skirt",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57976,
+            "name": "원피스 & 스커트",
+            "key": "dresses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58085,
+      "name": "원피스",
+      "key": "dresses",
+      "path": "57894,57976,58085,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "원피스 & 스커트",
+      "category_id": 58085,
+      "category_name": "원피스",
+      "parent_ids": [
+        57894,
+        57976
+      ],
+      "parent_names": [
+        "KIDS",
+        "원피스 & 스커트"
+      ],
+      "raw": {
+        "id": 58085,
+        "name": "원피스",
+        "key": "dresses",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57976,
+            "name": "원피스 & 스커트",
+            "key": "dresses"
           }
         ]
       }
@@ -6594,82 +6670,6 @@
             "id": 57978,
             "name": "이너웨어",
             "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 105469,
-      "name": "스커트",
-      "key": "skirt",
-      "path": "57894,57976,105469,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57976,
-      "class_name": "원피스 & 스커트",
-      "category_id": 105469,
-      "category_name": "스커트",
-      "parent_ids": [
-        57894,
-        57976
-      ],
-      "parent_names": [
-        "KIDS",
-        "원피스 & 스커트"
-      ],
-      "raw": {
-        "id": 105469,
-        "name": "스커트",
-        "key": "skirt",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57976,
-            "name": "원피스 & 스커트",
-            "key": "dresses"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58085,
-      "name": "원피스",
-      "key": "dresses",
-      "path": "57894,57976,58085,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57976,
-      "class_name": "원피스 & 스커트",
-      "category_id": 58085,
-      "category_name": "원피스",
-      "parent_ids": [
-        57894,
-        57976
-      ],
-      "parent_names": [
-        "KIDS",
-        "원피스 & 스커트"
-      ],
-      "raw": {
-        "id": 58085,
-        "name": "원피스",
-        "key": "dresses",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57976,
-            "name": "원피스 & 스커트",
-            "key": "dresses"
           }
         ]
       }
