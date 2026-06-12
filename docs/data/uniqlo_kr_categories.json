@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-11T21:36:29.008358+00:00",
+  "collected_at": "2026-06-12T21:15:01.083859+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 213,
   "categories": [
@@ -1357,7 +1357,7 @@
     {
       "level": "category",
       "id": 57995,
-      "name": "티셔츠 (긴팔 & 반팔)",
+      "name": "티셔츠 (반팔 & 긴팔)",
       "key": "t-shirts",
       "path": "57892,57959,57995,",
       "gender_id": 57892,
@@ -1365,7 +1365,7 @@
       "class_id": 57959,
       "class_name": "티셔츠 & UT & 브라탑",
       "category_id": 57995,
-      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "category_name": "티셔츠 (반팔 & 긴팔)",
       "parent_ids": [
         57892,
         57959
@@ -1376,7 +1376,7 @@
       ],
       "raw": {
         "id": 57995,
-        "name": "티셔츠 (긴팔 & 반팔)",
+        "name": "티셔츠 (반팔 & 긴팔)",
         "key": "t-shirts",
         "parents": [
           {
@@ -1509,7 +1509,7 @@
     {
       "level": "category",
       "id": 57997,
-      "name": "스웨트셔츠 & 후드티",
+      "name": "스웨트셔츠 & 후드집업",
       "key": "sweatshirts-and-hoodies",
       "path": "57892,57959,57997,",
       "gender_id": 57892,
@@ -1517,7 +1517,7 @@
       "class_id": 57959,
       "class_name": "티셔츠 & UT & 브라탑",
       "category_id": 57997,
-      "category_name": "스웨트셔츠 & 후드티",
+      "category_name": "스웨트셔츠 & 후드집업",
       "parent_ids": [
         57892,
         57959
@@ -1528,7 +1528,7 @@
       ],
       "raw": {
         "id": 57997,
-        "name": "스웨트셔츠 & 후드티",
+        "name": "스웨트셔츠 & 후드집업",
         "key": "sweatshirts-and-hoodies",
         "parents": [
           {
@@ -2458,44 +2458,6 @@
     },
     {
       "level": "category",
-      "id": 58025,
-      "name": "파자마",
-      "key": "loungewear-and-pajamas",
-      "path": "57892,57964,58025,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57964,
-      "class_name": "파자마 & 홈웨어",
-      "category_id": 58025,
-      "category_name": "파자마",
-      "parent_ids": [
-        57892,
-        57964
-      ],
-      "parent_names": [
-        "WOMEN",
-        "파자마 & 홈웨어"
-      ],
-      "raw": {
-        "id": 58025,
-        "name": "파자마",
-        "key": "loungewear-and-pajamas",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57964,
-            "name": "파자마 & 홈웨어",
-            "key": "loungewear-and-homeware"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58026,
       "name": "라운지 팬츠",
       "key": "lounge-pants",
@@ -2518,6 +2480,44 @@
         "id": 58026,
         "name": "라운지 팬츠",
         "key": "lounge-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57964,
+            "name": "파자마 & 홈웨어",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58025,
+      "name": "파자마",
+      "key": "loungewear-and-pajamas",
+      "path": "57892,57964,58025,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57964,
+      "class_name": "파자마 & 홈웨어",
+      "category_id": 58025,
+      "category_name": "파자마",
+      "parent_ids": [
+        57892,
+        57964
+      ],
+      "parent_names": [
+        "WOMEN",
+        "파자마 & 홈웨어"
+      ],
+      "raw": {
+        "id": 58025,
+        "name": "파자마",
+        "key": "loungewear-and-pajamas",
         "parents": [
           {
             "id": 57892,
@@ -6069,7 +6069,7 @@
     {
       "level": "category",
       "id": 58078,
-      "name": "티셔츠 (긴팔 & 반팔)",
+      "name": "티셔츠 (반팔 & 긴팔)",
       "key": "t-shirts",
       "path": "57894,57974,58078,",
       "gender_id": 57894,
@@ -6077,7 +6077,7 @@
       "class_id": 57974,
       "class_name": "티셔츠 & UT",
       "category_id": 58078,
-      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "category_name": "티셔츠 (반팔 & 긴팔)",
       "parent_ids": [
         57894,
         57974
@@ -6088,7 +6088,7 @@
       ],
       "raw": {
         "id": 58078,
-        "name": "티셔츠 (긴팔 & 반팔)",
+        "name": "티셔츠 (반팔 & 긴팔)",
         "key": "t-shirts",
         "parents": [
           {
@@ -7474,44 +7474,6 @@
     },
     {
       "level": "category",
-      "id": 58116,
-      "name": "이너웨어",
-      "key": "innerwear",
-      "path": "57925,57981,58116,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58116,
-      "category_name": "이너웨어",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58116,
-        "name": "이너웨어",
-        "key": "innerwear",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58115,
       "name": "홈웨어 & 파자마",
       "key": "homewear",
@@ -7648,6 +7610,44 @@
         "id": 58110,
         "name": "아우터",
         "key": "outerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58116,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57981,58116,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58116,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58116,
+        "name": "이너웨어",
+        "key": "innerwear",
         "parents": [
           {
             "id": 57925,
