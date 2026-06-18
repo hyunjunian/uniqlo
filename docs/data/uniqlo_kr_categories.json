@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-17T21:30:40.223621+00:00",
+  "collected_at": "2026-06-18T21:34:36.747165+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 213,
   "categories": [
@@ -2192,44 +2192,6 @@
     },
     {
       "level": "category",
-      "id": 58021,
-      "name": "브라탑",
-      "key": "bra-tops",
-      "path": "57892,57963,58021,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58021,
-      "category_name": "브라탑",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58021,
-        "name": "브라탑",
-        "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58020,
       "name": "와이어리스 브라",
       "key": "bras",
@@ -2252,6 +2214,44 @@
         "id": 58020,
         "name": "와이어리스 브라",
         "key": "bras",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58021,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,57963,58021,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58021,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58021,
+        "name": "브라탑",
+        "key": "bra-tops",
         "parents": [
           {
             "id": 57892,
@@ -2534,6 +2534,44 @@
     },
     {
       "level": "category",
+      "id": 58033,
+      "name": "선글라스",
+      "key": "sunglasses",
+      "path": "57892,57965,58033,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58033,
+      "category_name": "선글라스",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58033,
+        "name": "선글라스",
+        "key": "sunglasses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 99902,
       "name": "가방",
       "key": "bags",
@@ -2594,44 +2632,6 @@
         "id": 58032,
         "name": "신발",
         "key": "shoes",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58033,
-      "name": "선글라스",
-      "key": "sunglasses",
-      "path": "57892,57965,58033,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 58033,
-      "category_name": "선글라스",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58033,
-        "name": "선글라스",
-        "key": "sunglasses",
         "parents": [
           {
             "id": 57892,
@@ -5004,44 +5004,6 @@
     },
     {
       "level": "category",
-      "id": 58070,
-      "name": "가방",
-      "key": "bags",
-      "path": "57893,57972,58070,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57972,
-      "class_name": "액세서리",
-      "category_id": 58070,
-      "category_name": "가방",
-      "parent_ids": [
-        57893,
-        57972
-      ],
-      "parent_names": [
-        "MEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58070,
-        "name": "가방",
-        "key": "bags",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57972,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58073,
       "name": "선글라스",
       "key": "sunglasses",
@@ -5064,6 +5026,44 @@
         "id": 58073,
         "name": "선글라스",
         "key": "sunglasses",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58070,
+      "name": "가방",
+      "key": "bags",
+      "path": "57893,57972,58070,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58070,
+      "category_name": "가방",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58070,
+        "name": "가방",
+        "key": "bags",
         "parents": [
           {
             "id": 57893,
@@ -7246,6 +7246,44 @@
     },
     {
       "level": "category",
+      "id": 58105,
+      "name": "레깅스 & 팬츠",
+      "key": "pants-and-leggings",
+      "path": "57925,57980,58105,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58105,
+      "category_name": "레깅스 & 팬츠",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58105,
+        "name": "레깅스 & 팬츠",
+        "key": "pants-and-leggings",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58101,
       "name": "커버올",
       "key": "one-pieces",
@@ -7360,44 +7398,6 @@
     },
     {
       "level": "category",
-      "id": 58105,
-      "name": "레깅스 & 팬츠",
-      "key": "pants-and-leggings",
-      "path": "57925,57980,58105,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57980,
-      "class_name": "신생아(0개월~2세)",
-      "category_id": 58105,
-      "category_name": "레깅스 & 팬츠",
-      "parent_ids": [
-        57925,
-        57980
-      ],
-      "parent_names": [
-        "BABY",
-        "신생아(0개월~2세)"
-      ],
-      "raw": {
-        "id": 58105,
-        "name": "레깅스 & 팬츠",
-        "key": "pants-and-leggings",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57980,
-            "name": "신생아(0개월~2세)",
-            "key": "newborn"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58106,
       "name": "그래픽티셔츠",
       "key": "ut-graphic-tees",
@@ -7468,6 +7468,82 @@
             "id": 57980,
             "name": "신생아(0개월~2세)",
             "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58116,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57981,58116,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58116,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58116,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58113,
+      "name": "레깅스 & 팬츠",
+      "key": "pants-and-leggings",
+      "path": "57925,57981,58113,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58113,
+      "category_name": "레깅스 & 팬츠",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58113,
+        "name": "레깅스 & 팬츠",
+        "key": "pants-and-leggings",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
           }
         ]
       }
@@ -7550,44 +7626,6 @@
     },
     {
       "level": "category",
-      "id": 58113,
-      "name": "레깅스 & 팬츠",
-      "key": "pants-and-leggings",
-      "path": "57925,57981,58113,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58113,
-      "category_name": "레깅스 & 팬츠",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58113,
-        "name": "레깅스 & 팬츠",
-        "key": "pants-and-leggings",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58110,
       "name": "아우터",
       "key": "outerwear",
@@ -7610,44 +7648,6 @@
         "id": 58110,
         "name": "아우터",
         "key": "outerwear",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58116,
-      "name": "이너웨어",
-      "key": "innerwear",
-      "path": "57925,57981,58116,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58116,
-      "category_name": "이너웨어",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58116,
-        "name": "이너웨어",
-        "key": "innerwear",
         "parents": [
           {
             "id": 57925,
