@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-24T21:11:21.121971+00:00",
+  "collected_at": "2026-06-25T21:13:26.422039+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 213,
   "categories": [
@@ -2192,44 +2192,6 @@
     },
     {
       "level": "category",
-      "id": 58020,
-      "name": "와이어리스 브라",
-      "key": "bras",
-      "path": "57892,57963,58020,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58020,
-      "category_name": "와이어리스 브라",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58020,
-        "name": "와이어리스 브라",
-        "key": "bras",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58021,
       "name": "브라탑",
       "key": "bra-tops",
@@ -2252,6 +2214,44 @@
         "id": 58021,
         "name": "브라탑",
         "key": "bra-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58020,
+      "name": "와이어리스 브라",
+      "key": "bras",
+      "path": "57892,57963,58020,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58020,
+      "category_name": "와이어리스 브라",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58020,
+        "name": "와이어리스 브라",
+        "key": "bras",
         "parents": [
           {
             "id": 57892,
@@ -2534,44 +2534,6 @@
     },
     {
       "level": "category",
-      "id": 58033,
-      "name": "선글라스",
-      "key": "sunglasses",
-      "path": "57892,57965,58033,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 58033,
-      "category_name": "선글라스",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58033,
-        "name": "선글라스",
-        "key": "sunglasses",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 99902,
       "name": "가방",
       "key": "bags",
@@ -2610,16 +2572,16 @@
     },
     {
       "level": "category",
-      "id": 58032,
-      "name": "신발",
-      "key": "shoes",
-      "path": "57892,57965,58032,",
+      "id": 58033,
+      "name": "선글라스",
+      "key": "sunglasses",
+      "path": "57892,57965,58033,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57965,
       "class_name": "액세서리",
-      "category_id": 58032,
-      "category_name": "신발",
+      "category_id": 58033,
+      "category_name": "선글라스",
       "parent_ids": [
         57892,
         57965
@@ -2629,9 +2591,9 @@
         "액세서리"
       ],
       "raw": {
-        "id": 58032,
-        "name": "신발",
-        "key": "shoes",
+        "id": 58033,
+        "name": "선글라스",
+        "key": "sunglasses",
         "parents": [
           {
             "id": 57892,
@@ -2746,6 +2708,44 @@
         "id": 58029,
         "name": "모자",
         "key": "hats-and-caps",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58032,
+      "name": "신발",
+      "key": "shoes",
+      "path": "57892,57965,58032,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58032,
+      "category_name": "신발",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58032,
+        "name": "신발",
+        "key": "shoes",
         "parents": [
           {
             "id": 57892,
@@ -3674,44 +3674,6 @@
     },
     {
       "level": "category",
-      "id": 107545,
-      "name": "Uniqlo U",
-      "key": "uniqlo-u",
-      "path": "57892,107542,107545,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 107542,
-      "class_name": "Special Collaborations",
-      "category_id": 107545,
-      "category_name": "Uniqlo U",
-      "parent_ids": [
-        57892,
-        107542
-      ],
-      "parent_names": [
-        "WOMEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 107545,
-        "name": "Uniqlo U",
-        "key": "uniqlo-u",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 107542,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107546,
       "name": "UNIQLO : C",
       "key": "uniqlo-c",
@@ -3734,6 +3696,44 @@
         "id": 107546,
         "name": "UNIQLO : C",
         "key": "uniqlo-c",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107545,
+      "name": "Uniqlo U",
+      "key": "uniqlo-u",
+      "path": "57892,107542,107545,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 107545,
+      "category_name": "Uniqlo U",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107545,
+        "name": "Uniqlo U",
+        "key": "uniqlo-u",
         "parents": [
           {
             "id": 57892,
@@ -4548,16 +4548,16 @@
     },
     {
       "level": "category",
-      "id": 58049,
-      "name": "캐주얼 팬츠",
-      "key": "casual-pants",
-      "path": "57893,57968,58049,",
+      "id": 58046,
+      "name": "와이드 팬츠",
+      "key": "wide-pants",
+      "path": "57893,57968,58046,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57968,
       "class_name": "팬츠",
-      "category_id": 58049,
-      "category_name": "캐주얼 팬츠",
+      "category_id": 58046,
+      "category_name": "와이드 팬츠",
       "parent_ids": [
         57893,
         57968
@@ -4567,9 +4567,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 58049,
-        "name": "캐주얼 팬츠",
-        "key": "casual-pants",
+        "id": 58046,
+        "name": "와이드 팬츠",
+        "key": "wide-pants",
         "parents": [
           {
             "id": 57893,
@@ -4624,16 +4624,16 @@
     },
     {
       "level": "category",
-      "id": 58046,
-      "name": "와이드 팬츠",
-      "key": "wide-pants",
-      "path": "57893,57968,58046,",
+      "id": 58049,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57893,57968,58049,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57968,
       "class_name": "팬츠",
-      "category_id": 58046,
-      "category_name": "와이드 팬츠",
+      "category_id": 58049,
+      "category_name": "캐주얼 팬츠",
       "parent_ids": [
         57893,
         57968
@@ -4643,9 +4643,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 58046,
-        "name": "와이드 팬츠",
-        "key": "wide-pants",
+        "id": 58049,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
         "parents": [
           {
             "id": 57893,
@@ -5004,44 +5004,6 @@
     },
     {
       "level": "category",
-      "id": 58073,
-      "name": "선글라스",
-      "key": "sunglasses",
-      "path": "57893,57972,58073,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57972,
-      "class_name": "액세서리",
-      "category_id": 58073,
-      "category_name": "선글라스",
-      "parent_ids": [
-        57893,
-        57972
-      ],
-      "parent_names": [
-        "MEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58073,
-        "name": "선글라스",
-        "key": "sunglasses",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57972,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58070,
       "name": "가방",
       "key": "bags",
@@ -5064,6 +5026,44 @@
         "id": 58070,
         "name": "가방",
         "key": "bags",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58073,
+      "name": "선글라스",
+      "key": "sunglasses",
+      "path": "57893,57972,58073,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58073,
+      "category_name": "선글라스",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58073,
+        "name": "선글라스",
+        "key": "sunglasses",
         "parents": [
           {
             "id": 57893,
@@ -5802,44 +5802,6 @@
     },
     {
       "level": "category",
-      "id": 107550,
-      "name": "Uniqlo U",
-      "key": "uniqlo-u",
-      "path": "57893,107543,107550,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 107543,
-      "class_name": "Special Collaborations",
-      "category_id": 107550,
-      "category_name": "Uniqlo U",
-      "parent_ids": [
-        57893,
-        107543
-      ],
-      "parent_names": [
-        "MEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 107550,
-        "name": "Uniqlo U",
-        "key": "uniqlo-u",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 107543,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107551,
       "name": "UNIQLO : C",
       "key": "uniqlo-c",
@@ -5862,6 +5824,44 @@
         "id": 107551,
         "name": "UNIQLO : C",
         "key": "uniqlo-c",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107550,
+      "name": "Uniqlo U",
+      "key": "uniqlo-u",
+      "path": "57893,107543,107550,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 107550,
+      "category_name": "Uniqlo U",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107550,
+        "name": "Uniqlo U",
+        "key": "uniqlo-u",
         "parents": [
           {
             "id": 57893,
