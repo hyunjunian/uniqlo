@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-30T21:15:49.722264+00:00",
+  "collected_at": "2026-07-01T21:10:58.831470+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 213,
   "categories": [
@@ -7208,16 +7208,16 @@
     },
     {
       "level": "category",
-      "id": 112672,
-      "name": "이너웨어",
-      "key": "innerwear",
-      "path": "57925,57980,112672,",
+      "id": 58101,
+      "name": "커버올",
+      "key": "one-pieces",
+      "path": "57925,57980,58101,",
       "gender_id": 57925,
       "gender_name": "BABY",
       "class_id": 57980,
       "class_name": "신생아(0개월~2세)",
-      "category_id": 112672,
-      "category_name": "이너웨어",
+      "category_id": 58101,
+      "category_name": "커버올",
       "parent_ids": [
         57925,
         57980
@@ -7227,9 +7227,9 @@
         "신생아(0개월~2세)"
       ],
       "raw": {
-        "id": 112672,
-        "name": "이너웨어",
-        "key": "innerwear",
+        "id": 58101,
+        "name": "커버올",
+        "key": "one-pieces",
         "parents": [
           {
             "id": 57925,
@@ -7284,82 +7284,6 @@
     },
     {
       "level": "category",
-      "id": 58101,
-      "name": "커버올",
-      "key": "one-pieces",
-      "path": "57925,57980,58101,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57980,
-      "class_name": "신생아(0개월~2세)",
-      "category_id": 58101,
-      "category_name": "커버올",
-      "parent_ids": [
-        57925,
-        57980
-      ],
-      "parent_names": [
-        "BABY",
-        "신생아(0개월~2세)"
-      ],
-      "raw": {
-        "id": 58101,
-        "name": "커버올",
-        "key": "one-pieces",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57980,
-            "name": "신생아(0개월~2세)",
-            "key": "newborn"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58103,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57925,57980,58103,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57980,
-      "class_name": "신생아(0개월~2세)",
-      "category_id": 58103,
-      "category_name": "아우터",
-      "parent_ids": [
-        57925,
-        57980
-      ],
-      "parent_names": [
-        "BABY",
-        "신생아(0개월~2세)"
-      ],
-      "raw": {
-        "id": 58103,
-        "name": "아우터",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57980,
-            "name": "신생아(0개월~2세)",
-            "key": "newborn"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58104,
       "name": "티셔츠 & 스웨트셔츠",
       "key": "tops",
@@ -7382,6 +7306,44 @@
         "id": 58104,
         "name": "티셔츠 & 스웨트셔츠",
         "key": "tops",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 112672,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57980,112672,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 112672,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 112672,
+        "name": "이너웨어",
+        "key": "innerwear",
         "parents": [
           {
             "id": 57925,
@@ -7436,6 +7398,44 @@
     },
     {
       "level": "category",
+      "id": 58103,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57925,57980,58103,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58103,
+      "category_name": "아우터",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58103,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58108,
       "name": "양말",
       "key": "socks",
@@ -7474,16 +7474,16 @@
     },
     {
       "level": "category",
-      "id": 58116,
-      "name": "이너웨어",
-      "key": "innerwear",
-      "path": "57925,57981,58116,",
+      "id": 58115,
+      "name": "홈웨어 & 파자마",
+      "key": "homewear",
+      "path": "57925,57981,58115,",
       "gender_id": 57925,
       "gender_name": "BABY",
       "class_id": 57981,
       "class_name": "영유아(6개월~5세)",
-      "category_id": 58116,
-      "category_name": "이너웨어",
+      "category_id": 58115,
+      "category_name": "홈웨어 & 파자마",
       "parent_ids": [
         57925,
         57981
@@ -7493,9 +7493,9 @@
         "영유아(6개월~5세)"
       ],
       "raw": {
-        "id": 58116,
-        "name": "이너웨어",
-        "key": "innerwear",
+        "id": 58115,
+        "name": "홈웨어 & 파자마",
+        "key": "homewear",
         "parents": [
           {
             "id": 57925,
@@ -7550,44 +7550,6 @@
     },
     {
       "level": "category",
-      "id": 58115,
-      "name": "홈웨어 & 파자마",
-      "key": "homewear",
-      "path": "57925,57981,58115,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58115,
-      "category_name": "홈웨어 & 파자마",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58115,
-        "name": "홈웨어 & 파자마",
-        "key": "homewear",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58111,
       "name": "티셔츠 & 스웨트셔츠",
       "key": "tops",
@@ -7610,6 +7572,44 @@
         "id": 58111,
         "name": "티셔츠 & 스웨트셔츠",
         "key": "tops",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58116,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57981,58116,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58116,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58116,
+        "name": "이너웨어",
+        "key": "innerwear",
         "parents": [
           {
             "id": 57925,
