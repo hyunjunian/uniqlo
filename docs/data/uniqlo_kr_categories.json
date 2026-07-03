@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-02T20:42:45.851911+00:00",
+  "collected_at": "2026-07-03T20:40:25.661764+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 213,
   "categories": [
@@ -303,13 +303,13 @@
     {
       "level": "class",
       "id": 57964,
-      "name": "라운지 팬츠 & 파자마",
+      "name": "파자마 & 홈웨어",
       "key": "loungewear-and-homeware",
       "path": "57892,57964,,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57964,
-      "class_name": "라운지 팬츠 & 파자마",
+      "class_name": "파자마 & 홈웨어",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -320,7 +320,7 @@
       ],
       "raw": {
         "id": 57964,
-        "name": "라운지 팬츠 & 파자마",
+        "name": "파자마 & 홈웨어",
         "key": "loungewear-and-homeware",
         "parents": [
           {
@@ -737,13 +737,13 @@
     {
       "level": "class",
       "id": 57971,
-      "name": "라운지 팬츠 & 파자마",
+      "name": "라운지 팬츠",
       "key": "loungewear-and-homeware",
       "path": "57893,57971,,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57971,
-      "class_name": "라운지 팬츠 & 파자마",
+      "class_name": "라운지 팬츠",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -754,7 +754,7 @@
       ],
       "raw": {
         "id": 57971,
-        "name": "라운지 팬츠 & 파자마",
+        "name": "라운지 팬츠",
         "key": "loungewear-and-homeware",
         "parents": [
           {
@@ -2465,7 +2465,7 @@
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57964,
-      "class_name": "라운지 팬츠 & 파자마",
+      "class_name": "파자마 & 홈웨어",
       "category_id": 58026,
       "category_name": "라운지 팬츠",
       "parent_ids": [
@@ -2474,7 +2474,7 @@
       ],
       "parent_names": [
         "WOMEN",
-        "라운지 팬츠 & 파자마"
+        "파자마 & 홈웨어"
       ],
       "raw": {
         "id": 58026,
@@ -2488,7 +2488,7 @@
           },
           {
             "id": 57964,
-            "name": "라운지 팬츠 & 파자마",
+            "name": "파자마 & 홈웨어",
             "key": "loungewear-and-homeware"
           }
         ]
@@ -2503,7 +2503,7 @@
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57964,
-      "class_name": "라운지 팬츠 & 파자마",
+      "class_name": "파자마 & 홈웨어",
       "category_id": 58025,
       "category_name": "파자마",
       "parent_ids": [
@@ -2512,7 +2512,7 @@
       ],
       "parent_names": [
         "WOMEN",
-        "라운지 팬츠 & 파자마"
+        "파자마 & 홈웨어"
       ],
       "raw": {
         "id": 58025,
@@ -2526,7 +2526,7 @@
           },
           {
             "id": 57964,
-            "name": "라운지 팬츠 & 파자마",
+            "name": "파자마 & 홈웨어",
             "key": "loungewear-and-homeware"
           }
         ]
@@ -4967,26 +4967,26 @@
     {
       "level": "category",
       "id": 58067,
-      "name": "라운지 팬츠ㆍ파자마",
+      "name": "라운지 팬츠",
       "key": "lounge-pants",
       "path": "57893,57971,58067,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57971,
-      "class_name": "라운지 팬츠 & 파자마",
+      "class_name": "라운지 팬츠",
       "category_id": 58067,
-      "category_name": "라운지 팬츠ㆍ파자마",
+      "category_name": "라운지 팬츠",
       "parent_ids": [
         57893,
         57971
       ],
       "parent_names": [
         "MEN",
-        "라운지 팬츠 & 파자마"
+        "라운지 팬츠"
       ],
       "raw": {
         "id": 58067,
-        "name": "라운지 팬츠ㆍ파자마",
+        "name": "라운지 팬츠",
         "key": "lounge-pants",
         "parents": [
           {
@@ -4996,7 +4996,7 @@
           },
           {
             "id": 57971,
-            "name": "라운지 팬츠 & 파자마",
+            "name": "라운지 팬츠",
             "key": "loungewear-and-homeware"
           }
         ]
@@ -7208,6 +7208,44 @@
     },
     {
       "level": "category",
+      "id": 112672,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57980,112672,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 112672,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 112672,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58101,
       "name": "커버올",
       "key": "one-pieces",
@@ -7306,44 +7344,6 @@
         "id": 58104,
         "name": "티셔츠 & 스웨트셔츠",
         "key": "tops",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57980,
-            "name": "신생아(0개월~2세)",
-            "key": "newborn"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 112672,
-      "name": "이너웨어",
-      "key": "innerwear",
-      "path": "57925,57980,112672,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57980,
-      "class_name": "신생아(0개월~2세)",
-      "category_id": 112672,
-      "category_name": "이너웨어",
-      "parent_ids": [
-        57925,
-        57980
-      ],
-      "parent_names": [
-        "BABY",
-        "신생아(0개월~2세)"
-      ],
-      "raw": {
-        "id": 112672,
-        "name": "이너웨어",
-        "key": "innerwear",
         "parents": [
           {
             "id": 57925,
@@ -7474,6 +7474,44 @@
     },
     {
       "level": "category",
+      "id": 58116,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57925,57981,58116,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58116,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58116,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58115,
       "name": "홈웨어 & 파자마",
       "key": "homewear",
@@ -7572,44 +7610,6 @@
         "id": 58111,
         "name": "티셔츠 & 스웨트셔츠",
         "key": "tops",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58116,
-      "name": "이너웨어",
-      "key": "innerwear",
-      "path": "57925,57981,58116,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58116,
-      "category_name": "이너웨어",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58116,
-        "name": "이너웨어",
-        "key": "innerwear",
         "parents": [
           {
             "id": 57925,
