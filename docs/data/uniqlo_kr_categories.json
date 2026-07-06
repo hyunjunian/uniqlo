@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-07-05T20:37:06.950440+00:00",
+  "collected_at": "2026-07-06T21:15:49.755459+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 213,
+  "category_count": 224,
   "categories": [
     {
       "level": "gender",
@@ -477,6 +477,37 @@
         "id": 114788,
         "name": "UV Protection",
         "key": "uv-protection",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 148314,
+      "name": "라운지 & 언더웨어",
+      "key": "lounge-and-underwear-collection",
+      "path": "57892,148314,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 148314,
+        "name": "라운지 & 언더웨어",
+        "key": "lounge-and-underwear-collection",
         "parents": [
           {
             "id": 57892,
@@ -1066,6 +1097,37 @@
         "id": 57976,
         "name": "원피스 & 스커트",
         "key": "dresses",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 100066,
+      "name": "니트 & 셔츠",
+      "key": "knit-and-shirt",
+      "path": "57894,100066,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 100066,
+      "class_name": "니트 & 셔츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 100066,
+        "name": "니트 & 셔츠",
+        "key": "knit-and-shirt",
         "parents": [
           {
             "id": 57894,
@@ -3592,6 +3654,310 @@
             "id": 114788,
             "name": "UV Protection",
             "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148319,
+      "name": "Effortless Charm",
+      "key": "effortless-charm",
+      "path": "57892,148314,148319,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148319,
+      "category_name": "Effortless Charm",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148319,
+        "name": "Effortless Charm",
+        "key": "effortless-charm",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148318,
+      "name": "Minimalist Classics",
+      "key": "minimalist-classics",
+      "path": "57892,148314,148318,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148318,
+      "category_name": "Minimalist Classics",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148318,
+        "name": "Minimalist Classics",
+        "key": "minimalist-classics",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148321,
+      "name": "캐미솔",
+      "key": "camisole-and-tank-top",
+      "path": "57892,148314,148321,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148321,
+      "category_name": "캐미솔",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148321,
+        "name": "캐미솔",
+        "key": "camisole-and-tank-top",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148316,
+      "name": "브라",
+      "key": "bra",
+      "path": "57892,148314,148316,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148316,
+      "category_name": "브라",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148316,
+        "name": "브라",
+        "key": "bra",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148317,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,148314,148317,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148317,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148317,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148322,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57892,148314,148322,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148322,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148322,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148320,
+      "name": "니트 & 가디건",
+      "key": "sweaters-and-cardigans",
+      "path": "57892,148314,148320,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148320,
+      "category_name": "니트 & 가디건",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148320,
+        "name": "니트 & 가디건",
+        "key": "sweaters-and-cardigans",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148315,
+      "name": "파자마",
+      "key": "pajamas",
+      "path": "57892,148314,148315,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어",
+      "category_id": 148315,
+      "category_name": "파자마",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어"
+      ],
+      "raw": {
+        "id": 148315,
+        "name": "파자마",
+        "key": "pajamas",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어",
+            "key": "lounge-and-underwear-collection"
           }
         ]
       }
@@ -6328,6 +6694,44 @@
             "id": 57976,
             "name": "원피스 & 스커트",
             "key": "dresses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 100067,
+      "name": "니트",
+      "key": "sweaters",
+      "path": "57894,100066,100067,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 100066,
+      "class_name": "니트 & 셔츠",
+      "category_id": 100067,
+      "category_name": "니트",
+      "parent_ids": [
+        57894,
+        100066
+      ],
+      "parent_names": [
+        "KIDS",
+        "니트 & 셔츠"
+      ],
+      "raw": {
+        "id": 100067,
+        "name": "니트",
+        "key": "sweaters",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 100066,
+            "name": "니트 & 셔츠",
+            "key": "knit-and-shirt"
           }
         ]
       }
