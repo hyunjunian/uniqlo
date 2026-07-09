@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-08T20:44:56.081195+00:00",
+  "collected_at": "2026-07-09T21:06:02.316160+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 224,
   "categories": [
@@ -3964,6 +3964,44 @@
     },
     {
       "level": "category",
+      "id": 107546,
+      "name": "UNIQLO : C",
+      "key": "uniqlo-c",
+      "path": "57892,107542,107546,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 107546,
+      "category_name": "UNIQLO : C",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107546,
+        "name": "UNIQLO : C",
+        "key": "uniqlo-c",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 145182,
       "name": "UNIQLO F.RISSO",
       "key": "uniqlo-f-risso",
@@ -4024,44 +4062,6 @@
         "id": 143065,
         "name": "UNIQLO and Cecilie Bahnsen",
         "key": "uniqlo-and-cecilie-bahnsen",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 107542,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 107546,
-      "name": "UNIQLO : C",
-      "key": "uniqlo-c",
-      "path": "57892,107542,107546,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 107542,
-      "class_name": "Special Collaborations",
-      "category_id": 107546,
-      "category_name": "UNIQLO : C",
-      "parent_ids": [
-        57892,
-        107542
-      ],
-      "parent_names": [
-        "WOMEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 107546,
-        "name": "UNIQLO : C",
-        "key": "uniqlo-c",
         "parents": [
           {
             "id": 57892,
@@ -6130,44 +6130,6 @@
     },
     {
       "level": "category",
-      "id": 145183,
-      "name": "UNIQLO F.RISSO",
-      "key": "uniqlo-f-risso",
-      "path": "57893,107543,145183,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 107543,
-      "class_name": "Special Collaborations",
-      "category_id": 145183,
-      "category_name": "UNIQLO F.RISSO",
-      "parent_ids": [
-        57893,
-        107543
-      ],
-      "parent_names": [
-        "MEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 145183,
-        "name": "UNIQLO F.RISSO",
-        "key": "uniqlo-f-risso",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 107543,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107551,
       "name": "UNIQLO : C",
       "key": "uniqlo-c",
@@ -6190,6 +6152,44 @@
         "id": 107551,
         "name": "UNIQLO : C",
         "key": "uniqlo-c",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 145183,
+      "name": "UNIQLO F.RISSO",
+      "key": "uniqlo-f-risso",
+      "path": "57893,107543,145183,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 145183,
+      "category_name": "UNIQLO F.RISSO",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 145183,
+        "name": "UNIQLO F.RISSO",
+        "key": "uniqlo-f-risso",
         "parents": [
           {
             "id": 57893,
