@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-07-19T20:24:34.747636+00:00",
+  "collected_at": "2026-07-20T20:49:37.566635+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 224,
+  "category_count": 226,
   "categories": [
     {
       "level": "gender",
@@ -2010,6 +2010,44 @@
         "id": 58003,
         "name": "진(청바지)",
         "key": "jeans",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 149931,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57892,57960,149931,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 149931,
+      "category_name": "배럴 레그 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 149931,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57892,
@@ -5050,6 +5088,44 @@
         "id": 58048,
         "name": "진(청바지)",
         "key": "jeans",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 149932,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57893,57968,149932,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 149932,
+      "category_name": "배럴 레그 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 149932,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57893,
