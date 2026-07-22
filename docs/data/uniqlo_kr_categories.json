@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-07-21T20:46:27.699933+00:00",
+  "collected_at": "2026-07-22T20:39:59.919534+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 226,
+  "category_count": 227,
   "categories": [
     {
       "level": "gender",
@@ -364,14 +364,14 @@
     },
     {
       "level": "class",
-      "id": 116863,
-      "name": "리넨",
-      "key": "linen",
-      "path": "57892,116863,,",
+      "id": 148314,
+      "name": "라운지 & 언더웨어 컬렉션",
+      "key": "lounge-and-underwear-collection",
+      "path": "57892,148314,,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -381,9 +381,9 @@
         "WOMEN"
       ],
       "raw": {
-        "id": 116863,
-        "name": "리넨",
-        "key": "linen",
+        "id": 148314,
+        "name": "라운지 & 언더웨어 컬렉션",
+        "key": "lounge-and-underwear-collection",
         "parents": [
           {
             "id": 57892,
@@ -488,14 +488,14 @@
     },
     {
       "level": "class",
-      "id": 148314,
-      "name": "라운지 & 언더웨어 컬렉션",
-      "key": "lounge-and-underwear-collection",
-      "path": "57892,148314,,",
+      "id": 116863,
+      "name": "리넨",
+      "key": "linen",
+      "path": "57892,116863,,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
+      "class_id": 116863,
+      "class_name": "리넨",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -505,9 +505,9 @@
         "WOMEN"
       ],
       "raw": {
-        "id": 148314,
-        "name": "라운지 & 언더웨어 컬렉션",
-        "key": "lounge-and-underwear-collection",
+        "id": 116863,
+        "name": "리넨",
+        "key": "linen",
         "parents": [
           {
             "id": 57892,
@@ -829,37 +829,6 @@
     },
     {
       "level": "class",
-      "id": 116864,
-      "name": "리넨",
-      "key": "linen",
-      "path": "57893,116864,,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57893
-      ],
-      "parent_names": [
-        "MEN"
-      ],
-      "raw": {
-        "id": 116864,
-        "name": "리넨",
-        "key": "linen",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
       "id": 81620,
       "name": "에어리즘",
       "key": "airism",
@@ -942,6 +911,37 @@
         "id": 114793,
         "name": "UV Protection",
         "key": "uv-protection",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 116864,
+      "name": "리넨",
+      "key": "linen",
+      "path": "57893,116864,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 116864,
+        "name": "리넨",
+        "key": "linen",
         "parents": [
           {
             "id": 57893,
@@ -2862,28 +2862,28 @@
     },
     {
       "level": "category",
-      "id": 116866,
-      "name": "셔츠 & 티셔츠",
-      "key": "tops",
-      "path": "57892,116863,116866,",
+      "id": 148319,
+      "name": "Effortless Charm",
+      "key": "effortless-charm",
+      "path": "57892,148314,148319,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116866,
-      "category_name": "셔츠 & 티셔츠",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148319,
+      "category_name": "Effortless Charm",
       "parent_ids": [
         57892,
-        116863
+        148314
       ],
       "parent_names": [
         "WOMEN",
-        "리넨"
+        "라운지 & 언더웨어 컬렉션"
       ],
       "raw": {
-        "id": 116866,
-        "name": "셔츠 & 티셔츠",
-        "key": "tops",
+        "id": 148319,
+        "name": "Effortless Charm",
+        "key": "effortless-charm",
         "parents": [
           {
             "id": 57892,
@@ -2891,37 +2891,37 @@
             "key": "women"
           },
           {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 116865,
-      "name": "재킷",
-      "key": "outerwear",
-      "path": "57892,116863,116865,",
+      "id": 148318,
+      "name": "Minimalist Classics",
+      "key": "minimalist-classics",
+      "path": "57892,148314,148318,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116865,
-      "category_name": "재킷",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148318,
+      "category_name": "Minimalist Classics",
       "parent_ids": [
         57892,
-        116863
+        148314
       ],
       "parent_names": [
         "WOMEN",
-        "리넨"
+        "라운지 & 언더웨어 컬렉션"
       ],
       "raw": {
-        "id": 116865,
-        "name": "재킷",
-        "key": "outerwear",
+        "id": 148318,
+        "name": "Minimalist Classics",
+        "key": "minimalist-classics",
         "parents": [
           {
             "id": 57892,
@@ -2929,35 +2929,149 @@
             "key": "women"
           },
           {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 116867,
+      "id": 148321,
+      "name": "캐미솔",
+      "key": "camisole-and-tank-top",
+      "path": "57892,148314,148321,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148321,
+      "category_name": "캐미솔",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148321,
+        "name": "캐미솔",
+        "key": "camisole-and-tank-top",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148316,
+      "name": "브라",
+      "key": "bra",
+      "path": "57892,148314,148316,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148316,
+      "category_name": "브라",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148316,
+        "name": "브라",
+        "key": "bra",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148317,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,148314,148317,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148317,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148317,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148322,
       "name": "팬츠",
       "key": "bottoms",
-      "path": "57892,116863,116867,",
+      "path": "57892,148314,148322,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116867,
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148322,
       "category_name": "팬츠",
       "parent_ids": [
         57892,
-        116863
+        148314
       ],
       "parent_names": [
         "WOMEN",
-        "리넨"
+        "라운지 & 언더웨어 컬렉션"
       ],
       "raw": {
-        "id": 116867,
+        "id": 148322,
         "name": "팬츠",
         "key": "bottoms",
         "parents": [
@@ -2967,37 +3081,37 @@
             "key": "women"
           },
           {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 116909,
-      "name": "스커트 & 원피스",
-      "key": "dresses-and-skirts",
-      "path": "57892,116863,116909,",
+      "id": 148320,
+      "name": "니트 & 가디건",
+      "key": "sweaters-and-cardigans",
+      "path": "57892,148314,148320,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116909,
-      "category_name": "스커트 & 원피스",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148320,
+      "category_name": "니트 & 가디건",
       "parent_ids": [
         57892,
-        116863
+        148314
       ],
       "parent_names": [
         "WOMEN",
-        "리넨"
+        "라운지 & 언더웨어 컬렉션"
       ],
       "raw": {
-        "id": 116909,
-        "name": "스커트 & 원피스",
-        "key": "dresses-and-skirts",
+        "id": 148320,
+        "name": "니트 & 가디건",
+        "key": "sweaters-and-cardigans",
         "parents": [
           {
             "id": 57892,
@@ -3005,37 +3119,37 @@
             "key": "women"
           },
           {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 141909,
-      "name": "액세서리",
-      "key": "accessories",
-      "path": "57892,116863,141909,",
+      "id": 148315,
+      "name": "파자마",
+      "key": "pajamas",
+      "path": "57892,148314,148315,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 141909,
-      "category_name": "액세서리",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148315,
+      "category_name": "파자마",
       "parent_ids": [
         57892,
-        116863
+        148314
       ],
       "parent_names": [
         "WOMEN",
-        "리넨"
+        "라운지 & 언더웨어 컬렉션"
       ],
       "raw": {
-        "id": 141909,
-        "name": "액세서리",
-        "key": "accessories",
+        "id": 148315,
+        "name": "파자마",
+        "key": "pajamas",
         "parents": [
           {
             "id": 57892,
@@ -3043,9 +3157,9 @@
             "key": "women"
           },
           {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
           }
         ]
       }
@@ -3698,28 +3812,28 @@
     },
     {
       "level": "category",
-      "id": 148319,
-      "name": "Effortless Charm",
-      "key": "effortless-charm",
-      "path": "57892,148314,148319,",
+      "id": 116866,
+      "name": "셔츠 & 티셔츠",
+      "key": "tops",
+      "path": "57892,116863,116866,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148319,
-      "category_name": "Effortless Charm",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116866,
+      "category_name": "셔츠 & 티셔츠",
       "parent_ids": [
         57892,
-        148314
+        116863
       ],
       "parent_names": [
         "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
+        "리넨"
       ],
       "raw": {
-        "id": 148319,
-        "name": "Effortless Charm",
-        "key": "effortless-charm",
+        "id": 116866,
+        "name": "셔츠 & 티셔츠",
+        "key": "tops",
         "parents": [
           {
             "id": 57892,
@@ -3727,37 +3841,37 @@
             "key": "women"
           },
           {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 148318,
-      "name": "Minimalist Classics",
-      "key": "minimalist-classics",
-      "path": "57892,148314,148318,",
+      "id": 116865,
+      "name": "재킷",
+      "key": "outerwear",
+      "path": "57892,116863,116865,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148318,
-      "category_name": "Minimalist Classics",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116865,
+      "category_name": "재킷",
       "parent_ids": [
         57892,
-        148314
+        116863
       ],
       "parent_names": [
         "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
+        "리넨"
       ],
       "raw": {
-        "id": 148318,
-        "name": "Minimalist Classics",
-        "key": "minimalist-classics",
+        "id": 116865,
+        "name": "재킷",
+        "key": "outerwear",
         "parents": [
           {
             "id": 57892,
@@ -3765,149 +3879,35 @@
             "key": "women"
           },
           {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 148321,
-      "name": "캐미솔",
-      "key": "camisole-and-tank-top",
-      "path": "57892,148314,148321,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148321,
-      "category_name": "캐미솔",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148321,
-        "name": "캐미솔",
-        "key": "camisole-and-tank-top",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 148316,
-      "name": "브라",
-      "key": "bra",
-      "path": "57892,148314,148316,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148316,
-      "category_name": "브라",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148316,
-        "name": "브라",
-        "key": "bra",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 148317,
-      "name": "언더웨어",
-      "key": "underwear",
-      "path": "57892,148314,148317,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148317,
-      "category_name": "언더웨어",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148317,
-        "name": "언더웨어",
-        "key": "underwear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 148322,
+      "id": 116867,
       "name": "팬츠",
       "key": "bottoms",
-      "path": "57892,148314,148322,",
+      "path": "57892,116863,116867,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148322,
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116867,
       "category_name": "팬츠",
       "parent_ids": [
         57892,
-        148314
+        116863
       ],
       "parent_names": [
         "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
+        "리넨"
       ],
       "raw": {
-        "id": 148322,
+        "id": 116867,
         "name": "팬츠",
         "key": "bottoms",
         "parents": [
@@ -3917,37 +3917,37 @@
             "key": "women"
           },
           {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 148320,
-      "name": "니트 & 가디건",
-      "key": "sweaters-and-cardigans",
-      "path": "57892,148314,148320,",
+      "id": 116909,
+      "name": "스커트 & 원피스",
+      "key": "dresses-and-skirts",
+      "path": "57892,116863,116909,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148320,
-      "category_name": "니트 & 가디건",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 116909,
+      "category_name": "스커트 & 원피스",
       "parent_ids": [
         57892,
-        148314
+        116863
       ],
       "parent_names": [
         "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
+        "리넨"
       ],
       "raw": {
-        "id": 148320,
-        "name": "니트 & 가디건",
-        "key": "sweaters-and-cardigans",
+        "id": 116909,
+        "name": "스커트 & 원피스",
+        "key": "dresses-and-skirts",
         "parents": [
           {
             "id": 57892,
@@ -3955,37 +3955,37 @@
             "key": "women"
           },
           {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 148315,
-      "name": "파자마",
-      "key": "pajamas",
-      "path": "57892,148314,148315,",
+      "id": 141909,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57892,116863,141909,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148315,
-      "category_name": "파자마",
+      "class_id": 116863,
+      "class_name": "리넨",
+      "category_id": 141909,
+      "category_name": "액세서리",
       "parent_ids": [
         57892,
-        148314
+        116863
       ],
       "parent_names": [
         "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
+        "리넨"
       ],
       "raw": {
-        "id": 148315,
-        "name": "파자마",
-        "key": "pajamas",
+        "id": 141909,
+        "name": "액세서리",
+        "key": "accessories",
         "parents": [
           {
             "id": 57892,
@@ -3993,9 +3993,9 @@
             "key": "women"
           },
           {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
+            "id": 116863,
+            "name": "리넨",
+            "key": "linen"
           }
         ]
       }
@@ -5674,120 +5674,6 @@
     },
     {
       "level": "category",
-      "id": 116873,
-      "name": "셔츠",
-      "key": "tops",
-      "path": "57893,116864,116873,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": 116873,
-      "category_name": "셔츠",
-      "parent_ids": [
-        57893,
-        116864
-      ],
-      "parent_names": [
-        "MEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116873,
-        "name": "셔츠",
-        "key": "tops",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 116864,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116874,
-      "name": "팬츠",
-      "key": "bottoms",
-      "path": "57893,116864,116874,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": 116874,
-      "category_name": "팬츠",
-      "parent_ids": [
-        57893,
-        116864
-      ],
-      "parent_names": [
-        "MEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116874,
-        "name": "팬츠",
-        "key": "bottoms",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 116864,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116872,
-      "name": "재킷",
-      "key": "outerwear",
-      "path": "57893,116864,116872,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": 116872,
-      "category_name": "재킷",
-      "parent_ids": [
-        57893,
-        116864
-      ],
-      "parent_names": [
-        "MEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116872,
-        "name": "재킷",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 116864,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 82089,
       "name": "이너웨어 상의",
       "key": "inner-tops",
@@ -6200,6 +6086,120 @@
             "id": 114793,
             "name": "UV Protection",
             "key": "uv-protection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116873,
+      "name": "셔츠",
+      "key": "tops",
+      "path": "57893,116864,116873,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": 116873,
+      "category_name": "셔츠",
+      "parent_ids": [
+        57893,
+        116864
+      ],
+      "parent_names": [
+        "MEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116873,
+        "name": "셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 116864,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116874,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57893,116864,116874,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": 116874,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57893,
+        116864
+      ],
+      "parent_names": [
+        "MEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116874,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 116864,
+            "name": "리넨",
+            "key": "linen"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 116872,
+      "name": "재킷",
+      "key": "outerwear",
+      "path": "57893,116864,116872,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 116864,
+      "class_name": "리넨",
+      "category_id": 116872,
+      "category_name": "재킷",
+      "parent_ids": [
+        57893,
+        116864
+      ],
+      "parent_names": [
+        "MEN",
+        "리넨"
+      ],
+      "raw": {
+        "id": 116872,
+        "name": "재킷",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 116864,
+            "name": "리넨",
+            "key": "linen"
           }
         ]
       }
@@ -6798,6 +6798,44 @@
         "id": 100067,
         "name": "니트",
         "key": "sweaters",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 100066,
+            "name": "니트 & 셔츠",
+            "key": "knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 100068,
+      "name": "셔츠",
+      "key": "shirts",
+      "path": "57894,100066,100068,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 100066,
+      "class_name": "니트 & 셔츠",
+      "category_id": 100068,
+      "category_name": "셔츠",
+      "parent_ids": [
+        57894,
+        100066
+      ],
+      "parent_names": [
+        "KIDS",
+        "니트 & 셔츠"
+      ],
+      "raw": {
+        "id": 100068,
+        "name": "셔츠",
+        "key": "shirts",
         "parents": [
           {
             "id": 57894,
