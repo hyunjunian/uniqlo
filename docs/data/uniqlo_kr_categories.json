@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-04T20:52:22.809594+00:00",
+  "collected_at": "2026-08-05T20:45:06.326318+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 227,
+  "category_count": 223,
   "categories": [
     {
       "level": "gender",
@@ -3813,7 +3813,7 @@
     {
       "level": "category",
       "id": 116866,
-      "name": "셔츠 & 티셔츠",
+      "name": "셔츠",
       "key": "tops",
       "path": "57892,116863,116866,",
       "gender_id": 57892,
@@ -3821,7 +3821,7 @@
       "class_id": 116863,
       "class_name": "리넨",
       "category_id": 116866,
-      "category_name": "셔츠 & 티셔츠",
+      "category_name": "셔츠",
       "parent_ids": [
         57892,
         116863
@@ -3832,46 +3832,8 @@
       ],
       "raw": {
         "id": 116866,
-        "name": "셔츠 & 티셔츠",
+        "name": "셔츠",
         "key": "tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116865,
-      "name": "재킷",
-      "key": "outerwear",
-      "path": "57892,116863,116865,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116865,
-      "category_name": "재킷",
-      "parent_ids": [
-        57892,
-        116863
-      ],
-      "parent_names": [
-        "WOMEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116865,
-        "name": "재킷",
-        "key": "outerwear",
         "parents": [
           {
             "id": 57892,
@@ -3910,82 +3872,6 @@
         "id": 116867,
         "name": "팬츠",
         "key": "bottoms",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116909,
-      "name": "스커트 & 원피스",
-      "key": "dresses-and-skirts",
-      "path": "57892,116863,116909,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116909,
-      "category_name": "스커트 & 원피스",
-      "parent_ids": [
-        57892,
-        116863
-      ],
-      "parent_names": [
-        "WOMEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116909,
-        "name": "스커트 & 원피스",
-        "key": "dresses-and-skirts",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 141909,
-      "name": "액세서리",
-      "key": "accessories",
-      "path": "57892,116863,141909,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 141909,
-      "category_name": "액세서리",
-      "parent_ids": [
-        57892,
-        116863
-      ],
-      "parent_names": [
-        "WOMEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 141909,
-        "name": "액세서리",
-        "key": "accessories",
         "parents": [
           {
             "id": 57892,
@@ -6152,44 +6038,6 @@
         "id": 116874,
         "name": "팬츠",
         "key": "bottoms",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 116864,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116872,
-      "name": "재킷",
-      "key": "outerwear",
-      "path": "57893,116864,116872,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": 116872,
-      "category_name": "재킷",
-      "parent_ids": [
-        57893,
-        116864
-      ],
-      "parent_names": [
-        "MEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116872,
-        "name": "재킷",
-        "key": "outerwear",
         "parents": [
           {
             "id": 57893,
