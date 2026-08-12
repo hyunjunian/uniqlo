@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-11T20:10:46.711851+00:00",
+  "collected_at": "2026-08-12T20:09:39.273899+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 226,
+  "category_count": 241,
   "categories": [
     {
       "level": "gender",
@@ -1009,6 +1009,68 @@
             "id": 57893,
             "name": "MEN",
             "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 150160,
+      "name": "여아",
+      "key": "girls",
+      "path": "57894,150160,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 150160,
+        "name": "여아",
+        "key": "girls",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 150424,
+      "name": "남아 & 공용",
+      "key": "boys-and-unisex",
+      "path": "57894,150424,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 150424,
+        "name": "남아 & 공용",
+        "key": "boys-and-unisex",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
           }
         ]
       }
@@ -6472,6 +6534,500 @@
     },
     {
       "level": "category",
+      "id": 150167,
+      "name": "티셔츠 & 스웨트셔츠",
+      "key": "tops",
+      "path": "57894,150160,150167,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150167,
+      "category_name": "티셔츠 & 스웨트셔츠",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150167,
+        "name": "티셔츠 & 스웨트셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150161,
+      "name": "니트 & 가디건",
+      "key": "knitwear",
+      "path": "57894,150160,150161,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150161,
+      "category_name": "니트 & 가디건",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150161,
+        "name": "니트 & 가디건",
+        "key": "knitwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150163,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57894,150160,150163,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150163,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150163,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150164,
+      "name": "스커트 & 원피스",
+      "key": "dresses-and-skirts",
+      "path": "57894,150160,150164,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150164,
+      "category_name": "스커트 & 원피스",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150164,
+        "name": "스커트 & 원피스",
+        "key": "dresses-and-skirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150162,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57894,150160,150162,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150162,
+      "category_name": "아우터",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150162,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150165,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57894,150160,150165,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150165,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150165,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150426,
+      "name": "티셔츠 & 스웨트셔츠",
+      "key": "tops",
+      "path": "57894,150424,150426,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150426,
+      "category_name": "티셔츠 & 스웨트셔츠",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150426,
+        "name": "티셔츠 & 스웨트셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150425,
+      "name": "니트",
+      "key": "knitwear",
+      "path": "57894,150424,150425,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150425,
+      "category_name": "니트",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150425,
+        "name": "니트",
+        "key": "knitwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150428,
+      "name": "셔츠",
+      "key": "shirts-and-polo-shirts",
+      "path": "57894,150424,150428,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150428,
+      "category_name": "셔츠",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150428,
+        "name": "셔츠",
+        "key": "shirts-and-polo-shirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150429,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57894,150424,150429,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150429,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150429,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150431,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57894,150424,150431,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150431,
+      "category_name": "아우터",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150431,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150427,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57894,150424,150427,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150427,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150427,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150432,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57894,150424,150432,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150432,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150432,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58078,
       "name": "티셔츠 (반팔 & 긴팔)",
       "key": "t-shirts",
@@ -6928,44 +7484,6 @@
     },
     {
       "level": "category",
-      "id": 136619,
-      "name": "코튼 이너",
-      "key": "cotton-innerwear",
-      "path": "57894,57978,136619,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57978,
-      "class_name": "이너웨어",
-      "category_id": 136619,
-      "category_name": "코튼 이너",
-      "parent_ids": [
-        57894,
-        57978
-      ],
-      "parent_names": [
-        "KIDS",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 136619,
-        "name": "코튼 이너",
-        "key": "cotton-innerwear",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57978,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58095,
       "name": "언더웨어",
       "key": "underwear",
@@ -7026,6 +7544,44 @@
         "id": 58096,
         "name": "양말",
         "key": "socks",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 136619,
+      "name": "코튼 이너",
+      "key": "cotton-innerwear",
+      "path": "57894,57978,136619,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 136619,
+      "category_name": "코튼 이너",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 136619,
+        "name": "코튼 이너",
+        "key": "cotton-innerwear",
         "parents": [
           {
             "id": 57894,
