@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-12T20:09:39.273899+00:00",
+  "collected_at": "2026-08-13T20:05:10.652230+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 241,
   "categories": [
@@ -1920,6 +1920,44 @@
         "id": 57994,
         "name": "경량 패딩 (PUFFTECH)",
         "key": "pufftech-and-ultra-light-down",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98229,
+      "name": "코트",
+      "key": "coats",
+      "path": "57892,57958,98229,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 98229,
+      "category_name": "코트",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 98229,
+        "name": "코트",
+        "key": "coats",
         "parents": [
           {
             "id": 57892,
@@ -7544,44 +7582,6 @@
         "id": 58096,
         "name": "양말",
         "key": "socks",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57978,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 136619,
-      "name": "코튼 이너",
-      "key": "cotton-innerwear",
-      "path": "57894,57978,136619,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57978,
-      "class_name": "이너웨어",
-      "category_id": 136619,
-      "category_name": "코튼 이너",
-      "parent_ids": [
-        57894,
-        57978
-      ],
-      "parent_names": [
-        "KIDS",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 136619,
-        "name": "코튼 이너",
-        "key": "cotton-innerwear",
         "parents": [
           {
             "id": 57894,
