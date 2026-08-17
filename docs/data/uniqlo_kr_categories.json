@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-16T19:46:18.149893+00:00",
+  "collected_at": "2026-08-17T19:53:09.358211+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 241,
+  "category_count": 242,
   "categories": [
     {
       "level": "gender",
@@ -4922,6 +4922,44 @@
         "id": 58038,
         "name": "경량 패딩 (PUFFTECH)",
         "key": "pufftech-and-ultra-light-down",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98234,
+      "name": "다운 & 패딩",
+      "key": "down",
+      "path": "57893,57966,98234,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 98234,
+      "category_name": "다운 & 패딩",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 98234,
+        "name": "다운 & 패딩",
+        "key": "down",
         "parents": [
           {
             "id": 57893,
