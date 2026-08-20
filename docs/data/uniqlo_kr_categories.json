@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-19T19:51:46.344356+00:00",
+  "collected_at": "2026-08-20T19:57:08.504659+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 242,
+  "category_count": 248,
   "categories": [
     {
       "level": "gender",
@@ -81,6 +81,37 @@
         "id": 57925,
         "name": "BABY",
         "genderKey": "baby"
+      }
+    },
+    {
+      "level": "class",
+      "id": 57958,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57892,57958,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 57958,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
       }
     },
     {
@@ -167,37 +198,6 @@
         "id": 95353,
         "name": "니트 & 가디건",
         "key": "sweaters-and-knitwear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 57958,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57892,57958,,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57958,
-      "class_name": "아우터",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57892
-      ],
-      "parent_names": [
-        "WOMEN"
-      ],
-      "raw": {
-        "id": 57958,
-        "name": "아우터",
-        "key": "outerwear",
         "parents": [
           {
             "id": 57892,
@@ -581,6 +581,37 @@
     },
     {
       "level": "class",
+      "id": 57966,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57893,57966,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 57966,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
       "id": 57967,
       "name": "티셔츠 & 스웨트셔츠 & UT",
       "key": "tops",
@@ -663,37 +694,6 @@
         "id": 95355,
         "name": "니트 & 가디건",
         "key": "sweaters-and-knitwear",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 57966,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57893,57966,,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57893
-      ],
-      "parent_names": [
-        "MEN"
-      ],
-      "raw": {
-        "id": 57966,
-        "name": "아우터",
-        "key": "outerwear",
         "parents": [
           {
             "id": 57893,
@@ -1077,6 +1077,37 @@
     },
     {
       "level": "class",
+      "id": 57973,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57894,57973,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57973,
+      "class_name": "아우터",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57973,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
       "id": 57974,
       "name": "티셔츠 & UT",
       "key": "tops",
@@ -1190,37 +1221,6 @@
         "id": 100066,
         "name": "니트 & 셔츠",
         "key": "knitwear",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 57973,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57894,57973,,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57973,
-      "class_name": "아우터",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57894
-      ],
-      "parent_names": [
-        "KIDS"
-      ],
-      "raw": {
-        "id": 57973,
-        "name": "아우터",
-        "key": "outerwear",
         "parents": [
           {
             "id": 57894,
@@ -1474,6 +1474,158 @@
             "id": 57925,
             "name": "BABY",
             "key": "baby"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57991,
+      "name": "파카 & 블루종",
+      "key": "parkas-and-blousons",
+      "path": "57892,57958,57991,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 57991,
+      "category_name": "파카 & 블루종",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 57991,
+        "name": "파카 & 블루종",
+        "key": "parkas-and-blousons",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57993,
+      "name": "재킷",
+      "key": "jackets",
+      "path": "57892,57958,57993,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 57993,
+      "category_name": "재킷",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 57993,
+        "name": "재킷",
+        "key": "jackets",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57994,
+      "name": "경량 패딩 (PUFFTECH)",
+      "key": "pufftech-and-ultra-light-down",
+      "path": "57892,57958,57994,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 57994,
+      "category_name": "경량 패딩 (PUFFTECH)",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 57994,
+        "name": "경량 패딩 (PUFFTECH)",
+        "key": "pufftech-and-ultra-light-down",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98229,
+      "name": "코트",
+      "key": "coats",
+      "path": "57892,57958,98229,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 98229,
+      "category_name": "코트",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 98229,
+        "name": "코트",
+        "key": "coats",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
           }
         ]
       }
@@ -1816,158 +1968,6 @@
             "id": 95353,
             "name": "니트 & 가디건",
             "key": "sweaters-and-knitwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 57991,
-      "name": "파카 & 블루종",
-      "key": "parkas-and-blousons",
-      "path": "57892,57958,57991,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57958,
-      "class_name": "아우터",
-      "category_id": 57991,
-      "category_name": "파카 & 블루종",
-      "parent_ids": [
-        57892,
-        57958
-      ],
-      "parent_names": [
-        "WOMEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 57991,
-        "name": "파카 & 블루종",
-        "key": "parkas-and-blousons",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57958,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 57993,
-      "name": "재킷",
-      "key": "jackets",
-      "path": "57892,57958,57993,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57958,
-      "class_name": "아우터",
-      "category_id": 57993,
-      "category_name": "재킷",
-      "parent_ids": [
-        57892,
-        57958
-      ],
-      "parent_names": [
-        "WOMEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 57993,
-        "name": "재킷",
-        "key": "jackets",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57958,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 57994,
-      "name": "경량 패딩 (PUFFTECH)",
-      "key": "pufftech-and-ultra-light-down",
-      "path": "57892,57958,57994,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57958,
-      "class_name": "아우터",
-      "category_id": 57994,
-      "category_name": "경량 패딩 (PUFFTECH)",
-      "parent_ids": [
-        57892,
-        57958
-      ],
-      "parent_names": [
-        "WOMEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 57994,
-        "name": "경량 패딩 (PUFFTECH)",
-        "key": "pufftech-and-ultra-light-down",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57958,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 98229,
-      "name": "코트",
-      "key": "coats",
-      "path": "57892,57958,98229,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57958,
-      "class_name": "아우터",
-      "category_id": 98229,
-      "category_name": "코트",
-      "parent_ids": [
-        57892,
-        57958
-      ],
-      "parent_names": [
-        "WOMEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 98229,
-        "name": "코트",
-        "key": "coats",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57958,
-            "name": "아우터",
-            "key": "outerwear"
           }
         ]
       }
@@ -2697,7 +2697,7 @@
     {
       "level": "category",
       "id": 58025,
-      "name": "파자마",
+      "name": "파자마 & 홈웨어 상의",
       "key": "loungewear-and-pajamas",
       "path": "57892,57964,58025,",
       "gender_id": 57892,
@@ -2705,7 +2705,7 @@
       "class_id": 57964,
       "class_name": "파자마 & 홈웨어",
       "category_id": 58025,
-      "category_name": "파자마",
+      "category_name": "파자마 & 홈웨어 상의",
       "parent_ids": [
         57892,
         57964
@@ -2716,7 +2716,7 @@
       ],
       "raw": {
         "id": 58025,
-        "name": "파자마",
+        "name": "파자마 & 홈웨어 상의",
         "key": "loungewear-and-pajamas",
         "parents": [
           {
@@ -4254,6 +4254,44 @@
     },
     {
       "level": "category",
+      "id": 124426,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57892,124424,124426,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 124426,
+      "category_name": "아우터",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124426,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 124427,
       "name": "상의",
       "key": "tops",
@@ -4368,6 +4406,82 @@
     },
     {
       "level": "category",
+      "id": 133990,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57892,124424,133990,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 133990,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 133990,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 133775,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57892,124424,133775,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 133775,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 133775,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 141119,
       "name": "라운지웨어 & 홈웨어",
       "key": "loungewear-and-homewear",
@@ -4400,6 +4514,272 @@
             "id": 124424,
             "name": "GU",
             "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58035,
+      "name": "파카 & 블루종",
+      "key": "parkas-and-blousons",
+      "path": "57893,57966,58035,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58035,
+      "category_name": "파카 & 블루종",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58035,
+        "name": "파카 & 블루종",
+        "key": "parkas-and-blousons",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58036,
+      "name": "감탄 재킷",
+      "key": "gamtan-jackets",
+      "path": "57893,57966,58036,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58036,
+      "category_name": "감탄 재킷",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58036,
+        "name": "감탄 재킷",
+        "key": "gamtan-jackets",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 117358,
+      "name": "감탄 재킷 (CUSTOM ORDER)",
+      "key": "uniqlo-custom-order",
+      "path": "57893,57966,117358,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 117358,
+      "category_name": "감탄 재킷 (CUSTOM ORDER)",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 117358,
+        "name": "감탄 재킷 (CUSTOM ORDER)",
+        "key": "uniqlo-custom-order",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58037,
+      "name": "재킷 & 블레이저",
+      "key": "jackets",
+      "path": "57893,57966,58037,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58037,
+      "category_name": "재킷 & 블레이저",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58037,
+        "name": "재킷 & 블레이저",
+        "key": "jackets",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98233,
+      "name": "코트",
+      "key": "coats",
+      "path": "57893,57966,98233,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 98233,
+      "category_name": "코트",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 98233,
+        "name": "코트",
+        "key": "coats",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58038,
+      "name": "경량 패딩 (PUFFTECH)",
+      "key": "pufftech-and-ultra-light-down",
+      "path": "57893,57966,58038,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58038,
+      "category_name": "경량 패딩 (PUFFTECH)",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58038,
+        "name": "경량 패딩 (PUFFTECH)",
+        "key": "pufftech-and-ultra-light-down",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98234,
+      "name": "다운 & 패딩",
+      "key": "down",
+      "path": "57893,57966,98234,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 98234,
+      "category_name": "다운 & 패딩",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 98234,
+        "name": "다운 & 패딩",
+        "key": "down",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
           }
         ]
       }
@@ -4742,234 +5122,6 @@
             "id": 95355,
             "name": "니트 & 가디건",
             "key": "sweaters-and-knitwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58035,
-      "name": "파카 & 블루종",
-      "key": "parkas-and-blousons",
-      "path": "57893,57966,58035,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": 58035,
-      "category_name": "파카 & 블루종",
-      "parent_ids": [
-        57893,
-        57966
-      ],
-      "parent_names": [
-        "MEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 58035,
-        "name": "파카 & 블루종",
-        "key": "parkas-and-blousons",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57966,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58036,
-      "name": "감탄 재킷",
-      "key": "gamtan-jackets",
-      "path": "57893,57966,58036,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": 58036,
-      "category_name": "감탄 재킷",
-      "parent_ids": [
-        57893,
-        57966
-      ],
-      "parent_names": [
-        "MEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 58036,
-        "name": "감탄 재킷",
-        "key": "gamtan-jackets",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57966,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 117358,
-      "name": "감탄 재킷 (CUSTOM ORDER)",
-      "key": "uniqlo-custom-order",
-      "path": "57893,57966,117358,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": 117358,
-      "category_name": "감탄 재킷 (CUSTOM ORDER)",
-      "parent_ids": [
-        57893,
-        57966
-      ],
-      "parent_names": [
-        "MEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 117358,
-        "name": "감탄 재킷 (CUSTOM ORDER)",
-        "key": "uniqlo-custom-order",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57966,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58037,
-      "name": "재킷 & 블레이저",
-      "key": "jackets",
-      "path": "57893,57966,58037,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": 58037,
-      "category_name": "재킷 & 블레이저",
-      "parent_ids": [
-        57893,
-        57966
-      ],
-      "parent_names": [
-        "MEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 58037,
-        "name": "재킷 & 블레이저",
-        "key": "jackets",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57966,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58038,
-      "name": "경량 패딩 (PUFFTECH)",
-      "key": "pufftech-and-ultra-light-down",
-      "path": "57893,57966,58038,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": 58038,
-      "category_name": "경량 패딩 (PUFFTECH)",
-      "parent_ids": [
-        57893,
-        57966
-      ],
-      "parent_names": [
-        "MEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 58038,
-        "name": "경량 패딩 (PUFFTECH)",
-        "key": "pufftech-and-ultra-light-down",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57966,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 98234,
-      "name": "다운 & 패딩",
-      "key": "down",
-      "path": "57893,57966,98234,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": 98234,
-      "category_name": "다운 & 패딩",
-      "parent_ids": [
-        57893,
-        57966
-      ],
-      "parent_names": [
-        "MEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 98234,
-        "name": "다운 & 패딩",
-        "key": "down",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57966,
-            "name": "아우터",
-            "key": "outerwear"
           }
         ]
       }
@@ -6496,6 +6648,44 @@
     },
     {
       "level": "category",
+      "id": 124430,
+      "name": "아우터",
+      "key": "outerwear",
+      "path": "57893,124425,124430,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 124425,
+      "class_name": "GU",
+      "category_id": 124430,
+      "category_name": "아우터",
+      "parent_ids": [
+        57893,
+        124425
+      ],
+      "parent_names": [
+        "MEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 124430,
+        "name": "아우터",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 124425,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 124431,
       "name": "상의",
       "key": "tops",
@@ -6594,6 +6784,44 @@
         "id": 139039,
         "name": "라운지웨어 & 홈웨어",
         "key": "loungewear-and-homewear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 124425,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 152626,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57893,124425,152626,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 124425,
+      "class_name": "GU",
+      "category_id": 152626,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57893,
+        124425
+      ],
+      "parent_names": [
+        "MEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 152626,
+        "name": "액세서리",
+        "key": "accessories",
         "parents": [
           {
             "id": 57893,
@@ -7104,6 +7332,44 @@
     },
     {
       "level": "category",
+      "id": 58075,
+      "name": "재킷 & 파카",
+      "key": "parkas-and-blousons",
+      "path": "57894,57973,58075,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57973,
+      "class_name": "아우터",
+      "category_id": 58075,
+      "category_name": "재킷 & 파카",
+      "parent_ids": [
+        57894,
+        57973
+      ],
+      "parent_names": [
+        "KIDS",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58075,
+        "name": "재킷 & 파카",
+        "key": "parkas-and-blousons",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57973,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58078,
       "name": "티셔츠 (반팔 & 긴팔)",
       "key": "t-shirts",
@@ -7440,44 +7706,6 @@
             "id": 100066,
             "name": "니트 & 셔츠",
             "key": "knitwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58075,
-      "name": "재킷 & 파카",
-      "key": "parkas-and-blousons",
-      "path": "57894,57973,58075,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57973,
-      "class_name": "아우터",
-      "category_id": 58075,
-      "category_name": "재킷 & 파카",
-      "parent_ids": [
-        57894,
-        57973
-      ],
-      "parent_names": [
-        "KIDS",
-        "아우터"
-      ],
-      "raw": {
-        "id": 58075,
-        "name": "재킷 & 파카",
-        "key": "parkas-and-blousons",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57973,
-            "name": "아우터",
-            "key": "outerwear"
           }
         ]
       }
