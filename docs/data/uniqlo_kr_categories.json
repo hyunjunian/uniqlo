@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-23T19:47:40.610081+00:00",
+  "collected_at": "2026-08-24T19:56:33.223444+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 248,
+  "category_count": 231,
   "categories": [
     {
       "level": "gender",
@@ -148,13 +148,13 @@
     {
       "level": "class",
       "id": 95354,
-      "name": "셔츠 & 블라우스 & 폴로셔츠",
+      "name": "셔츠 & 블라우스",
       "key": "shirts-and-blouses",
       "path": "57892,95354,,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "class_name": "셔츠 & 블라우스",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -165,7 +165,7 @@
       ],
       "raw": {
         "id": 95354,
-        "name": "셔츠 & 블라우스 & 폴로셔츠",
+        "name": "셔츠 & 블라우스",
         "key": "shirts-and-blouses",
         "parents": [
           {
@@ -446,68 +446,6 @@
         "id": 57962,
         "name": "스포츠 유틸리티 웨어",
         "key": "sport-utility-wear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 114788,
-      "name": "UV Protection",
-      "key": "uv-protection",
-      "path": "57892,114788,,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 114788,
-      "class_name": "UV Protection",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57892
-      ],
-      "parent_names": [
-        "WOMEN"
-      ],
-      "raw": {
-        "id": 114788,
-        "name": "UV Protection",
-        "key": "uv-protection",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 116863,
-      "name": "리넨",
-      "key": "linen",
-      "path": "57892,116863,,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57892
-      ],
-      "parent_names": [
-        "WOMEN"
-      ],
-      "raw": {
-        "id": 116863,
-        "name": "리넨",
-        "key": "linen",
         "parents": [
           {
             "id": 57892,
@@ -880,68 +818,6 @@
         "id": 57969,
         "name": "스포츠 유틸리티 웨어",
         "key": "sport-utility-wear",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 114793,
-      "name": "UV Protection",
-      "key": "uv-protection",
-      "path": "57893,114793,,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 114793,
-      "class_name": "UV Protection",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57893
-      ],
-      "parent_names": [
-        "MEN"
-      ],
-      "raw": {
-        "id": 114793,
-        "name": "UV Protection",
-        "key": "uv-protection",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 116864,
-      "name": "리넨",
-      "key": "linen",
-      "path": "57893,116864,,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57893
-      ],
-      "parent_names": [
-        "MEN"
-      ],
-      "raw": {
-        "id": 116864,
-        "name": "리넨",
-        "key": "linen",
         "parents": [
           {
             "id": 57893,
@@ -1356,37 +1232,6 @@
     },
     {
       "level": "class",
-      "id": 114797,
-      "name": "UV Protection",
-      "key": "uv-protection",
-      "path": "57894,114797,,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 114797,
-      "class_name": "UV Protection",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57894
-      ],
-      "parent_names": [
-        "KIDS"
-      ],
-      "raw": {
-        "id": 114797,
-        "name": "UV Protection",
-        "key": "uv-protection",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
       "id": 107544,
       "name": "Special Collaborations",
       "key": "special-collaboration",
@@ -1632,6 +1477,44 @@
     },
     {
       "level": "category",
+      "id": 98230,
+      "name": "다운 & 패딩",
+      "key": "down",
+      "path": "57892,57958,98230,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 98230,
+      "category_name": "다운 & 패딩",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 98230,
+        "name": "다운 & 패딩",
+        "key": "down",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 57995,
       "name": "티셔츠 (반팔 & 긴팔)",
       "key": "t-shirts",
@@ -1829,7 +1712,7 @@
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "class_name": "셔츠 & 블라우스",
       "category_id": 95362,
       "category_name": "셔츠 & 블라우스",
       "parent_ids": [
@@ -1838,7 +1721,7 @@
       ],
       "parent_names": [
         "WOMEN",
-        "셔츠 & 블라우스 & 폴로셔츠"
+        "셔츠 & 블라우스"
       ],
       "raw": {
         "id": 95362,
@@ -1852,45 +1735,7 @@
           },
           {
             "id": 95354,
-            "name": "셔츠 & 블라우스 & 폴로셔츠",
-            "key": "shirts-and-blouses"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 142636,
-      "name": "폴로셔츠 (카라티)",
-      "key": "polo-shirts",
-      "path": "57892,95354,142636,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
-      "category_id": 142636,
-      "category_name": "폴로셔츠 (카라티)",
-      "parent_ids": [
-        57892,
-        95354
-      ],
-      "parent_names": [
-        "WOMEN",
-        "셔츠 & 블라우스 & 폴로셔츠"
-      ],
-      "raw": {
-        "id": 142636,
-        "name": "폴로셔츠 (카라티)",
-        "key": "polo-shirts",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 95354,
-            "name": "셔츠 & 블라우스 & 폴로셔츠",
+            "name": "셔츠 & 블라우스",
             "key": "shirts-and-blouses"
           }
         ]
@@ -3798,234 +3643,6 @@
     },
     {
       "level": "category",
-      "id": 114789,
-      "name": "재킷 & 파카",
-      "key": "outerwear",
-      "path": "57892,114788,114789,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 114788,
-      "class_name": "UV Protection",
-      "category_id": 114789,
-      "category_name": "재킷 & 파카",
-      "parent_ids": [
-        57892,
-        114788
-      ],
-      "parent_names": [
-        "WOMEN",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 114789,
-        "name": "재킷 & 파카",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 114788,
-            "name": "UV Protection",
-            "key": "uv-protection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 114790,
-      "name": "가디건",
-      "key": "tops",
-      "path": "57892,114788,114790,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 114788,
-      "class_name": "UV Protection",
-      "category_id": 114790,
-      "category_name": "가디건",
-      "parent_ids": [
-        57892,
-        114788
-      ],
-      "parent_names": [
-        "WOMEN",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 114790,
-        "name": "가디건",
-        "key": "tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 114788,
-            "name": "UV Protection",
-            "key": "uv-protection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 114791,
-      "name": "팬츠 & 레깅스",
-      "key": "pants",
-      "path": "57892,114788,114791,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 114788,
-      "class_name": "UV Protection",
-      "category_id": 114791,
-      "category_name": "팬츠 & 레깅스",
-      "parent_ids": [
-        57892,
-        114788
-      ],
-      "parent_names": [
-        "WOMEN",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 114791,
-        "name": "팬츠 & 레깅스",
-        "key": "pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 114788,
-            "name": "UV Protection",
-            "key": "uv-protection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 114792,
-      "name": "액세서리",
-      "key": "accessories",
-      "path": "57892,114788,114792,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 114788,
-      "class_name": "UV Protection",
-      "category_id": 114792,
-      "category_name": "액세서리",
-      "parent_ids": [
-        57892,
-        114788
-      ],
-      "parent_names": [
-        "WOMEN",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 114792,
-        "name": "액세서리",
-        "key": "accessories",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 114788,
-            "name": "UV Protection",
-            "key": "uv-protection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116866,
-      "name": "셔츠",
-      "key": "tops",
-      "path": "57892,116863,116866,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116866,
-      "category_name": "셔츠",
-      "parent_ids": [
-        57892,
-        116863
-      ],
-      "parent_names": [
-        "WOMEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116866,
-        "name": "셔츠",
-        "key": "tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116867,
-      "name": "팬츠",
-      "key": "bottoms",
-      "path": "57892,116863,116867,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 116863,
-      "class_name": "리넨",
-      "category_id": 116867,
-      "category_name": "팬츠",
-      "parent_ids": [
-        57892,
-        116863
-      ],
-      "parent_names": [
-        "WOMEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116867,
-        "name": "팬츠",
-        "key": "bottoms",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 116863,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107546,
       "name": "UNIQLO : C",
       "key": "uniqlo-c",
@@ -4048,6 +3665,44 @@
         "id": 107546,
         "name": "UNIQLO : C",
         "key": "uniqlo-c",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107545,
+      "name": "Uniqlo U",
+      "key": "uniqlo-u",
+      "path": "57892,107542,107545,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 107545,
+      "category_name": "Uniqlo U",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107545,
+        "name": "Uniqlo U",
+        "key": "uniqlo-u",
         "parents": [
           {
             "id": 57892,
@@ -4124,44 +3779,6 @@
         "id": 113234,
         "name": "UNIQLO and COMPTOIR DES COTONNIERS",
         "key": "uniqlo-and-comptoir-des-cotonniers",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 107542,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 107545,
-      "name": "Uniqlo U",
-      "key": "uniqlo-u",
-      "path": "57892,107542,107545,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 107542,
-      "class_name": "Special Collaborations",
-      "category_id": 107545,
-      "category_name": "Uniqlo U",
-      "parent_ids": [
-        57892,
-        107542
-      ],
-      "parent_names": [
-        "WOMEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 107545,
-        "name": "Uniqlo U",
-        "key": "uniqlo-u",
         "parents": [
           {
             "id": 57892,
@@ -6306,158 +5923,6 @@
     },
     {
       "level": "category",
-      "id": 114794,
-      "name": "파카",
-      "key": "outerwear",
-      "path": "57893,114793,114794,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 114793,
-      "class_name": "UV Protection",
-      "category_id": 114794,
-      "category_name": "파카",
-      "parent_ids": [
-        57893,
-        114793
-      ],
-      "parent_names": [
-        "MEN",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 114794,
-        "name": "파카",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 114793,
-            "name": "UV Protection",
-            "key": "uv-protection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 114796,
-      "name": "액세서리",
-      "key": "accessories",
-      "path": "57893,114793,114796,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 114793,
-      "class_name": "UV Protection",
-      "category_id": 114796,
-      "category_name": "액세서리",
-      "parent_ids": [
-        57893,
-        114793
-      ],
-      "parent_names": [
-        "MEN",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 114796,
-        "name": "액세서리",
-        "key": "accessories",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 114793,
-            "name": "UV Protection",
-            "key": "uv-protection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116873,
-      "name": "셔츠",
-      "key": "tops",
-      "path": "57893,116864,116873,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": 116873,
-      "category_name": "셔츠",
-      "parent_ids": [
-        57893,
-        116864
-      ],
-      "parent_names": [
-        "MEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116873,
-        "name": "셔츠",
-        "key": "tops",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 116864,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 116874,
-      "name": "팬츠",
-      "key": "bottoms",
-      "path": "57893,116864,116874,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 116864,
-      "class_name": "리넨",
-      "category_id": 116874,
-      "category_name": "팬츠",
-      "parent_ids": [
-        57893,
-        116864
-      ],
-      "parent_names": [
-        "MEN",
-        "리넨"
-      ],
-      "raw": {
-        "id": 116874,
-        "name": "팬츠",
-        "key": "bottoms",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 116864,
-            "name": "리넨",
-            "key": "linen"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107551,
       "name": "UNIQLO : C",
       "key": "uniqlo-c",
@@ -6496,44 +5961,6 @@
     },
     {
       "level": "category",
-      "id": 107552,
-      "name": "UNIQLO and JW ANDERSON",
-      "key": "uniqlo-and-jw-anderson",
-      "path": "57893,107543,107552,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 107543,
-      "class_name": "Special Collaborations",
-      "category_id": 107552,
-      "category_name": "UNIQLO and JW ANDERSON",
-      "parent_ids": [
-        57893,
-        107543
-      ],
-      "parent_names": [
-        "MEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 107552,
-        "name": "UNIQLO and JW ANDERSON",
-        "key": "uniqlo-and-jw-anderson",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 107543,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107550,
       "name": "Uniqlo U",
       "key": "uniqlo-u",
@@ -6556,6 +5983,44 @@
         "id": 107550,
         "name": "Uniqlo U",
         "key": "uniqlo-u",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107552,
+      "name": "UNIQLO and JW ANDERSON",
+      "key": "uniqlo-and-jw-anderson",
+      "path": "57893,107543,107552,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 107552,
+      "category_name": "UNIQLO and JW ANDERSON",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107552,
+        "name": "UNIQLO and JW ANDERSON",
+        "key": "uniqlo-and-jw-anderson",
         "parents": [
           {
             "id": 57893,
@@ -8352,82 +7817,6 @@
             "id": 57977,
             "name": "스포츠 유틸리티 웨어",
             "key": "sport-utility-wear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 114798,
-      "name": "파카",
-      "key": "outerwear",
-      "path": "57894,114797,114798,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 114797,
-      "class_name": "UV Protection",
-      "category_id": 114798,
-      "category_name": "파카",
-      "parent_ids": [
-        57894,
-        114797
-      ],
-      "parent_names": [
-        "KIDS",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 114798,
-        "name": "파카",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 114797,
-            "name": "UV Protection",
-            "key": "uv-protection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 139702,
-      "name": "액세서리",
-      "key": "accessories",
-      "path": "57894,114797,139702,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 114797,
-      "class_name": "UV Protection",
-      "category_id": 139702,
-      "category_name": "액세서리",
-      "parent_ids": [
-        57894,
-        114797
-      ],
-      "parent_names": [
-        "KIDS",
-        "UV Protection"
-      ],
-      "raw": {
-        "id": 139702,
-        "name": "액세서리",
-        "key": "accessories",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 114797,
-            "name": "UV Protection",
-            "key": "uv-protection"
           }
         ]
       }
