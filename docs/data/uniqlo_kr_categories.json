@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-30T21:59:37.142418+00:00",
+  "collected_at": "2026-08-31T23:18:17.713815+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 234,
+  "category_count": 237,
   "categories": [
     {
       "level": "gender",
@@ -2107,6 +2107,44 @@
         "id": 58005,
         "name": "스웨트 팬츠 & 조거 팬츠",
         "key": "sweat-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98232,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57892,57960,98232,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 98232,
+      "category_name": "웜 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 98232,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
         "parents": [
           {
             "id": 57892,
@@ -5163,6 +5201,44 @@
     },
     {
       "level": "category",
+      "id": 98235,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57893,57968,98235,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 98235,
+      "category_name": "웜 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 98235,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58061,
       "name": "에어리즘",
       "key": "airism",
@@ -7123,6 +7199,44 @@
         "id": 58084,
         "name": "반바지",
         "key": "short-pants",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57975,
+            "name": "청바지 & 팬츠",
+            "key": "pants-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 104062,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57894,57975,104062,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": 104062,
+      "category_name": "웜 팬츠",
+      "parent_ids": [
+        57894,
+        57975
+      ],
+      "parent_names": [
+        "KIDS",
+        "청바지 & 팬츠"
+      ],
+      "raw": {
+        "id": 104062,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
         "parents": [
           {
             "id": 57894,
