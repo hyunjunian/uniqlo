@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-02T21:57:10.386862+00:00",
+  "collected_at": "2026-09-03T21:51:51.709738+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 237,
   "categories": [
@@ -2009,44 +2009,6 @@
     },
     {
       "level": "category",
-      "id": 58010,
-      "name": "쇼트 팬츠(반바지)",
-      "key": "short-pants",
-      "path": "57892,57960,58010,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58010,
-      "category_name": "쇼트 팬츠(반바지)",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58010,
-        "name": "쇼트 팬츠(반바지)",
-        "key": "short-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58008,
       "name": "슬랙스(트라우저)",
       "key": "trousers",
@@ -2107,6 +2069,44 @@
         "id": 58005,
         "name": "스웨트 팬츠 & 조거 팬츠",
         "key": "sweat-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58010,
+      "name": "쇼트 팬츠(반바지)",
+      "key": "short-pants",
+      "path": "57892,57960,58010,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58010,
+      "category_name": "쇼트 팬츠(반바지)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58010,
+        "name": "쇼트 팬츠(반바지)",
+        "key": "short-pants",
         "parents": [
           {
             "id": 57892,
@@ -5049,44 +5049,6 @@
     },
     {
       "level": "category",
-      "id": 58054,
-      "name": "쇼트 팬츠(반바지)",
-      "key": "short-pants",
-      "path": "57893,57968,58054,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58054,
-      "category_name": "쇼트 팬츠(반바지)",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58054,
-        "name": "쇼트 팬츠(반바지)",
-        "key": "short-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58050,
       "name": "스웨트 팬츠 & 조거 팬츠",
       "key": "sweat-pants",
@@ -5185,6 +5147,44 @@
         "id": 58053,
         "name": "슬랙스(트라우저)",
         "key": "trousers",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58054,
+      "name": "쇼트 팬츠(반바지)",
+      "key": "short-pants",
+      "path": "57893,57968,58054,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58054,
+      "category_name": "쇼트 팬츠(반바지)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58054,
+        "name": "쇼트 팬츠(반바지)",
+        "key": "short-pants",
         "parents": [
           {
             "id": 57893,
