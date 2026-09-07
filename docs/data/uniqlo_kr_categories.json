@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-09-06T21:35:43.024850+00:00",
+  "collected_at": "2026-09-07T22:14:11.889982+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 237,
+  "category_count": 261,
   "categories": [
     {
       "level": "gender",
@@ -426,6 +426,37 @@
     },
     {
       "level": "class",
+      "id": 102254,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57892,102254,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 102254,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
       "id": 57962,
       "name": "스포츠 유틸리티 웨어",
       "key": "sport-utility-wear",
@@ -787,6 +818,37 @@
         "id": 81620,
         "name": "에어리즘",
         "key": "airism",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 102257,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57893,102257,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 102257,
+        "name": "히트텍",
+        "key": "heattech",
         "parents": [
           {
             "id": 57893,
@@ -1190,6 +1252,37 @@
         "id": 81621,
         "name": "에어리즘",
         "key": "airism",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 103078,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57894,103078,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 103078,
+      "class_name": "히트텍",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 103078,
+        "name": "히트텍",
+        "key": "heattech",
         "parents": [
           {
             "id": 57894,
@@ -1857,44 +1950,6 @@
     },
     {
       "level": "category",
-      "id": 58003,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57892,57960,58003,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58003,
-      "category_name": "진(청바지)",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58003,
-        "name": "진(청바지)",
-        "key": "jeans",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 149931,
       "name": "배럴 레그 팬츠",
       "key": "barrel-leg-pants",
@@ -1917,6 +1972,44 @@
         "id": 149931,
         "name": "배럴 레그 팬츠",
         "key": "barrel-leg-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58003,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57892,57960,58003,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58003,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58003,
+        "name": "진(청바지)",
+        "key": "jeans",
         "parents": [
           {
             "id": 57892,
@@ -3529,6 +3622,272 @@
     },
     {
       "level": "category",
+      "id": 104257,
+      "name": "히트텍 캐시미어 블렌드",
+      "key": "heattech-cashmere-blend",
+      "path": "57892,102254,104257,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 104257,
+      "category_name": "히트텍 캐시미어 블렌드",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 104257,
+        "name": "히트텍 캐시미어 블렌드",
+        "key": "heattech-cashmere-blend",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102262,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57892,102254,102262,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 102262,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102262,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102264,
+      "name": "히트텍 울트라 웜",
+      "key": "heattech-ultra-warm",
+      "path": "57892,102254,102264,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 102264,
+      "category_name": "히트텍 울트라 웜",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102264,
+        "name": "히트텍 울트라 웜",
+        "key": "heattech-ultra-warm",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102258,
+      "name": "티셔츠",
+      "key": "tops",
+      "path": "57892,102254,102258,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 102258,
+      "category_name": "티셔츠",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102258,
+        "name": "티셔츠",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 153725,
+      "name": "레깅스ㆍ타이즈",
+      "key": "leggings",
+      "path": "57892,102254,153725,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 153725,
+      "category_name": "레깅스ㆍ타이즈",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 153725,
+        "name": "레깅스ㆍ타이즈",
+        "key": "leggings",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102260,
+      "name": "양말",
+      "key": "socks",
+      "path": "57892,102254,102260,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 102260,
+      "category_name": "양말",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102260,
+        "name": "양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102261,
+      "name": "액세서리",
+      "key": "accessory",
+      "path": "57892,102254,102261,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 102261,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102261,
+        "name": "액세서리",
+        "key": "accessory",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58013,
       "name": "아우터",
       "key": "outerwear",
@@ -4859,44 +5218,6 @@
     },
     {
       "level": "category",
-      "id": 58048,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57893,57968,58048,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58048,
-      "category_name": "진(청바지)",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58048,
-        "name": "진(청바지)",
-        "key": "jeans",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 149932,
       "name": "배럴 레그 팬츠",
       "key": "barrel-leg-pants",
@@ -4919,6 +5240,44 @@
         "id": 149932,
         "name": "배럴 레그 팬츠",
         "key": "barrel-leg-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58048,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57893,57968,58048,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58048,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58048,
+        "name": "진(청바지)",
+        "key": "jeans",
         "parents": [
           {
             "id": 57893,
@@ -5879,6 +6238,272 @@
             "id": 81620,
             "name": "에어리즘",
             "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 128518,
+      "name": "히트텍 캐시미어 블렌드",
+      "key": "heattech-cashmere-blend",
+      "path": "57893,102257,128518,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 128518,
+      "category_name": "히트텍 캐시미어 블렌드",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 128518,
+        "name": "히트텍 캐시미어 블렌드",
+        "key": "heattech-cashmere-blend",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102314,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57893,102257,102314,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 102314,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102314,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102315,
+      "name": "히트텍 엑스트라 웜",
+      "key": "heattech-extra-warm",
+      "path": "57893,102257,102315,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 102315,
+      "category_name": "히트텍 엑스트라 웜",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102315,
+        "name": "히트텍 엑스트라 웜",
+        "key": "heattech-extra-warm",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102316,
+      "name": "히트텍 울트라 웜",
+      "key": "heattech-ultra-warm",
+      "path": "57893,102257,102316,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 102316,
+      "category_name": "히트텍 울트라 웜",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102316,
+        "name": "히트텍 울트라 웜",
+        "key": "heattech-ultra-warm",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102265,
+      "name": "상의",
+      "key": "tops",
+      "path": "57893,102257,102265,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 102265,
+      "category_name": "상의",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102265,
+        "name": "상의",
+        "key": "tops",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 103076,
+      "name": "양말",
+      "key": "socks",
+      "path": "57893,102257,103076,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 103076,
+      "category_name": "양말",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 103076,
+        "name": "양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 102268,
+      "name": "액세서리",
+      "key": "accessory",
+      "path": "57893,102257,102268,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 102268,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 102268,
+        "name": "액세서리",
+        "key": "accessory",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
           }
         ]
       }
@@ -6987,6 +7612,82 @@
     },
     {
       "level": "category",
+      "id": 58076,
+      "name": "다운 & 패딩 & 후리스",
+      "key": "jackets",
+      "path": "57894,57973,58076,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57973,
+      "class_name": "아우터",
+      "category_id": 58076,
+      "category_name": "다운 & 패딩 & 후리스",
+      "parent_ids": [
+        57894,
+        57973
+      ],
+      "parent_names": [
+        "KIDS",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58076,
+        "name": "다운 & 패딩 & 후리스",
+        "key": "jackets",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57973,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58077,
+      "name": "스웨트셔츠 & 후드티",
+      "key": "sweatshirts-and-hoodies",
+      "path": "57894,57974,58077,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57974,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 58077,
+      "category_name": "스웨트셔츠 & 후드티",
+      "parent_ids": [
+        57894,
+        57974
+      ],
+      "parent_names": [
+        "KIDS",
+        "티셔츠 & 스웨트셔츠 & 후리스"
+      ],
+      "raw": {
+        "id": 58077,
+        "name": "스웨트셔츠 & 후드티",
+        "key": "sweatshirts-and-hoodies",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57974,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58078,
       "name": "티셔츠 (긴팔 & 반팔)",
       "key": "t-shirts",
@@ -7047,44 +7748,6 @@
         "id": 58081,
         "name": "그래픽티셔츠",
         "key": "ut-graphic-tees",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57974,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58077,
-      "name": "스웨트셔츠 & 후드티",
-      "key": "sweatshirts-and-hoodies",
-      "path": "57894,57974,58077,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57974,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58077,
-      "category_name": "스웨트셔츠 & 후드티",
-      "parent_ids": [
-        57894,
-        57974
-      ],
-      "parent_names": [
-        "KIDS",
-        "티셔츠 & 스웨트셔츠 & 후리스"
-      ],
-      "raw": {
-        "id": 58077,
-        "name": "스웨트셔츠 & 후드티",
-        "key": "sweatshirts-and-hoodies",
         "parents": [
           {
             "id": 57894,
@@ -7855,6 +8518,234 @@
             "id": 81621,
             "name": "에어리즘",
             "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 103081,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57894,103078,103081,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 103078,
+      "class_name": "히트텍",
+      "category_id": 103081,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57894,
+        103078
+      ],
+      "parent_names": [
+        "KIDS",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 103081,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 103078,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 103082,
+      "name": "히트텍 엑스트라 웜",
+      "key": "heattech-extra-warm",
+      "path": "57894,103078,103082,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 103078,
+      "class_name": "히트텍",
+      "category_id": 103082,
+      "category_name": "히트텍 엑스트라 웜",
+      "parent_ids": [
+        57894,
+        103078
+      ],
+      "parent_names": [
+        "KIDS",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 103082,
+        "name": "히트텍 엑스트라 웜",
+        "key": "heattech-extra-warm",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 103078,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 103083,
+      "name": "히트텍 울트라 웜",
+      "key": "heattech-ultra-warm",
+      "path": "57894,103078,103083,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 103078,
+      "class_name": "히트텍",
+      "category_id": 103083,
+      "category_name": "히트텍 울트라 웜",
+      "parent_ids": [
+        57894,
+        103078
+      ],
+      "parent_names": [
+        "KIDS",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 103083,
+        "name": "히트텍 울트라 웜",
+        "key": "heattech-ultra-warm",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 103078,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 103079,
+      "name": "티셔츠",
+      "key": "t-shirts",
+      "path": "57894,103078,103079,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 103078,
+      "class_name": "히트텍",
+      "category_id": 103079,
+      "category_name": "티셔츠",
+      "parent_ids": [
+        57894,
+        103078
+      ],
+      "parent_names": [
+        "KIDS",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 103079,
+        "name": "티셔츠",
+        "key": "t-shirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 103078,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 103149,
+      "name": "레깅스ㆍ양말",
+      "key": "socks",
+      "path": "57894,103078,103149,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 103078,
+      "class_name": "히트텍",
+      "category_id": 103149,
+      "category_name": "레깅스ㆍ양말",
+      "parent_ids": [
+        57894,
+        103078
+      ],
+      "parent_names": [
+        "KIDS",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 103149,
+        "name": "레깅스ㆍ양말",
+        "key": "socks",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 103078,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 103085,
+      "name": "액세서리",
+      "key": "accessories",
+      "path": "57894,103078,103085,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 103078,
+      "class_name": "히트텍",
+      "category_id": 103085,
+      "category_name": "액세서리",
+      "parent_ids": [
+        57894,
+        103078
+      ],
+      "parent_names": [
+        "KIDS",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 103085,
+        "name": "액세서리",
+        "key": "accessories",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 103078,
+            "name": "히트텍",
+            "key": "heattech"
           }
         ]
       }
