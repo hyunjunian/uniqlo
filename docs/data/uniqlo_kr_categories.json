@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-07T22:14:11.889982+00:00",
+  "collected_at": "2026-09-08T21:59:13.676597+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 261,
   "categories": [
@@ -5484,44 +5484,6 @@
     },
     {
       "level": "category",
-      "id": 58053,
-      "name": "슬랙스(트라우저)",
-      "key": "trousers",
-      "path": "57893,57968,58053,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58053,
-      "category_name": "슬랙스(트라우저)",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58053,
-        "name": "슬랙스(트라우저)",
-        "key": "trousers",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58054,
       "name": "쇼트 팬츠(반바지)",
       "key": "short-pants",
@@ -5544,6 +5506,44 @@
         "id": 58054,
         "name": "쇼트 팬츠(반바지)",
         "key": "short-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58053,
+      "name": "슬랙스(트라우저)",
+      "key": "trousers",
+      "path": "57893,57968,58053,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58053,
+      "category_name": "슬랙스(트라우저)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58053,
+        "name": "슬랙스(트라우저)",
+        "key": "trousers",
         "parents": [
           {
             "id": 57893,
@@ -6397,7 +6397,7 @@
     {
       "level": "category",
       "id": 102265,
-      "name": "상의",
+      "name": "티셔츠",
       "key": "tops",
       "path": "57893,102257,102265,",
       "gender_id": 57893,
@@ -6405,7 +6405,7 @@
       "class_id": 102257,
       "class_name": "히트텍",
       "category_id": 102265,
-      "category_name": "상의",
+      "category_name": "티셔츠",
       "parent_ids": [
         57893,
         102257
@@ -6416,7 +6416,7 @@
       ],
       "raw": {
         "id": 102265,
-        "name": "상의",
+        "name": "티셔츠",
         "key": "tops",
         "parents": [
           {
