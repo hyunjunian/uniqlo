@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-09-08T21:59:13.676597+00:00",
+  "collected_at": "2026-09-09T21:53:13.230418+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 261,
+  "category_count": 262,
   "categories": [
     {
       "level": "gender",
@@ -147,37 +147,6 @@
     },
     {
       "level": "class",
-      "id": 95354,
-      "name": "셔츠 & 블라우스",
-      "key": "shirts-and-blouses",
-      "path": "57892,95354,,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 95354,
-      "class_name": "셔츠 & 블라우스",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57892
-      ],
-      "parent_names": [
-        "WOMEN"
-      ],
-      "raw": {
-        "id": 95354,
-        "name": "셔츠 & 블라우스",
-        "key": "shirts-and-blouses",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
       "id": 95353,
       "name": "니트 & 가디건",
       "key": "sweaters-and-knitwear",
@@ -198,6 +167,37 @@
         "id": 95353,
         "name": "니트 & 가디건",
         "key": "sweaters-and-knitwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 95354,
+      "name": "셔츠 & 블라우스",
+      "key": "shirts-and-blouses",
+      "path": "57892,95354,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 95354,
+        "name": "셔츠 & 블라우스",
+        "key": "shirts-and-blouses",
         "parents": [
           {
             "id": 57892,
@@ -612,37 +612,6 @@
     },
     {
       "level": "class",
-      "id": 95356,
-      "name": "셔츠",
-      "key": "shirts-and-polo-shirts",
-      "path": "57893,95356,,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95356,
-      "class_name": "셔츠",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57893
-      ],
-      "parent_names": [
-        "MEN"
-      ],
-      "raw": {
-        "id": 95356,
-        "name": "셔츠",
-        "key": "shirts-and-polo-shirts",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
       "id": 95355,
       "name": "니트 & 가디건",
       "key": "sweaters-and-knitwear",
@@ -663,6 +632,37 @@
         "id": 95355,
         "name": "니트 & 가디건",
         "key": "sweaters-and-knitwear",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 95356,
+      "name": "셔츠",
+      "key": "shirts-and-polo-shirts",
+      "path": "57893,95356,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 95356,
+        "name": "셔츠",
+        "key": "shirts-and-polo-shirts",
         "parents": [
           {
             "id": 57893,
@@ -1077,68 +1077,6 @@
     },
     {
       "level": "class",
-      "id": 57975,
-      "name": "청바지 & 팬츠",
-      "key": "pants-and-skirts",
-      "path": "57894,57975,,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57975,
-      "class_name": "청바지 & 팬츠",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57894
-      ],
-      "parent_names": [
-        "KIDS"
-      ],
-      "raw": {
-        "id": 57975,
-        "name": "청바지 & 팬츠",
-        "key": "pants-and-skirts",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 57976,
-      "name": "스커트 & 원피스",
-      "key": "dresses-and-skirts",
-      "path": "57894,57976,,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57976,
-      "class_name": "스커트 & 원피스",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57894
-      ],
-      "parent_names": [
-        "KIDS"
-      ],
-      "raw": {
-        "id": 57976,
-        "name": "스커트 & 원피스",
-        "key": "dresses-and-skirts",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
       "id": 100066,
       "name": "니트 & 셔츠",
       "key": "knitwear",
@@ -1170,6 +1108,37 @@
     },
     {
       "level": "class",
+      "id": 57975,
+      "name": "청바지 & 팬츠",
+      "key": "pants-and-skirts",
+      "path": "57894,57975,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57975,
+        "name": "청바지 & 팬츠",
+        "key": "pants-and-skirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
       "id": 57978,
       "name": "이너웨어",
       "key": "innerwear",
@@ -1190,6 +1159,37 @@
         "id": 57978,
         "name": "이너웨어",
         "key": "innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 57976,
+      "name": "스커트 & 원피스",
+      "key": "dresses-and-skirts",
+      "path": "57894,57976,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "스커트 & 원피스",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 57976,
+        "name": "스커트 & 원피스",
+        "key": "dresses-and-skirts",
         "parents": [
           {
             "id": 57894,
@@ -1646,120 +1646,6 @@
     },
     {
       "level": "category",
-      "id": 58001,
-      "name": "그래픽티셔츠",
-      "key": "graphic-tees-ut",
-      "path": "57892,57959,58001,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57959,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58001,
-      "category_name": "그래픽티셔츠",
-      "parent_ids": [
-        57892,
-        57959
-      ],
-      "parent_names": [
-        "WOMEN",
-        "티셔츠 & 스웨트셔츠 & 후리스"
-      ],
-      "raw": {
-        "id": 58001,
-        "name": "그래픽티셔츠",
-        "key": "graphic-tees-ut",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57959,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 57996,
-      "name": "브라탑",
-      "key": "bra-tops",
-      "path": "57892,57959,57996,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57959,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 57996,
-      "category_name": "브라탑",
-      "parent_ids": [
-        57892,
-        57959
-      ],
-      "parent_names": [
-        "WOMEN",
-        "티셔츠 & 스웨트셔츠 & 후리스"
-      ],
-      "raw": {
-        "id": 57996,
-        "name": "브라탑",
-        "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57959,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58948,
-      "name": "PEACE FOR ALL",
-      "key": "peace-for-all",
-      "path": "57892,57959,58948,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57959,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58948,
-      "category_name": "PEACE FOR ALL",
-      "parent_ids": [
-        57892,
-        57959
-      ],
-      "parent_names": [
-        "WOMEN",
-        "티셔츠 & 스웨트셔츠 & 후리스"
-      ],
-      "raw": {
-        "id": 58948,
-        "name": "PEACE FOR ALL",
-        "key": "peace-for-all",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57959,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 57997,
       "name": "스웨트셔츠 & 후드집업",
       "key": "sweatshirts-and-hoodies",
@@ -1836,28 +1722,28 @@
     },
     {
       "level": "category",
-      "id": 95362,
-      "name": "셔츠 & 블라우스",
-      "key": "shirts-and-blouses",
-      "path": "57892,95354,95362,",
+      "id": 57996,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,57959,57996,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
-      "class_id": 95354,
-      "class_name": "셔츠 & 블라우스",
-      "category_id": 95362,
-      "category_name": "셔츠 & 블라우스",
+      "class_id": 57959,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 57996,
+      "category_name": "브라탑",
       "parent_ids": [
         57892,
-        95354
+        57959
       ],
       "parent_names": [
         "WOMEN",
-        "셔츠 & 블라우스"
+        "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 95362,
-        "name": "셔츠 & 블라우스",
-        "key": "shirts-and-blouses",
+        "id": 57996,
+        "name": "브라탑",
+        "key": "bra-tops",
         "parents": [
           {
             "id": 57892,
@@ -1865,9 +1751,85 @@
             "key": "women"
           },
           {
-            "id": 95354,
-            "name": "셔츠 & 블라우스",
-            "key": "shirts-and-blouses"
+            "id": 57959,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58001,
+      "name": "그래픽티셔츠",
+      "key": "graphic-tees-ut",
+      "path": "57892,57959,58001,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 58001,
+      "category_name": "그래픽티셔츠",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & 스웨트셔츠 & 후리스"
+      ],
+      "raw": {
+        "id": 58001,
+        "name": "그래픽티셔츠",
+        "key": "graphic-tees-ut",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58948,
+      "name": "PEACE FOR ALL",
+      "key": "peace-for-all",
+      "path": "57892,57959,58948,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57959,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 58948,
+      "category_name": "PEACE FOR ALL",
+      "parent_ids": [
+        57892,
+        57959
+      ],
+      "parent_names": [
+        "WOMEN",
+        "티셔츠 & 스웨트셔츠 & 후리스"
+      ],
+      "raw": {
+        "id": 58948,
+        "name": "PEACE FOR ALL",
+        "key": "peace-for-all",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57959,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
           }
         ]
       }
@@ -1944,6 +1906,82 @@
             "id": 95353,
             "name": "니트 & 가디건",
             "key": "sweaters-and-knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95362,
+      "name": "셔츠 & 블라우스",
+      "key": "shirts-and-blouses",
+      "path": "57892,95354,95362,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스",
+      "category_id": 95362,
+      "category_name": "셔츠 & 블라우스",
+      "parent_ids": [
+        57892,
+        95354
+      ],
+      "parent_names": [
+        "WOMEN",
+        "셔츠 & 블라우스"
+      ],
+      "raw": {
+        "id": 95362,
+        "name": "셔츠 & 블라우스",
+        "key": "shirts-and-blouses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95354,
+            "name": "셔츠 & 블라우스",
+            "key": "shirts-and-blouses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 142636,
+      "name": "폴로셔츠 (카라티)",
+      "key": "polo-shirts",
+      "path": "57892,95354,142636,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스",
+      "category_id": 142636,
+      "category_name": "폴로셔츠 (카라티)",
+      "parent_ids": [
+        57892,
+        95354
+      ],
+      "parent_names": [
+        "WOMEN",
+        "셔츠 & 블라우스"
+      ],
+      "raw": {
+        "id": 142636,
+        "name": "폴로셔츠 (카라티)",
+        "key": "polo-shirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95354,
+            "name": "셔츠 & 블라우스",
+            "key": "shirts-and-blouses"
           }
         ]
       }
@@ -2406,44 +2444,6 @@
     },
     {
       "level": "category",
-      "id": 58021,
-      "name": "브라탑",
-      "key": "bra-tops",
-      "path": "57892,57963,58021,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58021,
-      "category_name": "브라탑",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58021,
-        "name": "브라탑",
-        "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58020,
       "name": "와이어리스 브라",
       "key": "bras",
@@ -2466,6 +2466,44 @@
         "id": 58020,
         "name": "와이어리스 브라",
         "key": "bras",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58021,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,57963,58021,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58021,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58021,
+        "name": "브라탑",
+        "key": "bra-tops",
         "parents": [
           {
             "id": 57892,
@@ -2558,6 +2596,44 @@
     },
     {
       "level": "category",
+      "id": 58019,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57892,57963,58019,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58019,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58019,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58024,
       "name": "양말",
       "key": "socks",
@@ -2618,44 +2694,6 @@
         "id": 58023,
         "name": "레깅스 & 타이즈",
         "key": "leggings-and-tights",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58019,
-      "name": "히트텍",
-      "key": "heattech",
-      "path": "57892,57963,58019,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58019,
-      "category_name": "히트텍",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58019,
-        "name": "히트텍",
-        "key": "heattech",
         "parents": [
           {
             "id": 57892,
@@ -4078,16 +4116,16 @@
     },
     {
       "level": "category",
-      "id": 113234,
-      "name": "UNIQLO and COMPTOIR DES COTONNIERS",
-      "key": "uniqlo-and-comptoir-des-cotonniers",
-      "path": "57892,107542,113234,",
+      "id": 107545,
+      "name": "Uniqlo U",
+      "key": "uniqlo-u",
+      "path": "57892,107542,107545,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 107542,
       "class_name": "Special Collaborations",
-      "category_id": 113234,
-      "category_name": "UNIQLO and COMPTOIR DES COTONNIERS",
+      "category_id": 107545,
+      "category_name": "Uniqlo U",
       "parent_ids": [
         57892,
         107542
@@ -4097,9 +4135,9 @@
         "Special Collaborations"
       ],
       "raw": {
-        "id": 113234,
-        "name": "UNIQLO and COMPTOIR DES COTONNIERS",
-        "key": "uniqlo-and-comptoir-des-cotonniers",
+        "id": 107545,
+        "name": "Uniqlo U",
+        "key": "uniqlo-u",
         "parents": [
           {
             "id": 57892,
@@ -4154,44 +4192,6 @@
     },
     {
       "level": "category",
-      "id": 107545,
-      "name": "Uniqlo U",
-      "key": "uniqlo-u",
-      "path": "57892,107542,107545,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 107542,
-      "class_name": "Special Collaborations",
-      "category_id": 107545,
-      "category_name": "Uniqlo U",
-      "parent_ids": [
-        57892,
-        107542
-      ],
-      "parent_names": [
-        "WOMEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 107545,
-        "name": "Uniqlo U",
-        "key": "uniqlo-u",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 107542,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107549,
       "name": "UNIQLO and JW ANDERSON",
       "key": "uniqlo-and-jw-anderson",
@@ -4214,6 +4214,44 @@
         "id": 107549,
         "name": "UNIQLO and JW ANDERSON",
         "key": "uniqlo-and-jw-anderson",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 113234,
+      "name": "UNIQLO and COMPTOIR DES COTONNIERS",
+      "key": "uniqlo-and-comptoir-des-cotonniers",
+      "path": "57892,107542,113234,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 113234,
+      "category_name": "UNIQLO and COMPTOIR DES COTONNIERS",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 113234,
+        "name": "UNIQLO and COMPTOIR DES COTONNIERS",
+        "key": "uniqlo-and-comptoir-des-cotonniers",
         "parents": [
           {
             "id": 57892,
@@ -4876,6 +4914,82 @@
     },
     {
       "level": "category",
+      "id": 58040,
+      "name": "스웨트셔츠 & 후드집업",
+      "key": "sweatshirts-and-hoodies",
+      "path": "57893,57967,58040,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 58040,
+      "category_name": "스웨트셔츠 & 후드집업",
+      "parent_ids": [
+        57893,
+        57967
+      ],
+      "parent_names": [
+        "MEN",
+        "티셔츠 & 스웨트셔츠 & 후리스"
+      ],
+      "raw": {
+        "id": 58040,
+        "name": "스웨트셔츠 & 후드집업",
+        "key": "sweatshirts-and-hoodies",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57967,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98391,
+      "name": "후리스",
+      "key": "fleece",
+      "path": "57893,57967,98391,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57967,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 98391,
+      "category_name": "후리스",
+      "parent_ids": [
+        57893,
+        57967
+      ],
+      "parent_names": [
+        "MEN",
+        "티셔츠 & 스웨트셔츠 & 후리스"
+      ],
+      "raw": {
+        "id": 98391,
+        "name": "후리스",
+        "key": "fleece",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57967,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58045,
       "name": "그래픽티셔츠",
       "key": "graphic-tees-ut",
@@ -4952,28 +5066,28 @@
     },
     {
       "level": "category",
-      "id": 58040,
-      "name": "스웨트셔츠 & 후드집업",
-      "key": "sweatshirts-and-hoodies",
-      "path": "57893,57967,58040,",
+      "id": 95357,
+      "name": "니트",
+      "key": "sweaters-and-knitwear",
+      "path": "57893,95355,95357,",
       "gender_id": 57893,
       "gender_name": "MEN",
-      "class_id": 57967,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58040,
-      "category_name": "스웨트셔츠 & 후드집업",
+      "class_id": 95355,
+      "class_name": "니트 & 가디건",
+      "category_id": 95357,
+      "category_name": "니트",
       "parent_ids": [
         57893,
-        57967
+        95355
       ],
       "parent_names": [
         "MEN",
-        "티셔츠 & 스웨트셔츠 & 후리스"
+        "니트 & 가디건"
       ],
       "raw": {
-        "id": 58040,
-        "name": "스웨트셔츠 & 후드집업",
-        "key": "sweatshirts-and-hoodies",
+        "id": 95357,
+        "name": "니트",
+        "key": "sweaters-and-knitwear",
         "parents": [
           {
             "id": 57893,
@@ -4981,37 +5095,37 @@
             "key": "men"
           },
           {
-            "id": 57967,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
+            "id": 95355,
+            "name": "니트 & 가디건",
+            "key": "sweaters-and-knitwear"
           }
         ]
       }
     },
     {
       "level": "category",
-      "id": 98391,
-      "name": "후리스",
-      "key": "fleece",
-      "path": "57893,57967,98391,",
+      "id": 128424,
+      "name": "가디건",
+      "key": "cardigan",
+      "path": "57893,95355,128424,",
       "gender_id": 57893,
       "gender_name": "MEN",
-      "class_id": 57967,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 98391,
-      "category_name": "후리스",
+      "class_id": 95355,
+      "class_name": "니트 & 가디건",
+      "category_id": 128424,
+      "category_name": "가디건",
       "parent_ids": [
         57893,
-        57967
+        95355
       ],
       "parent_names": [
         "MEN",
-        "티셔츠 & 스웨트셔츠 & 후리스"
+        "니트 & 가디건"
       ],
       "raw": {
-        "id": 98391,
-        "name": "후리스",
-        "key": "fleece",
+        "id": 128424,
+        "name": "가디건",
+        "key": "cardigan",
         "parents": [
           {
             "id": 57893,
@@ -5019,9 +5133,9 @@
             "key": "men"
           },
           {
-            "id": 57967,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
+            "id": 95355,
+            "name": "니트 & 가디건",
+            "key": "sweaters-and-knitwear"
           }
         ]
       }
@@ -5136,82 +5250,6 @@
             "id": 95356,
             "name": "셔츠",
             "key": "shirts-and-polo-shirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 95357,
-      "name": "니트",
-      "key": "sweaters-and-knitwear",
-      "path": "57893,95355,95357,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95355,
-      "class_name": "니트 & 가디건",
-      "category_id": 95357,
-      "category_name": "니트",
-      "parent_ids": [
-        57893,
-        95355
-      ],
-      "parent_names": [
-        "MEN",
-        "니트 & 가디건"
-      ],
-      "raw": {
-        "id": 95357,
-        "name": "니트",
-        "key": "sweaters-and-knitwear",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 95355,
-            "name": "니트 & 가디건",
-            "key": "sweaters-and-knitwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 128424,
-      "name": "가디건",
-      "key": "cardigan",
-      "path": "57893,95355,128424,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95355,
-      "class_name": "니트 & 가디건",
-      "category_id": 128424,
-      "category_name": "가디건",
-      "parent_ids": [
-        57893,
-        95355
-      ],
-      "parent_names": [
-        "MEN",
-        "니트 & 가디건"
-      ],
-      "raw": {
-        "id": 128424,
-        "name": "가디건",
-        "key": "cardigan",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 95355,
-            "name": "니트 & 가디건",
-            "key": "sweaters-and-knitwear"
           }
         ]
       }
@@ -5636,6 +5674,44 @@
     },
     {
       "level": "category",
+      "id": 58062,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57893,57970,58062,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57970,
+      "class_name": "이너웨어",
+      "category_id": 58062,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57893,
+        57970
+      ],
+      "parent_names": [
+        "MEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58062,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57970,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58063,
       "name": "언더웨어",
       "key": "underwear",
@@ -5696,44 +5772,6 @@
         "id": 58065,
         "name": "양말",
         "key": "socks",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57970,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58062,
-      "name": "히트텍",
-      "key": "heattech",
-      "path": "57893,57970,58062,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57970,
-      "class_name": "이너웨어",
-      "category_id": 58062,
-      "category_name": "히트텍",
-      "parent_ids": [
-        57893,
-        57970
-      ],
-      "parent_names": [
-        "MEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58062,
-        "name": "히트텍",
-        "key": "heattech",
         "parents": [
           {
             "id": 57893,
@@ -6700,44 +6738,6 @@
     },
     {
       "level": "category",
-      "id": 107551,
-      "name": "UNIQLO : C",
-      "key": "uniqlo-c",
-      "path": "57893,107543,107551,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 107543,
-      "class_name": "Special Collaborations",
-      "category_id": 107551,
-      "category_name": "UNIQLO : C",
-      "parent_ids": [
-        57893,
-        107543
-      ],
-      "parent_names": [
-        "MEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 107551,
-        "name": "UNIQLO : C",
-        "key": "uniqlo-c",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 107543,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 107550,
       "name": "Uniqlo U",
       "key": "uniqlo-u",
@@ -6760,6 +6760,44 @@
         "id": 107550,
         "name": "Uniqlo U",
         "key": "uniqlo-u",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 107551,
+      "name": "UNIQLO : C",
+      "key": "uniqlo-c",
+      "path": "57893,107543,107551,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 107551,
+      "category_name": "UNIQLO : C",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 107551,
+        "name": "UNIQLO : C",
+        "key": "uniqlo-c",
         "parents": [
           {
             "id": 57893,
@@ -7194,44 +7232,6 @@
     },
     {
       "level": "category",
-      "id": 150164,
-      "name": "스커트 & 원피스",
-      "key": "dresses-and-skirts",
-      "path": "57894,150160,150164,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 150160,
-      "class_name": "여아",
-      "category_id": 150164,
-      "category_name": "스커트 & 원피스",
-      "parent_ids": [
-        57894,
-        150160
-      ],
-      "parent_names": [
-        "KIDS",
-        "여아"
-      ],
-      "raw": {
-        "id": 150164,
-        "name": "스커트 & 원피스",
-        "key": "dresses-and-skirts",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 150160,
-            "name": "여아",
-            "key": "girls"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 150162,
       "name": "아우터",
       "key": "outerwear",
@@ -7254,6 +7254,44 @@
         "id": 150162,
         "name": "아우터",
         "key": "outerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150164,
+      "name": "스커트 & 원피스",
+      "key": "dresses-and-skirts",
+      "path": "57894,150160,150164,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150164,
+      "category_name": "스커트 & 원피스",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150164,
+        "name": "스커트 & 원피스",
+        "key": "dresses-and-skirts",
         "parents": [
           {
             "id": 57894,
@@ -7802,6 +7840,82 @@
     },
     {
       "level": "category",
+      "id": 100067,
+      "name": "니트",
+      "key": "sweaters",
+      "path": "57894,100066,100067,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 100066,
+      "class_name": "니트 & 셔츠",
+      "category_id": 100067,
+      "category_name": "니트",
+      "parent_ids": [
+        57894,
+        100066
+      ],
+      "parent_names": [
+        "KIDS",
+        "니트 & 셔츠"
+      ],
+      "raw": {
+        "id": 100067,
+        "name": "니트",
+        "key": "sweaters",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 100066,
+            "name": "니트 & 셔츠",
+            "key": "knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 100068,
+      "name": "셔츠",
+      "key": "shirts",
+      "path": "57894,100066,100068,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 100066,
+      "class_name": "니트 & 셔츠",
+      "category_id": 100068,
+      "category_name": "셔츠",
+      "parent_ids": [
+        57894,
+        100066
+      ],
+      "parent_names": [
+        "KIDS",
+        "니트 & 셔츠"
+      ],
+      "raw": {
+        "id": 100068,
+        "name": "셔츠",
+        "key": "shirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 100066,
+            "name": "니트 & 셔츠",
+            "key": "knitwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58082,
       "name": "청바지 & 팬츠",
       "key": "pants",
@@ -7910,158 +8024,6 @@
             "id": 57975,
             "name": "청바지 & 팬츠",
             "key": "pants-and-skirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 105469,
-      "name": "스커트",
-      "key": "skirt",
-      "path": "57894,57976,105469,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57976,
-      "class_name": "스커트 & 원피스",
-      "category_id": 105469,
-      "category_name": "스커트",
-      "parent_ids": [
-        57894,
-        57976
-      ],
-      "parent_names": [
-        "KIDS",
-        "스커트 & 원피스"
-      ],
-      "raw": {
-        "id": 105469,
-        "name": "스커트",
-        "key": "skirt",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57976,
-            "name": "스커트 & 원피스",
-            "key": "dresses-and-skirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58085,
-      "name": "원피스",
-      "key": "dresses",
-      "path": "57894,57976,58085,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57976,
-      "class_name": "스커트 & 원피스",
-      "category_id": 58085,
-      "category_name": "원피스",
-      "parent_ids": [
-        57894,
-        57976
-      ],
-      "parent_names": [
-        "KIDS",
-        "스커트 & 원피스"
-      ],
-      "raw": {
-        "id": 58085,
-        "name": "원피스",
-        "key": "dresses",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57976,
-            "name": "스커트 & 원피스",
-            "key": "dresses-and-skirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 100067,
-      "name": "니트",
-      "key": "sweaters",
-      "path": "57894,100066,100067,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 100066,
-      "class_name": "니트 & 셔츠",
-      "category_id": 100067,
-      "category_name": "니트",
-      "parent_ids": [
-        57894,
-        100066
-      ],
-      "parent_names": [
-        "KIDS",
-        "니트 & 셔츠"
-      ],
-      "raw": {
-        "id": 100067,
-        "name": "니트",
-        "key": "sweaters",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 100066,
-            "name": "니트 & 셔츠",
-            "key": "knitwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 100068,
-      "name": "셔츠",
-      "key": "shirts",
-      "path": "57894,100066,100068,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 100066,
-      "class_name": "니트 & 셔츠",
-      "category_id": 100068,
-      "category_name": "셔츠",
-      "parent_ids": [
-        57894,
-        100066
-      ],
-      "parent_names": [
-        "KIDS",
-        "니트 & 셔츠"
-      ],
-      "raw": {
-        "id": 100068,
-        "name": "셔츠",
-        "key": "shirts",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 100066,
-            "name": "니트 & 셔츠",
-            "key": "knitwear"
           }
         ]
       }
@@ -8290,6 +8252,82 @@
             "id": 57978,
             "name": "이너웨어",
             "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 105469,
+      "name": "스커트",
+      "key": "skirt",
+      "path": "57894,57976,105469,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "스커트 & 원피스",
+      "category_id": 105469,
+      "category_name": "스커트",
+      "parent_ids": [
+        57894,
+        57976
+      ],
+      "parent_names": [
+        "KIDS",
+        "스커트 & 원피스"
+      ],
+      "raw": {
+        "id": 105469,
+        "name": "스커트",
+        "key": "skirt",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57976,
+            "name": "스커트 & 원피스",
+            "key": "dresses-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58085,
+      "name": "원피스",
+      "key": "dresses",
+      "path": "57894,57976,58085,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57976,
+      "class_name": "스커트 & 원피스",
+      "category_id": 58085,
+      "category_name": "원피스",
+      "parent_ids": [
+        57894,
+        57976
+      ],
+      "parent_names": [
+        "KIDS",
+        "스커트 & 원피스"
+      ],
+      "raw": {
+        "id": 58085,
+        "name": "원피스",
+        "key": "dresses",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57976,
+            "name": "스커트 & 원피스",
+            "key": "dresses-and-skirts"
           }
         ]
       }
