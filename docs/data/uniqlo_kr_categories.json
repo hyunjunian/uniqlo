@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-10T21:47:29.491584+00:00",
+  "collected_at": "2026-09-11T21:52:33.981392+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 262,
   "categories": [
@@ -179,13 +179,13 @@
     {
       "level": "class",
       "id": 95354,
-      "name": "셔츠 & 블라우스",
+      "name": "셔츠 & 블라우스 & 폴로셔츠",
       "key": "shirts-and-blouses",
       "path": "57892,95354,,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 95354,
-      "class_name": "셔츠 & 블라우스",
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -196,7 +196,7 @@
       ],
       "raw": {
         "id": 95354,
-        "name": "셔츠 & 블라우스",
+        "name": "셔츠 & 블라우스 & 폴로셔츠",
         "key": "shirts-and-blouses",
         "parents": [
           {
@@ -1919,7 +1919,7 @@
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 95354,
-      "class_name": "셔츠 & 블라우스",
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
       "category_id": 95362,
       "category_name": "셔츠 & 블라우스",
       "parent_ids": [
@@ -1928,7 +1928,7 @@
       ],
       "parent_names": [
         "WOMEN",
-        "셔츠 & 블라우스"
+        "셔츠 & 블라우스 & 폴로셔츠"
       ],
       "raw": {
         "id": 95362,
@@ -1942,7 +1942,7 @@
           },
           {
             "id": 95354,
-            "name": "셔츠 & 블라우스",
+            "name": "셔츠 & 블라우스 & 폴로셔츠",
             "key": "shirts-and-blouses"
           }
         ]
@@ -1957,7 +1957,7 @@
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 95354,
-      "class_name": "셔츠 & 블라우스",
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
       "category_id": 142636,
       "category_name": "폴로셔츠 (카라티)",
       "parent_ids": [
@@ -1966,7 +1966,7 @@
       ],
       "parent_names": [
         "WOMEN",
-        "셔츠 & 블라우스"
+        "셔츠 & 블라우스 & 폴로셔츠"
       ],
       "raw": {
         "id": 142636,
@@ -1980,7 +1980,7 @@
           },
           {
             "id": 95354,
-            "name": "셔츠 & 블라우스",
+            "name": "셔츠 & 블라우스 & 폴로셔츠",
             "key": "shirts-and-blouses"
           }
         ]
@@ -2406,44 +2406,6 @@
     },
     {
       "level": "category",
-      "id": 58018,
-      "name": "에어리즘",
-      "key": "airism",
-      "path": "57892,57963,58018,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58018,
-      "category_name": "에어리즘",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58018,
-        "name": "에어리즘",
-        "key": "airism",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58020,
       "name": "와이어리스 브라",
       "key": "bras",
@@ -2466,6 +2428,44 @@
         "id": 58020,
         "name": "와이어리스 브라",
         "key": "bras",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58018,
+      "name": "에어리즘",
+      "key": "airism",
+      "path": "57892,57963,58018,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58018,
+      "category_name": "에어리즘",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58018,
+        "name": "에어리즘",
+        "key": "airism",
         "parents": [
           {
             "id": 57892,
@@ -3775,7 +3775,7 @@
     {
       "level": "category",
       "id": 102258,
-      "name": "티셔츠",
+      "name": "상의",
       "key": "tops",
       "path": "57892,102254,102258,",
       "gender_id": 57892,
@@ -3783,7 +3783,7 @@
       "class_id": 102254,
       "class_name": "히트텍",
       "category_id": 102258,
-      "category_name": "티셔츠",
+      "category_name": "상의",
       "parent_ids": [
         57892,
         102254
@@ -3794,7 +3794,7 @@
       ],
       "raw": {
         "id": 102258,
-        "name": "티셔츠",
+        "name": "상의",
         "key": "tops",
         "parents": [
           {
@@ -6359,7 +6359,7 @@
     {
       "level": "category",
       "id": 102315,
-      "name": "히트텍 엑스트라 웜",
+      "name": "히트텍 코튼 엑스트라 웜",
       "key": "heattech-extra-warm",
       "path": "57893,102257,102315,",
       "gender_id": 57893,
@@ -6367,7 +6367,7 @@
       "class_id": 102257,
       "class_name": "히트텍",
       "category_id": 102315,
-      "category_name": "히트텍 엑스트라 웜",
+      "category_name": "히트텍 코튼 엑스트라 웜",
       "parent_ids": [
         57893,
         102257
@@ -6378,7 +6378,7 @@
       ],
       "raw": {
         "id": 102315,
-        "name": "히트텍 엑스트라 웜",
+        "name": "히트텍 코튼 엑스트라 웜",
         "key": "heattech-extra-warm",
         "parents": [
           {
@@ -6435,7 +6435,7 @@
     {
       "level": "category",
       "id": 102265,
-      "name": "티셔츠",
+      "name": "상의",
       "key": "tops",
       "path": "57893,102257,102265,",
       "gender_id": 57893,
@@ -6443,7 +6443,7 @@
       "class_id": 102257,
       "class_name": "히트텍",
       "category_id": 102265,
-      "category_name": "티셔츠",
+      "category_name": "상의",
       "parent_ids": [
         57893,
         102257
@@ -6454,7 +6454,7 @@
       ],
       "raw": {
         "id": 102265,
-        "name": "티셔츠",
+        "name": "상의",
         "key": "tops",
         "parents": [
           {
@@ -7118,44 +7118,6 @@
     },
     {
       "level": "category",
-      "id": 150167,
-      "name": "티셔츠 & 스웨트셔츠",
-      "key": "tops",
-      "path": "57894,150160,150167,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 150160,
-      "class_name": "여아",
-      "category_id": 150167,
-      "category_name": "티셔츠 & 스웨트셔츠",
-      "parent_ids": [
-        57894,
-        150160
-      ],
-      "parent_names": [
-        "KIDS",
-        "여아"
-      ],
-      "raw": {
-        "id": 150167,
-        "name": "티셔츠 & 스웨트셔츠",
-        "key": "tops",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 150160,
-            "name": "여아",
-            "key": "girls"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 150161,
       "name": "니트 & 가디건",
       "key": "knitwear",
@@ -7178,6 +7140,44 @@
         "id": 150161,
         "name": "니트 & 가디건",
         "key": "knitwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150167,
+      "name": "티셔츠 & 스웨트셔츠",
+      "key": "tops",
+      "path": "57894,150160,150167,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150167,
+      "category_name": "티셔츠 & 스웨트셔츠",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150167,
+        "name": "티셔츠 & 스웨트셔츠",
+        "key": "tops",
         "parents": [
           {
             "id": 57894,
@@ -7346,6 +7346,44 @@
     },
     {
       "level": "category",
+      "id": 150429,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57894,150424,150429,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150429,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150429,
+        "name": "팬츠",
+        "key": "bottoms",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 150426,
       "name": "티셔츠 & 스웨트셔츠",
       "key": "tops",
@@ -7444,44 +7482,6 @@
         "id": 150428,
         "name": "셔츠",
         "key": "shirts-and-polo-shirts",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 150424,
-            "name": "남아 & 공용",
-            "key": "boys-and-unisex"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 150429,
-      "name": "팬츠",
-      "key": "bottoms",
-      "path": "57894,150424,150429,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 150424,
-      "class_name": "남아 & 공용",
-      "category_id": 150429,
-      "category_name": "팬츠",
-      "parent_ids": [
-        57894,
-        150424
-      ],
-      "parent_names": [
-        "KIDS",
-        "남아 & 공용"
-      ],
-      "raw": {
-        "id": 150429,
-        "name": "팬츠",
-        "key": "bottoms",
         "parents": [
           {
             "id": 57894,
@@ -7954,44 +7954,6 @@
     },
     {
       "level": "category",
-      "id": 58084,
-      "name": "반바지",
-      "key": "short-pants",
-      "path": "57894,57975,58084,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57975,
-      "class_name": "청바지 & 팬츠",
-      "category_id": 58084,
-      "category_name": "반바지",
-      "parent_ids": [
-        57894,
-        57975
-      ],
-      "parent_names": [
-        "KIDS",
-        "청바지 & 팬츠"
-      ],
-      "raw": {
-        "id": 58084,
-        "name": "반바지",
-        "key": "short-pants",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57975,
-            "name": "청바지 & 팬츠",
-            "key": "pants-and-skirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 104062,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -8014,6 +7976,44 @@
         "id": 104062,
         "name": "웜 팬츠",
         "key": "warm-pants",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57975,
+            "name": "청바지 & 팬츠",
+            "key": "pants-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58084,
+      "name": "반바지",
+      "key": "short-pants",
+      "path": "57894,57975,58084,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": 58084,
+      "category_name": "반바지",
+      "parent_ids": [
+        57894,
+        57975
+      ],
+      "parent_names": [
+        "KIDS",
+        "청바지 & 팬츠"
+      ],
+      "raw": {
+        "id": 58084,
+        "name": "반바지",
+        "key": "short-pants",
         "parents": [
           {
             "id": 57894,
@@ -8601,7 +8601,7 @@
     {
       "level": "category",
       "id": 103082,
-      "name": "히트텍 엑스트라 웜",
+      "name": "히트텍 코튼 엑스트라 웜",
       "key": "heattech-extra-warm",
       "path": "57894,103078,103082,",
       "gender_id": 57894,
@@ -8609,7 +8609,7 @@
       "class_id": 103078,
       "class_name": "히트텍",
       "category_id": 103082,
-      "category_name": "히트텍 엑스트라 웜",
+      "category_name": "히트텍 코튼 엑스트라 웜",
       "parent_ids": [
         57894,
         103078
@@ -8620,7 +8620,7 @@
       ],
       "raw": {
         "id": 103082,
-        "name": "히트텍 엑스트라 웜",
+        "name": "히트텍 코튼 엑스트라 웜",
         "key": "heattech-extra-warm",
         "parents": [
           {
@@ -8677,7 +8677,7 @@
     {
       "level": "category",
       "id": 103079,
-      "name": "티셔츠",
+      "name": "상의",
       "key": "t-shirts",
       "path": "57894,103078,103079,",
       "gender_id": 57894,
@@ -8685,7 +8685,7 @@
       "class_id": 103078,
       "class_name": "히트텍",
       "category_id": 103079,
-      "category_name": "티셔츠",
+      "category_name": "상의",
       "parent_ids": [
         57894,
         103078
@@ -8696,7 +8696,7 @@
       ],
       "raw": {
         "id": 103079,
-        "name": "티셔츠",
+        "name": "상의",
         "key": "t-shirts",
         "parents": [
           {
