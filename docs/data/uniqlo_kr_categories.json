@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-13T21:35:56.897589+00:00",
+  "collected_at": "2026-09-14T22:40:29.689363+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 262,
   "categories": [
@@ -2216,44 +2216,6 @@
     },
     {
       "level": "category",
-      "id": 58010,
-      "name": "쇼트 팬츠(반바지)",
-      "key": "short-pants",
-      "path": "57892,57960,58010,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58010,
-      "category_name": "쇼트 팬츠(반바지)",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58010,
-        "name": "쇼트 팬츠(반바지)",
-        "key": "short-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 98232,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -2276,6 +2238,44 @@
         "id": 98232,
         "name": "웜 팬츠",
         "key": "warm-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58010,
+      "name": "쇼트 팬츠(반바지)",
+      "key": "short-pants",
+      "path": "57892,57960,58010,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58010,
+      "category_name": "쇼트 팬츠(반바지)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58010,
+        "name": "쇼트 팬츠(반바지)",
+        "key": "short-pants",
         "parents": [
           {
             "id": 57892,
@@ -3090,6 +3090,44 @@
     },
     {
       "level": "category",
+      "id": 153955,
+      "name": "UT 액세서리",
+      "key": "ut-accessories",
+      "path": "57892,57965,153955,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 153955,
+      "category_name": "UT 액세서리",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 153955,
+        "name": "UT 액세서리",
+        "key": "ut-accessories",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 148316,
       "name": "브라",
       "key": "bra",
@@ -3568,82 +3606,6 @@
         "id": 82084,
         "name": "상의",
         "key": "tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 81619,
-            "name": "에어리즘",
-            "key": "airism"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 82085,
-      "name": "팬츠",
-      "key": "bottoms",
-      "path": "57892,81619,82085,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 81619,
-      "class_name": "에어리즘",
-      "category_id": 82085,
-      "category_name": "팬츠",
-      "parent_ids": [
-        57892,
-        81619
-      ],
-      "parent_names": [
-        "WOMEN",
-        "에어리즘"
-      ],
-      "raw": {
-        "id": 82085,
-        "name": "팬츠",
-        "key": "bottoms",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 81619,
-            "name": "에어리즘",
-            "key": "airism"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 82086,
-      "name": "원피스",
-      "key": "dresses",
-      "path": "57892,81619,82086,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 81619,
-      "class_name": "에어리즘",
-      "category_id": 82086,
-      "category_name": "원피스",
-      "parent_ids": [
-        57892,
-        81619
-      ],
-      "parent_names": [
-        "WOMEN",
-        "에어리즘"
-      ],
-      "raw": {
-        "id": 82086,
-        "name": "원피스",
-        "key": "dresses",
         "parents": [
           {
             "id": 57892,
@@ -5484,6 +5446,44 @@
     },
     {
       "level": "category",
+      "id": 98235,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57893,57968,98235,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 98235,
+      "category_name": "웜 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 98235,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58047,
       "name": "치노 팬츠",
       "key": "chinos",
@@ -5506,44 +5506,6 @@
         "id": 58047,
         "name": "치노 팬츠",
         "key": "chinos",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58054,
-      "name": "쇼트 팬츠(반바지)",
-      "key": "short-pants",
-      "path": "57893,57968,58054,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58054,
-      "category_name": "쇼트 팬츠(반바지)",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58054,
-        "name": "쇼트 팬츠(반바지)",
-        "key": "short-pants",
         "parents": [
           {
             "id": 57893,
@@ -5598,16 +5560,16 @@
     },
     {
       "level": "category",
-      "id": 98235,
-      "name": "웜 팬츠",
-      "key": "warm-pants",
-      "path": "57893,57968,98235,",
+      "id": 58054,
+      "name": "쇼트 팬츠(반바지)",
+      "key": "short-pants",
+      "path": "57893,57968,58054,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57968,
       "class_name": "팬츠",
-      "category_id": 98235,
-      "category_name": "웜 팬츠",
+      "category_id": 58054,
+      "category_name": "쇼트 팬츠(반바지)",
       "parent_ids": [
         57893,
         57968
@@ -5617,9 +5579,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 98235,
-        "name": "웜 팬츠",
-        "key": "warm-pants",
+        "id": 58054,
+        "name": "쇼트 팬츠(반바지)",
+        "key": "short-pants",
         "parents": [
           {
             "id": 57893,
@@ -6114,6 +6076,44 @@
         "id": 124373,
         "name": "장갑",
         "key": "gloves",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 153956,
+      "name": "UT 액세서리",
+      "key": "ut-graphic-tees",
+      "path": "57893,57972,153956,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 153956,
+      "category_name": "UT 액세서리",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 153956,
+        "name": "UT 액세서리",
+        "key": "ut-graphic-tees",
         "parents": [
           {
             "id": 57893,
