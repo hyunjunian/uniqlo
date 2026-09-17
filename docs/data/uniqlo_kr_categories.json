@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-16T22:17:10.010585+00:00",
+  "collected_at": "2026-09-17T22:23:06.493043+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 262,
   "categories": [
@@ -2026,6 +2026,44 @@
     },
     {
       "level": "category",
+      "id": 58004,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57892,57960,58004,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58004,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58004,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58003,
       "name": "진(청바지)",
       "key": "jeans",
@@ -2086,44 +2124,6 @@
         "id": 58002,
         "name": "와이드 팬츠",
         "key": "wide-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58004,
-      "name": "캐주얼 팬츠",
-      "key": "casual-pants",
-      "path": "57892,57960,58004,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58004,
-      "category_name": "캐주얼 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58004,
-        "name": "캐주얼 팬츠",
-        "key": "casual-pants",
         "parents": [
           {
             "id": 57892,
@@ -3432,44 +3432,6 @@
     },
     {
       "level": "category",
-      "id": 82081,
-      "name": "이너웨어 상의",
-      "key": "inner-tops",
-      "path": "57892,81619,82081,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 81619,
-      "class_name": "에어리즘",
-      "category_id": 82081,
-      "category_name": "이너웨어 상의",
-      "parent_ids": [
-        57892,
-        81619
-      ],
-      "parent_names": [
-        "WOMEN",
-        "에어리즘"
-      ],
-      "raw": {
-        "id": 82081,
-        "name": "이너웨어 상의",
-        "key": "inner-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 81619,
-            "name": "에어리즘",
-            "key": "airism"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 82083,
       "name": "브라탑",
       "key": "bra-tops",
@@ -3508,16 +3470,16 @@
     },
     {
       "level": "category",
-      "id": 82082,
-      "name": "언더웨어",
-      "key": "underwear",
-      "path": "57892,81619,82082,",
+      "id": 82081,
+      "name": "이너웨어 상의",
+      "key": "inner-tops",
+      "path": "57892,81619,82081,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 81619,
       "class_name": "에어리즘",
-      "category_id": 82082,
-      "category_name": "언더웨어",
+      "category_id": 82081,
+      "category_name": "이너웨어 상의",
       "parent_ids": [
         57892,
         81619
@@ -3527,9 +3489,9 @@
         "에어리즘"
       ],
       "raw": {
-        "id": 82082,
-        "name": "언더웨어",
-        "key": "underwear",
+        "id": 82081,
+        "name": "이너웨어 상의",
+        "key": "inner-tops",
         "parents": [
           {
             "id": 57892,
@@ -3606,6 +3568,44 @@
         "id": 82084,
         "name": "상의",
         "key": "tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82082,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,81619,82082,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82082,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82082,
+        "name": "언더웨어",
+        "key": "underwear",
         "parents": [
           {
             "id": 57892,
@@ -5142,44 +5142,6 @@
     },
     {
       "level": "category",
-      "id": 95360,
-      "name": "폴로셔츠 (카라티)",
-      "key": "polo-shirts",
-      "path": "57893,95356,95360,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95356,
-      "class_name": "셔츠",
-      "category_id": 95360,
-      "category_name": "폴로셔츠 (카라티)",
-      "parent_ids": [
-        57893,
-        95356
-      ],
-      "parent_names": [
-        "MEN",
-        "셔츠"
-      ],
-      "raw": {
-        "id": 95360,
-        "name": "폴로셔츠 (카라티)",
-        "key": "polo-shirts",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 95356,
-            "name": "셔츠",
-            "key": "shirts-and-polo-shirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 95358,
       "name": "정장셔츠 (와이셔츠)",
       "key": "dress-shirts",
@@ -5218,6 +5180,44 @@
     },
     {
       "level": "category",
+      "id": 95360,
+      "name": "폴로셔츠 (카라티)",
+      "key": "polo-shirts",
+      "path": "57893,95356,95360,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠",
+      "category_id": 95360,
+      "category_name": "폴로셔츠 (카라티)",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠"
+      ],
+      "raw": {
+        "id": 95360,
+        "name": "폴로셔츠 (카라티)",
+        "key": "polo-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 149932,
       "name": "배럴 레그 팬츠",
       "key": "barrel-leg-pants",
@@ -5240,6 +5240,44 @@
         "id": 149932,
         "name": "배럴 레그 팬츠",
         "key": "barrel-leg-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58049,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57893,57968,58049,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58049,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58049,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
         "parents": [
           {
             "id": 57893,
@@ -5316,44 +5354,6 @@
         "id": 58046,
         "name": "와이드 팬츠",
         "key": "wide-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58049,
-      "name": "캐주얼 팬츠",
-      "key": "casual-pants",
-      "path": "57893,57968,58049,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58049,
-      "category_name": "캐주얼 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58049,
-        "name": "캐주얼 팬츠",
-        "key": "casual-pants",
         "parents": [
           {
             "id": 57893,
