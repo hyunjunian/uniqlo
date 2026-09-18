@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-17T22:23:06.493043+00:00",
+  "collected_at": "2026-09-18T21:47:58.686570+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 262,
   "categories": [
@@ -3128,44 +3128,6 @@
     },
     {
       "level": "category",
-      "id": 148316,
-      "name": "브라",
-      "key": "bra",
-      "path": "57892,148314,148316,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148316,
-      "category_name": "브라",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148316,
-        "name": "브라",
-        "key": "bra",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 148322,
       "name": "팬츠",
       "key": "bottoms",
@@ -3188,44 +3150,6 @@
         "id": 148322,
         "name": "팬츠",
         "key": "bottoms",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 148315,
-      "name": "파자마",
-      "key": "pajamas",
-      "path": "57892,148314,148315,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148315,
-      "category_name": "파자마",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148315,
-        "name": "파자마",
-        "key": "pajamas",
         "parents": [
           {
             "id": 57892,
@@ -3280,16 +3204,16 @@
     },
     {
       "level": "category",
-      "id": 148317,
-      "name": "언더웨어",
-      "key": "underwear",
-      "path": "57892,148314,148317,",
+      "id": 148315,
+      "name": "파자마",
+      "key": "pajamas",
+      "path": "57892,148314,148315,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 148314,
       "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148317,
-      "category_name": "언더웨어",
+      "category_id": 148315,
+      "category_name": "파자마",
       "parent_ids": [
         57892,
         148314
@@ -3299,9 +3223,9 @@
         "라운지 & 언더웨어 컬렉션"
       ],
       "raw": {
-        "id": 148317,
-        "name": "언더웨어",
-        "key": "underwear",
+        "id": 148315,
+        "name": "파자마",
+        "key": "pajamas",
         "parents": [
           {
             "id": 57892,
@@ -3340,6 +3264,82 @@
         "id": 148320,
         "name": "니트 & 가디건",
         "key": "sweaters-and-cardigans",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148316,
+      "name": "브라",
+      "key": "bra",
+      "path": "57892,148314,148316,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148316,
+      "category_name": "브라",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148316,
+        "name": "브라",
+        "key": "bra",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148317,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,148314,148317,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148317,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148317,
+        "name": "언더웨어",
+        "key": "underwear",
         "parents": [
           {
             "id": 57892,
@@ -7764,44 +7764,6 @@
     },
     {
       "level": "category",
-      "id": 58081,
-      "name": "그래픽티셔츠",
-      "key": "ut-graphic-tees",
-      "path": "57894,57974,58081,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57974,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58081,
-      "category_name": "그래픽티셔츠",
-      "parent_ids": [
-        57894,
-        57974
-      ],
-      "parent_names": [
-        "KIDS",
-        "티셔츠 & 스웨트셔츠 & 후리스"
-      ],
-      "raw": {
-        "id": 58081,
-        "name": "그래픽티셔츠",
-        "key": "ut-graphic-tees",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57974,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 103576,
       "name": "후리스",
       "key": "fleece",
@@ -7824,6 +7786,44 @@
         "id": 103576,
         "name": "후리스",
         "key": "fleece",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57974,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58081,
+      "name": "그래픽티셔츠",
+      "key": "ut-graphic-tees",
+      "path": "57894,57974,58081,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57974,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 58081,
+      "category_name": "그래픽티셔츠",
+      "parent_ids": [
+        57894,
+        57974
+      ],
+      "parent_names": [
+        "KIDS",
+        "티셔츠 & 스웨트셔츠 & 후리스"
+      ],
+      "raw": {
+        "id": 58081,
+        "name": "그래픽티셔츠",
+        "key": "ut-graphic-tees",
         "parents": [
           {
             "id": 57894,
