@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-09-20T21:45:38.846310+00:00",
+  "collected_at": "2026-09-21T22:45:52.284716+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 262,
+  "category_count": 264,
   "categories": [
     {
       "level": "gender",
@@ -116,6 +116,37 @@
     },
     {
       "level": "class",
+      "id": 95354,
+      "name": "셔츠 & 블라우스 & 폴로셔츠",
+      "key": "shirts-and-blouses",
+      "path": "57892,95354,,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57892
+      ],
+      "parent_names": [
+        "WOMEN"
+      ],
+      "raw": {
+        "id": 95354,
+        "name": "셔츠 & 블라우스 & 폴로셔츠",
+        "key": "shirts-and-blouses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
       "id": 57959,
       "name": "티셔츠 & 스웨트셔츠 & 후리스",
       "key": "tops",
@@ -167,37 +198,6 @@
         "id": 95353,
         "name": "니트 & 가디건",
         "key": "sweaters-and-knitwear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 95354,
-      "name": "셔츠 & 블라우스 & 폴로셔츠",
-      "key": "shirts-and-blouses",
-      "path": "57892,95354,,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57892
-      ],
-      "parent_names": [
-        "WOMEN"
-      ],
-      "raw": {
-        "id": 95354,
-        "name": "셔츠 & 블라우스 & 폴로셔츠",
-        "key": "shirts-and-blouses",
         "parents": [
           {
             "id": 57892,
@@ -581,6 +581,37 @@
     },
     {
       "level": "class",
+      "id": 95356,
+      "name": "셔츠",
+      "key": "shirts-and-polo-shirts",
+      "path": "57893,95356,,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57893
+      ],
+      "parent_names": [
+        "MEN"
+      ],
+      "raw": {
+        "id": 95356,
+        "name": "셔츠",
+        "key": "shirts-and-polo-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
       "id": 57967,
       "name": "티셔츠 & 스웨트셔츠 & 후리스",
       "key": "tops",
@@ -632,37 +663,6 @@
         "id": 95355,
         "name": "니트 & 가디건",
         "key": "sweaters-and-knitwear",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
-      "id": 95356,
-      "name": "셔츠",
-      "key": "shirts-and-polo-shirts",
-      "path": "57893,95356,,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95356,
-      "class_name": "셔츠",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57893
-      ],
-      "parent_names": [
-        "MEN"
-      ],
-      "raw": {
-        "id": 95356,
-        "name": "셔츠",
-        "key": "shirts-and-polo-shirts",
         "parents": [
           {
             "id": 57893,
@@ -1608,6 +1608,82 @@
     },
     {
       "level": "category",
+      "id": 95362,
+      "name": "셔츠 & 블라우스",
+      "key": "shirts-and-blouses",
+      "path": "57892,95354,95362,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "category_id": 95362,
+      "category_name": "셔츠 & 블라우스",
+      "parent_ids": [
+        57892,
+        95354
+      ],
+      "parent_names": [
+        "WOMEN",
+        "셔츠 & 블라우스 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 95362,
+        "name": "셔츠 & 블라우스",
+        "key": "shirts-and-blouses",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95354,
+            "name": "셔츠 & 블라우스 & 폴로셔츠",
+            "key": "shirts-and-blouses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 142636,
+      "name": "폴로셔츠 (카라티)",
+      "key": "polo-shirts",
+      "path": "57892,95354,142636,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 95354,
+      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "category_id": 142636,
+      "category_name": "폴로셔츠 (카라티)",
+      "parent_ids": [
+        57892,
+        95354
+      ],
+      "parent_names": [
+        "WOMEN",
+        "셔츠 & 블라우스 & 폴로셔츠"
+      ],
+      "raw": {
+        "id": 142636,
+        "name": "폴로셔츠 (카라티)",
+        "key": "polo-shirts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 95354,
+            "name": "셔츠 & 블라우스 & 폴로셔츠",
+            "key": "shirts-and-blouses"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 57995,
       "name": "티셔츠 (긴팔 & 반팔)",
       "key": "t-shirts",
@@ -1906,82 +1982,6 @@
             "id": 95353,
             "name": "니트 & 가디건",
             "key": "sweaters-and-knitwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 95362,
-      "name": "셔츠 & 블라우스",
-      "key": "shirts-and-blouses",
-      "path": "57892,95354,95362,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
-      "category_id": 95362,
-      "category_name": "셔츠 & 블라우스",
-      "parent_ids": [
-        57892,
-        95354
-      ],
-      "parent_names": [
-        "WOMEN",
-        "셔츠 & 블라우스 & 폴로셔츠"
-      ],
-      "raw": {
-        "id": 95362,
-        "name": "셔츠 & 블라우스",
-        "key": "shirts-and-blouses",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 95354,
-            "name": "셔츠 & 블라우스 & 폴로셔츠",
-            "key": "shirts-and-blouses"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 142636,
-      "name": "폴로셔츠 (카라티)",
-      "key": "polo-shirts",
-      "path": "57892,95354,142636,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
-      "category_id": 142636,
-      "category_name": "폴로셔츠 (카라티)",
-      "parent_ids": [
-        57892,
-        95354
-      ],
-      "parent_names": [
-        "WOMEN",
-        "셔츠 & 블라우스 & 폴로셔츠"
-      ],
-      "raw": {
-        "id": 142636,
-        "name": "폴로셔츠 (카라티)",
-        "key": "polo-shirts",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 95354,
-            "name": "셔츠 & 블라우스 & 폴로셔츠",
-            "key": "shirts-and-blouses"
           }
         ]
       }
@@ -2786,6 +2786,44 @@
     },
     {
       "level": "category",
+      "id": 154583,
+      "name": "룸 슈즈",
+      "key": "room-shoes",
+      "path": "57892,57964,154583,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57964,
+      "class_name": "파자마 & 홈웨어",
+      "category_id": 154583,
+      "category_name": "룸 슈즈",
+      "parent_ids": [
+        57892,
+        57964
+      ],
+      "parent_names": [
+        "WOMEN",
+        "파자마 & 홈웨어"
+      ],
+      "raw": {
+        "id": 154583,
+        "name": "룸 슈즈",
+        "key": "room-shoes",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57964,
+            "name": "파자마 & 홈웨어",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 99902,
       "name": "가방",
       "key": "bags",
@@ -3166,44 +3204,6 @@
     },
     {
       "level": "category",
-      "id": 148321,
-      "name": "캐미솔",
-      "key": "camisole-and-tank-top",
-      "path": "57892,148314,148321,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148321,
-      "category_name": "캐미솔",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148321,
-        "name": "캐미솔",
-        "key": "camisole-and-tank-top",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 148315,
       "name": "파자마",
       "key": "pajamas",
@@ -3226,6 +3226,44 @@
         "id": 148315,
         "name": "파자마",
         "key": "pajamas",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148321,
+      "name": "캐미솔",
+      "key": "camisole-and-tank-top",
+      "path": "57892,148314,148321,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148321,
+      "category_name": "캐미솔",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148321,
+        "name": "캐미솔",
+        "key": "camisole-and-tank-top",
         "parents": [
           {
             "id": 57892,
@@ -4838,6 +4876,120 @@
     },
     {
       "level": "category",
+      "id": 95359,
+      "name": "캐주얼셔츠",
+      "key": "casual-shirts",
+      "path": "57893,95356,95359,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠",
+      "category_id": 95359,
+      "category_name": "캐주얼셔츠",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠"
+      ],
+      "raw": {
+        "id": 95359,
+        "name": "캐주얼셔츠",
+        "key": "casual-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95358,
+      "name": "정장셔츠 (와이셔츠)",
+      "key": "dress-shirts",
+      "path": "57893,95356,95358,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠",
+      "category_id": 95358,
+      "category_name": "정장셔츠 (와이셔츠)",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠"
+      ],
+      "raw": {
+        "id": 95358,
+        "name": "정장셔츠 (와이셔츠)",
+        "key": "dress-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 95360,
+      "name": "폴로셔츠 (카라티)",
+      "key": "polo-shirts",
+      "path": "57893,95356,95360,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 95356,
+      "class_name": "셔츠",
+      "category_id": 95360,
+      "category_name": "폴로셔츠 (카라티)",
+      "parent_ids": [
+        57893,
+        95356
+      ],
+      "parent_names": [
+        "MEN",
+        "셔츠"
+      ],
+      "raw": {
+        "id": 95360,
+        "name": "폴로셔츠 (카라티)",
+        "key": "polo-shirts",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 95356,
+            "name": "셔츠",
+            "key": "shirts-and-polo-shirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58039,
       "name": "티셔츠 (긴팔 & 반팔)",
       "key": "t-shirts",
@@ -5098,120 +5250,6 @@
             "id": 95355,
             "name": "니트 & 가디건",
             "key": "sweaters-and-knitwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 95359,
-      "name": "캐주얼셔츠",
-      "key": "casual-shirts",
-      "path": "57893,95356,95359,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95356,
-      "class_name": "셔츠",
-      "category_id": 95359,
-      "category_name": "캐주얼셔츠",
-      "parent_ids": [
-        57893,
-        95356
-      ],
-      "parent_names": [
-        "MEN",
-        "셔츠"
-      ],
-      "raw": {
-        "id": 95359,
-        "name": "캐주얼셔츠",
-        "key": "casual-shirts",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 95356,
-            "name": "셔츠",
-            "key": "shirts-and-polo-shirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 95358,
-      "name": "정장셔츠 (와이셔츠)",
-      "key": "dress-shirts",
-      "path": "57893,95356,95358,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95356,
-      "class_name": "셔츠",
-      "category_id": 95358,
-      "category_name": "정장셔츠 (와이셔츠)",
-      "parent_ids": [
-        57893,
-        95356
-      ],
-      "parent_names": [
-        "MEN",
-        "셔츠"
-      ],
-      "raw": {
-        "id": 95358,
-        "name": "정장셔츠 (와이셔츠)",
-        "key": "dress-shirts",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 95356,
-            "name": "셔츠",
-            "key": "shirts-and-polo-shirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 95360,
-      "name": "폴로셔츠 (카라티)",
-      "key": "polo-shirts",
-      "path": "57893,95356,95360,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 95356,
-      "class_name": "셔츠",
-      "category_id": 95360,
-      "category_name": "폴로셔츠 (카라티)",
-      "parent_ids": [
-        57893,
-        95356
-      ],
-      "parent_names": [
-        "MEN",
-        "셔츠"
-      ],
-      "raw": {
-        "id": 95360,
-        "name": "폴로셔츠 (카라티)",
-        "key": "polo-shirts",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 95356,
-            "name": "셔츠",
-            "key": "shirts-and-polo-shirts"
           }
         ]
       }
@@ -5772,6 +5810,44 @@
         "id": 58067,
         "name": "라운지 팬츠",
         "key": "lounge-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57971,
+            "name": "라운지 팬츠",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 154582,
+      "name": "룸 슈즈",
+      "key": "room-shoes",
+      "path": "57893,57971,154582,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57971,
+      "class_name": "라운지 팬츠",
+      "category_id": 154582,
+      "category_name": "룸 슈즈",
+      "parent_ids": [
+        57893,
+        57971
+      ],
+      "parent_names": [
+        "MEN",
+        "라운지 팬츠"
+      ],
+      "raw": {
+        "id": 154582,
+        "name": "룸 슈즈",
+        "key": "room-shoes",
         "parents": [
           {
             "id": 57893,
