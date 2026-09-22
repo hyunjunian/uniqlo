@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-09-21T22:45:52.284716+00:00",
+  "collected_at": "2026-09-22T22:23:12.089057+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 264,
+  "category_count": 265,
   "categories": [
     {
       "level": "gender",
@@ -4594,6 +4594,44 @@
         "id": 141119,
         "name": "라운지웨어 & 홈웨어",
         "key": "loungewear-and-homewear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 154648,
+      "name": "GU × rokh",
+      "key": "gu-rokh",
+      "path": "57892,124424,154648,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 154648,
+      "category_name": "GU × rokh",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 154648,
+        "name": "GU × rokh",
+        "key": "gu-rokh",
         "parents": [
           {
             "id": 57892,
