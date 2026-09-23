@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-22T22:23:12.089057+00:00",
+  "collected_at": "2026-09-23T22:26:40.956287+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 265,
   "categories": [
@@ -1988,16 +1988,16 @@
     },
     {
       "level": "category",
-      "id": 149931,
-      "name": "배럴 레그 팬츠",
-      "key": "barrel-leg-pants",
-      "path": "57892,57960,149931,",
+      "id": 58003,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57892,57960,58003,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57960,
       "class_name": "팬츠",
-      "category_id": 149931,
-      "category_name": "배럴 레그 팬츠",
+      "category_id": 58003,
+      "category_name": "진(청바지)",
       "parent_ids": [
         57892,
         57960
@@ -2007,9 +2007,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 149931,
-        "name": "배럴 레그 팬츠",
-        "key": "barrel-leg-pants",
+        "id": 58003,
+        "name": "진(청바지)",
+        "key": "jeans",
         "parents": [
           {
             "id": 57892,
@@ -2064,16 +2064,16 @@
     },
     {
       "level": "category",
-      "id": 58003,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57892,57960,58003,",
+      "id": 149931,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57892,57960,149931,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57960,
       "class_name": "팬츠",
-      "category_id": 58003,
-      "category_name": "진(청바지)",
+      "category_id": 149931,
+      "category_name": "배럴 레그 팬츠",
       "parent_ids": [
         57892,
         57960
@@ -2083,9 +2083,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 58003,
-        "name": "진(청바지)",
-        "key": "jeans",
+        "id": 149931,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57892,
@@ -2482,6 +2482,44 @@
     },
     {
       "level": "category",
+      "id": 58022,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,57963,58022,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58022,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58022,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58021,
       "name": "브라탑",
       "key": "bra-tops",
@@ -2542,44 +2580,6 @@
         "id": 141497,
         "name": "코튼 이너탑",
         "key": "undershirts",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58022,
-      "name": "언더웨어",
-      "key": "underwear",
-      "path": "57892,57963,58022,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58022,
-      "category_name": "언더웨어",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58022,
-        "name": "언더웨어",
-        "key": "underwear",
         "parents": [
           {
             "id": 57892,
@@ -3470,44 +3470,6 @@
     },
     {
       "level": "category",
-      "id": 82083,
-      "name": "브라탑",
-      "key": "bra-tops",
-      "path": "57892,81619,82083,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 81619,
-      "class_name": "에어리즘",
-      "category_id": 82083,
-      "category_name": "브라탑",
-      "parent_ids": [
-        57892,
-        81619
-      ],
-      "parent_names": [
-        "WOMEN",
-        "에어리즘"
-      ],
-      "raw": {
-        "id": 82083,
-        "name": "브라탑",
-        "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 81619,
-            "name": "에어리즘",
-            "key": "airism"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 82081,
       "name": "이너웨어 상의",
       "key": "inner-tops",
@@ -3584,44 +3546,6 @@
     },
     {
       "level": "category",
-      "id": 82084,
-      "name": "상의",
-      "key": "tops",
-      "path": "57892,81619,82084,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 81619,
-      "class_name": "에어리즘",
-      "category_id": 82084,
-      "category_name": "상의",
-      "parent_ids": [
-        57892,
-        81619
-      ],
-      "parent_names": [
-        "WOMEN",
-        "에어리즘"
-      ],
-      "raw": {
-        "id": 82084,
-        "name": "상의",
-        "key": "tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 81619,
-            "name": "에어리즘",
-            "key": "airism"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 82082,
       "name": "언더웨어",
       "key": "underwear",
@@ -3644,6 +3568,82 @@
         "id": 82082,
         "name": "언더웨어",
         "key": "underwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82083,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,81619,82083,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82083,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82083,
+        "name": "브라탑",
+        "key": "bra-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 81619,
+            "name": "에어리즘",
+            "key": "airism"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 82084,
+      "name": "상의",
+      "key": "tops",
+      "path": "57892,81619,82084,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 81619,
+      "class_name": "에어리즘",
+      "category_id": 82084,
+      "category_name": "상의",
+      "parent_ids": [
+        57892,
+        81619
+      ],
+      "parent_names": [
+        "WOMEN",
+        "에어리즘"
+      ],
+      "raw": {
+        "id": 82084,
+        "name": "상의",
+        "key": "tops",
         "parents": [
           {
             "id": 57892,
@@ -5294,16 +5294,16 @@
     },
     {
       "level": "category",
-      "id": 149932,
-      "name": "배럴 레그 팬츠",
-      "key": "barrel-leg-pants",
-      "path": "57893,57968,149932,",
+      "id": 58048,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57893,57968,58048,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57968,
       "class_name": "팬츠",
-      "category_id": 149932,
-      "category_name": "배럴 레그 팬츠",
+      "category_id": 58048,
+      "category_name": "진(청바지)",
       "parent_ids": [
         57893,
         57968
@@ -5313,9 +5313,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 149932,
-        "name": "배럴 레그 팬츠",
-        "key": "barrel-leg-pants",
+        "id": 58048,
+        "name": "진(청바지)",
+        "key": "jeans",
         "parents": [
           {
             "id": 57893,
@@ -5370,16 +5370,16 @@
     },
     {
       "level": "category",
-      "id": 58048,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57893,57968,58048,",
+      "id": 149932,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57893,57968,149932,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57968,
       "class_name": "팬츠",
-      "category_id": 58048,
-      "category_name": "진(청바지)",
+      "category_id": 149932,
+      "category_name": "배럴 레그 팬츠",
       "parent_ids": [
         57893,
         57968
@@ -5389,9 +5389,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 58048,
-        "name": "진(청바지)",
-        "key": "jeans",
+        "id": 149932,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57893,
@@ -5712,16 +5712,16 @@
     },
     {
       "level": "category",
-      "id": 58062,
-      "name": "히트텍",
-      "key": "heattech",
-      "path": "57893,57970,58062,",
+      "id": 58065,
+      "name": "양말",
+      "key": "socks",
+      "path": "57893,57970,58065,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57970,
       "class_name": "이너웨어",
-      "category_id": 58062,
-      "category_name": "히트텍",
+      "category_id": 58065,
+      "category_name": "양말",
       "parent_ids": [
         57893,
         57970
@@ -5731,9 +5731,9 @@
         "이너웨어"
       ],
       "raw": {
-        "id": 58062,
-        "name": "히트텍",
-        "key": "heattech",
+        "id": 58065,
+        "name": "양말",
+        "key": "socks",
         "parents": [
           {
             "id": 57893,
@@ -5788,16 +5788,16 @@
     },
     {
       "level": "category",
-      "id": 58065,
-      "name": "양말",
-      "key": "socks",
-      "path": "57893,57970,58065,",
+      "id": 58062,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57893,57970,58062,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57970,
       "class_name": "이너웨어",
-      "category_id": 58065,
-      "category_name": "양말",
+      "category_id": 58062,
+      "category_name": "히트텍",
       "parent_ids": [
         57893,
         57970
@@ -5807,9 +5807,9 @@
         "이너웨어"
       ],
       "raw": {
-        "id": 58065,
-        "name": "양말",
-        "key": "socks",
+        "id": 58062,
+        "name": "히트텍",
+        "key": "heattech",
         "parents": [
           {
             "id": 57893,
