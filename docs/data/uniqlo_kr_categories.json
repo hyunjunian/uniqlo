@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-23T22:26:40.956287+00:00",
+  "collected_at": "2026-09-24T22:40:44.187858+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 265,
   "categories": [
@@ -7802,44 +7802,6 @@
     },
     {
       "level": "category",
-      "id": 58077,
-      "name": "스웨트셔츠 & 후드티",
-      "key": "sweatshirts-and-hoodies",
-      "path": "57894,57974,58077,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57974,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58077,
-      "category_name": "스웨트셔츠 & 후드티",
-      "parent_ids": [
-        57894,
-        57974
-      ],
-      "parent_names": [
-        "KIDS",
-        "티셔츠 & 스웨트셔츠 & 후리스"
-      ],
-      "raw": {
-        "id": 58077,
-        "name": "스웨트셔츠 & 후드티",
-        "key": "sweatshirts-and-hoodies",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57974,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58078,
       "name": "티셔츠 (긴팔 & 반팔)",
       "key": "t-shirts",
@@ -7862,6 +7824,44 @@
         "id": 58078,
         "name": "티셔츠 (긴팔 & 반팔)",
         "key": "t-shirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57974,
+            "name": "티셔츠 & 스웨트셔츠 & 후리스",
+            "key": "tops"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58077,
+      "name": "스웨트셔츠 & 후드티",
+      "key": "sweatshirts-and-hoodies",
+      "path": "57894,57974,58077,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57974,
+      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
+      "category_id": 58077,
+      "category_name": "스웨트셔츠 & 후드티",
+      "parent_ids": [
+        57894,
+        57974
+      ],
+      "parent_names": [
+        "KIDS",
+        "티셔츠 & 스웨트셔츠 & 후리스"
+      ],
+      "raw": {
+        "id": 58077,
+        "name": "스웨트셔츠 & 후드티",
+        "key": "sweatshirts-and-hoodies",
         "parents": [
           {
             "id": 57894,
