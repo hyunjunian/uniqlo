@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-28T23:54:00.547002+00:00",
+  "collected_at": "2026-09-29T23:07:50.636265+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 266,
   "categories": [
@@ -3166,6 +3166,44 @@
     },
     {
       "level": "category",
+      "id": 148315,
+      "name": "파자마",
+      "key": "pajamas",
+      "path": "57892,148314,148315,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148315,
+      "category_name": "파자마",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148315,
+        "name": "파자마",
+        "key": "pajamas",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 148322,
       "name": "팬츠",
       "key": "bottoms",
@@ -3204,16 +3242,16 @@
     },
     {
       "level": "category",
-      "id": 148315,
-      "name": "파자마",
-      "key": "pajamas",
-      "path": "57892,148314,148315,",
+      "id": 148320,
+      "name": "니트 & 가디건",
+      "key": "sweaters-and-cardigans",
+      "path": "57892,148314,148320,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 148314,
       "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148315,
-      "category_name": "파자마",
+      "category_id": 148320,
+      "category_name": "니트 & 가디건",
       "parent_ids": [
         57892,
         148314
@@ -3223,9 +3261,9 @@
         "라운지 & 언더웨어 컬렉션"
       ],
       "raw": {
-        "id": 148315,
-        "name": "파자마",
-        "key": "pajamas",
+        "id": 148320,
+        "name": "니트 & 가디건",
+        "key": "sweaters-and-cardigans",
         "parents": [
           {
             "id": 57892,
@@ -3302,44 +3340,6 @@
         "id": 148321,
         "name": "캐미솔",
         "key": "camisole-and-tank-top",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 148320,
-      "name": "니트 & 가디건",
-      "key": "sweaters-and-cardigans",
-      "path": "57892,148314,148320,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148320,
-      "category_name": "니트 & 가디건",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148320,
-        "name": "니트 & 가디건",
-        "key": "sweaters-and-cardigans",
         "parents": [
           {
             "id": 57892,
