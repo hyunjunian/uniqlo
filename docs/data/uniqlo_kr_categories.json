@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-04T22:27:44.794767+00:00",
+  "collected_at": "2026-10-06T00:56:00.138181+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 266,
+  "category_count": 267,
   "categories": [
     {
       "level": "gender",
@@ -2824,6 +2824,44 @@
     },
     {
       "level": "category",
+      "id": 155176,
+      "name": "홈웨어 상의",
+      "key": "loungewear-tops",
+      "path": "57892,57964,155176,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57964,
+      "class_name": "파자마 & 홈웨어",
+      "category_id": 155176,
+      "category_name": "홈웨어 상의",
+      "parent_ids": [
+        57892,
+        57964
+      ],
+      "parent_names": [
+        "WOMEN",
+        "파자마 & 홈웨어"
+      ],
+      "raw": {
+        "id": 155176,
+        "name": "홈웨어 상의",
+        "key": "loungewear-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57964,
+            "name": "파자마 & 홈웨어",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 99902,
       "name": "가방",
       "key": "bags",
@@ -4382,6 +4420,44 @@
     },
     {
       "level": "category",
+      "id": 154648,
+      "name": "GU × rokh",
+      "key": "gu-rokh",
+      "path": "57892,124424,154648,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 154648,
+      "category_name": "GU × rokh",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 154648,
+        "name": "GU × rokh",
+        "key": "gu-rokh",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 124426,
       "name": "아우터",
       "key": "outerwear",
@@ -4632,44 +4708,6 @@
         "id": 141119,
         "name": "라운지웨어 & 홈웨어",
         "key": "loungewear-and-homewear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 124424,
-            "name": "GU",
-            "key": "gu"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 154648,
-      "name": "GU × rokh",
-      "key": "gu-rokh",
-      "path": "57892,124424,154648,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 124424,
-      "class_name": "GU",
-      "category_id": 154648,
-      "category_name": "GU × rokh",
-      "parent_ids": [
-        57892,
-        124424
-      ],
-      "parent_names": [
-        "WOMEN",
-        "GU"
-      ],
-      "raw": {
-        "id": 154648,
-        "name": "GU × rokh",
-        "key": "gu-rokh",
         "parents": [
           {
             "id": 57892,
