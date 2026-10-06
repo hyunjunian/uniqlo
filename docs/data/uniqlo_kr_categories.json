@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-06T00:56:00.138181+00:00",
+  "collected_at": "2026-10-06T23:12:37.345411+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 267,
   "categories": [
@@ -2786,44 +2786,6 @@
     },
     {
       "level": "category",
-      "id": 154583,
-      "name": "룸 슈즈",
-      "key": "room-shoes",
-      "path": "57892,57964,154583,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57964,
-      "class_name": "파자마 & 홈웨어",
-      "category_id": 154583,
-      "category_name": "룸 슈즈",
-      "parent_ids": [
-        57892,
-        57964
-      ],
-      "parent_names": [
-        "WOMEN",
-        "파자마 & 홈웨어"
-      ],
-      "raw": {
-        "id": 154583,
-        "name": "룸 슈즈",
-        "key": "room-shoes",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57964,
-            "name": "파자마 & 홈웨어",
-            "key": "loungewear-and-homeware"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 155176,
       "name": "홈웨어 상의",
       "key": "loungewear-tops",
@@ -2846,6 +2808,44 @@
         "id": 155176,
         "name": "홈웨어 상의",
         "key": "loungewear-tops",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57964,
+            "name": "파자마 & 홈웨어",
+            "key": "loungewear-and-homeware"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 154583,
+      "name": "룸 슈즈",
+      "key": "room-shoes",
+      "path": "57892,57964,154583,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57964,
+      "class_name": "파자마 & 홈웨어",
+      "category_id": 154583,
+      "category_name": "룸 슈즈",
+      "parent_ids": [
+        57892,
+        57964
+      ],
+      "parent_names": [
+        "WOMEN",
+        "파자마 & 홈웨어"
+      ],
+      "raw": {
+        "id": 154583,
+        "name": "룸 슈즈",
+        "key": "room-shoes",
         "parents": [
           {
             "id": 57892,
@@ -2938,6 +2938,120 @@
     },
     {
       "level": "category",
+      "id": 58032,
+      "name": "신발",
+      "key": "shoes",
+      "path": "57892,57965,58032,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58032,
+      "category_name": "신발",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58032,
+        "name": "신발",
+        "key": "shoes",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58029,
+      "name": "모자",
+      "key": "hats-and-caps",
+      "path": "57892,57965,58029,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58029,
+      "category_name": "모자",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58029,
+        "name": "모자",
+        "key": "hats-and-caps",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58030,
+      "name": "스카프 & 목도리",
+      "key": "scarves-and-stoles",
+      "path": "57892,57965,58030,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58030,
+      "category_name": "스카프 & 목도리",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58030,
+        "name": "스카프 & 목도리",
+        "key": "scarves-and-stoles",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58033,
       "name": "선글라스",
       "key": "sunglasses",
@@ -2998,120 +3112,6 @@
         "id": 58034,
         "name": "우산",
         "key": "accessories",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58029,
-      "name": "모자",
-      "key": "hats-and-caps",
-      "path": "57892,57965,58029,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 58029,
-      "category_name": "모자",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58029,
-        "name": "모자",
-        "key": "hats-and-caps",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58032,
-      "name": "신발",
-      "key": "shoes",
-      "path": "57892,57965,58032,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 58032,
-      "category_name": "신발",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58032,
-        "name": "신발",
-        "key": "shoes",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58030,
-      "name": "스카프 & 목도리",
-      "key": "scarves-and-stoles",
-      "path": "57892,57965,58030,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 58030,
-      "category_name": "스카프 & 목도리",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58030,
-        "name": "스카프 & 목도리",
-        "key": "scarves-and-stoles",
         "parents": [
           {
             "id": 57892,
