@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-14T22:32:09.631693+00:00",
+  "collected_at": "2026-10-15T22:36:20.687403+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 266,
+  "category_count": 264,
   "categories": [
     {
       "level": "gender",
@@ -1325,37 +1325,6 @@
     },
     {
       "level": "class",
-      "id": 107544,
-      "name": "Special Collaborations",
-      "key": "special-collaboration",
-      "path": "57894,107544,,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 107544,
-      "class_name": "Special Collaborations",
-      "category_id": null,
-      "category_name": null,
-      "parent_ids": [
-        57894
-      ],
-      "parent_names": [
-        "KIDS"
-      ],
-      "raw": {
-        "id": 107544,
-        "name": "Special Collaborations",
-        "key": "special-collaboration",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          }
-        ]
-      }
-    },
-    {
-      "level": "class",
       "id": 57980,
       "name": "신생아(0개월~2세)",
       "key": "newborn",
@@ -1988,44 +1957,6 @@
     },
     {
       "level": "category",
-      "id": 58004,
-      "name": "캐주얼 팬츠",
-      "key": "casual-pants",
-      "path": "57892,57960,58004,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58004,
-      "category_name": "캐주얼 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58004,
-        "name": "캐주얼 팬츠",
-        "key": "casual-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58003,
       "name": "진(청바지)",
       "key": "jeans",
@@ -2064,6 +1995,44 @@
     },
     {
       "level": "category",
+      "id": 58004,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57892,57960,58004,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58004,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58004,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 149931,
       "name": "배럴 레그 팬츠",
       "key": "barrel-leg-pants",
@@ -2086,6 +2055,44 @@
         "id": 149931,
         "name": "배럴 레그 팬츠",
         "key": "barrel-leg-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 98232,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57892,57960,98232,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 98232,
+      "category_name": "웜 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 98232,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
         "parents": [
           {
             "id": 57892,
@@ -2200,44 +2207,6 @@
         "id": 58008,
         "name": "슬랙스(트라우저)",
         "key": "trousers",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 98232,
-      "name": "웜 팬츠",
-      "key": "warm-pants",
-      "path": "57892,57960,98232,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 98232,
-      "category_name": "웜 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 98232,
-        "name": "웜 팬츠",
-        "key": "warm-pants",
         "parents": [
           {
             "id": 57892,
@@ -2406,82 +2375,6 @@
     },
     {
       "level": "category",
-      "id": 58020,
-      "name": "와이어리스 브라",
-      "key": "bras",
-      "path": "57892,57963,58020,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58020,
-      "category_name": "와이어리스 브라",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58020,
-        "name": "와이어리스 브라",
-        "key": "bras",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58021,
-      "name": "브라탑",
-      "key": "bra-tops",
-      "path": "57892,57963,58021,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58021,
-      "category_name": "브라탑",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58021,
-        "name": "브라탑",
-        "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58019,
       "name": "히트텍",
       "key": "heattech",
@@ -2542,6 +2435,82 @@
         "id": 58018,
         "name": "에어리즘",
         "key": "airism",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58020,
+      "name": "와이어리스 브라",
+      "key": "bras",
+      "path": "57892,57963,58020,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58020,
+      "category_name": "와이어리스 브라",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58020,
+        "name": "와이어리스 브라",
+        "key": "bras",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58021,
+      "name": "브라탑",
+      "key": "bra-tops",
+      "path": "57892,57963,58021,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58021,
+      "category_name": "브라탑",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58021,
+        "name": "브라탑",
+        "key": "bra-tops",
         "parents": [
           {
             "id": 57892,
@@ -3281,7 +3250,7 @@
     {
       "level": "category",
       "id": 148320,
-      "name": "니트 & 가디건",
+      "name": "니트 셋업 & 가디건",
       "key": "sweaters-and-cardigans",
       "path": "57892,148314,148320,",
       "gender_id": 57892,
@@ -3289,7 +3258,7 @@
       "class_id": 148314,
       "class_name": "라운지 & 언더웨어 컬렉션",
       "category_id": 148320,
-      "category_name": "니트 & 가디건",
+      "category_name": "니트 셋업 & 가디건",
       "parent_ids": [
         57892,
         148314
@@ -3300,7 +3269,7 @@
       ],
       "raw": {
         "id": 148320,
-        "name": "니트 & 가디건",
+        "name": "니트 셋업 & 가디건",
         "key": "sweaters-and-cardigans",
         "parents": [
           {
@@ -5332,44 +5301,6 @@
     },
     {
       "level": "category",
-      "id": 58049,
-      "name": "캐주얼 팬츠",
-      "key": "casual-pants",
-      "path": "57893,57968,58049,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58049,
-      "category_name": "캐주얼 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58049,
-        "name": "캐주얼 팬츠",
-        "key": "casual-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58048,
       "name": "진(청바지)",
       "key": "jeans",
@@ -5392,6 +5323,44 @@
         "id": 58048,
         "name": "진(청바지)",
         "key": "jeans",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58049,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57893,57968,58049,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58049,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58049,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
         "parents": [
           {
             "id": 57893,
@@ -5446,6 +5415,44 @@
     },
     {
       "level": "category",
+      "id": 98235,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57893,57968,98235,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 98235,
+      "category_name": "웜 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 98235,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58046,
       "name": "와이드 팬츠",
       "key": "wide-pants",
@@ -5468,44 +5475,6 @@
         "id": 58046,
         "name": "와이드 팬츠",
         "key": "wide-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58052,
-      "name": "감탄 팬츠",
-      "key": "gamtan-pants",
-      "path": "57893,57968,58052,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58052,
-      "category_name": "감탄 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58052,
-        "name": "감탄 팬츠",
-        "key": "gamtan-pants",
         "parents": [
           {
             "id": 57893,
@@ -5598,16 +5567,16 @@
     },
     {
       "level": "category",
-      "id": 98235,
-      "name": "웜 팬츠",
-      "key": "warm-pants",
-      "path": "57893,57968,98235,",
+      "id": 58052,
+      "name": "감탄 팬츠",
+      "key": "gamtan-pants",
+      "path": "57893,57968,58052,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57968,
       "class_name": "팬츠",
-      "category_id": 98235,
-      "category_name": "웜 팬츠",
+      "category_id": 58052,
+      "category_name": "감탄 팬츠",
       "parent_ids": [
         57893,
         57968
@@ -5617,9 +5586,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 98235,
-        "name": "웜 팬츠",
-        "key": "warm-pants",
+        "id": 58052,
+        "name": "감탄 팬츠",
+        "key": "gamtan-pants",
         "parents": [
           {
             "id": 57893,
@@ -9126,44 +9095,6 @@
             "id": 57977,
             "name": "스포츠 유틸리티 웨어",
             "key": "sport-utility-wear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 143066,
-      "name": "UNIQLO and Cecilie Bahnsen",
-      "key": "uniqlo-and-cecilie-bahnsen",
-      "path": "57894,107544,143066,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 107544,
-      "class_name": "Special Collaborations",
-      "category_id": 143066,
-      "category_name": "UNIQLO and Cecilie Bahnsen",
-      "parent_ids": [
-        57894,
-        107544
-      ],
-      "parent_names": [
-        "KIDS",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 143066,
-        "name": "UNIQLO and Cecilie Bahnsen",
-        "key": "uniqlo-and-cecilie-bahnsen",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 107544,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
           }
         ]
       }
