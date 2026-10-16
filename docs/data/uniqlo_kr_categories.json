@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-15T22:36:20.687403+00:00",
+  "collected_at": "2026-10-16T22:10:51.059448+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 264,
+  "category_count": 266,
   "categories": [
     {
       "level": "gender",
@@ -1314,6 +1314,37 @@
         "id": 57977,
         "name": "스포츠 유틸리티 웨어",
         "key": "sport-utility-wear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          }
+        ]
+      }
+    },
+    {
+      "level": "class",
+      "id": 107544,
+      "name": "Special Collaborations",
+      "key": "special-collaboration",
+      "path": "57894,107544,,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 107544,
+      "class_name": "Special Collaborations",
+      "category_id": null,
+      "category_name": null,
+      "parent_ids": [
+        57894
+      ],
+      "parent_names": [
+        "KIDS"
+      ],
+      "raw": {
+        "id": 107544,
+        "name": "Special Collaborations",
+        "key": "special-collaboration",
         "parents": [
           {
             "id": 57894,
@@ -4351,44 +4382,6 @@
     },
     {
       "level": "category",
-      "id": 154648,
-      "name": "GU × rokh",
-      "key": "gu-rokh",
-      "path": "57892,124424,154648,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 124424,
-      "class_name": "GU",
-      "category_id": 154648,
-      "category_name": "GU × rokh",
-      "parent_ids": [
-        57892,
-        124424
-      ],
-      "parent_names": [
-        "WOMEN",
-        "GU"
-      ],
-      "raw": {
-        "id": 154648,
-        "name": "GU × rokh",
-        "key": "gu-rokh",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 124424,
-            "name": "GU",
-            "key": "gu"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 124426,
       "name": "아우터",
       "key": "outerwear",
@@ -4639,6 +4632,44 @@
         "id": 141119,
         "name": "라운지웨어 & 홈웨어",
         "key": "loungewear-and-homewear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 124424,
+            "name": "GU",
+            "key": "gu"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 154648,
+      "name": "GU × rokh",
+      "key": "gu-rokh",
+      "path": "57892,124424,154648,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 124424,
+      "class_name": "GU",
+      "category_id": 154648,
+      "category_name": "GU × rokh",
+      "parent_ids": [
+        57892,
+        124424
+      ],
+      "parent_names": [
+        "WOMEN",
+        "GU"
+      ],
+      "raw": {
+        "id": 154648,
+        "name": "GU × rokh",
+        "key": "gu-rokh",
         "parents": [
           {
             "id": 57892,
@@ -7885,16 +7916,16 @@
     },
     {
       "level": "category",
-      "id": 58078,
-      "name": "티셔츠 (긴팔 & 반팔)",
-      "key": "t-shirts",
-      "path": "57894,57974,58078,",
+      "id": 103576,
+      "name": "후리스",
+      "key": "fleece",
+      "path": "57894,57974,103576,",
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57974,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58078,
-      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "category_id": 103576,
+      "category_name": "후리스",
       "parent_ids": [
         57894,
         57974
@@ -7904,9 +7935,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 58078,
-        "name": "티셔츠 (긴팔 & 반팔)",
-        "key": "t-shirts",
+        "id": 103576,
+        "name": "후리스",
+        "key": "fleece",
         "parents": [
           {
             "id": 57894,
@@ -7961,16 +7992,16 @@
     },
     {
       "level": "category",
-      "id": 103576,
-      "name": "후리스",
-      "key": "fleece",
-      "path": "57894,57974,103576,",
+      "id": 58078,
+      "name": "티셔츠 (긴팔 & 반팔)",
+      "key": "t-shirts",
+      "path": "57894,57974,58078,",
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57974,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 103576,
-      "category_name": "후리스",
+      "category_id": 58078,
+      "category_name": "티셔츠 (긴팔 & 반팔)",
       "parent_ids": [
         57894,
         57974
@@ -7980,9 +8011,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 103576,
-        "name": "후리스",
-        "key": "fleece",
+        "id": 58078,
+        "name": "티셔츠 (긴팔 & 반팔)",
+        "key": "t-shirts",
         "parents": [
           {
             "id": 57894,
@@ -8227,6 +8258,44 @@
     },
     {
       "level": "category",
+      "id": 58092,
+      "name": "히트텍",
+      "key": "heattech",
+      "path": "57894,57978,58092,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57978,
+      "class_name": "이너웨어",
+      "category_id": 58092,
+      "category_name": "히트텍",
+      "parent_ids": [
+        57894,
+        57978
+      ],
+      "parent_names": [
+        "KIDS",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58092,
+        "name": "히트텍",
+        "key": "heattech",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57978,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58091,
       "name": "에어리즘",
       "key": "airism",
@@ -8363,44 +8432,6 @@
         "id": 58096,
         "name": "양말",
         "key": "socks",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57978,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58092,
-      "name": "히트텍",
-      "key": "heattech",
-      "path": "57894,57978,58092,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57978,
-      "class_name": "이너웨어",
-      "category_id": 58092,
-      "category_name": "히트텍",
-      "parent_ids": [
-        57894,
-        57978
-      ],
-      "parent_names": [
-        "KIDS",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58092,
-        "name": "히트텍",
-        "key": "heattech",
         "parents": [
           {
             "id": 57894,
@@ -9095,6 +9126,44 @@
             "id": 57977,
             "name": "스포츠 유틸리티 웨어",
             "key": "sport-utility-wear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 143066,
+      "name": "UNIQLO and Cecilie Bahnsen",
+      "key": "uniqlo-and-cecilie-bahnsen",
+      "path": "57894,107544,143066,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 107544,
+      "class_name": "Special Collaborations",
+      "category_id": 143066,
+      "category_name": "UNIQLO and Cecilie Bahnsen",
+      "parent_ids": [
+        57894,
+        107544
+      ],
+      "parent_names": [
+        "KIDS",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 143066,
+        "name": "UNIQLO and Cecilie Bahnsen",
+        "key": "uniqlo-and-cecilie-bahnsen",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 107544,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
           }
         ]
       }
