@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-19T23:02:39.060641+00:00",
+  "collected_at": "2026-10-20T22:33:03.176540+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 266,
   "categories": [
@@ -2406,6 +2406,82 @@
     },
     {
       "level": "category",
+      "id": 58020,
+      "name": "와이어리스 브라",
+      "key": "bras",
+      "path": "57892,57963,58020,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58020,
+      "category_name": "와이어리스 브라",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58020,
+        "name": "와이어리스 브라",
+        "key": "bras",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58022,
+      "name": "언더웨어",
+      "key": "underwear",
+      "path": "57892,57963,58022,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57963,
+      "class_name": "이너웨어",
+      "category_id": 58022,
+      "category_name": "언더웨어",
+      "parent_ids": [
+        57892,
+        57963
+      ],
+      "parent_names": [
+        "WOMEN",
+        "이너웨어"
+      ],
+      "raw": {
+        "id": 58022,
+        "name": "언더웨어",
+        "key": "underwear",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57963,
+            "name": "이너웨어",
+            "key": "innerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58019,
       "name": "히트텍",
       "key": "heattech",
@@ -2482,16 +2558,16 @@
     },
     {
       "level": "category",
-      "id": 58020,
-      "name": "와이어리스 브라",
-      "key": "bras",
-      "path": "57892,57963,58020,",
+      "id": 141497,
+      "name": "코튼 이너탑",
+      "key": "undershirts",
+      "path": "57892,57963,141497,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57963,
       "class_name": "이너웨어",
-      "category_id": 58020,
-      "category_name": "와이어리스 브라",
+      "category_id": 141497,
+      "category_name": "코튼 이너탑",
       "parent_ids": [
         57892,
         57963
@@ -2501,9 +2577,9 @@
         "이너웨어"
       ],
       "raw": {
-        "id": 58020,
-        "name": "와이어리스 브라",
-        "key": "bras",
+        "id": 141497,
+        "name": "코튼 이너탑",
+        "key": "undershirts",
         "parents": [
           {
             "id": 57892,
@@ -2542,82 +2618,6 @@
         "id": 58021,
         "name": "브라탑",
         "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58022,
-      "name": "언더웨어",
-      "key": "underwear",
-      "path": "57892,57963,58022,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 58022,
-      "category_name": "언더웨어",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 58022,
-        "name": "언더웨어",
-        "key": "underwear",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57963,
-            "name": "이너웨어",
-            "key": "innerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 141497,
-      "name": "코튼 이너탑",
-      "key": "undershirts",
-      "path": "57892,57963,141497,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57963,
-      "class_name": "이너웨어",
-      "category_id": 141497,
-      "category_name": "코튼 이너탑",
-      "parent_ids": [
-        57892,
-        57963
-      ],
-      "parent_names": [
-        "WOMEN",
-        "이너웨어"
-      ],
-      "raw": {
-        "id": 141497,
-        "name": "코튼 이너탑",
-        "key": "undershirts",
         "parents": [
           {
             "id": 57892,
@@ -4268,44 +4268,6 @@
     },
     {
       "level": "category",
-      "id": 113234,
-      "name": "UNIQLO and COMPTOIR DES COTONNIERS",
-      "key": "uniqlo-and-comptoir-des-cotonniers",
-      "path": "57892,107542,113234,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 107542,
-      "class_name": "Special Collaborations",
-      "category_id": 113234,
-      "category_name": "UNIQLO and COMPTOIR DES COTONNIERS",
-      "parent_ids": [
-        57892,
-        107542
-      ],
-      "parent_names": [
-        "WOMEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 113234,
-        "name": "UNIQLO and COMPTOIR DES COTONNIERS",
-        "key": "uniqlo-and-comptoir-des-cotonniers",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 107542,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 145182,
       "name": "UNIQLO F.RISSO",
       "key": "uniqlo-f-risso",
@@ -4328,6 +4290,44 @@
         "id": 145182,
         "name": "UNIQLO F.RISSO",
         "key": "uniqlo-f-risso",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 113234,
+      "name": "UNIQLO and COMPTOIR DES COTONNIERS",
+      "key": "uniqlo-and-comptoir-des-cotonniers",
+      "path": "57892,107542,113234,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 113234,
+      "category_name": "UNIQLO and COMPTOIR DES COTONNIERS",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 113234,
+        "name": "UNIQLO and COMPTOIR DES COTONNIERS",
+        "key": "uniqlo-and-comptoir-des-cotonniers",
         "parents": [
           {
             "id": 57892,
@@ -9246,6 +9246,44 @@
     },
     {
       "level": "category",
+      "id": 58103,
+      "name": "패딩 & 후리스",
+      "key": "outerwear",
+      "path": "57925,57980,58103,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57980,
+      "class_name": "신생아(0개월~2세)",
+      "category_id": 58103,
+      "category_name": "패딩 & 후리스",
+      "parent_ids": [
+        57925,
+        57980
+      ],
+      "parent_names": [
+        "BABY",
+        "신생아(0개월~2세)"
+      ],
+      "raw": {
+        "id": 58103,
+        "name": "패딩 & 후리스",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57980,
+            "name": "신생아(0개월~2세)",
+            "key": "newborn"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58105,
       "name": "레깅스 & 팬츠",
       "key": "pants-and-leggings",
@@ -9268,44 +9306,6 @@
         "id": 58105,
         "name": "레깅스 & 팬츠",
         "key": "pants-and-leggings",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57980,
-            "name": "신생아(0개월~2세)",
-            "key": "newborn"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58104,
-      "name": "티셔츠 & 스웨트셔츠",
-      "key": "tops",
-      "path": "57925,57980,58104,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57980,
-      "class_name": "신생아(0개월~2세)",
-      "category_id": 58104,
-      "category_name": "티셔츠 & 스웨트셔츠",
-      "parent_ids": [
-        57925,
-        57980
-      ],
-      "parent_names": [
-        "BABY",
-        "신생아(0개월~2세)"
-      ],
-      "raw": {
-        "id": 58104,
-        "name": "티셔츠 & 스웨트셔츠",
-        "key": "tops",
         "parents": [
           {
             "id": 57925,
@@ -9360,16 +9360,16 @@
     },
     {
       "level": "category",
-      "id": 58103,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57925,57980,58103,",
+      "id": 58104,
+      "name": "티셔츠 & 스웨트셔츠",
+      "key": "tops",
+      "path": "57925,57980,58104,",
       "gender_id": 57925,
       "gender_name": "BABY",
       "class_id": 57980,
       "class_name": "신생아(0개월~2세)",
-      "category_id": 58103,
-      "category_name": "아우터",
+      "category_id": 58104,
+      "category_name": "티셔츠 & 스웨트셔츠",
       "parent_ids": [
         57925,
         57980
@@ -9379,9 +9379,9 @@
         "신생아(0개월~2세)"
       ],
       "raw": {
-        "id": 58103,
-        "name": "아우터",
-        "key": "outerwear",
+        "id": 58104,
+        "name": "티셔츠 & 스웨트셔츠",
+        "key": "tops",
         "parents": [
           {
             "id": 57925,
@@ -9474,6 +9474,44 @@
     },
     {
       "level": "category",
+      "id": 58110,
+      "name": "패딩 & 후리스",
+      "key": "outerwear",
+      "path": "57925,57981,58110,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58110,
+      "category_name": "패딩 & 후리스",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58110,
+        "name": "패딩 & 후리스",
+        "key": "outerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58115,
       "name": "홈웨어 & 파자마",
       "key": "homewear",
@@ -9550,82 +9588,6 @@
     },
     {
       "level": "category",
-      "id": 58111,
-      "name": "티셔츠 & 스웨트셔츠",
-      "key": "tops",
-      "path": "57925,57981,58111,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58111,
-      "category_name": "티셔츠 & 스웨트셔츠",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58111,
-        "name": "티셔츠 & 스웨트셔츠",
-        "key": "tops",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58110,
-      "name": "아우터",
-      "key": "outerwear",
-      "path": "57925,57981,58110,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58110,
-      "category_name": "아우터",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58110,
-        "name": "아우터",
-        "key": "outerwear",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58116,
       "name": "이너웨어",
       "key": "innerwear",
@@ -9648,6 +9610,44 @@
         "id": 58116,
         "name": "이너웨어",
         "key": "innerwear",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58111,
+      "name": "티셔츠 & 스웨트셔츠",
+      "key": "tops",
+      "path": "57925,57981,58111,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58111,
+      "category_name": "티셔츠 & 스웨트셔츠",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58111,
+        "name": "티셔츠 & 스웨트셔츠",
+        "key": "tops",
         "parents": [
           {
             "id": 57925,
