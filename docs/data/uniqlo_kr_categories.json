@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21T22:37:15.136427+00:00",
+  "collected_at": "2026-10-22T22:39:37.332575+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 266,
   "categories": [
@@ -1457,7 +1457,7 @@
     {
       "level": "category",
       "id": 98230,
-      "name": "다운 & 패딩",
+      "name": "다운",
       "key": "down",
       "path": "57892,57958,98230,",
       "gender_id": 57892,
@@ -1465,7 +1465,7 @@
       "class_id": 57958,
       "class_name": "아우터",
       "category_id": 98230,
-      "category_name": "다운 & 패딩",
+      "category_name": "다운",
       "parent_ids": [
         57892,
         57958
@@ -1476,7 +1476,7 @@
       ],
       "raw": {
         "id": 98230,
-        "name": "다운 & 패딩",
+        "name": "다운",
         "key": "down",
         "parents": [
           {
@@ -4725,7 +4725,7 @@
     {
       "level": "category",
       "id": 98234,
-      "name": "다운 & 패딩",
+      "name": "다운",
       "key": "down",
       "path": "57893,57966,98234,",
       "gender_id": 57893,
@@ -4733,7 +4733,7 @@
       "class_id": 57966,
       "class_name": "아우터",
       "category_id": 98234,
-      "category_name": "다운 & 패딩",
+      "category_name": "다운",
       "parent_ids": [
         57893,
         57966
@@ -4744,7 +4744,7 @@
       ],
       "raw": {
         "id": 98234,
-        "name": "다운 & 패딩",
+        "name": "다운",
         "key": "down",
         "parents": [
           {
@@ -7536,44 +7536,6 @@
     },
     {
       "level": "category",
-      "id": 150429,
-      "name": "팬츠",
-      "key": "bottoms",
-      "path": "57894,150424,150429,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 150424,
-      "class_name": "남아 & 공용",
-      "category_id": 150429,
-      "category_name": "팬츠",
-      "parent_ids": [
-        57894,
-        150424
-      ],
-      "parent_names": [
-        "KIDS",
-        "남아 & 공용"
-      ],
-      "raw": {
-        "id": 150429,
-        "name": "팬츠",
-        "key": "bottoms",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 150424,
-            "name": "남아 & 공용",
-            "key": "boys-and-unisex"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 150431,
       "name": "아우터",
       "key": "outerwear",
@@ -7710,6 +7672,44 @@
         "id": 150428,
         "name": "셔츠",
         "key": "shirts-and-polo-shirts",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150424,
+            "name": "남아 & 공용",
+            "key": "boys-and-unisex"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 150429,
+      "name": "팬츠",
+      "key": "bottoms",
+      "path": "57894,150424,150429,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150424,
+      "class_name": "남아 & 공용",
+      "category_id": 150429,
+      "category_name": "팬츠",
+      "parent_ids": [
+        57894,
+        150424
+      ],
+      "parent_names": [
+        "KIDS",
+        "남아 & 공용"
+      ],
+      "raw": {
+        "id": 150429,
+        "name": "팬츠",
+        "key": "bottoms",
         "parents": [
           {
             "id": 57894,
