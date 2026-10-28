@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-27T23:04:18.914222+00:00",
+  "collected_at": "2026-10-28T23:26:46.651795+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 267,
+  "category_count": 266,
   "categories": [
     {
       "level": "gender",
@@ -1140,13 +1140,13 @@
     {
       "level": "class",
       "id": 57976,
-      "name": "스커트 & 원피스",
+      "name": "스커트",
       "key": "dresses-and-skirts",
       "path": "57894,57976,,",
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57976,
-      "class_name": "스커트 & 원피스",
+      "class_name": "스커트",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -1157,7 +1157,7 @@
       ],
       "raw": {
         "id": 57976,
-        "name": "스커트 & 원피스",
+        "name": "스커트",
         "key": "dresses-and-skirts",
         "parents": [
           {
@@ -1798,44 +1798,6 @@
     },
     {
       "level": "category",
-      "id": 57996,
-      "name": "브라탑",
-      "key": "bra-tops",
-      "path": "57892,57959,57996,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57959,
-      "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 57996,
-      "category_name": "브라탑",
-      "parent_ids": [
-        57892,
-        57959
-      ],
-      "parent_names": [
-        "WOMEN",
-        "티셔츠 & 스웨트셔츠 & 후리스"
-      ],
-      "raw": {
-        "id": 57996,
-        "name": "브라탑",
-        "key": "bra-tops",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57959,
-            "name": "티셔츠 & 스웨트셔츠 & 후리스",
-            "key": "tops"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58001,
       "name": "그래픽티셔츠",
       "key": "graphic-tees-ut",
@@ -2026,44 +1988,6 @@
     },
     {
       "level": "category",
-      "id": 58004,
-      "name": "캐주얼 팬츠",
-      "key": "casual-pants",
-      "path": "57892,57960,58004,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58004,
-      "category_name": "캐주얼 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58004,
-        "name": "캐주얼 팬츠",
-        "key": "casual-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58003,
       "name": "진(청바지)",
       "key": "jeans",
@@ -2200,6 +2124,44 @@
         "id": 58005,
         "name": "스웨트 팬츠 & 조거 팬츠",
         "key": "sweat-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58004,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57892,57960,58004,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58004,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58004,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
         "parents": [
           {
             "id": 57892,
@@ -5370,44 +5332,6 @@
     },
     {
       "level": "category",
-      "id": 58049,
-      "name": "캐주얼 팬츠",
-      "key": "casual-pants",
-      "path": "57893,57968,58049,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58049,
-      "category_name": "캐주얼 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58049,
-        "name": "캐주얼 팬츠",
-        "key": "casual-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58048,
       "name": "진(청바지)",
       "key": "jeans",
@@ -5582,6 +5506,44 @@
         "id": 58047,
         "name": "치노 팬츠",
         "key": "chinos",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58049,
+      "name": "캐주얼 팬츠",
+      "key": "casual-pants",
+      "path": "57893,57968,58049,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58049,
+      "category_name": "캐주얼 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58049,
+        "name": "캐주얼 팬츠",
+        "key": "casual-pants",
         "parents": [
           {
             "id": 57893,
@@ -7461,7 +7423,7 @@
     {
       "level": "category",
       "id": 150164,
-      "name": "스커트 & 원피스",
+      "name": "스커트",
       "key": "dresses-and-skirts",
       "path": "57894,150160,150164,",
       "gender_id": 57894,
@@ -7469,7 +7431,7 @@
       "class_id": 150160,
       "class_name": "여아",
       "category_id": 150164,
-      "category_name": "스커트 & 원피스",
+      "category_name": "스커트",
       "parent_ids": [
         57894,
         150160
@@ -7480,7 +7442,7 @@
       ],
       "raw": {
         "id": 150164,
-        "name": "스커트 & 원피스",
+        "name": "스커트",
         "key": "dresses-and-skirts",
         "parents": [
           {
@@ -8106,44 +8068,6 @@
     },
     {
       "level": "category",
-      "id": 58082,
-      "name": "청바지 & 팬츠",
-      "key": "pants",
-      "path": "57894,57975,58082,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 57975,
-      "class_name": "청바지 & 팬츠",
-      "category_id": 58082,
-      "category_name": "청바지 & 팬츠",
-      "parent_ids": [
-        57894,
-        57975
-      ],
-      "parent_names": [
-        "KIDS",
-        "청바지 & 팬츠"
-      ],
-      "raw": {
-        "id": 58082,
-        "name": "청바지 & 팬츠",
-        "key": "pants",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 57975,
-            "name": "청바지 & 팬츠",
-            "key": "pants-and-skirts"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 104062,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -8166,6 +8090,44 @@
         "id": 104062,
         "name": "웜 팬츠",
         "key": "warm-pants",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 57975,
+            "name": "청바지 & 팬츠",
+            "key": "pants-and-skirts"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58082,
+      "name": "청바지 & 팬츠",
+      "key": "pants",
+      "path": "57894,57975,58082,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 57975,
+      "class_name": "청바지 & 팬츠",
+      "category_id": 58082,
+      "category_name": "청바지 & 팬츠",
+      "parent_ids": [
+        57894,
+        57975
+      ],
+      "parent_names": [
+        "KIDS",
+        "청바지 & 팬츠"
+      ],
+      "raw": {
+        "id": 58082,
+        "name": "청바지 & 팬츠",
+        "key": "pants",
         "parents": [
           {
             "id": 57894,
@@ -8227,7 +8189,7 @@
       "gender_id": 57894,
       "gender_name": "KIDS",
       "class_id": 57976,
-      "class_name": "스커트 & 원피스",
+      "class_name": "스커트",
       "category_id": 105469,
       "category_name": "스커트",
       "parent_ids": [
@@ -8236,7 +8198,7 @@
       ],
       "parent_names": [
         "KIDS",
-        "스커트 & 원피스"
+        "스커트"
       ],
       "raw": {
         "id": 105469,
@@ -8250,7 +8212,7 @@
           },
           {
             "id": 57976,
-            "name": "스커트 & 원피스",
+            "name": "스커트",
             "key": "dresses-and-skirts"
           }
         ]
