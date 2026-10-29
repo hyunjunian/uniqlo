@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-28T23:26:46.651795+00:00",
+  "collected_at": "2026-10-29T23:31:05.448992+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 266,
+  "category_count": 268,
   "categories": [
     {
       "level": "gender",
@@ -1684,16 +1684,16 @@
     },
     {
       "level": "category",
-      "id": 98231,
-      "name": "후리스",
-      "key": "fleece",
-      "path": "57892,57959,98231,",
+      "id": 57995,
+      "name": "티셔츠 (긴팔 & 반팔)",
+      "key": "t-shirts",
+      "path": "57892,57959,57995,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57959,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 98231,
-      "category_name": "후리스",
+      "category_id": 57995,
+      "category_name": "티셔츠 (긴팔 & 반팔)",
       "parent_ids": [
         57892,
         57959
@@ -1703,9 +1703,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 98231,
-        "name": "후리스",
-        "key": "fleece",
+        "id": 57995,
+        "name": "티셔츠 (긴팔 & 반팔)",
+        "key": "t-shirts",
         "parents": [
           {
             "id": 57892,
@@ -1760,16 +1760,16 @@
     },
     {
       "level": "category",
-      "id": 57995,
-      "name": "티셔츠 (긴팔 & 반팔)",
-      "key": "t-shirts",
-      "path": "57892,57959,57995,",
+      "id": 98231,
+      "name": "후리스",
+      "key": "fleece",
+      "path": "57892,57959,98231,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57959,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 57995,
-      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "category_id": 98231,
+      "category_name": "후리스",
       "parent_ids": [
         57892,
         57959
@@ -1779,9 +1779,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 57995,
-        "name": "티셔츠 (긴팔 & 반팔)",
-        "key": "t-shirts",
+        "id": 98231,
+        "name": "후리스",
+        "key": "fleece",
         "parents": [
           {
             "id": 57892,
@@ -1950,44 +1950,6 @@
     },
     {
       "level": "category",
-      "id": 98232,
-      "name": "웜 팬츠",
-      "key": "warm-pants",
-      "path": "57892,57960,98232,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 98232,
-      "category_name": "웜 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 98232,
-        "name": "웜 팬츠",
-        "key": "warm-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58003,
       "name": "진(청바지)",
       "key": "jeans",
@@ -2026,16 +1988,16 @@
     },
     {
       "level": "category",
-      "id": 149931,
-      "name": "배럴 레그 팬츠",
-      "key": "barrel-leg-pants",
-      "path": "57892,57960,149931,",
+      "id": 98232,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57892,57960,98232,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57960,
       "class_name": "팬츠",
-      "category_id": 149931,
-      "category_name": "배럴 레그 팬츠",
+      "category_id": 98232,
+      "category_name": "웜 팬츠",
       "parent_ids": [
         57892,
         57960
@@ -2045,9 +2007,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 149931,
-        "name": "배럴 레그 팬츠",
-        "key": "barrel-leg-pants",
+        "id": 98232,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
         "parents": [
           {
             "id": 57892,
@@ -2086,6 +2048,44 @@
         "id": 58002,
         "name": "와이드 팬츠",
         "key": "wide-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 149931,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57892,57960,149931,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 149931,
+      "category_name": "배럴 레그 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 149931,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57892,
@@ -2141,7 +2141,7 @@
     {
       "level": "category",
       "id": 58004,
-      "name": "캐주얼 팬츠",
+      "name": "이지 팬츠(허리 밴딩)",
       "key": "casual-pants",
       "path": "57892,57960,58004,",
       "gender_id": 57892,
@@ -2149,7 +2149,7 @@
       "class_id": 57960,
       "class_name": "팬츠",
       "category_id": 58004,
-      "category_name": "캐주얼 팬츠",
+      "category_name": "이지 팬츠(허리 밴딩)",
       "parent_ids": [
         57892,
         57960
@@ -2160,7 +2160,7 @@
       ],
       "raw": {
         "id": 58004,
-        "name": "캐주얼 팬츠",
+        "name": "이지 팬츠(허리 밴딩)",
         "key": "casual-pants",
         "parents": [
           {
@@ -2276,6 +2276,44 @@
         "id": 58009,
         "name": "레깅스",
         "key": "leggings-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 156430,
+      "name": "GU",
+      "key": "gu",
+      "path": "57892,57960,156430,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 156430,
+      "category_name": "GU",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 156430,
+        "name": "GU",
+        "key": "gu",
         "parents": [
           {
             "id": 57892,
@@ -2862,16 +2900,16 @@
     },
     {
       "level": "category",
-      "id": 58031,
-      "name": "벨트",
-      "key": "belts",
-      "path": "57892,57965,58031,",
+      "id": 58030,
+      "name": "스카프 & 목도리",
+      "key": "scarves-and-stoles",
+      "path": "57892,57965,58030,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57965,
       "class_name": "액세서리",
-      "category_id": 58031,
-      "category_name": "벨트",
+      "category_id": 58030,
+      "category_name": "스카프 & 목도리",
       "parent_ids": [
         57892,
         57965
@@ -2881,9 +2919,47 @@
         "액세서리"
       ],
       "raw": {
-        "id": 58031,
-        "name": "벨트",
-        "key": "belts",
+        "id": 58030,
+        "name": "스카프 & 목도리",
+        "key": "scarves-and-stoles",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 124369,
+      "name": "장갑",
+      "key": "gloves",
+      "path": "57892,57965,124369,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 124369,
+      "category_name": "장갑",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 124369,
+        "name": "장갑",
+        "key": "gloves",
         "parents": [
           {
             "id": 57892,
@@ -2938,6 +3014,44 @@
     },
     {
       "level": "category",
+      "id": 58031,
+      "name": "벨트",
+      "key": "belts",
+      "path": "57892,57965,58031,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 58031,
+      "category_name": "벨트",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58031,
+        "name": "벨트",
+        "key": "belts",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58029,
       "name": "모자",
       "key": "hats-and-caps",
@@ -2960,44 +3074,6 @@
         "id": 58029,
         "name": "모자",
         "key": "hats-and-caps",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58030,
-      "name": "스카프 & 목도리",
-      "key": "scarves-and-stoles",
-      "path": "57892,57965,58030,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 58030,
-      "category_name": "스카프 & 목도리",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58030,
-        "name": "스카프 & 목도리",
-        "key": "scarves-and-stoles",
         "parents": [
           {
             "id": 57892,
@@ -3074,44 +3150,6 @@
         "id": 58034,
         "name": "우산",
         "key": "accessories",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 124369,
-      "name": "장갑",
-      "key": "gloves",
-      "path": "57892,57965,124369,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 124369,
-      "category_name": "장갑",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 124369,
-        "name": "장갑",
-        "key": "gloves",
         "parents": [
           {
             "id": 57892,
@@ -4990,16 +5028,16 @@
     },
     {
       "level": "category",
-      "id": 98391,
-      "name": "후리스",
-      "key": "fleece",
-      "path": "57893,57967,98391,",
+      "id": 58039,
+      "name": "티셔츠 (긴팔 & 반팔)",
+      "key": "t-shirts",
+      "path": "57893,57967,58039,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57967,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 98391,
-      "category_name": "후리스",
+      "category_id": 58039,
+      "category_name": "티셔츠 (긴팔 & 반팔)",
       "parent_ids": [
         57893,
         57967
@@ -5009,9 +5047,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 98391,
-        "name": "후리스",
-        "key": "fleece",
+        "id": 58039,
+        "name": "티셔츠 (긴팔 & 반팔)",
+        "key": "t-shirts",
         "parents": [
           {
             "id": 57893,
@@ -5066,16 +5104,16 @@
     },
     {
       "level": "category",
-      "id": 58039,
-      "name": "티셔츠 (긴팔 & 반팔)",
-      "key": "t-shirts",
-      "path": "57893,57967,58039,",
+      "id": 98391,
+      "name": "후리스",
+      "key": "fleece",
+      "path": "57893,57967,98391,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57967,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58039,
-      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "category_id": 98391,
+      "category_name": "후리스",
       "parent_ids": [
         57893,
         57967
@@ -5085,9 +5123,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 58039,
-        "name": "티셔츠 (긴팔 & 반팔)",
-        "key": "t-shirts",
+        "id": 98391,
+        "name": "후리스",
+        "key": "fleece",
         "parents": [
           {
             "id": 57893,
@@ -5294,44 +5332,6 @@
     },
     {
       "level": "category",
-      "id": 98235,
-      "name": "웜 팬츠",
-      "key": "warm-pants",
-      "path": "57893,57968,98235,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 98235,
-      "category_name": "웜 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 98235,
-        "name": "웜 팬츠",
-        "key": "warm-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58048,
       "name": "진(청바지)",
       "key": "jeans",
@@ -5370,16 +5370,16 @@
     },
     {
       "level": "category",
-      "id": 149932,
-      "name": "배럴 레그 팬츠",
-      "key": "barrel-leg-pants",
-      "path": "57893,57968,149932,",
+      "id": 98235,
+      "name": "웜 팬츠",
+      "key": "warm-pants",
+      "path": "57893,57968,98235,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57968,
       "class_name": "팬츠",
-      "category_id": 149932,
-      "category_name": "배럴 레그 팬츠",
+      "category_id": 98235,
+      "category_name": "웜 팬츠",
       "parent_ids": [
         57893,
         57968
@@ -5389,9 +5389,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 149932,
-        "name": "배럴 레그 팬츠",
-        "key": "barrel-leg-pants",
+        "id": 98235,
+        "name": "웜 팬츠",
+        "key": "warm-pants",
         "parents": [
           {
             "id": 57893,
@@ -5430,6 +5430,44 @@
         "id": 58046,
         "name": "와이드 팬츠",
         "key": "wide-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 149932,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57893,57968,149932,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 149932,
+      "category_name": "배럴 레그 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 149932,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57893,
@@ -5523,7 +5561,7 @@
     {
       "level": "category",
       "id": 58049,
-      "name": "캐주얼 팬츠",
+      "name": "이지 팬츠(허리 밴딩)",
       "key": "casual-pants",
       "path": "57893,57968,58049,",
       "gender_id": 57893,
@@ -5531,7 +5569,7 @@
       "class_id": 57968,
       "class_name": "팬츠",
       "category_id": 58049,
-      "category_name": "캐주얼 팬츠",
+      "category_name": "이지 팬츠(허리 밴딩)",
       "parent_ids": [
         57893,
         57968
@@ -5542,7 +5580,7 @@
       ],
       "raw": {
         "id": 58049,
-        "name": "캐주얼 팬츠",
+        "name": "이지 팬츠(허리 밴딩)",
         "key": "casual-pants",
         "parents": [
           {
@@ -5658,6 +5696,44 @@
         "id": 58054,
         "name": "쇼트 팬츠(반바지)",
         "key": "short-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 156431,
+      "name": "GU",
+      "key": "gu",
+      "path": "57893,57968,156431,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 156431,
+      "category_name": "GU",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 156431,
+        "name": "GU",
+        "key": "gu",
         "parents": [
           {
             "id": 57893,
@@ -5978,158 +6054,6 @@
     },
     {
       "level": "category",
-      "id": 58071,
-      "name": "모자",
-      "key": "hats-and-caps",
-      "path": "57893,57972,58071,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57972,
-      "class_name": "액세서리",
-      "category_id": 58071,
-      "category_name": "모자",
-      "parent_ids": [
-        57893,
-        57972
-      ],
-      "parent_names": [
-        "MEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58071,
-        "name": "모자",
-        "key": "hats-and-caps",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57972,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58073,
-      "name": "선글라스",
-      "key": "sunglasses",
-      "path": "57893,57972,58073,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57972,
-      "class_name": "액세서리",
-      "category_id": 58073,
-      "category_name": "선글라스",
-      "parent_ids": [
-        57893,
-        57972
-      ],
-      "parent_names": [
-        "MEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58073,
-        "name": "선글라스",
-        "key": "sunglasses",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57972,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 62413,
-      "name": "신발",
-      "key": "shoes",
-      "path": "57893,57972,62413,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57972,
-      "class_name": "액세서리",
-      "category_id": 62413,
-      "category_name": "신발",
-      "parent_ids": [
-        57893,
-        57972
-      ],
-      "parent_names": [
-        "MEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 62413,
-        "name": "신발",
-        "key": "shoes",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57972,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58074,
-      "name": "우산",
-      "key": "accessories",
-      "path": "57893,57972,58074,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57972,
-      "class_name": "액세서리",
-      "category_id": 58074,
-      "category_name": "우산",
-      "parent_ids": [
-        57893,
-        57972
-      ],
-      "parent_names": [
-        "MEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 58074,
-        "name": "우산",
-        "key": "accessories",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57972,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 67132,
       "name": "목도리",
       "key": "scarves-and-stoles",
@@ -6190,6 +6114,158 @@
         "id": 124373,
         "name": "장갑",
         "key": "gloves",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58071,
+      "name": "모자",
+      "key": "hats-and-caps",
+      "path": "57893,57972,58071,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58071,
+      "category_name": "모자",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58071,
+        "name": "모자",
+        "key": "hats-and-caps",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 62413,
+      "name": "신발",
+      "key": "shoes",
+      "path": "57893,57972,62413,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 62413,
+      "category_name": "신발",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 62413,
+        "name": "신발",
+        "key": "shoes",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58073,
+      "name": "선글라스",
+      "key": "sunglasses",
+      "path": "57893,57972,58073,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58073,
+      "category_name": "선글라스",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58073,
+        "name": "선글라스",
+        "key": "sunglasses",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57972,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58074,
+      "name": "우산",
+      "key": "accessories",
+      "path": "57893,57972,58074,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57972,
+      "class_name": "액세서리",
+      "category_id": 58074,
+      "category_name": "우산",
+      "parent_ids": [
+        57893,
+        57972
+      ],
+      "parent_names": [
+        "MEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 58074,
+        "name": "우산",
+        "key": "accessories",
         "parents": [
           {
             "id": 57893,
@@ -9589,7 +9665,7 @@
     {
       "level": "category",
       "id": 58116,
-      "name": "이너웨어",
+      "name": "히트텍 & 이너웨어",
       "key": "innerwear",
       "path": "57925,57981,58116,",
       "gender_id": 57925,
@@ -9597,7 +9673,7 @@
       "class_id": 57981,
       "class_name": "영유아(6개월~5세)",
       "category_id": 58116,
-      "category_name": "이너웨어",
+      "category_name": "히트텍 & 이너웨어",
       "parent_ids": [
         57925,
         57981
@@ -9608,7 +9684,7 @@
       ],
       "raw": {
         "id": 58116,
-        "name": "이너웨어",
+        "name": "히트텍 & 이너웨어",
         "key": "innerwear",
         "parents": [
           {
