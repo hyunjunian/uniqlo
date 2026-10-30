@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-29T23:31:05.448992+00:00",
+  "collected_at": "2026-10-30T23:07:52.480757+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 268,
   "categories": [
@@ -2103,7 +2103,7 @@
     {
       "level": "category",
       "id": 58005,
-      "name": "스웨트 팬츠 & 조거 팬츠",
+      "name": "스웨트 팬츠",
       "key": "sweat-pants",
       "path": "57892,57960,58005,",
       "gender_id": 57892,
@@ -2111,7 +2111,7 @@
       "class_id": 57960,
       "class_name": "팬츠",
       "category_id": 58005,
-      "category_name": "스웨트 팬츠 & 조거 팬츠",
+      "category_name": "스웨트 팬츠",
       "parent_ids": [
         57892,
         57960
@@ -2122,7 +2122,7 @@
       ],
       "raw": {
         "id": 58005,
-        "name": "스웨트 팬츠 & 조거 팬츠",
+        "name": "스웨트 팬츠",
         "key": "sweat-pants",
         "parents": [
           {
@@ -6966,6 +6966,44 @@
     },
     {
       "level": "category",
+      "id": 145183,
+      "name": "UNIQLO F.RISSO",
+      "key": "uniqlo-f-risso",
+      "path": "57893,107543,145183,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 107543,
+      "class_name": "Special Collaborations",
+      "category_id": 145183,
+      "category_name": "UNIQLO F.RISSO",
+      "parent_ids": [
+        57893,
+        107543
+      ],
+      "parent_names": [
+        "MEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 145183,
+        "name": "UNIQLO F.RISSO",
+        "key": "uniqlo-f-risso",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 107543,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 107552,
       "name": "UNIQLO and JW ANDERSON",
       "key": "uniqlo-and-jw-anderson",
@@ -7064,44 +7102,6 @@
         "id": 107551,
         "name": "UNIQLO : C",
         "key": "uniqlo-c",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 107543,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 145183,
-      "name": "UNIQLO F.RISSO",
-      "key": "uniqlo-f-risso",
-      "path": "57893,107543,145183,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 107543,
-      "class_name": "Special Collaborations",
-      "category_id": 145183,
-      "category_name": "UNIQLO F.RISSO",
-      "parent_ids": [
-        57893,
-        107543
-      ],
-      "parent_names": [
-        "MEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 145183,
-        "name": "UNIQLO F.RISSO",
-        "key": "uniqlo-f-risso",
         "parents": [
           {
             "id": 57893,
