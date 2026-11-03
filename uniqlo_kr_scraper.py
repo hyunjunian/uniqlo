@@ -20,7 +20,7 @@ import sys
 import time
 from collections import deque
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -46,6 +46,11 @@ DEFAULT_SEEDS = [
     urljoin(BASE_URL, "feature/new/baby"),
 ]
 DEFAULT_DISCOUNT_FLAG_CODES = ["discount", "limitedOffer"]
+KST = timezone(timedelta(hours=9))
+REGULAR_PRICE_GROUP = "00"
+PRODUCT_IDS_BATCH_SIZE = 50
+PRICE_HISTORY_WINDOW_DAYS = 365
+FLAG_DATE_RE = re.compile(r"(\d{4})/(\d{2})/(\d{2})")
 
 PRODUCT_RE = re.compile(r"/kr/ko/products/(?P<product>E\d{6}-\d{3})/(?P<price_group>\d{2})")
 STATE_RE = re.compile(
@@ -611,6 +616,174 @@ def crawl(args: argparse.Namespace) -> CrawlResult:
     return CrawlResult(products=products, pages_seen=len(seen), product_pages_seen=product_pages_seen)
 
 
+def kst_date(value: datetime | None = None) -> str:
+    return (value or datetime.now(timezone.utc)).astimezone(KST).date().isoformat()
+
+
+def fetch_regular_prices(product_ids: list[str], args: argparse.Namespace) -> dict[str, int]:
+    """Look up the regular (price group 00) base price for each product.
+
+    Listing requests filtered by discount flags return the discounted price
+    group, whose `base` is already the reduced price. Querying by product id
+    returns the regular price group instead.
+    """
+    regular: dict[str, int] = {}
+    unique_ids = sorted(set(product_ids))
+    for start in range(0, len(unique_ids), PRODUCT_IDS_BATCH_SIZE):
+        batch = unique_ids[start : start + PRODUCT_IDS_BATCH_SIZE]
+        query = urlencode({"productIds": ",".join(batch), "limit": 100})
+        try:
+            response = fetch_json(f"{API_BASE_URL}products?{query}", args.timeout, args.retries, args.delay, args.insecure)
+        except RuntimeError as exc:
+            print(f"warn: regular price lookup failed: {exc}", file=sys.stderr)
+            continue
+        for item in (response.get("result") or {}).get("items", []) or []:
+            if not isinstance(item, dict) or item.get("priceGroup") not in (None, REGULAR_PRICE_GROUP):
+                continue
+            base, _promo = price_values(item.get("prices"))
+            product_id = item.get("productId")
+            if product_id and isinstance(base, int):
+                regular[product_id] = max(base, regular.get(product_id, 0))
+    if args.verbose:
+        print(f"[regular prices] {len(regular)} / {len(unique_ids)} products", file=sys.stderr)
+    return regular
+
+
+def load_price_history(path: Path) -> dict[str, Any]:
+    if path.exists():
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(data.get("products"), dict):
+                return data
+        except (OSError, ValueError) as exc:
+            print(f"warn: could not read price history {path}: {exc}", file=sys.stderr)
+    return {"products": {}}
+
+
+def history_key(product_id: str, price_group: str | None) -> str:
+    return f"{product_id}/{price_group or REGULAR_PRICE_GROUP}"
+
+
+def update_price_history(history: dict[str, Any], products: dict[str, dict[str, Any]], observed_on: str) -> int:
+    """Record price change points as [date, price] pairs per product price group.
+
+    Returns the number of changed entries.
+    """
+    entries = history.setdefault("products", {})
+    changes = 0
+    for product_id, product in products.items():
+        price = product.get("price_krw")
+        if not isinstance(price, int) or price <= 0:
+            continue
+        key = history_key(product.get("product_id") or product_id, product.get("price_group"))
+        entry = entries.setdefault(key, {"first_seen": observed_on, "history": []})
+        points = entry["history"]
+        if points and points[-1][0] > observed_on:
+            continue
+        if points and points[-1][1] == price:
+            continue
+        if points and points[-1][0] == observed_on:
+            points[-1][1] = price
+            if len(points) >= 2 and points[-2][1] == price:
+                points.pop()
+        else:
+            points.append([observed_on, price])
+        changes += 1
+    history["updated_on"] = max(observed_on, history.get("updated_on") or observed_on)
+    return changes
+
+
+def history_prices(entry: dict[str, Any] | None, today: str) -> list[int]:
+    """Prices in effect at any time within the history window."""
+    if not entry:
+        return []
+    cutoff = (datetime.fromisoformat(today) - timedelta(days=PRICE_HISTORY_WINDOW_DAYS)).date().isoformat()
+    points = entry.get("history") or []
+    prices = [price for date, price in points if date >= cutoff]
+    earlier = [price for date, price in points if date < cutoff]
+    if earlier:
+        prices.append(earlier[-1])
+    return prices
+
+
+def write_price_history(path: Path, history: dict[str, Any]) -> None:
+    # One product per line keeps daily git diffs small and readable.
+    products = history.get("products", {})
+    lines = [
+        f"    {json.dumps(product_id)}: {json.dumps(products[product_id], ensure_ascii=False, separators=(',', ':'))}"
+        for product_id in sorted(products)
+    ]
+    body = ",\n".join(lines)
+    document = (
+        "{\n"
+        f'  "updated_on": {json.dumps(history.get("updated_on"))},\n'
+        f'  "window_days": {PRICE_HISTORY_WINDOW_DAYS},\n'
+        f'  "product_count": {len(products)},\n'
+        '  "products": {\n'
+        f"{body}\n"
+        "  }\n"
+        "}\n"
+    )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(document, encoding="utf-8")
+
+
+def flag_dates(product: dict[str, Any]) -> tuple[str | None, str | None]:
+    """Return (discount start date, limited offer end date) parsed from flag names."""
+    starts: list[str] = []
+    ends: list[str] = []
+    for flag in product.get("price_flags") or []:
+        dates = ["-".join(match) for match in FLAG_DATE_RE.findall(str(flag.get("name") or ""))]
+        if not dates:
+            continue
+        starts.append(dates[0])
+        if flag.get("code") == "limitedOffer" and len(dates) >= 2:
+            ends.append(dates[-1])
+    return (max(starts) if starts else None, min(ends) if ends else None)
+
+
+def apply_discount_info(
+    products: dict[str, dict[str, Any]],
+    regular_prices: dict[str, int],
+    history: dict[str, Any] | None,
+    today: str,
+) -> None:
+    entries = (history or {}).get("products", {})
+    for product_id, product in products.items():
+        price = product.get("price_krw")
+        started_on, ends_on = flag_dates(product)
+        product["discount_started_on"] = started_on
+        product["limited_offer_ends_on"] = ends_on
+        product["option_limited_discount"] = any(
+            flag.get("code") == "colorSizeLimitedPrice" for flag in product.get("price_flags") or []
+        )
+        own_key = history_key(product_id, product.get("price_group"))
+        own_prices = history_prices(entries.get(own_key), today)
+        past_prices = own_prices + history_prices(entries.get(history_key(product_id, REGULAR_PRICE_GROUP)), today)
+        product["lowest_price_krw"] = min(own_prices + [price]) if isinstance(price, int) else None
+
+        candidates: list[tuple[int, str]] = []
+        if isinstance(regular_prices.get(product_id), int):
+            candidates.append((regular_prices[product_id], "regular_price"))
+        base, promo = product.get("base_price_krw"), product.get("promo_price_krw")
+        if isinstance(base, int) and isinstance(promo, int) and promo < base:
+            candidates.append((base, "promo_price"))
+        if past_prices:
+            candidates.append((max(past_prices), "price_history"))
+        original, source = max(candidates, default=(None, None), key=lambda item: item[0])
+
+        if isinstance(price, int) and isinstance(original, int) and original > price:
+            product["original_price_krw"] = original
+            product["original_price_source"] = source
+            product["discount_amount_krw"] = original - price
+            product["discount_rate"] = round((original - price) * 100 / original)
+        else:
+            product["original_price_krw"] = None
+            product["original_price_source"] = None
+            product["discount_amount_krw"] = None
+            product["discount_rate"] = None
+
+
 def write_json(path: Path, result: CrawlResult) -> None:
     payload = {
         "collected_at": datetime.now(timezone.utc).isoformat(),
@@ -637,6 +810,14 @@ def write_csv(path: Path, products: dict[str, dict[str, Any]]) -> None:
         "price_krw",
         "base_price_krw",
         "promo_price_krw",
+        "original_price_krw",
+        "discount_rate",
+        "discount_amount_krw",
+        "original_price_source",
+        "lowest_price_krw",
+        "discount_started_on",
+        "limited_offer_ends_on",
+        "option_limited_discount",
         "price_flags",
         "available_sizes_count",
         "availability_status",
@@ -672,7 +853,10 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
         flags = ", ".join(flag.get("name") or flag.get("code") or "" for flag in product.get("price_flags", []))
         flags_text = html.escape(flags)
         price_text = f"{price:,}원" if isinstance(price, int) else ""
-        base_text = f"{base_price:,}원" if isinstance(base_price, int) and base_price != price else ""
+        original = product.get("original_price_krw") or (base_price if isinstance(base_price, int) and base_price != price else None)
+        base_text = f"{original:,}원" if isinstance(original, int) else ""
+        rate = product.get("discount_rate")
+        rate_text = f'<b class="rate">{rate}%</b>' if rate else ""
         cards.append(
             f"""
       <article class="card" data-name="{name.lower()}" data-gender="{gender}">
@@ -681,7 +865,7 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
           <div class="body">
             <div class="meta">{gender}</div>
             <h2>{name}</h2>
-            <div class="price">{price_text}{f'<span>{base_text}</span>' if base_text else ''}</div>
+            <div class="price">{rate_text}{price_text}{f'<span>{base_text}</span>' if base_text else ''}</div>
             <div class="flag">{flags_text}</div>
             <div class="id">{product_id}</div>
           </div>
@@ -723,6 +907,7 @@ def write_products_html(path: Path, products: dict[str, dict[str, Any]], title: 
     h2 {{ font-size: 15px; line-height: 1.35; min-height: 40px; margin: 6px 0 10px; }}
     .price {{ font-weight: 700; font-size: 16px; color: #e60012; margin-bottom: 6px; }}
     .price span {{ margin-left: 8px; color: #777; font-weight: 400; font-size: 12px; text-decoration: line-through; }}
+    .price .rate {{ margin-right: 6px; }}
     .hidden {{ display: none; }}
   </style>
 </head>
@@ -833,6 +1018,17 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         help="Taxonomy level to request from the products API.",
     )
     parser.add_argument("--out", default="data/uniqlo_kr_products.json", help="JSON output path.")
+    parser.add_argument(
+        "--price-history",
+        default="",
+        help="Price history JSON path. API runs record price changes here; discount runs also use it "
+        "to find the pre-markdown price.",
+    )
+    parser.add_argument(
+        "--no-regular-price-lookup",
+        action="store_true",
+        help="In discount mode, skip querying the regular (price group 00) price by product id.",
+    )
     parser.add_argument("--csv", default="", help="Optional CSV output path.")
     parser.add_argument("--max-pages", type=int, default=300, help="Maximum listing/category pages to crawl.")
     parser.add_argument("--details", action="store_true", help="Fetch product detail pages for enrichment.")
@@ -866,6 +1062,16 @@ def main(argv: list[str] | None = None) -> int:
         if not args.html:
             args.html = "data/uniqlo_kr_discount_items.html"
         result = crawl_api(args)
+        today = kst_date()
+        history = None
+        if args.price_history:
+            history = load_price_history(Path(args.price_history))
+            update_price_history(history, result.products, today)
+            write_price_history(Path(args.price_history), history)
+        regular_prices = (
+            {} if args.no_regular_price_lookup else fetch_regular_prices(list(result.products), args)
+        )
+        apply_discount_info(result.products, regular_prices, history, today)
         write_json(Path(args.out), result)
         write_csv(Path(args.csv), result.products)
         write_products_html(Path(args.html), result.products, "UNIQLO KR 할인 상품")
@@ -876,9 +1082,18 @@ def main(argv: list[str] | None = None) -> int:
         print(f"saved json to {args.out}")
         print(f"saved csv to {args.csv}")
         print(f"saved html to {args.html}")
+        rated = sum(1 for product in result.products.values() if product.get("discount_rate"))
+        print(f"discount rate available for {rated} / {len(result.products)} products")
+        if args.price_history:
+            print(f"saved price history to {args.price_history}")
         return 0
 
     result = crawl_api(args) if args.mode == "api" else crawl(args)
+    if args.price_history:
+        history = load_price_history(Path(args.price_history))
+        changes = update_price_history(history, result.products, kst_date())
+        write_price_history(Path(args.price_history), history)
+        print(f"recorded {changes} price changes in {args.price_history}")
     write_json(Path(args.out), result)
     if args.csv:
         write_csv(Path(args.csv), result.products)

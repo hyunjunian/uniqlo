@@ -42,6 +42,9 @@ Build a local web page for discounted products:
 python3 uniqlo_kr_scraper.py --mode discounts --insecure
 ```
 
+Pass `--price-history docs/data/uniqlo_kr_price_history.json` to record price
+changes and use them for discount rates (see below).
+
 This writes:
 
 - `data/uniqlo_kr_discount_items.json`
@@ -57,6 +60,28 @@ The `docs/` directory is a deployable static site root. It contains:
 - `docs/data/uniqlo_kr_discount_items.csv`
 - `docs/data/uniqlo_kr_all_items.json`
 - `docs/data/uniqlo_kr_categories.json`
+- `docs/data/uniqlo_kr_price_history.json`
+
+The page shows each product's discount rate, original price, and amount saved,
+and can be filtered by gender, category, discount type (markdown, limited-time
+offer, option-only discount), minimum discount rate, new discounts, and
+limited offers ending within two days. Filter and sort state is kept in the URL
+so a filtered view can be shared.
+
+## Discount Rates
+
+The listing API returns the already-reduced price for discounted products, so
+discount mode derives the original price from the highest of:
+
+1. the regular price group (`00`) price, looked up by product id in batches of
+   50 (`--no-regular-price-lookup` disables this);
+2. the API `base` price when a lower `promo` price is present;
+3. the highest price recorded in the price history within the last 365 days.
+
+Permanent markdowns ("가격인하") replace the regular price in the API, so for
+those items the price history is the only source of the original price. The
+history stores price change points per `product_id/price_group` and was
+backfilled from the daily data snapshots in this repository's git history.
 
 For GitHub Pages, set the Pages source to `docs/`.
 
@@ -66,7 +91,8 @@ The GitHub Actions workflow at `.github/workflows/update-uniqlo-data.yml`
 updates the data once a day at 04:35 KST (`19:35 UTC`) and can also be run
 manually from the Actions tab with `workflow_dispatch`.
 
-The workflow refreshes all products, categories, and discounted products, copies
+The workflow refreshes all products, categories, discounted products, and the
+price history (`docs/data/uniqlo_kr_price_history.json`, updated in place), copies
 the static-site data into `docs/data/`, and commits only when the tracked
 `docs/data/` files change. During GitHub Actions runs, generated files are
 written to `/tmp/uniqlo-data` before being copied into `docs/data/`. The root
@@ -87,6 +113,10 @@ include:
 - `name`
 - `gender_category`
 - `price_krw`
+- `original_price_krw`, `discount_rate`, `discount_amount_krw`,
+  `original_price_source` (discount mode)
+- `lowest_price_krw`, `discount_started_on`, `limited_offer_ends_on`,
+  `option_limited_discount` (discount mode)
 - `colors`
 - `sizes`
 - `rating_average`

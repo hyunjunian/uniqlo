@@ -6,5 +6,6 @@ This directory is ready to serve as a static site root.
 - `data/uniqlo_kr_discount_items.csv` is the downloadable discount product list.
 - `data/uniqlo_kr_all_items.json` contains the latest full unique product list.
 - `data/uniqlo_kr_categories.json` contains taxonomy/category metadata.
+- `data/uniqlo_kr_price_history.json` records price change points per product and price group; it is used to compute discount rates.
 
 For GitHub Pages, set the Pages source to this `docs/` directory.
