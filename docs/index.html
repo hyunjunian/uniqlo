@@ -9,16 +9,13 @@
     :root {
       --bg: #f4f4f2;
       --surface: #ffffff;
-      --surface-2: #f0f0ee;
+      --surface-2: #efefec;
       --text: #141414;
-      --muted: #666;
-      --line: #e1e1de;
+      --muted: #6b6b6b;
+      --line: #e2e2de;
       --accent: #e60012;
-      --accent-soft: #fde8ea;
-      --warn: #b45309;
-      --warn-soft: #fef3c7;
-      --info: #1d4ed8;
-      --info-soft: #e0e8ff;
+      --warn-soft: #fff1c7;
+      --warn: #8a5a00;
       --radius: 10px;
       color-scheme: light;
     }
@@ -26,16 +23,13 @@
       :root {
         --bg: #111112;
         --surface: #1b1b1d;
-        --surface-2: #262628;
+        --surface-2: #29292c;
         --text: #f1f1f1;
         --muted: #a3a3a3;
-        --line: #2f2f32;
+        --line: #313134;
         --accent: #ff4d5a;
-        --accent-soft: #3a1418;
-        --warn: #fbbf24;
-        --warn-soft: #3a2a0a;
-        --info: #93b4ff;
-        --info-soft: #172040;
+        --warn-soft: #3a2c08;
+        --warn: #fcd34d;
         color-scheme: dark;
       }
     }
@@ -43,141 +37,135 @@
     [hidden] { display: none !important; }
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", Arial, sans-serif; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
     button, input, select { font: inherit; color: inherit; }
+    button { cursor: pointer; }
     a { color: inherit; }
-
-    header { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--surface) 94%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     .wrap { max-width: 1440px; margin: 0 auto; padding: 0 20px; }
-    .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 14px 0 10px; }
-    h1 { margin: 0; font-size: 22px; line-height: 1.2; letter-spacing: -0.02em; display: flex; align-items: center; gap: 8px; }
-    h1 .logo { background: var(--accent); color: #fff; font-size: 12px; font-weight: 800; padding: 4px 6px; border-radius: 4px; letter-spacing: 0; }
+
+    .intro { display: flex; align-items: baseline; justify-content: space-between; gap: 4px 12px; flex-wrap: wrap; padding-top: 16px; padding-bottom: 12px; }
+    h1 { margin: 0; font-size: 22px; letter-spacing: -0.02em; display: flex; align-items: center; gap: 8px; }
+    h1 .logo { background: var(--accent); color: #fff; font-size: 12px; font-weight: 800; padding: 4px 6px; border-radius: 4px; }
     .updated-at { color: var(--muted); font-size: 12px; }
 
-    .stats { display: flex; gap: 8px; flex-wrap: wrap; padding-bottom: 10px; }
-    .stat { background: var(--surface-2); border-radius: 8px; padding: 6px 10px; font-size: 12px; color: var(--muted); }
-    .stat b { color: var(--text); font-size: 14px; margin-left: 4px; font-variant-numeric: tabular-nums; }
-    .stat.hot b { color: var(--accent); }
+    header { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+    .row { display: flex; gap: 8px; align-items: center; padding-top: 10px; }
+    .row:last-child { padding-bottom: 10px; }
+    .scroll { overflow-x: auto; scrollbar-width: none; }
+    .scroll::-webkit-scrollbar { display: none; }
 
-    .controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; padding-bottom: 10px; }
-    .search { position: relative; flex: 1 1 220px; max-width: 320px; }
-    .search input { width: 100%; padding-left: 32px; }
-    .search svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
-    input, select { height: 36px; border: 1px solid var(--line); border-radius: 8px; padding: 0 10px; background: var(--surface); font-size: 14px; min-width: 0; }
-    select { padding-right: 6px; max-width: 200px; }
-    input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .search { position: relative; flex: 1 1 auto; min-width: 0; }
+    .search input { width: 100%; padding: 0 34px 0 34px; }
+    .search .icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+    .search .clear { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border: 0; border-radius: 50%; background: transparent; color: var(--muted); font-size: 16px; }
+    .search kbd { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font: 11px/1 inherit; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 3px 5px; pointer-events: none; }
+    input, select { height: 38px; border: 1px solid var(--line); border-radius: 8px; padding: 0 10px; background: var(--surface); font-size: 14px; min-width: 0; }
+    input::-webkit-search-cancel-button { display: none; }
+    select { flex: 0 1 190px; }
 
-    .chips { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; padding-bottom: 12px; }
-    .chips .label { font-size: 12px; color: var(--muted); margin-right: 2px; white-space: nowrap; }
-    .chip { height: 30px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 13px; cursor: pointer; white-space: nowrap; }
-    .chip[aria-pressed="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
-    .chip.reset { border-style: dashed; color: var(--muted); }
-    .chips .sep { width: 1px; height: 18px; background: var(--line); margin: 0 4px; }
-    .count { margin-left: auto; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+    .tabs { gap: 2px; }
+    .tab { flex: 0 0 auto; height: 34px; padding: 0 12px; border: 0; border-radius: 8px; background: transparent; font-size: 14px; color: var(--muted); white-space: nowrap; }
+    .tab:hover { background: var(--surface-2); }
+    .tab[aria-pressed="true"] { background: var(--text); color: var(--surface); font-weight: 700; }
+    .tab small, .chip small { font-size: 11px; opacity: .7; margin-left: 3px; font-variant-numeric: tabular-nums; }
 
-    main { padding: 20px 0 48px; }
+    .chips { gap: 6px; }
+    .chip { flex: 0 0 auto; height: 32px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 13px; white-space: nowrap; }
+    .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+    .chip:disabled { opacity: .4; cursor: default; }
+    .sep { flex: 0 0 1px; height: 18px; background: var(--line); margin: 0 2px; }
+
+    .summary { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding-top: 16px; padding-bottom: 12px; font-size: 14px; color: var(--muted); }
+    .summary b { color: var(--text); font-variant-numeric: tabular-nums; }
+    .summary em { color: var(--accent); font-style: normal; font-weight: 700; }
+    .link-button { border: 0; background: none; padding: 0; color: var(--muted); text-decoration: underline; font-size: 13px; }
+
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
-    .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: transform .15s ease, box-shadow .15s ease; }
-    .card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 0, 0, .08); }
+    .card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: box-shadow .15s ease; }
+    .card:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
     .card > a { text-decoration: none; display: flex; flex-direction: column; height: 100%; }
     .media { position: relative; aspect-ratio: 3 / 4; background: var(--surface-2); }
     .media img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .badges { position: absolute; top: 8px; left: 8px; right: 8px; display: flex; gap: 4px; flex-wrap: wrap; align-items: flex-start; }
-    .rate-badge { background: var(--accent); color: #fff; font-weight: 800; font-size: 15px; padding: 4px 8px; border-radius: 6px; line-height: 1.1; font-variant-numeric: tabular-nums; }
-    .tag { font-size: 11px; font-weight: 700; padding: 4px 6px; border-radius: 5px; line-height: 1.1; background: rgba(255, 255, 255, .92); color: #111; }
+    .tags { position: absolute; left: 8px; top: 8px; display: flex; gap: 4px; }
+    .tag { font-size: 11px; font-weight: 800; padding: 4px 6px; border-radius: 5px; line-height: 1.1; }
     .tag.new { background: #111; color: #fff; }
     .tag.limited { background: #f59e0b; color: #111; }
+    .fav { position: absolute; right: 6px; top: 6px; z-index: 1; width: 36px; height: 36px; border: 0; border-radius: 50%; background: rgba(255, 255, 255, .85); color: #111; display: grid; place-items: center; }
+    .fav svg { width: 18px; height: 18px; }
+    .fav[aria-pressed="true"] { color: var(--accent); }
+    .fav[aria-pressed="true"] svg { fill: currentColor; }
 
-    .body { padding: 12px 12px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
-    .meta { color: var(--muted); font-size: 12px; line-height: 1.35; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+    .meta { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     h2 { font-size: 14px; font-weight: 600; line-height: 1.4; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.8em; }
-    .price-row { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; margin-top: 2px; }
-    .rate { color: var(--accent); font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; }
-    .price { font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; }
+    .price-row { display: flex; align-items: baseline; gap: 0 6px; flex-wrap: wrap; margin-top: 4px; }
+    .rate { color: var(--accent); font-weight: 800; font-size: 18px; font-variant-numeric: tabular-nums; }
+    .price { font-weight: 800; font-size: 18px; font-variant-numeric: tabular-nums; }
     .original { color: var(--muted); font-size: 12px; text-decoration: line-through; font-variant-numeric: tabular-nums; }
-    .save { font-size: 12px; color: var(--accent); font-weight: 600; }
-    .pills { display: flex; gap: 4px; flex-wrap: wrap; }
-    .pill { font-size: 11px; padding: 3px 6px; border-radius: 4px; background: var(--surface-2); color: var(--muted); }
-    .pill.warn { background: var(--warn-soft); color: var(--warn); }
-    .pill.info { background: var(--info-soft); color: var(--info); }
-    .foot { margin-top: auto; display: flex; justify-content: space-between; gap: 6px; color: var(--muted); font-size: 11px; padding-top: 4px; }
+    .notes { display: flex; gap: 4px; flex-wrap: wrap; }
+    .note { font-size: 11px; padding: 3px 6px; border-radius: 4px; background: var(--surface-2); color: var(--muted); }
+    .note.warn { background: var(--warn-soft); color: var(--warn); }
+    .foot { margin-top: auto; padding-top: 4px; display: flex; justify-content: space-between; gap: 6px; color: var(--muted); font-size: 12px; }
     .stars { color: #f59e0b; }
 
-    .status { padding: 56px 20px; color: var(--muted); text-align: center; }
-    .status button { margin-top: 12px; }
+    .status { padding: 64px 20px; color: var(--muted); text-align: center; line-height: 1.8; }
+    .sentinel { height: 1px; }
     .more { display: flex; justify-content: center; margin-top: 24px; }
-    .more button { height: 40px; padding: 0 24px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-size: 14px; }
-    footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: 12px; line-height: 1.6; }
-    footer nav { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
-    footer nav a { color: var(--muted); }
-    .to-top { position: fixed; right: 16px; bottom: 16px; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 4px 14px rgba(0,0,0,.12); cursor: pointer; opacity: 0; pointer-events: none; transition: opacity .2s; font-size: 18px; }
+    .more button { height: 40px; padding: 0 24px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 14px; }
+    footer { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 40px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+    footer nav { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 6px; }
+    footer a { color: var(--muted); }
+    .to-top { position: fixed; right: 16px; bottom: 16px; z-index: 6; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 4px 14px rgba(0,0,0,.15); font-size: 18px; opacity: 0; pointer-events: none; transition: opacity .2s; }
     .to-top.show { opacity: 1; pointer-events: auto; }
 
     @media (max-width: 640px) {
-      header { position: static; }
       .wrap { padding: 0 12px; }
       h1 { font-size: 18px; }
-      .search { max-width: none; flex-basis: 100%; }
-      select { flex: 1 1 calc(50% - 4px); max-width: none; }
-      .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -12px; padding-left: 12px; padding-right: 12px; }
-      .chips::-webkit-scrollbar { display: none; }
-      .count { margin-left: 8px; }
-      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-      .body { padding: 10px; }
-      .rate, .price { font-size: 15px; }
-      .rate-badge { font-size: 13px; }
+      .search kbd { display: none; }
+      .row.top { flex-wrap: wrap; }
+      .row.top .search { flex-basis: 100%; }
+      .row.top select { flex: 1 1 0; }
+      .scroll { margin: 0 -12px; padding-left: 12px; padding-right: 12px; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+      .body { padding: 8px 10px 10px; }
+      .rate, .price { font-size: 16px; }
+      .foot .colors { display: none; }
     }
   </style>
 </head>
 <body>
+  <div class="wrap intro">
+    <h1><span class="logo">UQ</span>UNIQLO KR 할인 상품</h1>
+    <div class="updated-at" id="updatedAt">정보 확인 중</div>
+  </div>
+
   <header>
     <div class="wrap">
-      <div class="top">
-        <h1><span class="logo">UQ</span>UNIQLO KR 할인 상품</h1>
-        <div class="updated-at" id="updatedAt">마지막 정보 갱신: 확인 중</div>
-      </div>
-      <div class="stats" id="stats" aria-live="polite"></div>
-      <div class="controls">
+      <div class="row top">
         <label class="search">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-          <input id="q" type="search" placeholder="상품명 또는 제품번호 검색" aria-label="검색">
+          <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="q" type="search" placeholder="상품명, 제품번호, 카테고리 검색" aria-label="검색" autocomplete="off">
+          <kbd id="slashHint">/</kbd>
+          <button class="clear" id="clearSearch" type="button" aria-label="검색어 지우기" hidden>✕</button>
         </label>
-        <select id="gender" aria-label="성별"><option value="">성별 전체</option></select>
         <select id="category" aria-label="카테고리"><option value="">카테고리 전체</option></select>
-        <select id="type" aria-label="할인 유형">
-          <option value="">할인 유형 전체</option>
-          <option value="markdown">가격인하</option>
-          <option value="limited">기간한정가격</option>
-          <option value="option">옵션할인</option>
-        </select>
         <select id="sort" aria-label="정렬">
-          <option value="rate_desc">할인율 높은순</option>
-          <option value="newest">최신 할인순</option>
-          <option value="save_desc">할인 금액 큰순</option>
+          <option value="rate">할인율 높은순</option>
+          <option value="new">최근 할인순</option>
           <option value="price_asc">낮은 가격순</option>
           <option value="price_desc">높은 가격순</option>
-          <option value="rating">리뷰 많은순</option>
-          <option value="ending">마감 임박순</option>
-          <option value="name">상품명순</option>
+          <option value="reviews">리뷰 많은순</option>
         </select>
       </div>
-      <div class="chips" id="rateChips" role="group" aria-label="최소 할인율">
-        <span class="label">할인율</span>
-        <button class="chip" data-rate="0" aria-pressed="true">전체</button>
-        <button class="chip" data-rate="20" aria-pressed="false">20%↑</button>
-        <button class="chip" data-rate="30" aria-pressed="false">30%↑</button>
-        <button class="chip" data-rate="50" aria-pressed="false">50%↑</button>
-        <button class="chip" data-rate="70" aria-pressed="false">70%↑</button>
-        <span class="sep"></span>
-        <button class="chip" id="newOnly" aria-pressed="false">신규 할인</button>
-        <button class="chip" id="endingSoon" aria-pressed="false">마감 임박</button>
-        <button class="chip reset" id="reset" hidden>필터 초기화</button>
-        <span class="count" id="count"></span>
-      </div>
+      <div class="row tabs scroll" id="genderTabs" role="group" aria-label="성별"></div>
+      <div class="row chips scroll" id="chips" role="group" aria-label="필터"></div>
     </div>
   </header>
 
   <main class="wrap">
+    <div class="summary" id="summary" aria-live="polite"></div>
     <div class="status" id="status">데이터를 불러오는 중입니다.</div>
     <section class="grid" id="grid" aria-label="할인 상품 목록"></section>
+    <div class="sentinel" id="sentinel"></div>
     <div class="more" id="more" hidden><button type="button" id="moreButton">더 보기</button></div>
   </main>
 
@@ -189,277 +177,312 @@
       <a href="data/uniqlo_kr_categories.json">카테고리 JSON</a>
       <a href="data/uniqlo_kr_price_history.json">가격 기록 JSON</a>
     </nav>
-    할인율은 정상가(가격그룹 00) 또는 최근 1년간 수집된 가격 기록 중 가장 높은 가격을 기준으로 계산합니다.
-    옵션할인 상품은 일부 색상·사이즈에만 할인가가 적용됩니다. 실제 가격과 재고는 UNIQLO 공식 사이트에서 확인하세요.
+    할인율은 정상가 또는 최근 1년간 수집된 가장 높은 가격 대비로 계산합니다. 같은 제품의 다른 구성(색상·기장 등)은 한 카드로 묶었습니다.
+    실제 가격과 재고는 UNIQLO 공식 사이트에서 확인하세요.
   </footer>
 
   <button class="to-top" id="toTop" type="button" aria-label="맨 위로">↑</button>
 
   <script>
     const DATA_URL = 'data/uniqlo_kr_discount_items.json';
-    const PAGE_SIZE = 120;
+    const FAV_KEY = 'uq-discount-favorites';
+    const PAGE_SIZE = 60;
     const NEW_DAYS = 3;
-    const GENDER_LABELS = { WOMEN: '여성', MEN: '남성', UNISEX: '남녀공용', KIDS: '키즈', BABY: '베이비' };
-    const GENDER_ORDER = ['WOMEN', 'MEN', 'UNISEX', 'KIDS', 'BABY'];
-    const $ = id => document.getElementById(id);
-    const els = {
-      q: $('q'), gender: $('gender'), category: $('category'), type: $('type'), sort: $('sort'),
-      count: $('count'), grid: $('grid'), status: $('status'), updatedAt: $('updatedAt'), stats: $('stats'),
-      rateChips: $('rateChips'), newOnly: $('newOnly'), endingSoon: $('endingSoon'), reset: $('reset'),
-      more: $('more'), moreButton: $('moreButton'), toTop: $('toTop'),
+    const GENDERS = [['', '전체'], ['WOMEN', '여성'], ['MEN', '남성'], ['UNISEX', '남녀공용'], ['KIDS', '키즈'], ['BABY', '베이비']];
+    const GENDER_LABEL = Object.fromEntries(GENDERS.filter(([key]) => key));
+    // Filter chips: `group` chips are mutually exclusive, the rest toggle independently.
+    const CHIPS = [
+      { key: 'rate', value: 30, label: '30%↑', group: true, test: p => p.rate >= 30 },
+      { key: 'rate', value: 50, label: '50%↑', group: true, test: p => p.rate >= 50 },
+      { key: 'rate', value: 70, label: '70%↑', group: true, test: p => p.rate >= 70 },
+      { sep: true },
+      { key: 'fresh', label: '신규 할인', test: p => p.isNew },
+      { key: 'limited', label: '기간한정', test: p => p.isLimited },
+      { key: 'full', label: '전 옵션 할인', title: '일부 색상·사이즈만 할인하는 상품 제외', test: p => !p.isOption },
+      { key: 'fav', label: '♥ 찜', test: p => favorites.has(p.key) },
+    ];
+    const DEFAULTS = { q: '', gender: '', category: '', sort: 'rate', rate: 0, fresh: false, limited: false, full: false, fav: false };
+    const SORTERS = {
+      rate: (a, b) => b.rate - a.rate || a.price - b.price,
+      new: (a, b) => b.started.localeCompare(a.started) || b.rate - a.rate,
+      price_asc: (a, b) => a.price - b.price || b.rate - a.rate,
+      price_desc: (a, b) => b.price - a.price || b.rate - a.rate,
+      reviews: (a, b) => b.reviews - a.reviews || b.stars - a.stars,
     };
-    const DEFAULTS = { q: '', gender: '', category: '', type: '', sort: 'rate_desc', rate: 0, fresh: false, ending: false };
+
+    const $ = id => document.getElementById(id);
+    const el = {
+      q: $('q'), clearSearch: $('clearSearch'), slashHint: $('slashHint'), category: $('category'), sort: $('sort'),
+      genderTabs: $('genderTabs'), chips: $('chips'), summary: $('summary'), status: $('status'), grid: $('grid'),
+      sentinel: $('sentinel'), more: $('more'), moreButton: $('moreButton'), updatedAt: $('updatedAt'), toTop: $('toTop'),
+    };
     const state = { ...DEFAULTS };
-    let products = [];
-    let filtered = [];
+    const favorites = loadFavorites();
+    let items = [];
+    let visible = [];
     let shown = 0;
-    let todayKst = '';
 
-    const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
-    const safeUrl = value => /^https:\/\//.test(String(value || '')) ? String(value) : '#';
-    const won = value => Number.isFinite(value) ? `${value.toLocaleString('ko-KR')}원` : '';
-    const genderLabel = value => GENDER_LABELS[value] || value || '';
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+    const httpsUrl = value => /^https:\/\//.test(String(value || '')) ? String(value) : '#';
+    const num = value => value.toLocaleString('ko-KR');
+    const won = value => `${num(value)}원`;
+    const kstToday = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+    const dayDiff = (from, to) => Math.round((Date.parse(`${to}T00:00:00Z`) - Date.parse(`${from}T00:00:00Z`)) / 86400000);
+    const md = iso => { const [, m, d] = iso.split('-'); return `${Number(m)}/${Number(d)}`; };
 
-    function kstDateString(date) {
-      return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+    function loadFavorites() {
+      try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); } catch { return new Set(); }
     }
-    function daysBetween(from, to) {
-      return Math.round((Date.parse(`${to}T00:00:00Z`) - Date.parse(`${from}T00:00:00Z`)) / 86400000);
-    }
-    function shortDate(iso) {
-      const [, m, d] = String(iso).split('-');
-      return `${Number(m)}/${Number(d)}`;
+    function saveFavorites() {
+      try { localStorage.setItem(FAV_KEY, JSON.stringify([...favorites])); } catch { /* storage unavailable */ }
     }
 
-    function categoryNames(product) {
-      return [...new Set((product.categories || []).map(item => item.class_name || item.category_name).filter(Boolean))];
+    // One card per product (l1_id): variants such as other color sets or lengths are merged.
+    function buildItems(products, today) {
+      const groups = new Map();
+      for (const product of products) {
+        if (!Number.isFinite(product.price_krw)) continue;
+        const key = product.l1_id || product.product_id;
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(product);
+      }
+      return [...groups.entries()].map(([key, variants]) => {
+        variants.sort((a, b) => (b.discount_rate || 0) - (a.discount_rate || 0) || a.price_krw - b.price_krw);
+        const p = variants[0];
+        const flags = new Set(variants.flatMap(v => (v.price_flags || []).map(f => f.code)));
+        const categories = [...new Set(variants.flatMap(v => (v.categories || []).map(c => c.class_name || c.category_name)).filter(Boolean))];
+        const colors = new Set(variants.flatMap(v => (v.colors || []).map(c => c.display_code || c.code)));
+        const ends = variants.map(v => v.limited_offer_ends_on).filter(Boolean).sort()[0] || '';
+        const started = variants.map(v => v.discount_started_on).filter(Boolean).sort().pop() || '';
+        const original = p.original_price_krw > p.price_krw ? p.original_price_krw : 0;
+        const daysLeft = ends ? dayDiff(today, ends) : null;
+        return {
+          key,
+          name: p.name || '',
+          gender: p.gender_category || '',
+          categories,
+          url: httpsUrl(p.detail_url),
+          image: p.image_url ? httpsUrl(p.image_url) : '',
+          price: p.price_krw,
+          original,
+          rate: original ? (p.discount_rate ?? Math.round((original - p.price_krw) * 100 / original)) : 0,
+          lowest: Number.isFinite(p.lowest_price_krw) && p.lowest_price_krw < p.price_krw ? p.lowest_price_krw : 0,
+          started,
+          ends,
+          daysLeft,
+          isNew: Boolean(started) && dayDiff(started, today) < NEW_DAYS,
+          isLimited: flags.has('limitedOffer') && (daysLeft === null || daysLeft >= 0),
+          isOption: variants.every(v => v.option_limited_discount || (v.price_flags || []).some(f => f.code === 'colorSizeLimitedPrice')),
+          variants: variants.length,
+          colors: colors.size,
+          stars: p.rating_average || 0,
+          reviews: Math.max(...variants.map(v => v.rating_count || 0)),
+          search: [...variants.flatMap(v => [v.name, v.product_id, v.l1_id]), ...categories, GENDER_LABEL[p.gender_category]]
+            .filter(Boolean).join(' ').toLowerCase(),
+        };
+      });
     }
 
-    function flagStartDate(product) {
-      const dates = (product.price_flags || [])
-        .map(flag => String(flag.name || '').match(/(\d{4})\/(\d{2})\/(\d{2})/))
-        .filter(Boolean)
-        .map(m => `${m[1]}-${m[2]}-${m[3]}`);
-      return dates.sort().pop() || '';
+    // Each predicate ignores one facet so its option counts reflect the other active filters.
+    function passes(item, skip = '') {
+      if (state.q && !state.q.toLowerCase().split(/\s+/).every(term => item.search.includes(term))) return false;
+      if (skip !== 'gender' && state.gender && item.gender !== state.gender) return false;
+      if (skip !== 'category' && state.category && !item.categories.includes(state.category)) return false;
+      for (const chip of CHIPS) {
+        if (chip.sep || skip === chip.key) continue;
+        const active = chip.group ? state[chip.key] === chip.value : state[chip.key];
+        if (active && !chip.test(item)) return false;
+      }
+      return true;
     }
 
-    function prepare(product) {
-      const codes = new Set((product.price_flags || []).map(flag => flag.code));
-      const price = Number.isFinite(product.price_krw) ? product.price_krw : null;
-      const original = Number.isFinite(product.original_price_krw) && product.original_price_krw > price ? product.original_price_krw : null;
-      const rate = Number.isFinite(product.discount_rate) ? product.discount_rate : (original ? Math.round((original - price) * 100 / original) : 0);
-      const started = product.discount_started_on || flagStartDate(product);
-      const ends = product.limited_offer_ends_on || '';
-      const categories = categoryNames(product);
-      return {
-        ...product,
-        _price: price,
-        _original: original,
-        _rate: rate,
-        _save: original ? original - price : 0,
-        _started: started,
-        _ends: ends,
-        _daysLeft: ends && todayKst ? daysBetween(todayKst, ends) : null,
-        _isNew: Boolean(started && todayKst && daysBetween(started, todayKst) < NEW_DAYS),
-        _isLimited: codes.has('limitedOffer'),
-        _isMarkdown: codes.has('discount'),
-        _isOption: Boolean(product.option_limited_discount || codes.has('colorSizeLimitedPrice')),
-        _wasLower: Number.isFinite(product.lowest_price_krw) && price !== null && product.lowest_price_krw < price,
-        _categories: categories,
-        _search: `${product.name || ''} ${product.product_id || ''} ${product.l1_id || ''} ${categories.join(' ')}`.toLowerCase(),
-      };
-    }
-
-    function formatUpdatedAt(value) {
-      const date = new Date(value);
-      if (Number.isNaN(date.getTime())) return '마지막 정보 갱신: 확인 불가';
-      const formatted = new Intl.DateTimeFormat('ko-KR', {
-        timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
-      }).format(date);
-      return `마지막 정보 갱신: ${formatted} KST`;
-    }
-
-    function cardHtml(p) {
-      const badges = [];
-      if (p._rate > 0) badges.push(`<span class="rate-badge">-${p._rate}%</span>`);
-      if (p._isNew) badges.push('<span class="tag new">NEW</span>');
-      if (p._isLimited && p._daysLeft !== null && p._daysLeft >= 0) badges.push(`<span class="tag limited">${p._daysLeft === 0 ? '오늘 마감' : `D-${p._daysLeft}`}</span>`);
-
-      const pills = [];
-      if (p._isLimited) pills.push(`<span class="pill warn">기간한정${p._ends ? ` ~${shortDate(p._ends)}` : ''}</span>`);
-      if (p._isMarkdown && p._started) pills.push(`<span class="pill">${shortDate(p._started)} 가격인하</span>`);
-      if (p._isOption) pills.push('<span class="pill info">일부 옵션 할인</span>');
-      if (p._wasLower) pills.push(`<span class="pill" title="수집 기록상 이전에 더 낮은 가격이 있었습니다">이전 최저 ${won(p.lowest_price_krw)}</span>`);
-
-      const meta = [genderLabel(p.gender_category), ...p._categories.slice(0, 2)].filter(Boolean).join(' · ');
-      const colors = (p.colors || []).length;
-      const sizes = p.available_sizes_count || (p.sizes || []).length;
-      const options = [colors ? `${colors}색상` : '', sizes ? `${sizes}사이즈` : ''].filter(Boolean).join(' · ');
-      const rating = Number.isFinite(p.rating_average) && p.rating_count
-        ? `<span><span class="stars">★</span> ${p.rating_average.toFixed(1)} (${p.rating_count.toLocaleString('ko-KR')})</span>`
-        : '<span></span>';
-
+    function cardHtml(item) {
+      const tags = [];
+      if (item.isNew) tags.push('<span class="tag new">NEW</span>');
+      if (item.isLimited && item.daysLeft !== null) tags.push(`<span class="tag limited">${item.daysLeft === 0 ? '오늘 마감' : `D-${item.daysLeft}`}</span>`);
+      const notes = [];
+      if (item.isLimited && item.ends) notes.push(`<span class="note warn">${md(item.ends)}까지 기간한정</span>`);
+      if (item.isOption) notes.push('<span class="note">일부 옵션만 할인</span>');
+      if (item.variants > 1) notes.push(`<span class="note">구성 ${item.variants}종</span>`);
+      if (item.lowest) notes.push(`<span class="note" title="수집 기록상 더 낮았던 가격">이전 최저 ${won(item.lowest)}</span>`);
+      const meta = [state.gender ? '' : GENDER_LABEL[item.gender] || item.gender, item.categories.find(c => c !== state.category) || item.categories[0]]
+        .filter(Boolean).join(' · ');
+      const liked = favorites.has(item.key);
       return `
         <article class="card">
-          <a href="${escapeHtml(safeUrl(p.detail_url))}" target="_blank" rel="noopener noreferrer">
+          <button class="fav" type="button" data-fav="${esc(item.key)}" aria-pressed="${liked}" aria-label="찜하기">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7.5-4.6-9.5-9.3C1.2 8.4 3.4 5 6.9 5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.4 4.4 6.7C19.5 16.4 12 21 12 21z"/></svg>
+          </button>
+          <a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">
             <div class="media">
-              ${p.image_url ? `<img src="${escapeHtml(safeUrl(p.image_url))}" alt="${escapeHtml(p.name)}" loading="lazy" decoding="async" onerror="this.remove()">` : ''}
-              <div class="badges">${badges.join('')}</div>
+              ${item.image ? `<img src="${esc(item.image)}" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : ''}
+              ${tags.length ? `<div class="tags">${tags.join('')}</div>` : ''}
             </div>
             <div class="body">
-              <div class="meta">${escapeHtml(meta)}</div>
-              <h2>${escapeHtml(p.name)}</h2>
+              <div class="meta">${esc(meta)}</div>
+              <h2>${esc(item.name)}</h2>
               <div class="price-row">
-                ${p._rate > 0 ? `<span class="rate">${p._rate}%</span>` : ''}
-                <span class="price">${won(p._price)}</span>
-                ${p._original ? `<span class="original">${won(p._original)}</span>` : ''}
+                ${item.rate ? `<span class="rate">${item.rate}%</span>` : ''}
+                <span class="price">${won(item.price)}</span>
+                ${item.original ? `<span class="original">${won(item.original)}</span>` : ''}
               </div>
-              ${p._save ? `<div class="save">${won(p._save)} 할인</div>` : ''}
-              ${pills.length ? `<div class="pills">${pills.join('')}</div>` : ''}
-              <div class="foot">${rating}<span>${escapeHtml(options)}</span></div>
+              ${notes.length ? `<div class="notes">${notes.join('')}</div>` : ''}
+              <div class="foot">
+                <span>${item.reviews ? `<span class="stars">★</span> ${item.stars.toFixed(1)} (${num(item.reviews)})` : ''}</span>
+                <span class="colors">${item.colors > 1 ? `${item.colors}색상` : ''}</span>
+              </div>
             </div>
           </a>
         </article>`;
     }
 
-    const SORTERS = {
-      rate_desc: (a, b) => b._rate - a._rate || b._save - a._save,
-      newest: (a, b) => (b._started || '').localeCompare(a._started || '') || b._rate - a._rate,
-      save_desc: (a, b) => b._save - a._save || b._rate - a._rate,
-      price_asc: (a, b) => (a._price ?? Infinity) - (b._price ?? Infinity),
-      price_desc: (a, b) => (b._price ?? 0) - (a._price ?? 0),
-      rating: (a, b) => (b.rating_count || 0) - (a.rating_count || 0) || (b.rating_average || 0) - (a.rating_average || 0),
-      ending: (a, b) => (a._daysLeft ?? Infinity) - (b._daysLeft ?? Infinity) || b._rate - a._rate,
-      name: (a, b) => String(a.name || '').localeCompare(String(b.name || ''), 'ko'),
-    };
+    function renderFacets() {
+      const genderBase = items.filter(item => passes(item, 'gender'));
+      el.genderTabs.innerHTML = GENDERS.map(([key, label]) => {
+        const count = key ? genderBase.filter(item => item.gender === key).length : genderBase.length;
+        if (key && !count && state.gender !== key) return '';
+        return `<button class="tab" type="button" data-gender="${key}" aria-pressed="${state.gender === key}">${label}<small>${num(count)}</small></button>`;
+      }).join('');
 
-    function matches(p) {
-      if (state.q && !state.q.toLowerCase().split(/\s+/).every(term => p._search.includes(term))) return false;
-      if (state.gender && p.gender_category !== state.gender) return false;
-      if (state.category && !p._categories.includes(state.category)) return false;
-      if (state.type === 'markdown' && !p._isMarkdown) return false;
-      if (state.type === 'limited' && !p._isLimited) return false;
-      if (state.type === 'option' && !p._isOption) return false;
-      if (state.rate && p._rate < state.rate) return false;
-      if (state.fresh && !p._isNew) return false;
-      if (state.ending && !(p._isLimited && p._daysLeft !== null && p._daysLeft >= 0 && p._daysLeft <= 2)) return false;
-      return true;
+      const categoryBase = items.filter(item => passes(item, 'category'));
+      const counts = new Map();
+      categoryBase.forEach(item => item.categories.forEach(c => counts.set(c, (counts.get(c) || 0) + 1)));
+      if (state.category && !counts.has(state.category)) counts.set(state.category, 0);
+      el.category.innerHTML = `<option value="">카테고리 전체 (${num(categoryBase.length)})</option>` +
+        [...counts].sort((a, b) => a[0].localeCompare(b[0], 'ko'))
+          .map(([name, count]) => `<option value="${esc(name)}">${esc(name)} (${num(count)})</option>`).join('');
+      el.category.value = state.category;
+
+      el.chips.innerHTML = CHIPS.map((chip, index) => {
+        if (chip.sep) return '<span class="sep"></span>';
+        const active = chip.group ? state[chip.key] === chip.value : state[chip.key];
+        const count = items.filter(item => passes(item, chip.key) && chip.test(item)).length;
+        if (chip.key === 'fav' && !favorites.size && !active) return '';
+        return `<button class="chip" type="button" data-chip="${index}" aria-pressed="${active}" ${!count && !active ? 'disabled' : ''} ${chip.title ? `title="${chip.title}"` : ''}>${chip.label}<small>${num(count)}</small></button>`;
+      }).join('');
     }
 
-    function renderStats(list) {
-      const rated = list.filter(p => p._rate > 0);
-      const avg = rated.length ? Math.round(rated.reduce((sum, p) => sum + p._rate, 0) / rated.length) : 0;
-      const max = rated.reduce((m, p) => Math.max(m, p._rate), 0);
-      const fresh = list.filter(p => p._isNew).length;
-      const ending = list.filter(p => p._isLimited && p._daysLeft !== null && p._daysLeft <= 2).length;
-      els.stats.innerHTML = [
-        `<span class="stat">할인 상품<b>${list.length.toLocaleString('ko-KR')}개</b></span>`,
-        `<span class="stat hot">평균 할인율<b>${avg}%</b></span>`,
-        `<span class="stat hot">최대 할인율<b>${max}%</b></span>`,
-        `<span class="stat">신규 할인<b>${fresh.toLocaleString('ko-KR')}개</b></span>`,
-        ending ? `<span class="stat">마감 임박<b>${ending}개</b></span>` : '',
-      ].join('');
+    function renderSummary() {
+      const rated = visible.filter(item => item.rate);
+      const avg = rated.length ? Math.round(rated.reduce((sum, item) => sum + item.rate, 0) / rated.length) : 0;
+      const filtered = Object.keys(DEFAULTS).some(key => key !== 'sort' && state[key] !== DEFAULTS[key]);
+      el.summary.innerHTML = `<span><b>${num(visible.length)}개</b> 상품${avg ? ` · 평균 <em>${avg}%</em> 할인` : ''}</span>` +
+        (filtered ? '<button class="link-button" type="button" data-reset>필터 초기화</button>' : '');
+      el.status.hidden = visible.length > 0 || !items.length;
+      if (!visible.length && items.length) {
+        el.status.innerHTML = state.fav && !favorites.size
+          ? '찜한 상품이 없습니다. 카드의 ♡ 버튼으로 찜할 수 있습니다.'
+          : '조건에 맞는 상품이 없습니다.<br><button class="link-button" type="button" data-reset>필터 초기화</button>';
+      }
     }
 
     function renderMore() {
-      const next = filtered.slice(shown, shown + PAGE_SIZE);
-      els.grid.insertAdjacentHTML('beforeend', next.map(cardHtml).join(''));
+      const next = visible.slice(shown, shown + PAGE_SIZE);
+      el.grid.insertAdjacentHTML('beforeend', next.map(cardHtml).join(''));
       shown += next.length;
-      const remaining = filtered.length - shown;
-      els.more.hidden = remaining <= 0;
-      els.moreButton.textContent = `더 보기 (${remaining.toLocaleString('ko-KR')}개 남음)`;
+      const remaining = visible.length - shown;
+      el.more.hidden = remaining <= 0;
+      el.moreButton.textContent = `더 보기 (${num(remaining)}개)`;
     }
 
-    function render() {
-      filtered = products.filter(matches).sort(SORTERS[state.sort] || SORTERS.rate_desc);
+    function render({ keepScroll = false } = {}) {
+      visible = items.filter(item => passes(item)).sort(SORTERS[state.sort]);
       shown = 0;
-      els.grid.innerHTML = '';
+      el.grid.innerHTML = '';
       renderMore();
-      renderStats(filtered);
-      els.count.textContent = `${filtered.length.toLocaleString('ko-KR')} / ${products.length.toLocaleString('ko-KR')}개`;
-      const isDefault = Object.keys(DEFAULTS).every(key => key === 'sort' || state[key] === DEFAULTS[key]);
-      els.reset.hidden = isDefault;
-      if (!products.length) return;
-      els.status.hidden = filtered.length > 0;
-      if (!filtered.length) {
-        els.status.innerHTML = '조건에 맞는 상품이 없습니다.<br><button class="chip reset" type="button" data-reset>필터 초기화</button>';
-      }
-      syncUrl();
+      renderFacets();
+      renderSummary();
+      writeUrl();
+      const top = el.summary.offsetTop - document.querySelector('header').offsetHeight;
+      if (!keepScroll && window.scrollY > top) window.scrollTo({ top });
     }
 
-    function syncControls() {
-      els.q.value = state.q;
-      els.gender.value = state.gender;
-      els.category.value = state.category;
-      els.type.value = state.type;
-      els.sort.value = state.sort;
-      els.rateChips.querySelectorAll('[data-rate]').forEach(btn => btn.setAttribute('aria-pressed', String(Number(btn.dataset.rate) === state.rate)));
-      els.newOnly.setAttribute('aria-pressed', String(state.fresh));
-      els.endingSoon.setAttribute('aria-pressed', String(state.ending));
+    function syncInputs() {
+      el.q.value = state.q;
+      el.sort.value = state.sort;
+      el.clearSearch.hidden = !state.q;
+      el.slashHint.hidden = Boolean(state.q);
     }
 
-    function syncUrl() {
+    function writeUrl() {
       const params = new URLSearchParams();
-      Object.entries(state).forEach(([key, value]) => {
+      for (const [key, value] of Object.entries(state)) {
         if (value !== DEFAULTS[key]) params.set(key, value === true ? '1' : String(value));
-      });
+      }
       const query = params.toString();
       history.replaceState(null, '', query ? `?${query}` : location.pathname);
     }
 
     function readUrl() {
       const params = new URLSearchParams(location.search);
-      for (const key of Object.keys(DEFAULTS)) {
+      for (const [key, fallback] of Object.entries(DEFAULTS)) {
         if (!params.has(key)) continue;
         const raw = params.get(key);
-        if (typeof DEFAULTS[key] === 'boolean') state[key] = raw === '1';
-        else if (typeof DEFAULTS[key] === 'number') state[key] = Number(raw) || 0;
-        else state[key] = raw;
+        state[key] = typeof fallback === 'boolean' ? raw === '1' : typeof fallback === 'number' ? Number(raw) || 0 : raw;
       }
       if (!SORTERS[state.sort]) state.sort = DEFAULTS.sort;
     }
 
-    function fillSelect(select, values, label = v => v) {
-      values.forEach(value => {
-        const option = document.createElement('option');
-        option.value = value;
-        option.textContent = label(value);
-        select.appendChild(option);
-      });
-    }
-
-    function resetFilters() {
-      Object.assign(state, { ...DEFAULTS, sort: state.sort });
-      syncControls();
-      render();
+    function update(changes, options) {
+      Object.assign(state, changes);
+      syncInputs();
+      render(options);
     }
 
     let searchTimer;
-    els.q.addEventListener('input', () => {
+    el.q.addEventListener('input', () => {
+      el.clearSearch.hidden = !el.q.value;
+      el.slashHint.hidden = Boolean(el.q.value);
       clearTimeout(searchTimer);
-      searchTimer = setTimeout(() => { state.q = els.q.value.trim(); render(); }, 120);
+      searchTimer = setTimeout(() => update({ q: el.q.value.trim() }), 150);
     });
-    [['gender', 'gender'], ['category', 'category'], ['type', 'type'], ['sort', 'sort']].forEach(([el, key]) => {
-      els[el].addEventListener('change', () => { state[key] = els[el].value; render(); window.scrollTo({ top: 0 }); });
+    el.q.addEventListener('keydown', event => {
+      if (event.key === 'Escape') { update({ q: '' }); el.q.blur(); }
     });
-    els.rateChips.addEventListener('click', event => {
-      const button = event.target.closest('button');
+    el.clearSearch.addEventListener('click', () => { update({ q: '' }); el.q.focus(); });
+    el.category.addEventListener('change', () => update({ category: el.category.value }));
+    el.sort.addEventListener('change', () => update({ sort: el.sort.value }));
+    el.genderTabs.addEventListener('click', event => {
+      const tab = event.target.closest('[data-gender]');
+      if (tab) update({ gender: tab.dataset.gender, category: '' });
+    });
+    el.chips.addEventListener('click', event => {
+      const button = event.target.closest('[data-chip]');
       if (!button) return;
-      if (button.dataset.rate !== undefined) state.rate = Number(button.dataset.rate);
-      else if (button === els.newOnly) state.fresh = !state.fresh;
-      else if (button === els.endingSoon) state.ending = !state.ending;
-      else if (button === els.reset) return resetFilters();
-      syncControls();
-      render();
+      const chip = CHIPS[Number(button.dataset.chip)];
+      if (chip.group) update({ [chip.key]: state[chip.key] === chip.value ? 0 : chip.value });
+      else update({ [chip.key]: !state[chip.key] });
     });
-    els.status.addEventListener('click', event => { if (event.target.closest('[data-reset]')) resetFilters(); });
-    els.moreButton.addEventListener('click', renderMore);
-    els.toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-    window.addEventListener('scroll', () => els.toTop.classList.toggle('show', window.scrollY > 800), { passive: true });
+    document.addEventListener('click', event => {
+      if (event.target.closest('[data-reset]')) update({ ...DEFAULTS, sort: state.sort });
+      const fav = event.target.closest('[data-fav]');
+      if (!fav) return;
+      const key = fav.dataset.fav;
+      if (favorites.has(key)) favorites.delete(key); else favorites.add(key);
+      saveFavorites();
+      fav.setAttribute('aria-pressed', String(favorites.has(key)));
+      if (state.fav) render({ keepScroll: true }); else renderFacets();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === '/' && !/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) {
+        event.preventDefault();
+        el.q.focus();
+      }
+    });
+    el.moreButton.addEventListener('click', renderMore);
+    el.toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    window.addEventListener('scroll', () => el.toTop.classList.toggle('show', window.scrollY > 900), { passive: true });
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(entries => {
-        if (entries.some(entry => entry.isIntersecting) && !els.more.hidden) renderMore();
-      }, { rootMargin: '600px' }).observe(els.more);
+        if (entries[0].isIntersecting && shown < visible.length) renderMore();
+      }, { rootMargin: '800px' }).observe(el.sentinel);
+    }
+
+    function formatUpdatedAt(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return '';
+      const text = new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(date);
+      return `${text} 기준`;
     }
 
     fetch(`${DATA_URL}?ts=${Date.now()}`, { cache: 'no-store' })
@@ -468,20 +491,15 @@
         return response.json();
       })
       .then(payload => {
-        todayKst = kstDateString(new Date());
-        products = (payload.products || []).map(prepare);
-        els.updatedAt.textContent = formatUpdatedAt(payload.collected_at);
-        const genders = [...new Set(products.map(p => p.gender_category).filter(Boolean))]
-          .sort((a, b) => (GENDER_ORDER.indexOf(a) + 1 || 99) - (GENDER_ORDER.indexOf(b) + 1 || 99));
-        fillSelect(els.gender, genders, genderLabel);
-        fillSelect(els.category, [...new Set(products.flatMap(p => p._categories))].sort((a, b) => a.localeCompare(b, 'ko')));
+        items = buildItems(payload.products || [], kstToday());
+        el.updatedAt.textContent = formatUpdatedAt(payload.collected_at);
         readUrl();
-        syncControls();
-        if (!products.length) els.status.textContent = '현재 할인 중인 상품이 없습니다.';
-        render();
+        syncInputs();
+        if (!items.length) el.status.textContent = '현재 할인 중인 상품이 없습니다.';
+        render({ keepScroll: true });
       })
       .catch(error => {
-        els.status.textContent = `데이터를 불러오지 못했습니다: ${error.message}`;
+        el.status.textContent = `데이터를 불러오지 못했습니다: ${error.message}`;
       });
   </script>
 </body>
