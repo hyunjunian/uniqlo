@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-03T01:45:24.873223+00:00",
+  "collected_at": "2026-11-04T00:09:00.943176+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 268,
   "categories": [
@@ -4154,6 +4154,44 @@
     },
     {
       "level": "category",
+      "id": 143065,
+      "name": "UNIQLO and Cecilie Bahnsen",
+      "key": "uniqlo-and-cecilie-bahnsen",
+      "path": "57892,107542,143065,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 107542,
+      "class_name": "Special Collaborations",
+      "category_id": 143065,
+      "category_name": "UNIQLO and Cecilie Bahnsen",
+      "parent_ids": [
+        57892,
+        107542
+      ],
+      "parent_names": [
+        "WOMEN",
+        "Special Collaborations"
+      ],
+      "raw": {
+        "id": 143065,
+        "name": "UNIQLO and Cecilie Bahnsen",
+        "key": "uniqlo-and-cecilie-bahnsen",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 107542,
+            "name": "Special Collaborations",
+            "key": "special-collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 107549,
       "name": "UNIQLO and JW ANDERSON",
       "key": "uniqlo-and-jw-anderson",
@@ -4328,44 +4366,6 @@
         "id": 113234,
         "name": "UNIQLO and COMPTOIR DES COTONNIERS",
         "key": "uniqlo-and-comptoir-des-cotonniers",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 107542,
-            "name": "Special Collaborations",
-            "key": "special-collaboration"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 143065,
-      "name": "UNIQLO and Cecilie Bahnsen",
-      "key": "uniqlo-and-cecilie-bahnsen",
-      "path": "57892,107542,143065,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 107542,
-      "class_name": "Special Collaborations",
-      "category_id": 143065,
-      "category_name": "UNIQLO and Cecilie Bahnsen",
-      "parent_ids": [
-        57892,
-        107542
-      ],
-      "parent_names": [
-        "WOMEN",
-        "Special Collaborations"
-      ],
-      "raw": {
-        "id": 143065,
-        "name": "UNIQLO and Cecilie Bahnsen",
-        "key": "uniqlo-and-cecilie-bahnsen",
         "parents": [
           {
             "id": 57892,
