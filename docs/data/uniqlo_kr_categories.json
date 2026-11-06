@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T00:30:32.218295+00:00",
+  "collected_at": "2026-11-06T23:47:38.376269+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 268,
   "categories": [
@@ -2140,44 +2140,6 @@
     },
     {
       "level": "category",
-      "id": 58004,
-      "name": "이지 팬츠(허리 밴딩)",
-      "key": "casual-pants",
-      "path": "57892,57960,58004,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58004,
-      "category_name": "이지 팬츠(허리 밴딩)",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58004,
-        "name": "이지 팬츠(허리 밴딩)",
-        "key": "casual-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58008,
       "name": "슬랙스(트라우저)",
       "key": "trousers",
@@ -2200,6 +2162,44 @@
         "id": 58008,
         "name": "슬랙스(트라우저)",
         "key": "trousers",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58004,
+      "name": "이지 팬츠(허리 밴딩)",
+      "key": "casual-pants",
+      "path": "57892,57960,58004,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58004,
+      "category_name": "이지 팬츠(허리 밴딩)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58004,
+        "name": "이지 팬츠(허리 밴딩)",
+        "key": "casual-pants",
         "parents": [
           {
             "id": 57892,
