@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-08T23:02:42.080295+00:00",
+  "collected_at": "2026-11-10T02:22:03.162439+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 268,
   "categories": [
@@ -2862,44 +2862,6 @@
     },
     {
       "level": "category",
-      "id": 99902,
-      "name": "가방",
-      "key": "bags",
-      "path": "57892,57965,99902,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57965,
-      "class_name": "액세서리",
-      "category_id": 99902,
-      "category_name": "가방",
-      "parent_ids": [
-        57892,
-        57965
-      ],
-      "parent_names": [
-        "WOMEN",
-        "액세서리"
-      ],
-      "raw": {
-        "id": 99902,
-        "name": "가방",
-        "key": "bags",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57965,
-            "name": "액세서리",
-            "key": "accessories"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58030,
       "name": "스카프 & 목도리",
       "key": "scarves-and-stoles",
@@ -2976,16 +2938,16 @@
     },
     {
       "level": "category",
-      "id": 58032,
-      "name": "신발",
-      "key": "shoes",
-      "path": "57892,57965,58032,",
+      "id": 58029,
+      "name": "모자",
+      "key": "hats-and-caps",
+      "path": "57892,57965,58029,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57965,
       "class_name": "액세서리",
-      "category_id": 58032,
-      "category_name": "신발",
+      "category_id": 58029,
+      "category_name": "모자",
       "parent_ids": [
         57892,
         57965
@@ -2995,9 +2957,47 @@
         "액세서리"
       ],
       "raw": {
-        "id": 58032,
-        "name": "신발",
-        "key": "shoes",
+        "id": 58029,
+        "name": "모자",
+        "key": "hats-and-caps",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57965,
+            "name": "액세서리",
+            "key": "accessories"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 99902,
+      "name": "가방",
+      "key": "bags",
+      "path": "57892,57965,99902,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57965,
+      "class_name": "액세서리",
+      "category_id": 99902,
+      "category_name": "가방",
+      "parent_ids": [
+        57892,
+        57965
+      ],
+      "parent_names": [
+        "WOMEN",
+        "액세서리"
+      ],
+      "raw": {
+        "id": 99902,
+        "name": "가방",
+        "key": "bags",
         "parents": [
           {
             "id": 57892,
@@ -3052,16 +3052,16 @@
     },
     {
       "level": "category",
-      "id": 58029,
-      "name": "모자",
-      "key": "hats-and-caps",
-      "path": "57892,57965,58029,",
+      "id": 58032,
+      "name": "신발",
+      "key": "shoes",
+      "path": "57892,57965,58032,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57965,
       "class_name": "액세서리",
-      "category_id": 58029,
-      "category_name": "모자",
+      "category_id": 58032,
+      "category_name": "신발",
       "parent_ids": [
         57892,
         57965
@@ -3071,9 +3071,9 @@
         "액세서리"
       ],
       "raw": {
-        "id": 58029,
-        "name": "모자",
-        "key": "hats-and-caps",
+        "id": 58032,
+        "name": "신발",
+        "key": "shoes",
         "parents": [
           {
             "id": 57892,
