@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-11-12T01:38:46.263910+00:00",
+  "collected_at": "2026-11-13T00:39:35.988202+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 268,
+  "category_count": 267,
   "categories": [
     {
       "level": "gender",
@@ -1532,44 +1532,6 @@
     },
     {
       "level": "category",
-      "id": 57993,
-      "name": "재킷",
-      "key": "jackets",
-      "path": "57892,57958,57993,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57958,
-      "class_name": "아우터",
-      "category_id": 57993,
-      "category_name": "재킷",
-      "parent_ids": [
-        57892,
-        57958
-      ],
-      "parent_names": [
-        "WOMEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 57993,
-        "name": "재킷",
-        "key": "jackets",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57958,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 98229,
       "name": "코트",
       "key": "coats",
@@ -1592,6 +1554,44 @@
         "id": 98229,
         "name": "코트",
         "key": "coats",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57958,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 57993,
+      "name": "재킷",
+      "key": "jackets",
+      "path": "57892,57958,57993,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57958,
+      "class_name": "아우터",
+      "category_id": 57993,
+      "category_name": "재킷",
+      "parent_ids": [
+        57892,
+        57958
+      ],
+      "parent_names": [
+        "WOMEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 57993,
+        "name": "재킷",
+        "key": "jackets",
         "parents": [
           {
             "id": 57892,
@@ -1950,82 +1950,6 @@
     },
     {
       "level": "category",
-      "id": 58003,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57892,57960,58003,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58003,
-      "category_name": "진(청바지)",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58003,
-        "name": "진(청바지)",
-        "key": "jeans",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58002,
-      "name": "와이드 팬츠",
-      "key": "wide-pants",
-      "path": "57892,57960,58002,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58002,
-      "category_name": "와이드 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58002,
-        "name": "와이드 팬츠",
-        "key": "wide-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 98232,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -2048,44 +1972,6 @@
         "id": 98232,
         "name": "웜 팬츠",
         "key": "warm-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 149931,
-      "name": "배럴 레그 팬츠",
-      "key": "barrel-leg-pants",
-      "path": "57892,57960,149931,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 149931,
-      "category_name": "배럴 레그 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 149931,
-        "name": "배럴 레그 팬츠",
-        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57892,
@@ -2162,6 +2048,120 @@
         "id": 58008,
         "name": "슬랙스(트라우저)",
         "key": "trousers",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58002,
+      "name": "와이드 팬츠",
+      "key": "wide-pants",
+      "path": "57892,57960,58002,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58002,
+      "category_name": "와이드 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58002,
+        "name": "와이드 팬츠",
+        "key": "wide-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58003,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57892,57960,58003,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58003,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58003,
+        "name": "진(청바지)",
+        "key": "jeans",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 149931,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57892,57960,149931,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 149931,
+      "category_name": "배럴 레그 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 149931,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57892,
@@ -5332,44 +5332,6 @@
     },
     {
       "level": "category",
-      "id": 58048,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57893,57968,58048,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58048,
-      "category_name": "진(청바지)",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58048,
-        "name": "진(청바지)",
-        "key": "jeans",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 98235,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -5446,44 +5408,6 @@
     },
     {
       "level": "category",
-      "id": 149932,
-      "name": "배럴 레그 팬츠",
-      "key": "barrel-leg-pants",
-      "path": "57893,57968,149932,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 149932,
-      "category_name": "배럴 레그 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 149932,
-        "name": "배럴 레그 팬츠",
-        "key": "barrel-leg-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58050,
       "name": "스웨트 팬츠 & 조거 팬츠",
       "key": "sweat-pants",
@@ -5506,6 +5430,82 @@
         "id": 58050,
         "name": "스웨트 팬츠 & 조거 팬츠",
         "key": "sweat-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58048,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57893,57968,58048,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58048,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58048,
+        "name": "진(청바지)",
+        "key": "jeans",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 149932,
+      "name": "배럴 레그 팬츠",
+      "key": "barrel-leg-pants",
+      "path": "57893,57968,149932,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 149932,
+      "category_name": "배럴 레그 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 149932,
+        "name": "배럴 레그 팬츠",
+        "key": "barrel-leg-pants",
         "parents": [
           {
             "id": 57893,
@@ -7292,44 +7292,6 @@
         "id": 139039,
         "name": "라운지웨어 & 홈웨어",
         "key": "loungewear-and-homewear",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 124425,
-            "name": "GU",
-            "key": "gu"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 152626,
-      "name": "액세서리",
-      "key": "accessories",
-      "path": "57893,124425,152626,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 124425,
-      "class_name": "GU",
-      "category_id": 152626,
-      "category_name": "액세서리",
-      "parent_ids": [
-        57893,
-        124425
-      ],
-      "parent_names": [
-        "MEN",
-        "GU"
-      ],
-      "raw": {
-        "id": 152626,
-        "name": "액세서리",
-        "key": "accessories",
         "parents": [
           {
             "id": 57893,
