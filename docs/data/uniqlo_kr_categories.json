@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-13T00:39:35.988202+00:00",
+  "collected_at": "2026-11-14T00:26:42.661721+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 267,
   "categories": [
@@ -3204,44 +3204,6 @@
     },
     {
       "level": "category",
-      "id": 148315,
-      "name": "파자마",
-      "key": "pajamas",
-      "path": "57892,148314,148315,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 148314,
-      "class_name": "라운지 & 언더웨어 컬렉션",
-      "category_id": 148315,
-      "category_name": "파자마",
-      "parent_ids": [
-        57892,
-        148314
-      ],
-      "parent_names": [
-        "WOMEN",
-        "라운지 & 언더웨어 컬렉션"
-      ],
-      "raw": {
-        "id": 148315,
-        "name": "파자마",
-        "key": "pajamas",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 148314,
-            "name": "라운지 & 언더웨어 컬렉션",
-            "key": "lounge-and-underwear-collection"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 148322,
       "name": "팬츠",
       "key": "bottoms",
@@ -3264,6 +3226,44 @@
         "id": 148322,
         "name": "팬츠",
         "key": "bottoms",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 148314,
+            "name": "라운지 & 언더웨어 컬렉션",
+            "key": "lounge-and-underwear-collection"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 148315,
+      "name": "파자마",
+      "key": "pajamas",
+      "path": "57892,148314,148315,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 148314,
+      "class_name": "라운지 & 언더웨어 컬렉션",
+      "category_id": 148315,
+      "category_name": "파자마",
+      "parent_ids": [
+        57892,
+        148314
+      ],
+      "parent_names": [
+        "WOMEN",
+        "라운지 & 언더웨어 컬렉션"
+      ],
+      "raw": {
+        "id": 148315,
+        "name": "파자마",
+        "key": "pajamas",
         "parents": [
           {
             "id": 57892,
