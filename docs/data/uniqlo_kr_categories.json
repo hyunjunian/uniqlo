@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-19T01:22:57.065983+00:00",
+  "collected_at": "2026-11-20T01:25:26.222283+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 267,
   "categories": [
@@ -1950,6 +1950,44 @@
     },
     {
       "level": "category",
+      "id": 58002,
+      "name": "와이드 팬츠",
+      "key": "wide-pants",
+      "path": "57892,57960,58002,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58002,
+      "category_name": "와이드 팬츠",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58002,
+        "name": "와이드 팬츠",
+        "key": "wide-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 98232,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -2048,44 +2086,6 @@
         "id": 58008,
         "name": "슬랙스(트라우저)",
         "key": "trousers",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58002,
-      "name": "와이드 팬츠",
-      "key": "wide-pants",
-      "path": "57892,57960,58002,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58002,
-      "category_name": "와이드 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58002,
-        "name": "와이드 팬츠",
-        "key": "wide-pants",
         "parents": [
           {
             "id": 57892,
@@ -2825,7 +2825,7 @@
     {
       "level": "category",
       "id": 154583,
-      "name": "룸 슈즈",
+      "name": "룸 슈즈 & 룸 삭스",
       "key": "room-shoes",
       "path": "57892,57964,154583,",
       "gender_id": 57892,
@@ -2833,7 +2833,7 @@
       "class_id": 57964,
       "class_name": "파자마 & 홈웨어",
       "category_id": 154583,
-      "category_name": "룸 슈즈",
+      "category_name": "룸 슈즈 & 룸 삭스",
       "parent_ids": [
         57892,
         57964
@@ -2844,7 +2844,7 @@
       ],
       "raw": {
         "id": 154583,
-        "name": "룸 슈즈",
+        "name": "룸 슈즈 & 룸 삭스",
         "key": "room-shoes",
         "parents": [
           {
@@ -5332,6 +5332,44 @@
     },
     {
       "level": "category",
+      "id": 58048,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57893,57968,58048,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58048,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58048,
+        "name": "진(청바지)",
+        "key": "jeans",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 98235,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -5430,44 +5468,6 @@
         "id": 58050,
         "name": "스웨트 팬츠 & 조거 팬츠",
         "key": "sweat-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58048,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57893,57968,58048,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58048,
-      "category_name": "진(청바지)",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58048,
-        "name": "진(청바지)",
-        "key": "jeans",
         "parents": [
           {
             "id": 57893,
