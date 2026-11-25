@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-11-24T04:23:29.756844+00:00",
+  "collected_at": "2026-11-25T03:08:17.379175+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
-  "category_count": 267,
+  "category_count": 266,
   "categories": [
     {
       "level": "gender",
@@ -179,13 +179,13 @@
     {
       "level": "class",
       "id": 95354,
-      "name": "셔츠 & 블라우스 & 폴로셔츠",
+      "name": "셔츠 & 블라우스",
       "key": "shirts-and-blouses",
       "path": "57892,95354,,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "class_name": "셔츠 & 블라우스",
       "category_id": null,
       "category_name": null,
       "parent_ids": [
@@ -196,7 +196,7 @@
       ],
       "raw": {
         "id": 95354,
-        "name": "셔츠 & 블라우스 & 폴로셔츠",
+        "name": "셔츠 & 블라우스",
         "key": "shirts-and-blouses",
         "parents": [
           {
@@ -1881,7 +1881,7 @@
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
+      "class_name": "셔츠 & 블라우스",
       "category_id": 95362,
       "category_name": "셔츠 & 블라우스",
       "parent_ids": [
@@ -1890,7 +1890,7 @@
       ],
       "parent_names": [
         "WOMEN",
-        "셔츠 & 블라우스 & 폴로셔츠"
+        "셔츠 & 블라우스"
       ],
       "raw": {
         "id": 95362,
@@ -1904,45 +1904,7 @@
           },
           {
             "id": 95354,
-            "name": "셔츠 & 블라우스 & 폴로셔츠",
-            "key": "shirts-and-blouses"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 142636,
-      "name": "폴로셔츠 (카라티)",
-      "key": "polo-shirts",
-      "path": "57892,95354,142636,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 95354,
-      "class_name": "셔츠 & 블라우스 & 폴로셔츠",
-      "category_id": 142636,
-      "category_name": "폴로셔츠 (카라티)",
-      "parent_ids": [
-        57892,
-        95354
-      ],
-      "parent_names": [
-        "WOMEN",
-        "셔츠 & 블라우스 & 폴로셔츠"
-      ],
-      "raw": {
-        "id": 142636,
-        "name": "폴로셔츠 (카라티)",
-        "key": "polo-shirts",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 95354,
-            "name": "셔츠 & 블라우스 & 폴로셔츠",
+            "name": "셔츠 & 블라우스",
             "key": "shirts-and-blouses"
           }
         ]
@@ -4838,6 +4800,44 @@
     },
     {
       "level": "category",
+      "id": 58037,
+      "name": "재킷 & 블레이저",
+      "key": "jackets",
+      "path": "57893,57966,58037,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57966,
+      "class_name": "아우터",
+      "category_id": 58037,
+      "category_name": "재킷 & 블레이저",
+      "parent_ids": [
+        57893,
+        57966
+      ],
+      "parent_names": [
+        "MEN",
+        "아우터"
+      ],
+      "raw": {
+        "id": 58037,
+        "name": "재킷 & 블레이저",
+        "key": "jackets",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57966,
+            "name": "아우터",
+            "key": "outerwear"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 58036,
       "name": "감탄 재킷",
       "key": "gamtan-jackets",
@@ -4898,44 +4898,6 @@
         "id": 117358,
         "name": "감탄 재킷 (CUSTOM ORDER)",
         "key": "uniqlo-custom-order",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57966,
-            "name": "아우터",
-            "key": "outerwear"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 58037,
-      "name": "재킷 & 블레이저",
-      "key": "jackets",
-      "path": "57893,57966,58037,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57966,
-      "class_name": "아우터",
-      "category_id": 58037,
-      "category_name": "재킷 & 블레이저",
-      "parent_ids": [
-        57893,
-        57966
-      ],
-      "parent_names": [
-        "MEN",
-        "아우터"
-      ],
-      "raw": {
-        "id": 58037,
-        "name": "재킷 & 블레이저",
-        "key": "jackets",
         "parents": [
           {
             "id": 57893,
@@ -5028,16 +4990,16 @@
     },
     {
       "level": "category",
-      "id": 58039,
-      "name": "티셔츠 (긴팔 & 반팔)",
-      "key": "t-shirts",
-      "path": "57893,57967,58039,",
+      "id": 98391,
+      "name": "후리스",
+      "key": "fleece",
+      "path": "57893,57967,98391,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57967,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 58039,
-      "category_name": "티셔츠 (긴팔 & 반팔)",
+      "category_id": 98391,
+      "category_name": "후리스",
       "parent_ids": [
         57893,
         57967
@@ -5047,9 +5009,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 58039,
-        "name": "티셔츠 (긴팔 & 반팔)",
-        "key": "t-shirts",
+        "id": 98391,
+        "name": "후리스",
+        "key": "fleece",
         "parents": [
           {
             "id": 57893,
@@ -5104,16 +5066,16 @@
     },
     {
       "level": "category",
-      "id": 98391,
-      "name": "후리스",
-      "key": "fleece",
-      "path": "57893,57967,98391,",
+      "id": 58039,
+      "name": "티셔츠 (긴팔 & 반팔)",
+      "key": "t-shirts",
+      "path": "57893,57967,58039,",
       "gender_id": 57893,
       "gender_name": "MEN",
       "class_id": 57967,
       "class_name": "티셔츠 & 스웨트셔츠 & 후리스",
-      "category_id": 98391,
-      "category_name": "후리스",
+      "category_id": 58039,
+      "category_name": "티셔츠 (긴팔 & 반팔)",
       "parent_ids": [
         57893,
         57967
@@ -5123,9 +5085,9 @@
         "티셔츠 & 스웨트셔츠 & 후리스"
       ],
       "raw": {
-        "id": 98391,
-        "name": "후리스",
-        "key": "fleece",
+        "id": 58039,
+        "name": "티셔츠 (긴팔 & 반팔)",
+        "key": "t-shirts",
         "parents": [
           {
             "id": 57893,
@@ -5598,44 +5560,6 @@
     },
     {
       "level": "category",
-      "id": 58052,
-      "name": "감탄 팬츠",
-      "key": "gamtan-pants",
-      "path": "57893,57968,58052,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58052,
-      "category_name": "감탄 팬츠",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58052,
-        "name": "감탄 팬츠",
-        "key": "gamtan-pants",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58053,
       "name": "슬랙스(트라우저)",
       "key": "trousers",
@@ -5658,6 +5582,44 @@
         "id": 58053,
         "name": "슬랙스(트라우저)",
         "key": "trousers",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58052,
+      "name": "감탄 팬츠",
+      "key": "gamtan-pants",
+      "path": "57893,57968,58052,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58052,
+      "category_name": "감탄 팬츠",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58052,
+        "name": "감탄 팬츠",
+        "key": "gamtan-pants",
         "parents": [
           {
             "id": 57893,
