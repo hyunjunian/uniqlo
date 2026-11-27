@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-26T02:24:01.425022+00:00",
+  "collected_at": "2026-11-27T02:22:28.235841+00:00",
   "source": "https://www.uniqlo.com/kr/api/commerce/v5/ko/products/taxonomies",
   "category_count": 266,
   "categories": [
@@ -1912,44 +1912,6 @@
     },
     {
       "level": "category",
-      "id": 58002,
-      "name": "와이드 팬츠",
-      "key": "wide-pants",
-      "path": "57892,57960,58002,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 57960,
-      "class_name": "팬츠",
-      "category_id": 58002,
-      "category_name": "와이드 팬츠",
-      "parent_ids": [
-        57892,
-        57960
-      ],
-      "parent_names": [
-        "WOMEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58002,
-        "name": "와이드 팬츠",
-        "key": "wide-pants",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 57960,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 98232,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -1988,16 +1950,16 @@
     },
     {
       "level": "category",
-      "id": 58005,
-      "name": "스웨트 팬츠",
-      "key": "sweat-pants",
-      "path": "57892,57960,58005,",
+      "id": 58002,
+      "name": "와이드 팬츠",
+      "key": "wide-pants",
+      "path": "57892,57960,58002,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57960,
       "class_name": "팬츠",
-      "category_id": 58005,
-      "category_name": "스웨트 팬츠",
+      "category_id": 58002,
+      "category_name": "와이드 팬츠",
       "parent_ids": [
         57892,
         57960
@@ -2007,9 +1969,47 @@
         "팬츠"
       ],
       "raw": {
-        "id": 58005,
-        "name": "스웨트 팬츠",
-        "key": "sweat-pants",
+        "id": 58002,
+        "name": "와이드 팬츠",
+        "key": "wide-pants",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 57960,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58003,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57892,57960,58003,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 57960,
+      "class_name": "팬츠",
+      "category_id": 58003,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57892,
+        57960
+      ],
+      "parent_names": [
+        "WOMEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58003,
+        "name": "진(청바지)",
+        "key": "jeans",
         "parents": [
           {
             "id": 57892,
@@ -2064,16 +2064,16 @@
     },
     {
       "level": "category",
-      "id": 58003,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57892,57960,58003,",
+      "id": 58005,
+      "name": "스웨트 팬츠",
+      "key": "sweat-pants",
+      "path": "57892,57960,58005,",
       "gender_id": 57892,
       "gender_name": "WOMEN",
       "class_id": 57960,
       "class_name": "팬츠",
-      "category_id": 58003,
-      "category_name": "진(청바지)",
+      "category_id": 58005,
+      "category_name": "스웨트 팬츠",
       "parent_ids": [
         57892,
         57960
@@ -2083,9 +2083,9 @@
         "팬츠"
       ],
       "raw": {
-        "id": 58003,
-        "name": "진(청바지)",
-        "key": "jeans",
+        "id": 58005,
+        "name": "스웨트 팬츠",
+        "key": "sweat-pants",
         "parents": [
           {
             "id": 57892,
@@ -3508,44 +3508,6 @@
     },
     {
       "level": "category",
-      "id": 104257,
-      "name": "히트텍 캐시미어 블렌드",
-      "key": "heattech-cashmere-blend",
-      "path": "57892,102254,104257,",
-      "gender_id": 57892,
-      "gender_name": "WOMEN",
-      "class_id": 102254,
-      "class_name": "히트텍",
-      "category_id": 104257,
-      "category_name": "히트텍 캐시미어 블렌드",
-      "parent_ids": [
-        57892,
-        102254
-      ],
-      "parent_names": [
-        "WOMEN",
-        "히트텍"
-      ],
-      "raw": {
-        "id": 104257,
-        "name": "히트텍 캐시미어 블렌드",
-        "key": "heattech-cashmere-blend",
-        "parents": [
-          {
-            "id": 57892,
-            "name": "WOMEN",
-            "key": "women"
-          },
-          {
-            "id": 102254,
-            "name": "히트텍",
-            "key": "heattech"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 102262,
       "name": "히트텍",
       "key": "heattech",
@@ -3568,6 +3530,44 @@
         "id": 102262,
         "name": "히트텍",
         "key": "heattech",
+        "parents": [
+          {
+            "id": 57892,
+            "name": "WOMEN",
+            "key": "women"
+          },
+          {
+            "id": 102254,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 104257,
+      "name": "히트텍 캐시미어 블렌드",
+      "key": "heattech-cashmere-blend",
+      "path": "57892,102254,104257,",
+      "gender_id": 57892,
+      "gender_name": "WOMEN",
+      "class_id": 102254,
+      "class_name": "히트텍",
+      "category_id": 104257,
+      "category_name": "히트텍 캐시미어 블렌드",
+      "parent_ids": [
+        57892,
+        102254
+      ],
+      "parent_names": [
+        "WOMEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 104257,
+        "name": "히트텍 캐시미어 블렌드",
+        "key": "heattech-cashmere-blend",
         "parents": [
           {
             "id": 57892,
@@ -5294,44 +5294,6 @@
     },
     {
       "level": "category",
-      "id": 58048,
-      "name": "진(청바지)",
-      "key": "jeans",
-      "path": "57893,57968,58048,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 57968,
-      "class_name": "팬츠",
-      "category_id": 58048,
-      "category_name": "진(청바지)",
-      "parent_ids": [
-        57893,
-        57968
-      ],
-      "parent_names": [
-        "MEN",
-        "팬츠"
-      ],
-      "raw": {
-        "id": 58048,
-        "name": "진(청바지)",
-        "key": "jeans",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 57968,
-            "name": "팬츠",
-            "key": "bottoms"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 98235,
       "name": "웜 팬츠",
       "key": "warm-pants",
@@ -5354,6 +5316,44 @@
         "id": 98235,
         "name": "웜 팬츠",
         "key": "warm-pants",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 57968,
+            "name": "팬츠",
+            "key": "bottoms"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58048,
+      "name": "진(청바지)",
+      "key": "jeans",
+      "path": "57893,57968,58048,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 57968,
+      "class_name": "팬츠",
+      "category_id": 58048,
+      "category_name": "진(청바지)",
+      "parent_ids": [
+        57893,
+        57968
+      ],
+      "parent_names": [
+        "MEN",
+        "팬츠"
+      ],
+      "raw": {
+        "id": 58048,
+        "name": "진(청바지)",
+        "key": "jeans",
         "parents": [
           {
             "id": 57893,
@@ -6282,44 +6282,6 @@
     },
     {
       "level": "category",
-      "id": 128518,
-      "name": "히트텍 캐시미어 블렌드",
-      "key": "heattech-cashmere-blend",
-      "path": "57893,102257,128518,",
-      "gender_id": 57893,
-      "gender_name": "MEN",
-      "class_id": 102257,
-      "class_name": "히트텍",
-      "category_id": 128518,
-      "category_name": "히트텍 캐시미어 블렌드",
-      "parent_ids": [
-        57893,
-        102257
-      ],
-      "parent_names": [
-        "MEN",
-        "히트텍"
-      ],
-      "raw": {
-        "id": 128518,
-        "name": "히트텍 캐시미어 블렌드",
-        "key": "heattech-cashmere-blend",
-        "parents": [
-          {
-            "id": 57893,
-            "name": "MEN",
-            "key": "men"
-          },
-          {
-            "id": 102257,
-            "name": "히트텍",
-            "key": "heattech"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 102314,
       "name": "히트텍",
       "key": "heattech",
@@ -6342,6 +6304,44 @@
         "id": 102314,
         "name": "히트텍",
         "key": "heattech",
+        "parents": [
+          {
+            "id": 57893,
+            "name": "MEN",
+            "key": "men"
+          },
+          {
+            "id": 102257,
+            "name": "히트텍",
+            "key": "heattech"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 128518,
+      "name": "히트텍 캐시미어 블렌드",
+      "key": "heattech-cashmere-blend",
+      "path": "57893,102257,128518,",
+      "gender_id": 57893,
+      "gender_name": "MEN",
+      "class_id": 102257,
+      "class_name": "히트텍",
+      "category_id": 128518,
+      "category_name": "히트텍 캐시미어 블렌드",
+      "parent_ids": [
+        57893,
+        102257
+      ],
+      "parent_names": [
+        "MEN",
+        "히트텍"
+      ],
+      "raw": {
+        "id": 128518,
+        "name": "히트텍 캐시미어 블렌드",
+        "key": "heattech-cashmere-blend",
         "parents": [
           {
             "id": 57893,
@@ -7308,6 +7308,44 @@
     },
     {
       "level": "category",
+      "id": 150165,
+      "name": "이너웨어",
+      "key": "innerwear",
+      "path": "57894,150160,150165,",
+      "gender_id": 57894,
+      "gender_name": "KIDS",
+      "class_id": 150160,
+      "class_name": "여아",
+      "category_id": 150165,
+      "category_name": "이너웨어",
+      "parent_ids": [
+        57894,
+        150160
+      ],
+      "parent_names": [
+        "KIDS",
+        "여아"
+      ],
+      "raw": {
+        "id": 150165,
+        "name": "이너웨어",
+        "key": "innerwear",
+        "parents": [
+          {
+            "id": 57894,
+            "name": "KIDS",
+            "key": "kids"
+          },
+          {
+            "id": 150160,
+            "name": "여아",
+            "key": "girls"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
       "id": 150162,
       "name": "아우터",
       "key": "outerwear",
@@ -7482,44 +7520,6 @@
         "id": 150164,
         "name": "스커트",
         "key": "dresses-and-skirts",
-        "parents": [
-          {
-            "id": 57894,
-            "name": "KIDS",
-            "key": "kids"
-          },
-          {
-            "id": 150160,
-            "name": "여아",
-            "key": "girls"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
-      "id": 150165,
-      "name": "이너웨어",
-      "key": "innerwear",
-      "path": "57894,150160,150165,",
-      "gender_id": 57894,
-      "gender_name": "KIDS",
-      "class_id": 150160,
-      "class_name": "여아",
-      "category_id": 150165,
-      "category_name": "이너웨어",
-      "parent_ids": [
-        57894,
-        150160
-      ],
-      "parent_names": [
-        "KIDS",
-        "여아"
-      ],
-      "raw": {
-        "id": 150165,
-        "name": "이너웨어",
-        "key": "innerwear",
         "parents": [
           {
             "id": 57894,
@@ -9512,44 +9512,6 @@
     },
     {
       "level": "category",
-      "id": 58115,
-      "name": "홈웨어 & 파자마",
-      "key": "homewear",
-      "path": "57925,57981,58115,",
-      "gender_id": 57925,
-      "gender_name": "BABY",
-      "class_id": 57981,
-      "class_name": "영유아(6개월~5세)",
-      "category_id": 58115,
-      "category_name": "홈웨어 & 파자마",
-      "parent_ids": [
-        57925,
-        57981
-      ],
-      "parent_names": [
-        "BABY",
-        "영유아(6개월~5세)"
-      ],
-      "raw": {
-        "id": 58115,
-        "name": "홈웨어 & 파자마",
-        "key": "homewear",
-        "parents": [
-          {
-            "id": 57925,
-            "name": "BABY",
-            "key": "baby"
-          },
-          {
-            "id": 57981,
-            "name": "영유아(6개월~5세)",
-            "key": "toddler"
-          }
-        ]
-      }
-    },
-    {
-      "level": "category",
       "id": 58113,
       "name": "레깅스 & 팬츠",
       "key": "pants-and-leggings",
@@ -9572,6 +9534,44 @@
         "id": 58113,
         "name": "레깅스 & 팬츠",
         "key": "pants-and-leggings",
+        "parents": [
+          {
+            "id": 57925,
+            "name": "BABY",
+            "key": "baby"
+          },
+          {
+            "id": 57981,
+            "name": "영유아(6개월~5세)",
+            "key": "toddler"
+          }
+        ]
+      }
+    },
+    {
+      "level": "category",
+      "id": 58115,
+      "name": "홈웨어 & 파자마",
+      "key": "homewear",
+      "path": "57925,57981,58115,",
+      "gender_id": 57925,
+      "gender_name": "BABY",
+      "class_id": 57981,
+      "class_name": "영유아(6개월~5세)",
+      "category_id": 58115,
+      "category_name": "홈웨어 & 파자마",
+      "parent_ids": [
+        57925,
+        57981
+      ],
+      "parent_names": [
+        "BABY",
+        "영유아(6개월~5세)"
+      ],
+      "raw": {
+        "id": 58115,
+        "name": "홈웨어 & 파자마",
+        "key": "homewear",
         "parents": [
           {
             "id": 57925,
